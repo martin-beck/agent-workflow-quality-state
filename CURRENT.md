@@ -8,12 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. | codex-awq-ar0004 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Add a strict tracked-source checker, tests and CI with explicit generated and vendor exclusions. | - |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Add a strict tracked-source checker, tests and CI with explicit generated and vendor exclusions. | codex-awq-license-headers |
 
 ## Planned
 
