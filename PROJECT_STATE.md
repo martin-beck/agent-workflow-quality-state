@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #2 | `feature/standards-traceability@d2d3dcde9c41` | `main` | UNKNOWN | - | feat: add standards traceability contracts |
 
 ## Recent workflows
 
