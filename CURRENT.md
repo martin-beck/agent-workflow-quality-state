@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality | Build, publish and integrate the complete Agent Workflow Quality system. | Claim the task, create its isolated worktree and implement the complete reviewed plan. | codex-awq-bootstrap-20260908 |
+| P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  |  Wait for exact ASB attestation head post-main quality, Rust and emulated-aarch64 runs; then finish consumer and root coordination audits.  | codex-awq-bootstrap-20260908 |
 
 ## Planned
 
