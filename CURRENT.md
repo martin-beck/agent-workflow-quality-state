@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Implement Markdown, link and prose adapters on the shared contract. | Select reviewed offline-capable tools and add deterministic Markdown, link and prose fixtures. | codex-awq-ar0014 |
+| P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Published AWQ v0.7.0 with reviewed offline rumdl and Vale documentation adapters, bounded tracked-format selection, and checksum-pinned acquisition. | No further AR-0014 action; select the next dependency-ready adapter family. | codex-awq-ar0014 |
 
 ## Blocked
 
