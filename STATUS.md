@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**22 ARs tracked** across 6 active status categories.
+**22 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 7 |
 | **Future** | Deferred roadmap work | 3 |
@@ -48,7 +48,7 @@ flowchart LR
         AR_0018["AR-0018 - Planned"]:::status_planned
         AR_0019["AR-0019 - Planned"]:::status_planned
         AR_0020["AR-0020 - Done"]:::status_done
-        AR_0021["AR-0021 - Open"]:::status_open
+        AR_0021["AR-0021 - In progress"]:::status_in_progress
         AR_0022["AR-0022 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
@@ -129,17 +129,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-v033-20260908 | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | Unclaimed | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. |
+| P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | codex-awq-ar0021 | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. |
 
 ### Blocked (1)
 
