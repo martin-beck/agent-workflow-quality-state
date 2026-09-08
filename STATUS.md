@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**11 ARs tracked** across 3 active status categories.
+**11 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 7 |
+| **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 1 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -29,7 +29,7 @@ flowchart LR
     subgraph series_00["00 - Coordination foundation"]
         direction TB
         AR_0001["AR-0001 - Done"]:::status_done
-        AR_0002["AR-0002 - Planned"]:::status_planned
+        AR_0002["AR-0002 - Open"]:::status_open
         AR_0003["AR-0003 - Planned"]:::status_planned
         AR_0004["AR-0004 - Planned"]:::status_planned
         AR_0005["AR-0005 - Planned"]:::status_planned
@@ -86,11 +86,16 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Planned (7)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Decompose control-source ingestion, mapping review, generated matrices and drift detection. |
+
+### Planned (6)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
 | P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after adapter contracts from AR-0004 stabilize. |
