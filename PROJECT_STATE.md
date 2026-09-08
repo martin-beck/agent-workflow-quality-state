@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #4 | `chore/huawei-mit-source-headers@9af80c5efc49` | `main` | BEHIND | COMPLETED:FAILURE | chore: enforce source license headers |
+| #4 | `chore/huawei-mit-source-headers@9af80c5efc49` | `main` | BLOCKED | COMPLETED:FAILURE | chore: enforce source license headers |
 
 ## Recent workflows
 
