@@ -12,5 +12,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 15, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 0, ahead 0 |
-| `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `598558e10a39` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `598558e10a39` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `scripts/install_rust_tools.py`, `src/awq/rust_helper.py` |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 19, ahead 0 |
