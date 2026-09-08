@@ -4,5 +4,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 
 | Worktree | Branch | Head | Dirty | vs origin/main |
 | --- | --- | --- | ---: | --- |
-| `agent-workflow-quality` | `main` | `6ce0d051d203` | 0 | behind 0, ahead 0 |
-| `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 0, ahead 1 |
+| `agent-workflow-quality` | `main` | `5b711576e56a` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 1, ahead 0 |
