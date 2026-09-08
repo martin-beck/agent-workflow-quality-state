@@ -9,7 +9,7 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. | codex-awq-ar0013 |
 
-## Blocked
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |

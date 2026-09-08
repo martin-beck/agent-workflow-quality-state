@@ -10,8 +10,8 @@
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
+| **Open** | Dependency-ready and available to claim | 1 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 5 |
@@ -43,7 +43,7 @@ flowchart LR
         AR_0013["AR-0013 - In progress"]:::status_in_progress
         AR_0014["AR-0014 - Planned"]:::status_planned
         AR_0015["AR-0015 - Planned"]:::status_planned
-        AR_0016["AR-0016 - Blocked"]:::status_blocked
+        AR_0016["AR-0016 - Open"]:::status_open
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -110,7 +110,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | codex-awq-ar0013 | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. |
 
-### Blocked (1)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
