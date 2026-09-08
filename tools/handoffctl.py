@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Copyright (C) Huawei Technologies Co., Ltd. 2026. All rights reserved.
+# SPDX-License-Identifier: MIT
 """Transactional, project-configurable coordination state."""
 
 import argparse
@@ -19,6 +21,7 @@ from collections.abc import Iterator
 from pathlib import Path
 from typing import Any, cast
 
+from sqlite_storage import Backend, SQLiteBackend, create_database
 from status_renderer import StatusRenderError, graph_errors, render_status
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -26,12 +29,18 @@ TASKS = ROOT / "tasks"
 RUNTIME = ROOT / ".runtime"
 LOCK = RUNTIME / "state.lock"
 CONFIG = RUNTIME / "config.json"
+REPLICA_BLOCKED = RUNTIME / "replica-blocked.json"
 PROJECT_CONFIG = ROOT / ".handoffctl.json"
 BINDING = ROOT / "coordinator.binding.json"
+BACKEND_CONFIG = ROOT / "coordinator.backend.json"
+DATABASE = RUNTIME / "coordinator.sqlite3"
+BACKENDS = ("sqlite", "git")
 LOCK_TIMEOUT_SECONDS = 10.0
 LOCK_POLL_SECONDS = 0.05
 SUBPROCESS_TIMEOUT_SECONDS = 30.0
 COMMAND_TIMEOUT_SECONDS = 1800.0
+OBSERVATION_ATTEMPTS = 3
+OBSERVATION_RETRY_SECONDS = 0.25
 STATUSES = (
     "in_progress",
     "open",
@@ -70,7 +79,7 @@ type Meta = dict[str, Any]
 type Task = tuple[Path, Meta, str]
 type State = dict[str, Any]
 
-COORDINATOR_VERSION = "0.1.4"
+COORDINATOR_VERSION = "0.3.4"
 DEFAULT_PROJECT_SETTINGS: Meta = {
     "schema_version": 1,
     "project_id": "00000000-0000-4000-8000-000000000000",
@@ -123,6 +132,51 @@ def repository_slug(value: object) -> str:
     return text.lower()
 
 
+def backend_selection() -> Meta:
+    """Load the project-bound backend; missing legacy selection means Git."""
+    if not BACKEND_CONFIG.exists():
+        return {"schema_version": 1, "backend": "git", "legacy": True}
+    try:
+        value = json.loads(BACKEND_CONFIG.read_text())
+    except (OSError, json.JSONDecodeError) as error:
+        raise RuntimeError("invalid coordinator.backend.json") from error
+    required = {"schema_version", "project_id", "backend"}
+    if not isinstance(value, dict) or set(value) != required or value.get("schema_version") != 1:
+        raise RuntimeError("invalid coordinator.backend.json")
+    if value.get("backend") not in BACKENDS:
+        raise RuntimeError("unsupported coordinator backend")
+    return cast(Meta, value)
+
+
+class GitBackend:
+    """Adapter preserving the existing file/Git authority contract."""
+
+    name = "git"
+
+    def load_tasks(self) -> list[Task]:
+        return git_tasks()
+
+    def append_command_result(
+        self,
+        task_id: str,
+        owner: str,
+        command_hash: str,
+        returncode: int,
+        classification: str,
+        recorded_at: str,
+    ) -> None:
+        append_file_command_result(
+            task_id, owner, command_hash, returncode, classification, recorded_at
+        )
+
+
+def storage_backend() -> Backend:
+    selection = backend_selection()
+    if selection["backend"] == "git":
+        return GitBackend()
+    return SQLiteBackend(DATABASE, project_binding(), TASKS)
+
+
 def project_binding() -> Meta:
     """Load the immutable project binding created by `handoffctl init`."""
     try:
@@ -156,12 +210,22 @@ def inside(candidate: Path, root: Path) -> bool:
     return candidate == root or root in candidate.parents
 
 
+def _assert_storage_binding(binding: Meta) -> None:
+    """Check the tracked selector and SQLite-internal identity."""
+    selection = backend_selection()
+    if not selection.get("legacy") and selection.get("project_id") != binding["project_id"]:
+        raise RuntimeError("storage backend does not match coordinator binding")
+    if selection["backend"] == "sqlite":
+        SQLiteBackend(DATABASE, binding, TASKS).load_tasks()
+
+
 def assert_project_binding() -> None:
     """Fail closed when this initialized coordinator is called from another project."""
     settings = project_settings()
     binding = project_binding()
     if settings["project_id"] != binding["project_id"]:
         raise RuntimeError("project profile does not match coordinator binding")
+    _assert_storage_binding(binding)
     top = Path(run(["git", "-C", str(ROOT), "rev-parse", "--show-toplevel"]).stdout.strip())
     if top.resolve() != ROOT.resolve():
         raise RuntimeError("handoffctl is not installed at its bound state repository root")
@@ -170,7 +234,8 @@ def assert_project_binding() -> None:
     allowed = [ROOT.resolve()]
     if CONFIG.exists():
         runtime = config()
-        if repository_slug(runtime.get("github_repository")) != repository_slug(
+        configured_github = runtime.get("github_repository")
+        if configured_github and repository_slug(configured_github) != repository_slug(
             binding["product_repository"]
         ):
             raise RuntimeError("runtime product repository does not match coordinator binding")
@@ -189,6 +254,22 @@ class LockTimeoutError(RuntimeError):
 
 class SubprocessTimeoutError(RuntimeError):
     """A Git/GitHub or coordinator command exceeded its bounded deadline."""
+
+
+class ReplicaDivergedError(RuntimeError):
+    """The state replica cannot be advanced without reconciling Git history."""
+
+
+class ExternalObservationError(RuntimeError):
+    """A bounded read-only external observation failed after retries."""
+
+
+class PostCommandReconcileError(RuntimeError):
+    """A command result is durable, but its subsequent live reconciliation failed."""
+
+
+class StorageCommittedError(RuntimeError):
+    """A SQLite transaction committed but its disposable projection failed."""
 
 
 PRIVATE = (
@@ -217,7 +298,9 @@ UUID_PRIVACY_EXEMPT = frozenset(
     {
         Path(".handoffctl.json"),
         Path("coordinator.binding.json"),
+        Path("coordinator.backend.json"),
         Path("tests/test_handoffctl.py"),
+        Path("tests/test_sqlite_storage.py"),
         Path("tools/handoffctl.py"),
     }
 )
@@ -260,10 +343,44 @@ def config() -> Meta:
     return cast(Meta, json.loads(CONFIG.read_text()))
 
 
+def run_github_observation(args: list[str]) -> subprocess.CompletedProcess[str]:
+    """Retry a bounded read-only GitHub query and classify exhausted failures."""
+    failure: RuntimeError | None = None
+    for attempt in range(OBSERVATION_ATTEMPTS):
+        try:
+            return run(args)
+        except (RuntimeError, SubprocessTimeoutError) as error:
+            failure = error
+            if attempt + 1 < OBSERVATION_ATTEMPTS:
+                time.sleep(OBSERVATION_RETRY_SECONDS * (attempt + 1))
+    command = " ".join(args)
+    raise ExternalObservationError(
+        f"EXTERNAL_API_ERROR after {OBSERVATION_ATTEMPTS} attempts: {command}"
+    ) from failure
+
+
+def coordinator_lock_path() -> Path:
+    """Resolve one lock shared by every worktree of the same local Git repository."""
+    configured = RUNTIME / "state.lock"
+    if configured != LOCK or not (ROOT / ".git").exists():
+        return LOCK
+    result = run(
+        ["git", "-C", str(ROOT), "rev-parse", "--git-common-dir"],
+        check=False,
+    )
+    if result.returncode or not result.stdout.strip():
+        raise RuntimeError("cannot resolve repository-common coordinator lock")
+    common = Path(result.stdout.strip())
+    if not common.is_absolute():
+        common = ROOT / common
+    return common.resolve() / "handoffctl" / "state.lock"
+
+
 @contextlib.contextmanager
 def locked(*, exclusive: bool = True, timeout: float = LOCK_TIMEOUT_SECONDS) -> Iterator[None]:
-    RUNTIME.mkdir(mode=0o700, exist_ok=True)
-    fd = os.open(LOCK, os.O_CREAT | os.O_RDWR, 0o600)
+    lock_path = coordinator_lock_path()
+    lock_path.parent.mkdir(mode=0o700, parents=True, exist_ok=True)
+    fd = os.open(lock_path, os.O_CREAT | os.O_RDWR, 0o600)
     try:
         operation = fcntl.LOCK_EX if exclusive else fcntl.LOCK_SH
         deadline = time.monotonic() + timeout
@@ -321,12 +438,17 @@ def write_task(path: Path, meta: Meta, body: str) -> None:
     atomic(path, "---\n" + json.dumps(meta, indent=2, sort_keys=True) + "\n---\n" + body)
 
 
-def all_tasks() -> list[Task]:
+def git_tasks() -> list[Task]:
     result: list[Task] = []
     for path in sorted(TASKS.glob("AR-*.md")):
         meta, body = read_task(path)
         result.append((path, meta, body))
     return result
+
+
+def all_tasks() -> list[Task]:
+    """Load one authoritative snapshot through the selected backend."""
+    return storage_backend().load_tasks()
 
 
 def render_current(tasks: list[Task]) -> str:
@@ -403,7 +525,7 @@ def project_scan() -> State:
         )
     github = settings["github_repository"]
     prs = json.loads(
-        run(
+        run_github_observation(
             [
                 "gh",
                 "pr",
@@ -420,7 +542,7 @@ def project_scan() -> State:
         ).stdout
     )
     runs = json.loads(
-        run(
+        run_github_observation(
             [
                 "gh",
                 "run",
@@ -606,16 +728,22 @@ def basic_task_errors(path: Path, meta: Meta) -> list[str]:
     return [*field_errors(path, meta), *value_errors(path, meta), *reference_errors(path, meta)]
 
 
+def parse_claim_expiry(expiry: object) -> dt.datetime:
+    """Parse one timezone-aware lease deadline."""
+    if not isinstance(expiry, str) or not expiry:
+        raise ValueError("missing or non-string claim expiry")
+    parsed = dt.datetime.fromisoformat(expiry.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        raise ValueError("claim expiry lacks timezone")
+    return parsed.astimezone(dt.UTC)
+
+
 def active_expiry_errors(task_id: str, expiry: object) -> list[str]:
     if not expiry:
         return [f"{task_id}: active without claim"]
-    if not isinstance(expiry, str):
-        return [f"{task_id}: invalid claim expiry"]
     try:
-        parsed_expiry = dt.datetime.fromisoformat(expiry.replace("Z", "+00:00"))
-        if parsed_expiry.tzinfo is None:
-            raise ValueError
-    except ValueError:
+        parsed_expiry = parse_claim_expiry(expiry)
+    except (TypeError, ValueError):
         return [f"{task_id}: invalid claim expiry"]
     if parsed_expiry <= dt.datetime.now(dt.UTC):
         return [f"{task_id}: expired claim"]
@@ -730,26 +858,102 @@ def commit(message: str, paths: list[Path]) -> bool:
         raise
 
 
-def push_replica() -> None:
-    if not CONFIG.exists():
-        return
-    if not config().get("push_enabled", False):
-        return
+def replication_enabled() -> bool:
+    """Return whether this checkout is the configured writable replica."""
+    return CONFIG.exists() and bool(config().get("push_enabled", False))
+
+
+def replica_heads() -> tuple[str, str]:
+    """Fetch and return local/remote main heads for a configured replica."""
     remote = run(["git", "-C", str(ROOT), "remote", "get-url", "origin"], check=False)
     if remote.returncode:
         raise RuntimeError("state replication is enabled but origin is missing")
+    branch = run(
+        ["git", "-C", str(ROOT), "symbolic-ref", "--short", "-q", "HEAD"],
+        check=False,
+    ).stdout.strip()
+    if branch != "main":
+        raise RuntimeError("state replication requires the main checkout")
     run(["git", "-C", str(ROOT), "fetch", "--no-tags", "origin", "main"])
     local_head = run(["git", "-C", str(ROOT), "rev-parse", "HEAD"]).stdout.strip()
     remote_head = run(["git", "-C", str(ROOT), "rev-parse", "FETCH_HEAD"]).stdout.strip()
-    if local_head == remote_head:
-        return
-    ancestry = run(
-        ["git", "-C", str(ROOT), "merge-base", "--is-ancestor", remote_head, local_head],
-        check=False,
+    return local_head, remote_head
+
+
+def is_ancestor(older: str, newer: str) -> bool:
+    """Return whether one fetched state revision is an ancestor of another."""
+    return (
+        run(
+            ["git", "-C", str(ROOT), "merge-base", "--is-ancestor", older, newer],
+            check=False,
+        ).returncode
+        == 0
     )
-    if ancestry.returncode:
-        raise RuntimeError("state replica diverged; refusing non-fast-forward push")
+
+
+def record_replica_block(code: str, local_head: str, remote_head: str) -> None:
+    """Persist a privacy-safe circuit-breaker marker for reconciliation services."""
+    atomic(
+        REPLICA_BLOCKED,
+        json.dumps(
+            {
+                "at": now(),
+                "code": code,
+                "local_head": local_head,
+                "remote_head": remote_head,
+            },
+            indent=2,
+            sort_keys=True,
+        )
+        + "\n",
+    )
+
+
+def clear_replica_block() -> None:
+    """Clear a replica circuit breaker after verified ancestry recovery."""
+    REPLICA_BLOCKED.unlink(missing_ok=True)
+
+
+def sync_replica_before_write() -> None:
+    """Fast-forward a clean behind replica before creating coordinator state."""
+    if not replication_enabled():
+        return
+    local_head, remote_head = replica_heads()
+    if local_head == remote_head or is_ancestor(remote_head, local_head):
+        clear_replica_block()
+        return
+    if not is_ancestor(local_head, remote_head):
+        record_replica_block("REPLICA_DIVERGED", local_head, remote_head)
+        raise ReplicaDivergedError(
+            "REPLICA_DIVERGED: state histories require explicit reconciliation"
+        )
+    dirty = run(
+        ["git", "-C", str(ROOT), "status", "--porcelain=v1", "--untracked-files=all"]
+    ).stdout
+    if dirty:
+        record_replica_block("REPLICA_BEHIND_DIRTY", local_head, remote_head)
+        raise ReplicaDivergedError(
+            "REPLICA_BEHIND_DIRTY: clean the state checkout before fast-forwarding"
+        )
+    run(["git", "-C", str(ROOT), "merge", "--ff-only", remote_head])
+    clear_replica_block()
+
+
+def push_replica() -> None:
+    if not replication_enabled():
+        return
+    local_head, remote_head = replica_heads()
+    if local_head == remote_head:
+        clear_replica_block()
+        return
+    if not is_ancestor(remote_head, local_head):
+        relation = "REPLICA_BEHIND" if is_ancestor(local_head, remote_head) else "REPLICA_DIVERGED"
+        record_replica_block(relation, local_head, remote_head)
+        raise ReplicaDivergedError(
+            f"{relation}: refusing non-fast-forward state push; reconcile before retrying"
+        )
     run(["git", "-C", str(ROOT), "push", "origin", f"{local_head}:refs/heads/main"])
+    clear_replica_block()
 
 
 def restore_paths(before: dict[Path, str | None]) -> None:
@@ -769,6 +973,16 @@ def generated_paths() -> list[Path]:
     return [ROOT / name for name in names]
 
 
+def changed_paths(before: dict[Path, str | None], *, include_deleted: bool = False) -> list[Path]:
+    """Return paths whose current text differs from the captured snapshot."""
+    return [
+        path
+        for path, old in before.items()
+        if (include_deleted or path.exists())
+        and (path.read_text() if path.exists() else None) != old
+    ]
+
+
 def write_generated_views(tasks: list[Task], state: Meta) -> None:
     """Atomically refresh every configured generated projection."""
     atomic(ROOT / "CURRENT.md", render_current(tasks))
@@ -780,8 +994,13 @@ def write_generated_views(tasks: list[Task], state: Meta) -> None:
 
 
 def reconcile(*, do_commit: bool, push: bool = False) -> bool:
+    if backend_selection()["backend"] == "sqlite":
+        return reconcile_sqlite(do_commit=do_commit, push=push)
 
     with locked():
+        if backend_selection()["backend"] != "git":
+            raise RuntimeError("BACKEND_CHANGED: retry using the selected backend")
+        sync_replica_before_write()
         state = project_scan()
         generated = generated_paths()
         before: dict[Path, str | None] = {path: path.read_text() for path, _, _ in all_tasks()}
@@ -794,9 +1013,7 @@ def reconcile(*, do_commit: bool, push: bool = False) -> bool:
             errors = validate(live=False)
             if errors:
                 raise RuntimeError("validation failed:\n" + "\n".join(errors))
-            touched = [
-                path for path, old in before.items() if path.exists() and path.read_text() != old
-            ]
+            touched = changed_paths(before)
             title = project_settings()["project_title"]
             committed = commit(f"chore(state): reconcile {title}", touched) if do_commit else False
             head = run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], check=False).stdout.strip()
@@ -815,6 +1032,55 @@ def reconcile(*, do_commit: bool, push: bool = False) -> bool:
             if not committed:
                 restore_paths(before)
             raise
+
+
+def write_sqlite_projections(tasks: list[Task]) -> list[Path]:
+    """Regenerate byte-stable Markdown projections from one database snapshot."""
+    with locked():
+        expected = {path.resolve() for path, _, _ in tasks}
+        for path, meta, body in tasks:
+            write_task(path, meta, body)
+        for path in TASKS.glob("AR-*.md"):
+            if path.resolve() not in expected:
+                path.unlink()
+        views = rendered_task_views(tasks)
+        for target, content in views.items():
+            atomic(target, content)
+        errors = validate(live=False)
+        if errors:
+            raise RuntimeError("projection validation failed:\n" + "\n".join(errors))
+        return [*[path for path, _, _ in tasks], *views]
+
+
+def export_sqlite_projections() -> list[Path]:
+    """Regenerate projections from the currently selected SQLite authority."""
+    return write_sqlite_projections(all_tasks())
+
+
+def reconcile_sqlite(*, do_commit: bool, push: bool) -> bool:
+    """Export local authority; optional Git/GitHub publication is a replica only."""
+    if push and not do_commit:
+        raise RuntimeError("SQLite publication requires --commit with --push")
+    before: dict[Path, str | None] = {path: path.read_text() for path in TASKS.glob("AR-*.md")}
+    before.update({path: path.read_text() if path.exists() else None for path in generated_paths()})
+    state: State | None = None
+    if CONFIG.exists() and config().get("github_repository"):
+        state = project_scan()
+        backend = SQLiteBackend(DATABASE, project_binding(), TASKS)
+        backend.update_observations({item["key"]: item for item in state["worktrees"]}, now())
+    paths = export_sqlite_projections()
+    if state is not None:
+        project, worktrees = live_docs(state)
+        atomic(ROOT / "PROJECT_STATE.md", project)
+        atomic(ROOT / "WORKTREES.md", worktrees)
+        paths.extend((ROOT / "PROJECT_STATE.md", ROOT / "WORKTREES.md"))
+    candidates = set(paths) | set(before)
+    touched = changed_paths({path: before.get(path) for path in candidates}, include_deleted=True)
+    title = project_settings()["project_title"]
+    committed = commit(f"chore(state): export {title}", touched) if do_commit else False
+    if push:
+        push_replica()
+    return committed if do_commit else True
 
 
 def locate(task_id: str) -> Task:
@@ -903,6 +1169,29 @@ def apply_resume(args: argparse.Namespace, meta: Meta, _tasks: list[Task]) -> st
     return str(args.note)
 
 
+def apply_recover_expired(args: argparse.Namespace, meta: Meta, _tasks: list[Task]) -> str:
+    """Reopen an expired claim only after an exact-revision UTC check."""
+    if args.expected_revision != meta["task_revision"]:
+        raise RuntimeError(
+            f"stale revision: expected {args.expected_revision}, current {meta['task_revision']}"
+        )
+    if meta.get("status") != "in_progress" or not meta.get("owner"):
+        raise RuntimeError(f"{args.task} does not have an active claim")
+    try:
+        expiry = parse_claim_expiry(meta.get("claim_expires"))
+    except (TypeError, ValueError) as error:
+        raise RuntimeError(f"{args.task} has invalid claim expiry") from error
+    if expiry > dt.datetime.now(dt.UTC):
+        raise RuntimeError(f"{args.task} claim has not expired")
+    if not args.note.strip():
+        raise RuntimeError("expired-claim recovery note must not be empty")
+    previous_owner = str(meta["owner"])
+    meta["status"] = "open"
+    meta["owner"] = ""
+    meta["claim_expires"] = ""
+    return f"Recovered expired claim formerly owned by {previous_owner}. {args.note}"
+
+
 def require_promotion_preflight(kind: str) -> None:
     """Reject a promotion before writes when its source checkout is ambiguous."""
     if kind not in ("promote", "resume"):
@@ -953,7 +1242,13 @@ def rendered_task_views(tasks: list[Task]) -> dict[Path, str]:
 
 
 def mutate(args: argparse.Namespace, kind: str) -> None:
+    if backend_selection()["backend"] == "sqlite":
+        mutate_sqlite(args, kind)
+        return
     with locked():
+        if backend_selection()["backend"] != "git":
+            raise RuntimeError("BACKEND_CHANGED: retry using the selected backend")
+        sync_replica_before_write()
         path, meta, body = locate(args.task)
         require_promotion_preflight(kind)
         view_paths = rendered_task_views(all_tasks())
@@ -970,6 +1265,8 @@ def mutate(args: argparse.Namespace, kind: str) -> None:
                 if kind == "promote"
                 else apply_resume(args, meta, all_tasks())
                 if kind == "resume"
+                else apply_recover_expired(args, meta, all_tasks())
+                if kind == "recover-expired"
                 else apply_owned_change(args, kind, meta)
             )
         )
@@ -1007,6 +1304,65 @@ def mutate(args: argparse.Namespace, kind: str) -> None:
             raise
 
 
+def _transition_note(body: str, note: str, at: str) -> str:
+    if not note:
+        return body
+    return (
+        body
+        + "\n"
+        + textwrap.fill(
+            f"{at}: {note}",
+            width=100,
+            initial_indent="- ",
+            subsequent_indent="  ",
+            break_long_words=False,
+            break_on_hyphens=False,
+        )
+        + "\n"
+    )
+
+
+def mutate_sqlite(args: argparse.Namespace, kind: str) -> None:
+    """Linearize a lifecycle mutation at SQLite's committed CAS update."""
+    backend = SQLiteBackend(DATABASE, project_binding(), TASKS)
+    initial = backend.load_tasks()
+    selected = next((task for task in initial if task[1]["id"] == args.task), None)
+    if selected is None:
+        raise RuntimeError(f"unknown task {args.task}")
+    current = int(selected[1]["task_revision"])
+    requested = getattr(args, "expected_revision", None)
+    expected = current if requested is None else int(requested)
+    at = now()
+
+    def transition(meta: Meta, tasks: list[Task]) -> tuple[str, str]:
+        note = (
+            apply_claim(args, meta, tasks)
+            if kind == "claim"
+            else apply_promote(args, meta, tasks)
+            if kind == "promote"
+            else apply_resume(args, meta, tasks)
+            if kind == "resume"
+            else apply_recover_expired(args, meta, tasks)
+            if kind == "recover-expired"
+            else apply_owned_change(args, kind, meta)
+        )
+        candidate = [
+            (path, meta if item["id"] == args.task else item, text) for path, item, text in tasks
+        ]
+        errors = basic_task_errors(selected[0], meta) + graph_errors(candidate)
+        if errors:
+            raise RuntimeError("transition validation failed:\n" + "\n".join(errors))
+        return note, _transition_note(selected[2], note, at)
+
+    backend.mutate(args.task, expected, kind, at, transition)
+    try:
+        export_sqlite_projections()
+    except Exception as error:
+        raise StorageCommittedError(
+            f"SQLITE_COMMITTED_EXPORT_FAILED: task={args.task}; revision={expected + 1}; {error}"
+        ) from error
+
+
 def cmd_render_status(*, check: bool) -> None:
     """Render STATUS.md or fail if its checked-in form is stale."""
     if not project_settings()["status_view"]:
@@ -1023,7 +1379,18 @@ def cmd_render_status(*, check: bool) -> None:
 
 def cmd_doctor(*, live: bool) -> int:
     """Validate static state and optionally compare the live generated views."""
-    errors = validate(live=live)
+    sqlite = backend_selection()["backend"] == "sqlite"
+    sqlite_live = CONFIG.exists() and bool(config().get("github_repository"))
+    errors = validate(live=live and (not sqlite or sqlite_live))
+    if sqlite:
+        errors.extend(SQLiteBackend(DATABASE, project_binding(), TASKS).integrity_errors())
+    if REPLICA_BLOCKED.exists():
+        try:
+            blocked = json.loads(REPLICA_BLOCKED.read_text())
+            code = str(blocked.get("code", "REPLICA_BLOCKED"))
+        except (OSError, json.JSONDecodeError, AttributeError):
+            code = "REPLICA_BLOCKED"
+        errors.append(f"{code}: replica reconciliation requires operator review")
     if errors:
         print("\n".join("ERROR: " + value for value in errors))
         return 1
@@ -1037,10 +1404,17 @@ def cmd_doctor(*, live: bool) -> int:
 
 def cmd_snapshot() -> None:
     with locked(exclusive=False):
-        errors = validate(live=True)
+        sqlite = backend_selection()["backend"] == "sqlite"
+        sqlite_live = CONFIG.exists() and bool(config().get("github_repository"))
+        errors = validate(live=not sqlite or sqlite_live)
         if errors:
             raise RuntimeError("snapshot refused:\n" + "\n".join(errors))
-        print("STATE_COMMIT=" + run(["git", "-C", str(ROOT), "rev-parse", "HEAD"]).stdout.strip())
+        if sqlite:
+            print("STORAGE_BACKEND=sqlite")
+        else:
+            print(
+                "STATE_COMMIT=" + run(["git", "-C", str(ROOT), "rev-parse", "HEAD"]).stdout.strip()
+            )
         print((ROOT / "CURRENT.md").read_text(), end="")
 
 
@@ -1057,9 +1431,77 @@ def require_active_owner(task_id: str, owner: str) -> None:
             raise RuntimeError(errors[0])
 
 
+def append_file_command_result(
+    task_id: str,
+    owner: str,
+    command_hash: str,
+    returncode: int,
+    classification: str,
+    recorded_at: str,
+) -> None:
+    """Fsync a privacy-safe local result before any fallible post-command work."""
+    RUNTIME.mkdir(mode=0o700, parents=True, exist_ok=True)
+    record = {
+        "at": recorded_at,
+        "task": task_id,
+        "owner": owner,
+        "argv_sha256": command_hash,
+        "returncode": returncode,
+        "classification": classification,
+    }
+    path = RUNTIME / "command-results.jsonl"
+    descriptor = os.open(path, os.O_APPEND | os.O_CREAT | os.O_WRONLY, 0o600)
+    with os.fdopen(descriptor, "ab") as stream:
+        stream.write((json.dumps(record, sort_keys=True) + "\n").encode())
+        stream.flush()
+        os.fsync(stream.fileno())
+
+
+def legacy_command_results() -> list[Meta]:
+    """Strictly load the privacy-safe Git-backend journal for migration."""
+    path = RUNTIME / "command-results.jsonl"
+    if not path.exists():
+        return []
+    required = {"at", "task", "owner", "argv_sha256", "returncode", "classification"}
+    records: list[Meta] = []
+    for number, line in enumerate(path.read_text().splitlines(), 1):
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError as error:
+            raise RuntimeError(f"invalid command journal line {number}") from error
+        if not isinstance(record, dict) or set(record) != required:
+            raise RuntimeError(f"invalid command journal line {number}")
+        if not re.fullmatch(r"[0-9a-f]{64}", str(record["argv_sha256"])):
+            raise RuntimeError(f"invalid command journal digest at line {number}")
+        if not isinstance(record["returncode"], int):
+            raise RuntimeError(f"invalid command journal return code at line {number}")
+        records.append(cast(Meta, record))
+    return records
+
+
+def append_command_result(
+    task_id: str,
+    owner: str,
+    command_hash: str,
+    returncode: int,
+    timed_out: bool,
+) -> None:
+    """Record through the selected backend before any fallible follow-up."""
+    storage_backend().append_command_result(
+        task_id,
+        owner,
+        command_hash,
+        returncode,
+        "SUBPROCESS_TIMEOUT" if timed_out else "EXIT",
+        now(),
+    )
+
+
 def cmd_run(args: argparse.Namespace) -> int:
     if not args.command:
         raise RuntimeError("missing command")
+    if backend_selection()["backend"] == "git":
+        config()
     require_active_owner(args.task, args.owner)
     # Never execute or consume untracked caller input. Scripts and data must be
     # named by argv or a stable file, whose content digest can be recorded too.
@@ -1075,16 +1517,19 @@ def cmd_run(args: argparse.Namespace) -> int:
         returncode = 124
     else:
         returncode = proc.returncode
+    append_command_result(
+        args.task,
+        args.owner,
+        command_hash,
+        returncode,
+        timed_out,
+    )
     note = (
         f"Recorded command timeout; classification=SUBPROCESS_TIMEOUT; "
         f"deadline={timeout:.1f}s; command argv SHA-256 {command_hash}."
         if timed_out
         else f"Recorded command exit {returncode}; command argv SHA-256 {command_hash}."
     )
-    try:
-        reconcile(do_commit=True, push=True)
-    except (LockTimeoutError, SubprocessTimeoutError) as error:
-        note += f" Reconciliation classification preserved: {error}."
     update = argparse.Namespace(
         task=args.task,
         owner=args.owner,
@@ -1096,12 +1541,20 @@ def cmd_run(args: argparse.Namespace) -> int:
         note=note,
     )
     mutate(update, "update")
+    sqlite = backend_selection()["backend"] == "sqlite"
+    try:
+        reconcile(do_commit=not sqlite, push=not sqlite)
+    except Exception as error:
+        raise PostCommandReconcileError(
+            "COMMAND_RECORDED_POST_RECONCILE_FAILED: "
+            f"task={args.task}; argv_sha256={command_hash}; {error}"
+        ) from error
     return returncode
 
 
 def cmd_init(args: argparse.Namespace) -> None:
     """Bind a fresh vendored coordinator permanently to one state/product pair."""
-    if PROJECT_CONFIG.exists() or BINDING.exists():
+    if PROJECT_CONFIG.exists() or BINDING.exists() or BACKEND_CONFIG.exists():
         raise RuntimeError("coordinator is already initialized")
     top = Path(run(["git", "-C", str(ROOT), "rev-parse", "--show-toplevel"]).stdout.strip())
     if Path.cwd().resolve() != ROOT.resolve() or top.resolve() != ROOT.resolve():
@@ -1125,16 +1578,91 @@ def cmd_init(args: argparse.Namespace) -> None:
         "state_repository": state_repository,
         "product_repository": product_repository,
     }
-    before: dict[Path, str | None] = {PROJECT_CONFIG: None, BINDING: None}
+    selected_backend = str(getattr(args, "backend", "git"))
+    selection = {"schema_version": 1, "project_id": project_id, "backend": selected_backend}
+    before: dict[Path, str | None] = {PROJECT_CONFIG: None, BINDING: None, BACKEND_CONFIG: None}
     try:
         atomic(PROJECT_CONFIG, json.dumps(settings, indent=2, sort_keys=True) + "\n")
         project_settings()
         atomic(BINDING, json.dumps(binding, indent=2, sort_keys=True) + "\n")
         project_binding()
+        if selected_backend == "sqlite":
+            initial_tasks = git_tasks()
+            initial_errors = []
+            for path, meta, _ in initial_tasks:
+                initial_errors.extend(basic_task_errors(path, meta))
+            initial_errors.extend(graph_errors(initial_tasks))
+            if initial_errors:
+                raise RuntimeError("initial task import failed:\n" + "\n".join(initial_errors))
+            create_database(
+                DATABASE,
+                binding,
+                initial_tasks,
+                imported_at=now(),
+                source_backend="initial",
+                source_checkpoint="uncommitted-init",
+                command_results=legacy_command_results(),
+            )
+        atomic(BACKEND_CONFIG, json.dumps(selection, indent=2, sort_keys=True) + "\n")
+        backend_selection()
     except Exception:
         restore_paths(before)
+        DATABASE.unlink(missing_ok=True)
         raise
-    print(f"Initialized project binding {project_id}")
+    if selected_backend == "sqlite":
+        export_sqlite_projections()
+    print(f"Initialized project binding {project_id} with {selected_backend} backend")
+
+
+def cmd_migrate(args: argparse.Namespace) -> None:
+    """Explicitly and restart-safely switch authority between supported backends."""
+    current = str(backend_selection()["backend"])
+    if current == args.to:
+        raise RuntimeError(f"coordinator already uses {current}")
+    binding = project_binding()
+    selection = {"schema_version": 1, "project_id": binding["project_id"], "backend": args.to}
+    if args.to == "sqlite":
+        with locked():
+            sync_replica_before_write()
+            tasks = git_tasks()
+            command_results = legacy_command_results()
+            errors = validate(live=False)
+            if errors:
+                raise RuntimeError("migration preflight failed:\n" + "\n".join(errors))
+            checkpoint = run(["git", "-C", str(ROOT), "rev-parse", "HEAD"]).stdout.strip()
+            DATABASE.unlink(missing_ok=True)
+            try:
+                create_database(
+                    DATABASE,
+                    binding,
+                    tasks,
+                    imported_at=now(),
+                    source_backend="git",
+                    source_checkpoint=checkpoint,
+                    command_results=command_results,
+                )
+                imported = SQLiteBackend(DATABASE, binding, TASKS).load_tasks()
+                if [(m, b) for _, m, b in tasks] != [(m, b) for _, m, b in imported]:
+                    raise RuntimeError("migration equivalence check failed")
+                atomic(BACKEND_CONFIG, json.dumps(selection, indent=2, sort_keys=True) + "\n")
+            except Exception:
+                DATABASE.unlink(missing_ok=True)
+                raise
+        export_sqlite_projections()
+    else:
+        backend = SQLiteBackend(DATABASE, binding, TASKS)
+
+        def project(tasks: list[Task]) -> None:
+            write_sqlite_projections(tasks)
+
+        def switch() -> None:
+            errors = validate(live=False)
+            if errors:
+                raise RuntimeError("rollback export failed:\n" + "\n".join(errors))
+            atomic(BACKEND_CONFIG, json.dumps(selection, indent=2, sort_keys=True) + "\n")
+
+        backend.retire(project, switch)
+    print(f"Migrated authoritative storage from {current} to {args.to}")
 
 
 def dispatch_bound_command(args: argparse.Namespace) -> int:
@@ -1147,12 +1675,22 @@ def dispatch_bound_command(args: argparse.Namespace) -> int:
         return cmd_doctor(live=args.live)
     elif args.cmd == "render-status":
         cmd_render_status(check=args.check)
-    elif args.cmd in ("claim", "heartbeat", "release", "promote", "resume", "update"):
+    elif args.cmd in (
+        "claim",
+        "heartbeat",
+        "release",
+        "promote",
+        "resume",
+        "recover-expired",
+        "update",
+    ):
         mutate(args, args.cmd)
     elif args.cmd == "run":
         if args.command and args.command[0] == "--":
             args.command = args.command[1:]
         return cmd_run(args)
+    elif args.cmd == "migrate":
+        cmd_migrate(args)
     return 0
 
 
@@ -1166,6 +1704,9 @@ def main() -> int:
     item.add_argument("--project-title", required=True)
     item.add_argument("--status-view", action="store_true")
     item.add_argument("--commit-signoff", action="store_true")
+    item.add_argument("--backend", choices=BACKENDS, default="sqlite")
+    item = commands.add_parser("migrate")
+    item.add_argument("--to", choices=BACKENDS, required=True)
     item = commands.add_parser("reconcile")
     item.add_argument("--commit", action="store_true")
     item.add_argument("--push", action="store_true")
@@ -1191,6 +1732,10 @@ def main() -> int:
     item.add_argument("--expected-revision", type=int, required=True)
     item.add_argument("--note", required=True)
     item = commands.add_parser("resume")
+    item.add_argument("task")
+    item.add_argument("--expected-revision", type=int, required=True)
+    item.add_argument("--note", required=True)
+    item = commands.add_parser("recover-expired")
     item.add_argument("task")
     item.add_argument("--expected-revision", type=int, required=True)
     item.add_argument("--note", required=True)

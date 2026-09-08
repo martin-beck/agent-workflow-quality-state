@@ -1,27 +1,33 @@
 ------------------------- MODULE HandoffctlLocks -------------------------
+\* Copyright (C) Huawei Technologies Co., Ltd. 2026. All rights reserved.
+\* SPDX-License-Identifier: MIT
 EXTENDS FiniteSets, TLC
 
 (*
-Reader/writer refinement model for the shared snapshot and exclusive mutation
-uses of .runtime/state.lock. Three processes are enough to include two
-simultaneous readers and one competing writer.
+Reader/writer refinement model for snapshots and mutations using one lock below
+Git's common directory. Three processes are enough to include two simultaneous
+readers in separate worktrees and one competing writer.
 *)
 
-CONSTANTS Processes, NoWriter
+CONSTANTS Processes, Worktrees, Repository, CommonLock, NoWriter
 
 ASSUME /\ Processes # {}
+       /\ Worktrees # {}
        /\ NoWriter \notin Processes
 
 Modes == {"read", "write"}
 Phases == {"waiting", "holding", "done"}
+
+LockPath(_worktree) == <<Repository, CommonLock>>
 Results == {"pending", "completed", "lock_timeout"}
 
-VARIABLES mode, phase, writer, readers, result
+VARIABLES mode, worktree, phase, writer, readers, result
 
-vars == <<mode, phase, writer, readers, result>>
+vars == <<mode, worktree, phase, writer, readers, result>>
 
 Init ==
     /\ mode \in [Processes -> Modes]
+    /\ worktree \in [Processes -> Worktrees]
     /\ phase = [p \in Processes |-> "waiting"]
     /\ writer = NoWriter
     /\ readers = {}
@@ -38,7 +44,7 @@ AcquireRead(p) ==
     /\ writer = NoWriter
     /\ readers' = readers \cup {p}
     /\ phase' = [phase EXCEPT ![p] = "holding"]
-    /\ UNCHANGED <<mode, writer, result>>
+    /\ UNCHANGED <<mode, worktree, writer, result>>
 
 AcquireWrite(p) ==
     /\ phase[p] = "waiting"
@@ -47,14 +53,14 @@ AcquireWrite(p) ==
     /\ readers = {}
     /\ writer' = p
     /\ phase' = [phase EXCEPT ![p] = "holding"]
-    /\ UNCHANGED <<mode, readers, result>>
+    /\ UNCHANGED <<mode, worktree, readers, result>>
 
 WaitTimeout(p) ==
     /\ phase[p] = "waiting"
     /\ ~CanAcquire(p)
     /\ phase' = [phase EXCEPT ![p] = "done"]
     /\ result' = [result EXCEPT ![p] = "lock_timeout"]
-    /\ UNCHANGED <<mode, writer, readers>>
+    /\ UNCHANGED <<mode, worktree, writer, readers>>
 
 Wait(p) ==
     AcquireRead(p) \/ AcquireWrite(p) \/ WaitTimeout(p)
@@ -66,7 +72,7 @@ ReleaseRead(p) ==
     /\ readers' = readers \ {p}
     /\ phase' = [phase EXCEPT ![p] = "done"]
     /\ result' = [result EXCEPT ![p] = "completed"]
-    /\ UNCHANGED <<mode, writer>>
+    /\ UNCHANGED <<mode, worktree, writer>>
 
 ReleaseWrite(p) ==
     /\ phase[p] = "holding"
@@ -75,7 +81,7 @@ ReleaseWrite(p) ==
     /\ writer' = NoWriter
     /\ phase' = [phase EXCEPT ![p] = "done"]
     /\ result' = [result EXCEPT ![p] = "completed"]
-    /\ UNCHANGED <<mode, readers>>
+    /\ UNCHANGED <<mode, worktree, readers>>
 
 Release(p) ==
     ReleaseRead(p) \/ ReleaseWrite(p)
@@ -96,11 +102,18 @@ Spec ==
     Init /\ [][Next]_vars /\ Fairness
 
 TypeOK ==
+    /\ worktree \in [Processes -> Worktrees]
     /\ mode \in [Processes -> Modes]
     /\ phase \in [Processes -> Phases]
     /\ writer \in Processes \cup {NoWriter}
     /\ readers \subseteq Processes
     /\ result \in [Processes -> Results]
+
+SharedRepositoryLock ==
+    \A left \in Worktrees:
+        \A right \in Worktrees:
+            LockPath(left) = LockPath(right)
+
 
 ReaderWriterSafety ==
     /\ writer # NoWriter => readers = {}
