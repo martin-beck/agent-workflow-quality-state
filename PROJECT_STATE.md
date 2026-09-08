@@ -11,6 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #4 | `chore/huawei-mit-source-headers@898b77f5ba4a` | `main` | CLEAN | COMPLETED:SUCCESS | chore: enforce source license headers |
+| #5 | `feature/core-adapters@165ec3c0cb3c` | `main` | UNKNOWN | - | feat: add pinned adapter execution contracts |
 
 ## Recent workflows
 
