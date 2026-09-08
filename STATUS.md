@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**11 ARs tracked** across 4 active status categories.
+**15 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 4 |
+| **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 3 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -39,6 +39,10 @@ flowchart LR
         AR_0009["AR-0009 - Future"]:::status_future
         AR_0010["AR-0010 - Future"]:::status_future
         AR_0011["AR-0011 - Future"]:::status_future
+        AR_0012["AR-0012 - Planned"]:::status_planned
+        AR_0013["AR-0013 - Planned"]:::status_planned
+        AR_0014["AR-0014 - Planned"]:::status_planned
+        AR_0015["AR-0015 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -55,6 +59,10 @@ flowchart LR
     AR_0004 --> AR_0005
     AR_0004 --> AR_0008
     AR_0004 --> AR_0009
+    AR_0004 --> AR_0012
+    AR_0004 --> AR_0013
+    AR_0004 --> AR_0014
+    AR_0004 --> AR_0015
     AR_0005 --> AR_0008
     AR_0007 --> AR_0011
     AR_0008 --> AR_0010
@@ -75,7 +83,7 @@ flowchart LR
 | [AR-0001](tasks/AR-0001.md) | None | [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md), [AR-0004](tasks/AR-0004.md), [AR-0005](tasks/AR-0005.md), [AR-0006](tasks/AR-0006.md), [AR-0007](tasks/AR-0007.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0010](tasks/AR-0010.md), [AR-0011](tasks/AR-0011.md) |
 | [AR-0002](tasks/AR-0002.md) | [AR-0001](tasks/AR-0001.md) | [AR-0007](tasks/AR-0007.md) |
 | [AR-0003](tasks/AR-0003.md) | [AR-0001](tasks/AR-0001.md) | [AR-0006](tasks/AR-0006.md) |
-| [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0005](tasks/AR-0005.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md) |
+| [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0005](tasks/AR-0005.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) |
 | [AR-0005](tasks/AR-0005.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | [AR-0008](tasks/AR-0008.md) |
 | [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | None |
 | [AR-0007](tasks/AR-0007.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md) | [AR-0011](tasks/AR-0011.md) |
@@ -83,6 +91,10 @@ flowchart LR
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
 | [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | None |
 | [AR-0011](tasks/AR-0011.md) | [AR-0001](tasks/AR-0001.md), [AR-0007](tasks/AR-0007.md) | None |
+| [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | None |
+| [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | None |
+| [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | None |
+| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | None |
 
 ## Complete AR inventory
 
@@ -92,13 +104,17 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | codex-awq-ar0004 | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
 
-### Planned (4)
+### Planned (8)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after adapter contracts from AR-0004 stabilize. |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Unclaimed | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Unclaimed | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. |
+| P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Unclaimed | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. |
+| P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Unclaimed | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. |
+| P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Unclaimed | Implement Markdown, link and prose adapters on the shared contract. | Select reviewed offline-capable tools and add deterministic Markdown, link and prose fixtures. |
+| P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Unclaimed | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 
 ### Future (3)
