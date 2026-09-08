@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 3 |
@@ -42,7 +42,7 @@ flowchart LR
         AR_0012["AR-0012 - Done"]:::status_done
         AR_0013["AR-0013 - Done"]:::status_done
         AR_0014["AR-0014 - Done"]:::status_done
-        AR_0015["AR-0015 - Open"]:::status_open
+        AR_0015["AR-0015 - In progress"]:::status_in_progress
         AR_0016["AR-0016 - Blocked"]:::status_blocked
     end
     AR_0001 --> AR_0002
@@ -104,11 +104,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Unclaimed | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
+| P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | codex-awq-ar0015 | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
 
 ### Blocked (1)
 
