@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**16 ARs tracked** across 4 active status categories.
+**16 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 5 |
@@ -43,7 +43,7 @@ flowchart LR
         AR_0013["AR-0013 - In progress"]:::status_in_progress
         AR_0014["AR-0014 - Planned"]:::status_planned
         AR_0015["AR-0015 - Planned"]:::status_planned
-        AR_0016["AR-0016 - In progress"]:::status_in_progress
+        AR_0016["AR-0016 - Blocked"]:::status_blocked
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -104,12 +104,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | codex-awq-ar0013 | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | codex-awq-pr4-independent-review-20260908 | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. |
+
+### Blocked (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. |
 
 ### Planned (6)
 
