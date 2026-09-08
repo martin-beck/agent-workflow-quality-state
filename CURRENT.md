@@ -9,11 +9,16 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Pin Rust 1.93.0 acquisition and implement offline native-equivalent PR contracts. | codex-awq-ar0020 |
 
-## Blocked
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. | - |
+
+## Blocked
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
 | P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. | - |
 
 ## Planned
