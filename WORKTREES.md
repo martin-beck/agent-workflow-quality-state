@@ -7,8 +7,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality` | `main` | `9abdc210e028` | 0 | behind 8, ahead 0 |
 | `agent-workflow-quality-adapter-docs` | `feature/docs-adapter` | `cbf103305786` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-adapter-python` | `feature/python-adapter` | `34351626f8dc` | 0 | behind 11, ahead 0 |
-| `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `cbf103305786` | 5 | behind 0, ahead 0 |
-| changed files | - | - | - | `pyproject.toml`, `schemas/adapter-contract.schema.json`, `src/awq/__init__.py`, `src/awq/adapters.py`, `src/awq/checks.py` |
+| `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `cbf103305786` | 6 | behind 0, ahead 0 |
+| changed files | - | - | - | `pyproject.toml`, `schemas/adapter-contract.schema.json`, `src/awq/__init__.py`, `src/awq/adapters.py`, `src/awq/checks.py`, `src/awq/schema_helper.py` |
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 9, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 13, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 15, ahead 0 |
