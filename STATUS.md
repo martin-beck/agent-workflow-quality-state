@@ -108,7 +108,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | codex-awq-ar0012 | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. |
+| P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | codex-awq-ar0012 | Published AWQ v0.5.0 with reviewed opt-in Python quality adapters and normalized remediation evidence. | No further AR-0012 action; select the next dependency-ready adapter family. |
 
 ### Blocked (1)
 
