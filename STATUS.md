@@ -109,7 +109,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | codex-awq-ar0004 | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | codex-awq-license-headers | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Add a strict tracked-source checker, tests and CI with explicit generated and vendor exclusions. |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | codex-awq-license-headers | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key, review and merge product PR 4, then verify main and sync coordinator source only from a released upstream version. |
 
 ### Planned (8)
 
