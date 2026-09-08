@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #1 | `feature/initial-quality-system@a7281f931e3c` | `main` | UNKNOWN | - | feat: establish agent workflow quality foundation |
 
 ## Recent workflows
 
