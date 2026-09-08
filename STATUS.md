@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**11 ARs tracked** across 3 active status categories.
+**11 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 5 |
+| **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 3 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -31,7 +31,7 @@ flowchart LR
         AR_0001["AR-0001 - Done"]:::status_done
         AR_0002["AR-0002 - Done"]:::status_done
         AR_0003["AR-0003 - Done"]:::status_done
-        AR_0004["AR-0004 - Planned"]:::status_planned
+        AR_0004["AR-0004 - Open"]:::status_open
         AR_0005["AR-0005 - Planned"]:::status_planned
         AR_0006["AR-0006 - Planned"]:::status_planned
         AR_0007["AR-0007 - Planned"]:::status_planned
@@ -86,11 +86,16 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Planned (5)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
+
+### Planned (4)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
 | P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after adapter contracts from AR-0004 stabilize. |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Unclaimed | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Unclaimed | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. |
