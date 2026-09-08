@@ -1184,6 +1184,16 @@ class HandoffTest(unittest.TestCase):
         self.assertEqual(1, state["worktrees"][0]["dirty"])
         self.assertEqual("DETACHED", state["worktrees"][1]["branch"])
 
+    def test_changed_paths_preserves_existing_and_deleted_semantics(self) -> None:
+        changed = self.root / "changed.md"
+        changed.write_text("after")
+        deleted = self.root / "deleted.md"
+        unchanged = self.root / "unchanged.md"
+        unchanged.write_text("same")
+        before = {changed: "before", deleted: "before", unchanged: "same"}
+        self.assertEqual([changed], CORE.changed_paths(before))
+        self.assertEqual([changed, deleted], CORE.changed_paths(before, include_deleted=True))
+
     def test_reconcile_and_live_staleness(self) -> None:
         self.make_task()
         with (

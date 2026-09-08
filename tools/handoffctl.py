@@ -79,7 +79,7 @@ type Meta = dict[str, Any]
 type Task = tuple[Path, Meta, str]
 type State = dict[str, Any]
 
-COORDINATOR_VERSION = "0.3.3"
+COORDINATOR_VERSION = "0.3.4"
 DEFAULT_PROJECT_SETTINGS: Meta = {
     "schema_version": 1,
     "project_id": "00000000-0000-4000-8000-000000000000",
@@ -973,6 +973,16 @@ def generated_paths() -> list[Path]:
     return [ROOT / name for name in names]
 
 
+def changed_paths(before: dict[Path, str | None], *, include_deleted: bool = False) -> list[Path]:
+    """Return paths whose current text differs from the captured snapshot."""
+    return [
+        path
+        for path, old in before.items()
+        if (include_deleted or path.exists())
+        and (path.read_text() if path.exists() else None) != old
+    ]
+
+
 def write_generated_views(tasks: list[Task], state: Meta) -> None:
     """Atomically refresh every configured generated projection."""
     atomic(ROOT / "CURRENT.md", render_current(tasks))
@@ -1003,9 +1013,7 @@ def reconcile(*, do_commit: bool, push: bool = False) -> bool:
             errors = validate(live=False)
             if errors:
                 raise RuntimeError("validation failed:\n" + "\n".join(errors))
-            touched = [
-                path for path, old in before.items() if path.exists() and path.read_text() != old
-            ]
+            touched = changed_paths(before)
             title = project_settings()["project_title"]
             committed = commit(f"chore(state): reconcile {title}", touched) if do_commit else False
             head = run(["git", "-C", str(ROOT), "rev-parse", "HEAD"], check=False).stdout.strip()
@@ -1067,11 +1075,7 @@ def reconcile_sqlite(*, do_commit: bool, push: bool) -> bool:
         atomic(ROOT / "WORKTREES.md", worktrees)
         paths.extend((ROOT / "PROJECT_STATE.md", ROOT / "WORKTREES.md"))
     candidates = set(paths) | set(before)
-    touched = [
-        path
-        for path in candidates
-        if before.get(path) != (path.read_text() if path.exists() else None)
-    ]
+    touched = changed_paths({path: before.get(path) for path in candidates}, include_deleted=True)
     title = project_settings()["project_title"]
     committed = commit(f"chore(state): export {title}", touched) if do_commit else False
     if push:
