@@ -7,7 +7,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. | codex-awq-state-headers-v033-20260908 |
 | P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. | codex-awq-ar0021 |
 
 ## Blocked
@@ -41,6 +40,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  | No further bootstrap action; select and promote a dependency-ready planned AR through the coordinator. | - |
+| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. | - |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. | - |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. | - |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. | - |

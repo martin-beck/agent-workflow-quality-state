@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 7 |
 | **Future** | Deferred roadmap work | 3 |
-| **Done** | Accepted, integrated, and durably verified | 9 |
+| **Done** | Accepted, integrated, and durably verified | 10 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -44,7 +44,7 @@ flowchart LR
         AR_0014["AR-0014 - Done"]:::status_done
         AR_0015["AR-0015 - Done"]:::status_done
         AR_0016["AR-0016 - Blocked"]:::status_blocked
-        AR_0017["AR-0017 - In progress"]:::status_in_progress
+        AR_0017["AR-0017 - Done"]:::status_done
         AR_0018["AR-0018 - Planned"]:::status_planned
         AR_0019["AR-0019 - Planned"]:::status_planned
         AR_0020["AR-0020 - Done"]:::status_done
@@ -129,11 +129,10 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-v033-20260908 | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
 | P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | codex-awq-ar0021 | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. |
 
 ### Blocked (1)
@@ -162,11 +161,12 @@ flowchart LR
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
 
-### Done (9)
+### Done (10)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality | Unclaimed |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  | No further bootstrap action; select and promote a dependency-ready planned AR through the coordinator. |
+| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Unclaimed | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
