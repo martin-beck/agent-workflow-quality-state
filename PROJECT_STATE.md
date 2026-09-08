@@ -11,6 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #4 | `chore/huawei-mit-source-headers@5c7a6a012a9b` | `main` | CLEAN | COMPLETED:SUCCESS | chore: enforce source license headers |
+| #6 | `feature/python-adapter@34351626f8dc` | `main` | UNKNOWN | - | feat(python): add reviewed quality adapter catalog |
 
 ## Recent workflows
 
