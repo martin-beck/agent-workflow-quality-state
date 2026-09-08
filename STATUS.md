@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 3 |
@@ -30,7 +30,7 @@ flowchart LR
         direction TB
         AR_0001["AR-0001 - Done"]:::status_done
         AR_0002["AR-0002 - Done"]:::status_done
-        AR_0003["AR-0003 - Open"]:::status_open
+        AR_0003["AR-0003 - In progress"]:::status_in_progress
         AR_0004["AR-0004 - Planned"]:::status_planned
         AR_0005["AR-0005 - Planned"]:::status_planned
         AR_0006["AR-0006 - Planned"]:::status_planned
@@ -86,11 +86,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
+| P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | codex-awq-ar0003 | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 
 ### Planned (5)
 
