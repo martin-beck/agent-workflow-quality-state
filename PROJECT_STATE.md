@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #10 | `feature/rust-pr-gates@cd4aebb929c2` | `main` | UNKNOWN | - | feat(rust): add pinned stable PR gates |
 
 ## Recent workflows
 
