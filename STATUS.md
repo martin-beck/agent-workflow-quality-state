@@ -108,7 +108,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | codex-awq-ar0004 | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
+| P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | codex-awq-ar0004 | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
 
 ### Blocked (1)
 
