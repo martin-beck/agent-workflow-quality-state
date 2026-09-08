@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. | - |
+| P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. | codex-awq-ar0012 |
 
 ## Blocked
 
