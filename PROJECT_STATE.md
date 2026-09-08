@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #9 | `feature/schema-adapter@dd1b0ac7b9b8` | `main` | BLOCKED | - | feat(schema): add pinned structured-data adapters |
 
 ## Recent workflows
 
