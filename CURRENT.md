@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync the immutable coordinator v0.3.1 vendor snapshot and enforce Huawei/MIT headers on state-owned source files. | Promote after verifying the signed v0.3.1 release and current clean state, then claim in the isolated worktree. | codex-awq-state-headers-20260908 |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. | codex-awq-ar0015 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync the immutable coordinator v0.3.1 vendor snapshot and enforce Huawei/MIT headers on state-owned source files. | Promote after verifying the signed v0.3.1 release and current clean state, then claim in the isolated worktree. | - |
 
 ## Blocked
 

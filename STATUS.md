@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**17 ARs tracked** across 6 active status categories.
+**17 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 3 |
@@ -44,7 +44,7 @@ flowchart LR
         AR_0014["AR-0014 - Done"]:::status_done
         AR_0015["AR-0015 - In progress"]:::status_in_progress
         AR_0016["AR-0016 - Blocked"]:::status_blocked
-        AR_0017["AR-0017 - Open"]:::status_open
+        AR_0017["AR-0017 - In progress"]:::status_in_progress
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -106,17 +106,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-20260908 | Sync the immutable coordinator v0.3.1 vendor snapshot and enforce Huawei/MIT headers on state-owned source files. | Promote after verifying the signed v0.3.1 release and current clean state, then claim in the isolated worktree. |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | codex-awq-ar0015 | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Unclaimed | Sync the immutable coordinator v0.3.1 vendor snapshot and enforce Huawei/MIT headers on state-owned source files. | Promote after verifying the signed v0.3.1 release and current clean state, then claim in the isolated worktree. |
 
 ### Blocked (1)
 
