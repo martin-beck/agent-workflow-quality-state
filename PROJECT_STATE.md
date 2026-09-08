@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #4 | `chore/huawei-mit-source-headers@898b77f5ba4a` | `main` | UNKNOWN | - | chore: enforce source license headers |
+| #4 | `chore/huawei-mit-source-headers@898b77f5ba4a` | `main` | CLEAN | COMPLETED:SUCCESS | chore: enforce source license headers |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34231100847 | `898b77f5ba4a` | pull_request | Verify | completed:success |
 | 34222774727 | `1ef7254078ab` | push | Verify | completed:success |
 | 34222311872 | `b742f2671f57` | pull_request | Verify | completed:success |
 | 34213613453 | `5b711576e56a` | push | Verify | completed:success |
