@@ -13,6 +13,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 19, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 2, ahead 0 |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 1, ahead 0 |
-| `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `5f3cdd8df692` | 5 | behind 0, ahead 0 |
-| changed files | - | - | - | `schemas/adapter-contract.schema.json`, `schemas/adapter-result.schema.json`, `schemas/evidence.schema.json`, `src/awq/adapters.py`, `src/awq/commands.py` |
+| `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `5f3cdd8df692` | 6 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/adapter-contract.schema.json`, `schemas/adapter-result.schema.json`, `schemas/evidence.schema.json`, `src/awq/adapters.py`, `src/awq/commands.py`, `tests/test_adapters.py` |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 21, ahead 0 |
