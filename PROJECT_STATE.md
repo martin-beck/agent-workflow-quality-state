@@ -11,12 +11,13 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #4 | `chore/huawei-mit-source-headers@5c7a6a012a9b` | `main` | BEHIND | COMPLETED:SUCCESS | chore: enforce source license headers |
-| #7 | `feature/shell-adapter@ae71bc5c29b6` | `main` | UNKNOWN | - | feat(shell): add reviewed quality adapters |
+| #7 | `feature/shell-adapter@ae71bc5c29b6` | `main` | CLEAN | COMPLETED:SUCCESS | feat(shell): add reviewed quality adapters |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34247904466 | `ae71bc5c29b6` | pull_request | Verify | completed:success |
 | 34240677275 | `200bdc6e983d` | push | Verify | completed:success |
 | 34240562211 | `34351626f8dc` | pull_request | Verify | completed:success |
 | 34238061761 | `5c7a6a012a9b` | pull_request | Verify | completed:success |
@@ -28,4 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34222311872 | `b742f2671f57` | pull_request | Verify | completed:success |
 | 34213613453 | `5b711576e56a` | push | Verify | completed:success |
 | 34213516284 | `d2d3dcde9c41` | pull_request | Verify | completed:success |
-| 34204436732 | `6ce0d051d203` | push | Verify | completed:success |
