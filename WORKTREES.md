@@ -12,6 +12,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 15, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 0, ahead 0 |
-| `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `598558e10a39` | 15 | behind 0, ahead 0 |
-| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `docs/ADAPTERS.md`, `docs/DEVELOPMENT.md`, `docs/QUALITY.md`, `docs/RUST_ADAPTERS.md`, `pyproject.toml`, `scripts/install_rust_tools.py`, `src/awq/data/adapter_catalog.json`, `src/awq/rust_helper.py`, `tests/test_rust_adapters.py`, `tests/test_rust_helper.py`, `tests/test_rust_tool_installer.py`, `uv.lock` |
+| `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `598558e10a39` | 17 | behind 0, ahead 0 |
+| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `docs/ADAPTERS.md`, `docs/DEVELOPMENT.md`, `docs/QUALITY.md`, `docs/RUST_ADAPTERS.md`, `pyproject.toml`, `scripts/install_rust_tools.py`, `src/awq/__init__.py`, `src/awq/data/adapter_catalog.json`, `src/awq/rust_helper.py`, `tests/test_distribution.py`, `tests/test_rust_adapters.py`, `tests/test_rust_helper.py`, `tests/test_rust_tool_installer.py`, `uv.lock` |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 19, ahead 0 |
