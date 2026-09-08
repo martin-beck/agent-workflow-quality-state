@@ -126,7 +126,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-v032-20260908 | Sync the immutable coordinator v0.3.1 vendor snapshot and enforce Huawei/MIT headers on state-owned source files. | Promote after verifying the signed v0.3.1 release and current clean state, then claim in the isolated worktree. |
+| P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-v032-20260908 | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
 | P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | codex-awq-ar0018 | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Promote and implement the Rust profile after AR-0005 decomposition is recorded. |
 
 ### Blocked (1)
