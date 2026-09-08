@@ -1,0 +1,6 @@
+{
+  "product_repository": "martin-beck/agent-workflow-quality",
+  "project_id": "aae36f8e-d2e3-4028-a207-e1f30e6aebc7",
+  "schema_version": 1,
+  "state_repository": "martin-beck/agent-workflow-quality-state"
+}
