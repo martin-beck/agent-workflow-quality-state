@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**19 ARs tracked** across 5 active status categories.
+**22 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
-| **Planned** | Defined work awaiting promotion or dependencies | 5 |
+| **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 8 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -47,6 +47,9 @@ flowchart LR
         AR_0017["AR-0017 - Blocked"]:::status_blocked
         AR_0018["AR-0018 - In progress"]:::status_in_progress
         AR_0019["AR-0019 - Planned"]:::status_planned
+        AR_0020["AR-0020 - Planned"]:::status_planned
+        AR_0021["AR-0021 - Planned"]:::status_planned
+        AR_0022["AR-0022 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -59,6 +62,7 @@ flowchart LR
     AR_0001 --> AR_0011
     AR_0001 --> AR_0018
     AR_0001 --> AR_0019
+    AR_0001 --> AR_0020
     AR_0002 --> AR_0007
     AR_0003 --> AR_0006
     AR_0004 --> AR_0008
@@ -69,19 +73,26 @@ flowchart LR
     AR_0004 --> AR_0015
     AR_0004 --> AR_0018
     AR_0004 --> AR_0019
+    AR_0004 --> AR_0020
     AR_0005 --> AR_0008
     AR_0007 --> AR_0011
     AR_0008 --> AR_0010
     AR_0012 --> AR_0018
     AR_0012 --> AR_0019
+    AR_0012 --> AR_0020
     AR_0013 --> AR_0018
     AR_0013 --> AR_0019
+    AR_0013 --> AR_0020
     AR_0014 --> AR_0018
     AR_0014 --> AR_0019
+    AR_0014 --> AR_0020
     AR_0015 --> AR_0018
     AR_0015 --> AR_0019
+    AR_0015 --> AR_0020
     AR_0018 --> AR_0005
     AR_0019 --> AR_0005
+    AR_0020 --> AR_0021
+    AR_0020 --> AR_0022
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -96,10 +107,10 @@ flowchart LR
 
 | AR | Prerequisites | Dependents |
 | --- | --- | --- |
-| [AR-0001](tasks/AR-0001.md) | None | [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md), [AR-0004](tasks/AR-0004.md), [AR-0006](tasks/AR-0006.md), [AR-0007](tasks/AR-0007.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0010](tasks/AR-0010.md), [AR-0011](tasks/AR-0011.md), [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
+| [AR-0001](tasks/AR-0001.md) | None | [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md), [AR-0004](tasks/AR-0004.md), [AR-0006](tasks/AR-0006.md), [AR-0007](tasks/AR-0007.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0010](tasks/AR-0010.md), [AR-0011](tasks/AR-0011.md), [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0002](tasks/AR-0002.md) | [AR-0001](tasks/AR-0001.md) | [AR-0007](tasks/AR-0007.md) |
 | [AR-0003](tasks/AR-0003.md) | [AR-0001](tasks/AR-0001.md) | [AR-0006](tasks/AR-0006.md) |
-| [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md), [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
+| [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md), [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0005](tasks/AR-0005.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) | [AR-0008](tasks/AR-0008.md) |
 | [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | None |
 | [AR-0007](tasks/AR-0007.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md) | [AR-0011](tasks/AR-0011.md) |
@@ -107,14 +118,17 @@ flowchart LR
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
 | [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | None |
 | [AR-0011](tasks/AR-0011.md) | [AR-0001](tasks/AR-0001.md), [AR-0007](tasks/AR-0007.md) | None |
-| [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
-| [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
-| [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
-| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) |
+| [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
+| [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
+| [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
+| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0016](tasks/AR-0016.md) | None | None |
 | [AR-0017](tasks/AR-0017.md) | None | None |
 | [AR-0018](tasks/AR-0018.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0005](tasks/AR-0005.md) |
 | [AR-0019](tasks/AR-0019.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0005](tasks/AR-0005.md) |
+| [AR-0020](tasks/AR-0020.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0021](tasks/AR-0021.md), [AR-0022](tasks/AR-0022.md) |
+| [AR-0021](tasks/AR-0021.md) | [AR-0020](tasks/AR-0020.md) | None |
+| [AR-0022](tasks/AR-0022.md) | [AR-0020](tasks/AR-0020.md) | None |
 
 ## Complete AR inventory
 
@@ -131,7 +145,7 @@ flowchart LR
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Unclaimed | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
 | P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. |
 
-### Planned (5)
+### Planned (8)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -139,7 +153,10 @@ flowchart LR
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Unclaimed | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Unclaimed | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. |
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Unclaimed | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. |
+| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Unclaimed | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Pin Rust 1.93.0 acquisition and implement offline native-equivalent PR contracts. |
+| P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | Unclaimed | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
+| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Unclaimed | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. |
 
 ### Future (3)
 
