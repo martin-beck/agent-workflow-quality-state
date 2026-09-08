@@ -66,6 +66,10 @@ flowchart LR
     AR_0005 --> AR_0008
     AR_0007 --> AR_0011
     AR_0008 --> AR_0010
+    AR_0012 --> AR_0005
+    AR_0013 --> AR_0005
+    AR_0014 --> AR_0005
+    AR_0015 --> AR_0005
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -84,17 +88,17 @@ flowchart LR
 | [AR-0002](tasks/AR-0002.md) | [AR-0001](tasks/AR-0001.md) | [AR-0007](tasks/AR-0007.md) |
 | [AR-0003](tasks/AR-0003.md) | [AR-0001](tasks/AR-0001.md) | [AR-0006](tasks/AR-0006.md) |
 | [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0005](tasks/AR-0005.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) |
-| [AR-0005](tasks/AR-0005.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | [AR-0008](tasks/AR-0008.md) |
+| [AR-0005](tasks/AR-0005.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0008](tasks/AR-0008.md) |
 | [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | None |
 | [AR-0007](tasks/AR-0007.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md) | [AR-0011](tasks/AR-0011.md) |
 | [AR-0008](tasks/AR-0008.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0005](tasks/AR-0005.md) | [AR-0010](tasks/AR-0010.md) |
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
 | [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | None |
 | [AR-0011](tasks/AR-0011.md) | [AR-0001](tasks/AR-0001.md), [AR-0007](tasks/AR-0007.md) | None |
-| [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | None |
-| [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | None |
-| [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | None |
-| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | None |
+| [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | [AR-0005](tasks/AR-0005.md) |
+| [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | [AR-0005](tasks/AR-0005.md) |
+| [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | [AR-0005](tasks/AR-0005.md) |
+| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | [AR-0005](tasks/AR-0005.md) |
 
 ## Complete AR inventory
 
@@ -108,7 +112,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after adapter contracts from AR-0004 stabilize. |
+| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after all common adapter families stabilize. |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Unclaimed | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Unclaimed | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. |
 | P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Unclaimed | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. |
