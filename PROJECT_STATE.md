@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `598558e10a39120a5c3908c202d0875187b34c8f`
+- Product remote main: `5f3cdd8df692c00d5e5fa0fbdd6dbf54b46f9cd8`
 - Local origin/main: `598558e10a39120a5c3908c202d0875187b34c8f`
 - Primary worktree head: `598558e10a39120a5c3908c202d0875187b34c8f`
 
@@ -10,7 +10,6 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #10 | `feature/rust-pr-gates@cd4aebb929c2` | `main` | CLEAN | COMPLETED:SUCCESS | feat(rust): add pinned stable PR gates |
 
 ## Recent workflows
 
