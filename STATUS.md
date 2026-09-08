@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 7 |
 | **Future** | Deferred roadmap work | 3 |
-| **Done** | Accepted, integrated, and durably verified | 0 |
+| **Done** | Accepted, integrated, and durably verified | 1 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -28,7 +28,7 @@ alternative.
 flowchart LR
     subgraph series_00["00 - Coordination foundation"]
         direction TB
-        AR_0001["AR-0001 - In progress"]:::status_in_progress
+        AR_0001["AR-0001 - Done"]:::status_done
         AR_0002["AR-0002 - Planned"]:::status_planned
         AR_0003["AR-0003 - Planned"]:::status_planned
         AR_0004["AR-0004 - Planned"]:::status_planned
@@ -86,12 +86,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality | codex-awq-bootstrap-20260908 |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  |  Wait for exact ASB attestation head post-main quality, Rust and emulated-aarch64 runs; then finish consumer and root coordination audits.  |
-
 ### Planned (7)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -111,3 +105,9 @@ flowchart LR
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
+
+### Done (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality | Unclaimed |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  |  Wait for exact ASB attestation head post-main quality, Rust and emulated-aarch64 runs; then finish consumer and root coordination audits.  |
