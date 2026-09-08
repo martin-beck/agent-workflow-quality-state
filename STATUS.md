@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**16 ARs tracked** across 4 active status categories.
+**16 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 9 |
+| **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 3 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -43,7 +43,7 @@ flowchart LR
         AR_0013["AR-0013 - Planned"]:::status_planned
         AR_0014["AR-0014 - Planned"]:::status_planned
         AR_0015["AR-0015 - Planned"]:::status_planned
-        AR_0016["AR-0016 - Planned"]:::status_planned
+        AR_0016["AR-0016 - Open"]:::status_open
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -110,7 +110,13 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | codex-awq-ar0004 | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Decompose one child AR per adapter family and define portable evidence normalization. |
 
-### Planned (9)
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Add a strict tracked-source checker, tests and CI with explicit generated and vendor exclusions. |
+
+### Planned (8)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -121,7 +127,6 @@ flowchart LR
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Unclaimed | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Unclaimed | Implement Markdown, link and prose adapters on the shared contract. | Select reviewed offline-capable tools and add deterministic Markdown, link and prose fixtures. |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Unclaimed | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Add a strict tracked-source checker, tests and CI with explicit generated and vendor exclusions. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 
 ### Future (3)
