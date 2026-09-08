@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `fcf8df6ab7ac8d5be63400727bcf2b02fff74804`
+- Product remote main: `cbf1033057864471e267ffaa42aebc45388b9ea6`
 - Local origin/main: `fcf8df6ab7ac8d5be63400727bcf2b02fff74804`
 - Primary worktree head: `9abdc210e028300026c4cc39e2516ef5f3e9f66f`
 
@@ -10,12 +10,12 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #8 | `feature/docs-adapter@e9fe83980e29` | `main` | UNKNOWN | - | feat(adapters): add pinned documentation quality gates |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34255357953 | `e9fe83980e29` | pull_request | Verify | completed:success |
 | 34252899157 | `fcf8df6ab7ac` | push | Verify | completed:success |
 | 34252179291 | `de21cb393087` | pull_request | Verify | completed:success |
 | 34248076424 | `9abdc210e028` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34233820539 | `65c0b9c0f4b1` | push | Verify | completed:success |
 | 34233707338 | `165ec3c0cb3c` | pull_request | Verify | completed:success |
 | 34231100847 | `898b77f5ba4a` | pull_request | Verify | completed:success |
-| 34222774727 | `1ef7254078ab` | push | Verify | completed:success |
