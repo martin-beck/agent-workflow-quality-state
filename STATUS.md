@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 3 |
@@ -29,7 +29,7 @@ flowchart LR
     subgraph series_00["00 - Coordination foundation"]
         direction TB
         AR_0001["AR-0001 - Done"]:::status_done
-        AR_0002["AR-0002 - Open"]:::status_open
+        AR_0002["AR-0002 - In progress"]:::status_in_progress
         AR_0003["AR-0003 - Planned"]:::status_planned
         AR_0004["AR-0004 - Planned"]:::status_planned
         AR_0005["AR-0005 - Planned"]:::status_planned
@@ -86,11 +86,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Decompose control-source ingestion, mapping review, generated matrices and drift detection. |
+| P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | codex-awq-ar0002 | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Decompose control-source ingestion, mapping review, generated matrices and drift detection. |
 
 ### Planned (6)
 
