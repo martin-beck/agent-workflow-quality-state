@@ -134,7 +134,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | codex-awq-state-headers-v033-20260908 | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
-| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | codex-awq-ar0020 | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Pin Rust 1.93.0 acquisition and implement offline native-equivalent PR contracts. |
+| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | codex-awq-ar0020 | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Create the signed DCO commit, publish its PR, and verify exact-head CI. |
 
 ### Blocked (1)
 
