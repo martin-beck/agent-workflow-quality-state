@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #8 | `feature/docs-adapter@e9fe83980e29` | `main` | UNKNOWN | - | feat(adapters): add pinned documentation quality gates |
 
 ## Recent workflows
 
