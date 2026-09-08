@@ -20,7 +20,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after all common adapter families stabilize. | - |
+| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Complete and release the Rust and Android/JVM child ARs, then verify umbrella acceptance. | - |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. | - |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. | - |
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. | - |
