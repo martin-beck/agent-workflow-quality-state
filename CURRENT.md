@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Implement first-class Python format, lint, type, test and coverage adapters on the shared contract. | Add pinned Ruff, mypy and project-test adapters with project-owned configuration and equivalence fixtures. | codex-awq-ar0012 |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Create and verify a signed DCO fix commit, push PR 4, and confirm hosted verification on the immutable new head. | codex-awq-header-audit |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. | codex-awq-header-audit |
 
 ## Planned
 
