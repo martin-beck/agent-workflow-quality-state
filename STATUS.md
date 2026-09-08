@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 3 |
@@ -47,7 +47,7 @@ flowchart LR
         AR_0017["AR-0017 - Blocked"]:::status_blocked
         AR_0018["AR-0018 - Planned"]:::status_planned
         AR_0019["AR-0019 - Planned"]:::status_planned
-        AR_0020["AR-0020 - Open"]:::status_open
+        AR_0020["AR-0020 - In progress"]:::status_in_progress
         AR_0021["AR-0021 - Planned"]:::status_planned
         AR_0022["AR-0022 - Planned"]:::status_planned
     end
@@ -132,11 +132,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Unclaimed | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Pin Rust 1.93.0 acquisition and implement offline native-equivalent PR contracts. |
+| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | codex-awq-ar0020 | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Pin Rust 1.93.0 acquisition and implement offline native-equivalent PR contracts. |
 
 ### Blocked (2)
 
