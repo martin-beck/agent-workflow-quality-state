@@ -8,7 +8,6 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. | codex-awq-state-headers-v033-20260908 |
-| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Create the signed DCO commit, publish its PR, and verify exact-head CI. | codex-awq-ar0020 |
 
 ## Blocked
 
@@ -49,3 +48,4 @@ Never edit this file directly.
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Published AWQ v0.6.0 with reviewed opt-in ShellCheck, shfmt and Bats adapters plus atomic checksum-pinned acquisition. | No further AR-0013 action; select the next dependency-ready adapter family. | - |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Published AWQ v0.7.0 with reviewed offline rumdl and Vale documentation adapters, bounded tracked-format selection, and checksum-pinned acquisition. | No further AR-0014 action; select the next dependency-ready adapter family. | - |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. | - |
+| P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Create the signed DCO commit, publish its PR, and verify exact-head CI. | - |
