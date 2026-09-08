@@ -90,7 +90,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | codex-awq-ar0002 | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Decompose control-source ingestion, mapping review, generated matrices and drift detection. |
+| P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | codex-awq-ar0002 | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 
 ### Planned (6)
 
