@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 3 |
@@ -45,7 +45,7 @@ flowchart LR
         AR_0015["AR-0015 - Done"]:::status_done
         AR_0016["AR-0016 - Blocked"]:::status_blocked
         AR_0017["AR-0017 - Blocked"]:::status_blocked
-        AR_0018["AR-0018 - Open"]:::status_open
+        AR_0018["AR-0018 - In progress"]:::status_in_progress
         AR_0019["AR-0019 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
@@ -122,11 +122,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Unclaimed | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Promote and implement the Rust profile after AR-0005 decomposition is recorded. |
+| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | codex-awq-ar0018 | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Promote and implement the Rust profile after AR-0005 decomposition is recorded. |
 
 ### Blocked (2)
 

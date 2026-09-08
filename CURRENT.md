@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Promote and implement the Rust profile after AR-0005 decomposition is recorded. | - |
+| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Promote and implement the Rust profile after AR-0005 decomposition is recorded. | codex-awq-ar0018 |
 
 ## Blocked
 
