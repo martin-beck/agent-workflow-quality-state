@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. | - |
+
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -16,7 +22,6 @@ Never edit this file directly.
 | P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Decompose Rust and Android JVM implementations after all common adapter families stabilize. | - |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. | - |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. | - |
-| P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Implement first-class ShellCheck, shfmt and Bats adapters on the shared contract. | Add reviewed tool pins, portable argv and native-equivalence fixtures for shell projects. | - |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Implement Markdown, link and prose adapters on the shared contract. | Select reviewed offline-capable tools and add deterministic Markdown, link and prose fixtures. | - |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
