@@ -29,6 +29,10 @@ a `Signed-off-by` trailer matching the author. Product changes reach `main` only
 pull request. Never weaken or regenerate a policy, threshold, exception, baseline or evidence record
 merely to make a gate pass.
 
+## Source license headers
+
+Every tracked Python, shell, TLA+ and reviewed extensionless executable source must carry exactly one adjacent Huawei Technologies 2026 copyright and SPDX MIT pair. Preserve a shebang or TLA+ MODULE declaration as line 1 and place the pair immediately after it. Run `uv run python tools/check_source_headers.py`; the same policy is enforced by pre-commit and the dedicated source-headers workflow.
+
 ## Verification
 
 Run focused tests during development and the complete applicable gate on the exact candidate tree.

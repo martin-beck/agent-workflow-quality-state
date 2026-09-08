@@ -1,0 +1,11 @@
+minimum_pre_commit_version: "4.6.2"
+fail_fast: false
+
+repos:
+  - repo: local
+    hooks:
+      - id: source-headers
+        name: Verify Huawei/MIT source headers
+        entry: python3 tools/check_source_headers.py
+        language: system
+        pass_filenames: false
