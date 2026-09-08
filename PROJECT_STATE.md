@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `cbf1033057864471e267ffaa42aebc45388b9ea6`
+- Product remote main: `598558e10a39120a5c3908c202d0875187b34c8f`
 - Local origin/main: `cbf1033057864471e267ffaa42aebc45388b9ea6`
 - Primary worktree head: `9abdc210e028300026c4cc39e2516ef5f3e9f66f`
 
@@ -10,12 +10,12 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #9 | `feature/schema-adapter@dd1b0ac7b9b8` | `main` | BLOCKED | - | feat(schema): add pinned structured-data adapters |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34264442308 | `dd1b0ac7b9b8` | pull_request | Verify | completed:success |
 | 34255508251 | `cbf103305786` | push | Verify | completed:success |
 | 34255357953 | `e9fe83980e29` | pull_request | Verify | completed:success |
 | 34252899157 | `fcf8df6ab7ac` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34238061761 | `5c7a6a012a9b` | pull_request | Verify | completed:success |
 | 34237529635 | `9af80c5efc49` | pull_request | Verify | completed:failure |
 | 34233820539 | `65c0b9c0f4b1` | push | Verify | completed:success |
-| 34233707338 | `165ec3c0cb3c` | pull_request | Verify | completed:success |
