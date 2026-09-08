@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**17 ARs tracked** across 5 active status categories.
+**17 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 3 |
-| **Done** | Accepted, integrated, and durably verified | 7 |
+| **Done** | Accepted, integrated, and durably verified | 8 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -42,7 +42,7 @@ flowchart LR
         AR_0012["AR-0012 - Done"]:::status_done
         AR_0013["AR-0013 - Done"]:::status_done
         AR_0014["AR-0014 - Done"]:::status_done
-        AR_0015["AR-0015 - In progress"]:::status_in_progress
+        AR_0015["AR-0015 - Done"]:::status_done
         AR_0016["AR-0016 - Blocked"]:::status_blocked
         AR_0017["AR-0017 - Blocked"]:::status_blocked
     end
@@ -106,12 +106,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | codex-awq-ar0015 | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
-
 ### Blocked (2)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -136,7 +130,7 @@ flowchart LR
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
 
-### Done (7)
+### Done (8)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -147,3 +141,4 @@ flowchart LR
 | P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Unclaimed | Published AWQ v0.5.0 with reviewed opt-in Python quality adapters and normalized remediation evidence. | No further AR-0012 action; select the next dependency-ready adapter family. |
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Unclaimed | Published AWQ v0.6.0 with reviewed opt-in ShellCheck, shfmt and Bats adapters plus atomic checksum-pinned acquisition. | No further AR-0013 action; select the next dependency-ready adapter family. |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Unclaimed | Published AWQ v0.7.0 with reviewed offline rumdl and Vale documentation adapters, bounded tracked-format selection, and checksum-pinned acquisition. | No further AR-0014 action; select the next dependency-ready adapter family. |
+| P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Unclaimed | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. |
