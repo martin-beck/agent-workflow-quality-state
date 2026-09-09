@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**22 ARs tracked** across 5 active status categories.
+**22 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 3 |
-| **Done** | Accepted, integrated, and durably verified | 14 |
+| **Done** | Accepted, integrated, and durably verified | 15 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -32,7 +32,7 @@ flowchart LR
         AR_0002["AR-0002 - Done"]:::status_done
         AR_0003["AR-0003 - Done"]:::status_done
         AR_0004["AR-0004 - Done"]:::status_done
-        AR_0005["AR-0005 - In progress"]:::status_in_progress
+        AR_0005["AR-0005 - Done"]:::status_done
         AR_0006["AR-0006 - Planned"]:::status_planned
         AR_0007["AR-0007 - Planned"]:::status_planned
         AR_0008["AR-0008 - Planned"]:::status_planned
@@ -129,12 +129,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | codex-awq-ar0005-acceptance | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Umbrella acceptance verified; close AR-0005 and select the next dependency-ready P1 AR. |
-
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -157,7 +151,7 @@ flowchart LR
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
 
-### Done (14)
+### Done (15)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -166,6 +160,7 @@ flowchart LR
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
+| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Umbrella acceptance verified; close AR-0005 and select the next dependency-ready P1 AR. |
 | P1 | [AR-0012](tasks/AR-0012.md): Pinned Python quality adapters | Unclaimed | Published AWQ v0.5.0 with reviewed opt-in Python quality adapters and normalized remediation evidence. | No further AR-0012 action; select the next dependency-ready adapter family. |
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Unclaimed | Published AWQ v0.6.0 with reviewed opt-in ShellCheck, shfmt and Bats adapters plus atomic checksum-pinned acquisition. | No further AR-0013 action; select the next dependency-ready adapter family. |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Unclaimed | Published AWQ v0.7.0 with reviewed offline rumdl and Vale documentation adapters, bounded tracked-format selection, and checksum-pinned acquisition. | No further AR-0014 action; select the next dependency-ready adapter family. |
