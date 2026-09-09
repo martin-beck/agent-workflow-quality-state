@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. | - |
+
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -13,7 +19,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. | - |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 
