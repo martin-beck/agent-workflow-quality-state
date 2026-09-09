@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**22 ARs tracked** across 4 active status categories.
+**22 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
-| **Planned** | Defined work awaiting promotion or dependencies | 7 |
+| **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 11 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -49,7 +49,7 @@ flowchart LR
         AR_0019["AR-0019 - Planned"]:::status_planned
         AR_0020["AR-0020 - Done"]:::status_done
         AR_0021["AR-0021 - Done"]:::status_done
-        AR_0022["AR-0022 - Planned"]:::status_planned
+        AR_0022["AR-0022 - Open"]:::status_open
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -129,13 +129,19 @@ flowchart LR
 
 ## Complete AR inventory
 
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Unclaimed | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. |
+
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. |
 
-### Planned (7)
+### Planned (6)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -145,7 +151,6 @@ flowchart LR
 | P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Unclaimed | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. |
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Unclaimed | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
-| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Unclaimed | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. |
 
 ### Future (3)
 

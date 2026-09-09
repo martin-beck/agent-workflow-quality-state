@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. | - |
+
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -19,7 +25,6 @@ Never edit this file directly.
 | P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. | - |
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
-| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. | - |
 
 ## Future
 
