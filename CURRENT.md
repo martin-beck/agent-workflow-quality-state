@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0023](tasks/AR-0023.md): Deterministic release artifacts and manifest | Make wheel and source builds reproducible and bind them to a canonical offline-verifiable release manifest. | Promote and implement the deterministic build recipe, manifest schema, generator, verifier and hostile fixtures. | - |
+| P1 | [AR-0023](tasks/AR-0023.md): Deterministic release artifacts and manifest | Make wheel and source builds reproducible and bind them to a canonical offline-verifiable release manifest. | Promote and implement the deterministic build recipe, manifest schema, generator, verifier and hostile fixtures. | codex-awq-ar0023 |
 
 ## Blocked
 
