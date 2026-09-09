@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0024](tasks/AR-0024.md): Canonical SPDX SBOM and license inventory | Generate deterministic release SBOMs that identify AWQ, build inputs, licenses and artifact relationships. | Implement after AR-0023 fixes the release-manifest and artifact identity contracts. | - |
+
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -15,7 +21,6 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Complete and release the deterministic-artifact, SPDX SBOM and signed-provenance/update children, then verify umbrella acceptance. | - |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. | - |
-| P1 | [AR-0024](tasks/AR-0024.md): Canonical SPDX SBOM and license inventory | Generate deterministic release SBOMs that identify AWQ, build inputs, licenses and artifact relationships. | Implement after AR-0023 fixes the release-manifest and artifact identity contracts. | - |
 | P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 
