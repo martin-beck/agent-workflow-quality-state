@@ -133,7 +133,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | codex-awq-ar0022 | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Implement after the stable Rust toolchain contract is released. |
+| P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | codex-awq-ar0022 | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. |
 
 ### Blocked (1)
 
