@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `d4c78d4f2639ab1b0741275ca232645e1923f274`
+- Product remote main: `bcccd187d4df54a5576bb453ebf573e23dd81527`
 - Local origin/main: `d4c78d4f2639ab1b0741275ca232645e1923f274`
 - Primary worktree head: `d4c78d4f2639ab1b0741275ca232645e1923f274`
 
@@ -10,12 +10,12 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #12 | `feature/rust-advanced-evidence@7bc217d42278` | `main` | CLEAN | COMPLETED:SUCCESS | feat(rust): add bounded advanced evidence gates |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34307038828 | `bcccd187d4df` | push | Verify | in_progress:- |
 | 34306756049 | `7bc217d42278` | pull_request | Verify | completed:success |
 | 34306022460 | `e32c5a315a4f` | pull_request | Verify | completed:failure |
 | 34293675962 | `d4c78d4f2639` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34255508251 | `cbf103305786` | push | Verify | completed:success |
 | 34255357953 | `e9fe83980e29` | pull_request | Verify | completed:success |
 | 34252899157 | `fcf8df6ab7ac` | push | Verify | completed:success |
-| 34252179291 | `de21cb393087` | pull_request | Verify | completed:success |
