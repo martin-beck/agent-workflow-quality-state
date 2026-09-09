@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #17 | `feature/consumer-promotion@109fe04928d8` | `main` | BLOCKED | COMPLETED:FAILURE | feat(promotion): add consumer equivalence controls |
+| #17 | `feature/consumer-promotion@41090ec04193` | `main` | BLOCKED | - | feat(promotion): add consumer equivalence controls |
 
 ## Recent workflows
 
