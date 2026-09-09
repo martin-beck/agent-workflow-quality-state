@@ -11,7 +11,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 28, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 32, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 9, ahead 0 |
-| `agent-workflow-quality-formal` | `feature/formal-refactoring` | `b2bc649f6885` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-formal` | `feature/formal-refactoring` | `b2bc649f6885` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/assurance.py`, `src/awq/formal_model.py` |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 34, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 3, ahead 0 |
