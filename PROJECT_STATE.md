@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #12 | `feature/rust-advanced-evidence@e32c5a315a4f` | `main` | BLOCKED | COMPLETED:FAILURE | feat(rust): add bounded advanced evidence gates |
+| #12 | `feature/rust-advanced-evidence@7bc217d42278` | `main` | BLOCKED | - | feat(rust): add bounded advanced evidence gates |
 
 ## Recent workflows
 
