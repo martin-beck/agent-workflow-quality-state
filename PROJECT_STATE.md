@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #15 | `feature/release-sbom@39663891de5e` | `main` | BLOCKED | QUEUED: | feat(supply-chain): add canonical SPDX release SBOMs |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34340871034 | `39663891de5e` | pull_request | Verify | queued:- |
 | 34332525228 | `a641a93311d8` | push | Verify | completed:success |
 | 34331992662 | `154ac4f04d6a` | pull_request | Verify | completed:success |
 | 34314160137 | `9920177ab06c` | push | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34293537662 | `a42d437e50d5` | pull_request | Verify | completed:success |
 | 34279026748 | `5f3cdd8df692` | push | Verify | completed:success |
 | 34278769808 | `cd4aebb929c2` | pull_request | Verify | completed:success |
-| 34264548735 | `598558e10a39` | push | Verify | completed:success |
