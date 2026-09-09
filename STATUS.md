@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 0 |
 | **Future** | Deferred roadmap work | 5 |
@@ -53,7 +53,7 @@ flowchart LR
         AR_0023["AR-0023 - Done"]:::status_done
         AR_0024["AR-0024 - Done"]:::status_done
         AR_0025["AR-0025 - Done"]:::status_done
-        AR_0026["AR-0026 - Open"]:::status_open
+        AR_0026["AR-0026 - In progress"]:::status_in_progress
         AR_0027["AR-0027 - Future"]:::status_future
         AR_0028["AR-0028 - Future"]:::status_future
     end
@@ -151,11 +151,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Unclaimed | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. |
+| P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | codex-awq-ar0026-lifecycle | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. |
 
 ### Future (5)
 
