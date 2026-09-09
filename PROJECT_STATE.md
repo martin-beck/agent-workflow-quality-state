@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #17 | `feature/consumer-promotion@109fe04928d8` | `main` | BLOCKED | QUEUED: | feat(promotion): add consumer equivalence controls |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34363125270 | `109fe04928d8` | pull_request | Verify | queued:- |
 | 34351980636 | `2b3ff6ed8c02` | push | Release attestation | completed:success |
 | 34350694679 | `2b3ff6ed8c02` | push | Verify | completed:success |
 | 34350101584 | `bb469ca69dcd` | pull_request | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34313703688 | `6aad9a8aea0b` | pull_request | Verify | completed:success |
 | 34307038828 | `bcccd187d4df` | push | Verify | completed:success |
 | 34306756049 | `7bc217d42278` | pull_request | Verify | completed:success |
-| 34306022460 | `e32c5a315a4f` | pull_request | Verify | completed:failure |
