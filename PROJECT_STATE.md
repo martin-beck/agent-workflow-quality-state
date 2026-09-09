@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `5f3cdd8df692c00d5e5fa0fbdd6dbf54b46f9cd8`
+- Product remote main: `d4c78d4f2639ab1b0741275ca232645e1923f274`
 - Local origin/main: `5f3cdd8df692c00d5e5fa0fbdd6dbf54b46f9cd8`
 - Primary worktree head: `5f3cdd8df692c00d5e5fa0fbdd6dbf54b46f9cd8`
 
@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #11 | `feature/rust-supply-api@a42d437e50d5` | `main` | BLOCKED | QUEUED: | feat(rust): add supply and API compatibility gates |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34293537662 | `a42d437e50d5` | pull_request | Verify | queued:- |
+| 34293675962 | `d4c78d4f2639` | push | Verify | queued:- |
+| 34293537662 | `a42d437e50d5` | pull_request | Verify | completed:success |
 | 34279026748 | `5f3cdd8df692` | push | Verify | completed:success |
 | 34278769808 | `cd4aebb929c2` | pull_request | Verify | completed:success |
 | 34264548735 | `598558e10a39` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34252179291 | `de21cb393087` | pull_request | Verify | completed:success |
 | 34248076424 | `9abdc210e028` | push | Verify | completed:success |
 | 34247904466 | `ae71bc5c29b6` | pull_request | Verify | completed:success |
-| 34240677275 | `200bdc6e983d` | push | Verify | completed:success |
