@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `a641a93311d8e7cdf30530b4e367a77bc599bae9`
+- Product remote main: `43bcdbc38e7bbf8c8fdfdecd6cd635a9ef517f78`
 - Local origin/main: `a641a93311d8e7cdf30530b4e367a77bc599bae9`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #15 | `feature/release-sbom@39663891de5e` | `main` | BLOCKED | QUEUED: | feat(supply-chain): add canonical SPDX release SBOMs |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34340871034 | `39663891de5e` | pull_request | Verify | queued:- |
+| 34341451196 | `43bcdbc38e7b` | push | Verify | queued:- |
+| 34340871034 | `39663891de5e` | pull_request | Verify | completed:success |
 | 34332525228 | `a641a93311d8` | push | Verify | completed:success |
 | 34331992662 | `154ac4f04d6a` | pull_request | Verify | completed:success |
 | 34314160137 | `9920177ab06c` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34293675962 | `d4c78d4f2639` | push | Verify | completed:success |
 | 34293537662 | `a42d437e50d5` | pull_request | Verify | completed:success |
 | 34279026748 | `5f3cdd8df692` | push | Verify | completed:success |
-| 34278769808 | `cd4aebb929c2` | pull_request | Verify | completed:success |
