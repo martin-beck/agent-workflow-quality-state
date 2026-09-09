@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 3 |
@@ -52,7 +52,7 @@ flowchart LR
         AR_0022["AR-0022 - Done"]:::status_done
         AR_0023["AR-0023 - Done"]:::status_done
         AR_0024["AR-0024 - Done"]:::status_done
-        AR_0025["AR-0025 - Open"]:::status_open
+        AR_0025["AR-0025 - In progress"]:::status_in_progress
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -142,11 +142,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Unclaimed | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. |
+| P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | codex-awq-ar0025 | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. |
 
 ### Blocked (1)
 

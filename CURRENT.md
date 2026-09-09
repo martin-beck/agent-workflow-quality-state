@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. | - |
+| P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. | codex-awq-ar0025 |
 
 ## Blocked
 
