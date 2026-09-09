@@ -12,8 +12,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 28, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 5, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 30, ahead 0 |
-| `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `43bcdbc38e7b` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/trust.py` |
+| `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `43bcdbc38e7b` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/provenance.py`, `src/awq/trust.py` |
 | `agent-workflow-quality-release-reproducibility` | `feature/release-reproducibility` | `a641a93311d8` | 0 | behind 2, ahead 0 |
 | `agent-workflow-quality-release-sbom` | `feature/release-sbom` | `39663891de5e` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 0, ahead 0 |
