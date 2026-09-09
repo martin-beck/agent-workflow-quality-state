@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. | codex-awq-ar0018 |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -46,6 +40,7 @@ Never edit this file directly.
 | P1 | [AR-0013](tasks/AR-0013.md): Pinned shell quality adapters | Published AWQ v0.6.0 with reviewed opt-in ShellCheck, shfmt and Bats adapters plus atomic checksum-pinned acquisition. | No further AR-0013 action; select the next dependency-ready adapter family. | - |
 | P1 | [AR-0014](tasks/AR-0014.md): Pinned documentation quality adapters | Published AWQ v0.7.0 with reviewed offline rumdl and Vale documentation adapters, bounded tracked-format selection, and checksum-pinned acquisition. | No further AR-0014 action; select the next dependency-ready adapter family. | - |
 | P1 | [AR-0015](tasks/AR-0015.md): Pinned schema quality adapters | Implement JSON, YAML and JSON Schema adapters on the shared contract. | Add strict parser and schema-validation adapters with duplicate-key and draft/version fixtures. | - |
+| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. | - |
 | P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Create the signed DCO commit, publish its PR, and verify exact-head CI. | - |
 | P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. | - |
 | P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. | - |
