@@ -12,7 +12,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 34, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 11, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 1, ahead 0 |
-| `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `ed05fe312c4c` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `ed05fe312c4c` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/lifecycle_model.py` |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 36, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 5, ahead 0 |
