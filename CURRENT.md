@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Implement manifest-driven, offline Android/JVM adapters and checksum-pinned JDK/Gradle acquisition, then prove native equivalence and device-evidence boundaries. | codex-awq-ar0019 |
+| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Create and verify the signed DCO v0.12.0 release-candidate commit, publish its PR, require exact-head CI, merge, tag, release, and fresh-clone verify. | codex-awq-ar0019 |
 
 ## Blocked
 
