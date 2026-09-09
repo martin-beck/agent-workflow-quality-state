@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #18 | `feature/formal-refactoring@11a84334d54c` | `main` | BLOCKED | QUEUED: | feat(assurance): add bounded formal and refactor evidence |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34417084111 | `11a84334d54c` | pull_request | Verify | queued:- |
 | 34365698455 | `b2bc649f6885` | push | Release attestation | completed:success |
 | 34364301228 | `b2bc649f6885` | push | Verify | completed:success |
 | 34363730582 | `41090ec04193` | pull_request | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34340871034 | `39663891de5e` | pull_request | Verify | completed:success |
 | 34332525228 | `a641a93311d8` | push | Verify | completed:success |
 | 34331992662 | `154ac4f04d6a` | pull_request | Verify | completed:success |
-| 34314160137 | `9920177ab06c` | push | Verify | completed:success |
