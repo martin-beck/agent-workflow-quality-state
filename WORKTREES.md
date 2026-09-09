@@ -10,6 +10,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `dd1b0ac7b9b8` | 0 | behind 8, ahead 0 |
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 22, ahead 0 |
+| `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `bcccd187d4df` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 7, ahead 0 |
