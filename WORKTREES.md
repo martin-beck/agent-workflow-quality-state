@@ -11,8 +11,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 15, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 19, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 21, ahead 0 |
-| `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `e32c5a315a4f` | 5 | behind 0, ahead 1 |
-| changed files | - | - | - | `fixtures/conforming/rust-advanced/fuzz/corpus/classify/seed -> fixtures/conforming/rust-advanced/fuzz/corpus/classify/seed.txt`, `fixtures/conforming/rust-advanced/quality/rust-advanced.json`, `quality/awq.json`, `tests/test_rust_advanced_helper.py`, `tests/test_rust_advanced_helper_failures.py` |
+| `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 1, ahead 0 |
