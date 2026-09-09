@@ -133,7 +133,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | codex-awq-ar0005-acceptance | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Complete and release the Rust and Android/JVM child ARs, then verify umbrella acceptance. |
+| P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | codex-awq-ar0005-acceptance | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Umbrella acceptance verified; close AR-0005 and select the next dependency-ready P1 AR. |
 
 ### Blocked (1)
 
