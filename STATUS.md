@@ -58,7 +58,6 @@ flowchart LR
     AR_0001 --> AR_0003
     AR_0001 --> AR_0004
     AR_0001 --> AR_0006
-    AR_0001 --> AR_0007
     AR_0001 --> AR_0008
     AR_0001 --> AR_0009
     AR_0001 --> AR_0010
@@ -66,7 +65,6 @@ flowchart LR
     AR_0001 --> AR_0019
     AR_0001 --> AR_0020
     AR_0001 --> AR_0023
-    AR_0002 --> AR_0007
     AR_0002 --> AR_0023
     AR_0003 --> AR_0006
     AR_0003 --> AR_0023
@@ -96,9 +94,12 @@ flowchart LR
     AR_0020 --> AR_0022
     AR_0021 --> AR_0018
     AR_0022 --> AR_0018
+    AR_0023 --> AR_0007
     AR_0023 --> AR_0024
     AR_0023 --> AR_0025
+    AR_0024 --> AR_0007
     AR_0024 --> AR_0025
+    AR_0025 --> AR_0007
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -113,13 +114,13 @@ flowchart LR
 
 | AR | Prerequisites | Dependents |
 | --- | --- | --- |
-| [AR-0001](tasks/AR-0001.md) | None | [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md), [AR-0004](tasks/AR-0004.md), [AR-0006](tasks/AR-0006.md), [AR-0007](tasks/AR-0007.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0010](tasks/AR-0010.md), [AR-0011](tasks/AR-0011.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md), [AR-0023](tasks/AR-0023.md) |
-| [AR-0002](tasks/AR-0002.md) | [AR-0001](tasks/AR-0001.md) | [AR-0007](tasks/AR-0007.md), [AR-0023](tasks/AR-0023.md) |
+| [AR-0001](tasks/AR-0001.md) | None | [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md), [AR-0004](tasks/AR-0004.md), [AR-0006](tasks/AR-0006.md), [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0010](tasks/AR-0010.md), [AR-0011](tasks/AR-0011.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md), [AR-0023](tasks/AR-0023.md) |
+| [AR-0002](tasks/AR-0002.md) | [AR-0001](tasks/AR-0001.md) | [AR-0023](tasks/AR-0023.md) |
 | [AR-0003](tasks/AR-0003.md) | [AR-0001](tasks/AR-0001.md) | [AR-0006](tasks/AR-0006.md), [AR-0023](tasks/AR-0023.md) |
 | [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0005](tasks/AR-0005.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) | [AR-0008](tasks/AR-0008.md) |
 | [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | None |
-| [AR-0007](tasks/AR-0007.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md) | [AR-0011](tasks/AR-0011.md) |
+| [AR-0007](tasks/AR-0007.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) | [AR-0011](tasks/AR-0011.md) |
 | [AR-0008](tasks/AR-0008.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0005](tasks/AR-0005.md) | [AR-0010](tasks/AR-0010.md) |
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
 | [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | None |
@@ -135,9 +136,9 @@ flowchart LR
 | [AR-0020](tasks/AR-0020.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0018](tasks/AR-0018.md), [AR-0021](tasks/AR-0021.md), [AR-0022](tasks/AR-0022.md) |
 | [AR-0021](tasks/AR-0021.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md) |
 | [AR-0022](tasks/AR-0022.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md) |
-| [AR-0023](tasks/AR-0023.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md) | [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) |
-| [AR-0024](tasks/AR-0024.md) | [AR-0023](tasks/AR-0023.md) | [AR-0025](tasks/AR-0025.md) |
-| [AR-0025](tasks/AR-0025.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md) | None |
+| [AR-0023](tasks/AR-0023.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md) | [AR-0007](tasks/AR-0007.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) |
+| [AR-0024](tasks/AR-0024.md) | [AR-0023](tasks/AR-0023.md) | [AR-0007](tasks/AR-0007.md), [AR-0025](tasks/AR-0025.md) |
+| [AR-0025](tasks/AR-0025.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md) | [AR-0007](tasks/AR-0007.md) |
 
 ## Complete AR inventory
 
@@ -145,7 +146,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | codex-awq-ar0007-decompose | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
+| P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | codex-awq-ar0007-decompose | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Complete and release the deterministic-artifact, SPDX SBOM and signed-provenance/update children, then verify umbrella acceptance. |
 
 ### Blocked (1)
 
