@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**22 ARs tracked** across 4 active status categories.
+**22 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
-| **Planned** | Defined work awaiting promotion or dependencies | 6 |
+| **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 3 |
 | **Done** | Accepted, integrated, and durably verified | 12 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -45,7 +45,7 @@ flowchart LR
         AR_0015["AR-0015 - Done"]:::status_done
         AR_0016["AR-0016 - Blocked"]:::status_blocked
         AR_0017["AR-0017 - Done"]:::status_done
-        AR_0018["AR-0018 - Planned"]:::status_planned
+        AR_0018["AR-0018 - Open"]:::status_open
         AR_0019["AR-0019 - Planned"]:::status_planned
         AR_0020["AR-0020 - Done"]:::status_done
         AR_0021["AR-0021 - Done"]:::status_done
@@ -129,20 +129,25 @@ flowchart LR
 
 ## Complete AR inventory
 
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Unclaimed | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. |
+
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Unclaimed | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. |
 
-### Planned (6)
+### Planned (5)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0005](tasks/AR-0005.md): Rust and Android JVM assurance profiles | Unclaimed | Add deep ecosystem gates for the two compiled stacks used by the initial consumers. | Complete and release the Rust and Android/JVM child ARs, then verify umbrella acceptance. |
 | P1 | [AR-0007](tasks/AR-0007.md): Reproducible releases SBOM and provenance | Unclaimed | Harden AWQ distribution with reproducibility, SBOM, attestations and verified update metadata. | Design the release manifest and decompose reproducibility, SBOM, provenance and update verification. |
 | P1 | [AR-0008](tasks/AR-0008.md): Consumer equivalence and enforcement promotion | Unclaimed | Measure shadow results across all four consumers and safely promote proven shared gates. | Define an equivalence corpus, mismatch taxonomy, observation period and per-consumer promotion decisions. |
-| P1 | [AR-0018](tasks/AR-0018.md): Pinned Rust assurance profile and adapters | Unclaimed | Add reviewed Rust formatting, lint, dependency, compatibility and advanced test evidence contracts. | Complete and release the three Rust child ARs, then verify the combined profile acceptance. |
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Unclaimed | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 
