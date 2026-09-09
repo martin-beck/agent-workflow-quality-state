@@ -133,7 +133,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | codex-awq-ar0019 | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Create and verify the signed DCO v0.12.0 release-candidate commit, publish its PR, require exact-head CI, merge, tag, release, and fresh-clone verify. |
+| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | codex-awq-ar0019 | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Release verification complete; close AR-0019 and verify the AR-0005 umbrella acceptance. |
 
 ### Blocked (1)
 
