@@ -5,7 +5,7 @@
 
 ## Portfolio overview
 
-**25 ARs tracked** across 3 active status categories.
+**28 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
@@ -13,7 +13,7 @@
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 0 |
-| **Future** | Deferred roadmap work | 3 |
+| **Future** | Deferred roadmap work | 6 |
 | **Done** | Accepted, integrated, and durably verified | 21 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
@@ -53,6 +53,9 @@ flowchart LR
         AR_0023["AR-0023 - Done"]:::status_done
         AR_0024["AR-0024 - Done"]:::status_done
         AR_0025["AR-0025 - Done"]:::status_done
+        AR_0026["AR-0026 - Future"]:::status_future
+        AR_0027["AR-0027 - Future"]:::status_future
+        AR_0028["AR-0028 - Future"]:::status_future
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -77,6 +80,9 @@ flowchart LR
     AR_0004 --> AR_0019
     AR_0004 --> AR_0020
     AR_0005 --> AR_0008
+    AR_0006 --> AR_0026
+    AR_0006 --> AR_0027
+    AR_0006 --> AR_0028
     AR_0007 --> AR_0011
     AR_0008 --> AR_0010
     AR_0012 --> AR_0019
@@ -119,7 +125,7 @@ flowchart LR
 | [AR-0003](tasks/AR-0003.md) | [AR-0001](tasks/AR-0001.md) | [AR-0006](tasks/AR-0006.md), [AR-0023](tasks/AR-0023.md) |
 | [AR-0004](tasks/AR-0004.md) | [AR-0001](tasks/AR-0001.md) | [AR-0008](tasks/AR-0008.md), [AR-0009](tasks/AR-0009.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md), [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0005](tasks/AR-0005.md) | [AR-0018](tasks/AR-0018.md), [AR-0019](tasks/AR-0019.md) | [AR-0008](tasks/AR-0008.md) |
-| [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | None |
+| [AR-0006](tasks/AR-0006.md) | [AR-0001](tasks/AR-0001.md), [AR-0003](tasks/AR-0003.md) | [AR-0026](tasks/AR-0026.md), [AR-0027](tasks/AR-0027.md), [AR-0028](tasks/AR-0028.md) |
 | [AR-0007](tasks/AR-0007.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) | [AR-0011](tasks/AR-0011.md) |
 | [AR-0008](tasks/AR-0008.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0005](tasks/AR-0005.md) | [AR-0010](tasks/AR-0010.md) |
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
@@ -139,6 +145,9 @@ flowchart LR
 | [AR-0023](tasks/AR-0023.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md) | [AR-0007](tasks/AR-0007.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) |
 | [AR-0024](tasks/AR-0024.md) | [AR-0023](tasks/AR-0023.md) | [AR-0007](tasks/AR-0007.md), [AR-0025](tasks/AR-0025.md) |
 | [AR-0025](tasks/AR-0025.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md) | [AR-0007](tasks/AR-0007.md) |
+| [AR-0026](tasks/AR-0026.md) | [AR-0006](tasks/AR-0006.md) | None |
+| [AR-0027](tasks/AR-0027.md) | [AR-0006](tasks/AR-0006.md) | None |
+| [AR-0028](tasks/AR-0028.md) | [AR-0006](tasks/AR-0006.md) | None |
 
 ## Complete AR inventory
 
@@ -148,13 +157,16 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | codex-awq-ar0006-formal | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 
-### Future (3)
+### Future (6)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
+| P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Unclaimed | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. |
+| P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Unclaimed | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. |
+| P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Unclaimed | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. |
 
 ### Done (21)
 
