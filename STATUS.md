@@ -133,7 +133,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | codex-awq-ar0019 | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Promote after the Rust child or when independently scheduled, then implement the Android/JVM profile. |
+| P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | codex-awq-ar0019 | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Implement manifest-driven, offline Android/JVM adapters and checksum-pinned JDK/Gradle acquisition, then prove native equivalence and device-evidence boundaries. |
 
 ### Blocked (1)
 
