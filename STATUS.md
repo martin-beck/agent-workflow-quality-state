@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**25 ARs tracked** across 5 active status categories.
+**25 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 3 |
-| **Done** | Accepted, integrated, and durably verified | 15 |
+| **Done** | Accepted, integrated, and durably verified | 16 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -50,7 +50,7 @@ flowchart LR
         AR_0020["AR-0020 - Done"]:::status_done
         AR_0021["AR-0021 - Done"]:::status_done
         AR_0022["AR-0022 - Done"]:::status_done
-        AR_0023["AR-0023 - In progress"]:::status_in_progress
+        AR_0023["AR-0023 - Done"]:::status_done
         AR_0024["AR-0024 - Planned"]:::status_planned
         AR_0025["AR-0025 - Planned"]:::status_planned
     end
@@ -142,12 +142,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0023](tasks/AR-0023.md): Deterministic release artifacts and manifest | codex-awq-ar0023 | Make wheel and source builds reproducible and bind them to a canonical offline-verifiable release manifest. | Promote and implement the deterministic build recipe, manifest schema, generator, verifier and hostile fixtures. |
-
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -172,7 +166,7 @@ flowchart LR
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
 
-### Done (15)
+### Done (16)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -190,4 +184,5 @@ flowchart LR
 | P1 | [AR-0019](tasks/AR-0019.md): Pinned Android and JVM assurance profile and adapters | Unclaimed | Add reviewed Gradle, Kotlin, Android lint, dependency, ABI and UI-boundary evidence contracts. | Release verification complete; close AR-0019 and verify the AR-0005 umbrella acceptance. |
 | P1 | [AR-0020](tasks/AR-0020.md): Pinned Rust stable PR gates | Unclaimed | Add exact stable-toolchain formatting, Clippy, build, documentation and test contracts. | Create the signed DCO commit, publish its PR, and verify exact-head CI. |
 | P1 | [AR-0021](tasks/AR-0021.md): Pinned Rust supply and API compatibility gates | Unclaimed | Add dependency policy, advisory and public API compatibility contracts for Rust projects. | Implement after stable Rust PR contracts define the toolchain and fixture boundary. |
+| P1 | [AR-0023](tasks/AR-0023.md): Deterministic release artifacts and manifest | Unclaimed | Make wheel and source builds reproducible and bind them to a canonical offline-verifiable release manifest. | Promote and implement the deterministic build recipe, manifest schema, generator, verifier and hostile fixtures. |
 | P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Unclaimed | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. |
