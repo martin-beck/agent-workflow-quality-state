@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `9920177ab06cdadc5a2f64c7f894864b141d04a9`
+- Product remote main: `a641a93311d8e7cdf30530b4e367a77bc599bae9`
 - Local origin/main: `9920177ab06cdadc5a2f64c7f894864b141d04a9`
 - Primary worktree head: `9920177ab06cdadc5a2f64c7f894864b141d04a9`
 
@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #14 | `feature/release-reproducibility@154ac4f04d6a` | `main` | BLOCKED | QUEUED: | feat(release): add reproducible release bundles |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34331992662 | `154ac4f04d6a` | pull_request | Verify | queued:- |
+| 34332525228 | `a641a93311d8` | push | Verify | queued:- |
+| 34331992662 | `154ac4f04d6a` | pull_request | Verify | completed:success |
 | 34314160137 | `9920177ab06c` | push | Verify | completed:success |
 | 34313703688 | `6aad9a8aea0b` | pull_request | Verify | completed:success |
 | 34307038828 | `bcccd187d4df` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34279026748 | `5f3cdd8df692` | push | Verify | completed:success |
 | 34278769808 | `cd4aebb929c2` | pull_request | Verify | completed:success |
 | 34264548735 | `598558e10a39` | push | Verify | completed:success |
-| 34264442308 | `dd1b0ac7b9b8` | pull_request | Verify | completed:success |
