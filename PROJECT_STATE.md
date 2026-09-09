@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #16 | `feature/release-provenance-updates@bb469ca69dcd` | `main` | BLOCKED | QUEUED: | feat(release): verify provenance and trusted updates |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34350101584 | `bb469ca69dcd` | pull_request | Verify | queued:- |
 | 34341451196 | `43bcdbc38e7b` | push | Verify | completed:success |
 | 34340871034 | `39663891de5e` | pull_request | Verify | completed:success |
 | 34332525228 | `a641a93311d8` | push | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34306022460 | `e32c5a315a4f` | pull_request | Verify | completed:failure |
 | 34293675962 | `d4c78d4f2639` | push | Verify | completed:success |
 | 34293537662 | `a42d437e50d5` | pull_request | Verify | completed:success |
-| 34279026748 | `5f3cdd8df692` | push | Verify | completed:success |
