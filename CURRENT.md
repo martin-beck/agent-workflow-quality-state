@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. | - |
+| P1 | [AR-0016](tasks/AR-0016.md): Huawei and MIT source-header compliance | Enforce exact Huawei 2026 and SPDX MIT headers across first-party AWQ source files. | Register the established SSH signing key with GitHub, review and merge product PR 4, then sync state-vendored coordinator source only from a released upstream version. | codex-awq-ar0016-v035 |
 
 ## Planned
 
