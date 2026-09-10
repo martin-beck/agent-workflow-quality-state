@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Regenerate and validate provenance fixture, then run the full static/test/contract/release gates. | codex-awq-ar0035-historical-fix-20260911 |
-| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Resolve the registered product-worktree binding from coordinator state, then resume exact-head review through the valid wrapper boundary. | codex-awq-ar0040-review-20260911 |
+| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Replay schema-runtime path parity with the locked quality environment, then assess bounded traversal, full gates, signatures and exact-head evidence. | codex-awq-ar0040-review-20260911 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Rerun the full suite with the established pinned offline tool prefixes on PATH, then run coverage and remaining generated, contract, model and release gates. | codex-awq-ar0041-corrections-20260911 |
 
 ## Open
