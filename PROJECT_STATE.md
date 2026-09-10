@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `c1fb70c52ae38e4b6beebd7ff8780a978529a74c`
+- Product remote main: `1526873872f58e97bda30e21f64f47865ac8027e`
 - Local origin/main: `c1fb70c52ae38e4b6beebd7ff8780a978529a74c`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #31 | `feature/native-gate-mapping@bcb27518094b` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(native-gates): add mapping contracts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34502772488 | `1526873872f5` | push | Verify | queued:- |
+| 34502772463 | `1526873872f5` | push | Portable onboarding | queued:- |
 | 34502076651 | `bcb27518094b` | pull_request | Portable onboarding | completed:success |
 | 34502076647 | `bcb27518094b` | pull_request | Verify | completed:success |
 | 34498660473 | `c1fb70c52ae3` | push | Release attestation | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34493131912 | `8e6391a246a2` | push | Verify | completed:success |
 | 34493131840 | `8e6391a246a2` | push | Portable onboarding | completed:success |
 | 34492578592 | `3cee7d430fc9` | pull_request | Verify | completed:success |
-| 34492578446 | `3cee7d430fc9` | pull_request | Portable onboarding | completed:success |
-| 34489510483 | `05abe8999b47` | push | Release attestation | completed:success |
