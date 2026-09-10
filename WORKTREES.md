@@ -43,4 +43,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 43, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 41, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 63, ahead 0 |
-| `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `46f11b65f63d` | 0 | behind 0, ahead 1 |
+| `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `46f11b65f63d` | 2 | behind 0, ahead 1 |
+| changed files | - | - | - | `src/awq/terminology.py`, `tests/test_terminology.py` |
