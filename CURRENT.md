@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Regenerate deterministic onboarding metadata for native mapping schema v2, then rerun focused tests. | codex-awq-ar0034-evidence-v2-20260910 |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Apply all implementation changes through handoffctl run using apply_patch patch-text arguments; verify catalog inventory and focused hostile tests. | codex-awq-ar0035-contract-catalog-20260910 |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Correct renderer quoting through handoffctl run, compile, generate the initial exhaustive catalog and baseline, then add hostile catalog tests. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
 
