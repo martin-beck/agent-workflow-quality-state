@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Implement the strict consumer terminology registry, lexical scope checker, schema, profile, fixtures, and generated documentation. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Define and implement the bounded formal-model adapter contract and TLC fixtures. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Implement awq-tlc-v1 fixed-argv validation and bounded terminal normalization, then add catalog/profile/docs and TLC fixtures. |
 
 ### Planned (2)
 
