@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #26 | `release/v0.24.0@3d7e09e1fcb2` | `main` | BLOCKED | - | chore(release): prepare v0.24.0 |
+| #26 | `release/v0.24.0@3d7e09e1fcb2` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.24.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34462677324 | `3d7e09e1fcb2` | pull_request | Verify | queued:- |
-| 34462677284 | `3d7e09e1fcb2` | pull_request | Portable onboarding | queued:- |
+| 34462677324 | `3d7e09e1fcb2` | pull_request | Verify | in_progress:- |
+| 34462677284 | `3d7e09e1fcb2` | pull_request | Portable onboarding | completed:success |
 | 34462003307 | `c980ba56f37f` | pull_request | Verify | completed:failure |
 | 34462003257 | `c980ba56f37f` | pull_request | Portable onboarding | completed:success |
 | 34461305261 | `acfee59cbe59` | pull_request | Verify | completed:failure |
