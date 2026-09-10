@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #23 | `feature/reliability-budgets@fa1f1c4ef60d` | `main` | BLOCKED | QUEUED: | feat(reliability): add bounded performance and retention budgets |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34446288398 | `fa1f1c4ef60d` | pull_request | Verify | queued:- |
 | 34444281372 | `c67727cf615f` | push | Release attestation | completed:success |
 | 34443702601 | `c67727cf615f` | push | Verify | completed:success |
 | 34443232548 | `8e290ade5bcc` | pull_request | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34422670319 | `f2f179b6786c` | pull_request | Verify | completed:success |
 | 34421137144 | `e92eed735826` | push | Release attestation | completed:success |
 | 34420619242 | `e92eed735826` | push | Verify | completed:success |
-| 34420181716 | `05567e7a13b3` | pull_request | Verify | completed:success |
