@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 3 active status categories.
+**50 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 4 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **In progress** | Claimed work with a live lease | 3 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 12 |
 | **Future** | Deferred roadmap work | 0 |
@@ -62,7 +62,7 @@ flowchart LR
         AR_0032["AR-0032 - Done"]:::status_done
         AR_0033["AR-0033 - Done"]:::status_done
         AR_0034["AR-0034 - Done"]:::status_done
-        AR_0035["AR-0035 - In progress"]:::status_in_progress
+        AR_0035["AR-0035 - Open"]:::status_open
         AR_0036["AR-0036 - Planned"]:::status_planned
         AR_0037["AR-0037 - Planned"]:::status_planned
         AR_0038["AR-0038 - Planned"]:::status_planned
@@ -238,14 +238,19 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (4)
+### In progress (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260911 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Second independent reviewer replays all three prior hostile findings against corrected PR #36 head 6e1918ceac9138335a9173a70edbbe80f7cc74af, reviews the complete diff and merges only if every gate remains green. |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Rerun the unchanged exact-head Verify job once after its Android/JVM setup probe mismatch; if it repeats, investigate the pinned installer boundary before changing product bytes. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-review-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Implementation must correct the recorded lifecycle, parity, cleanup, bounded-model and sandbox-outcome blockers before a second independent review; PR #38 must not merge. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-evidence-lineage-20260910 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Push the clean signed exact head, open the AR-0043 pull request, and wait for required hosted checks on that same commit before independent-review handoff. |
+
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Unclaimed | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Second independent reviewer replays all three prior hostile findings against corrected PR #36 head 6e1918ceac9138335a9173a70edbbe80f7cc74af, reviews the complete diff and merges only if every gate remains green. |
 
 ### Planned (12)
 
