@@ -13,7 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 37, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 55, ahead 0 |
-| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `32f9ebeab405` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `32f9ebeab405` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/contract-catalog.schema.json` |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `32f9ebeab405` | 1 | behind 0, ahead 0 |
 | changed files | - | - | - | `src/awq/native_mapping.py` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 45, ahead 0 |
