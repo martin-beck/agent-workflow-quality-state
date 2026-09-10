@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Recreate the locked quality environment with reviewed CPython 3.12.14, order PATH so the exact Rust v0.18 wrapper precedes the advanced wrapper, then rerun full coverage with all reviewed tool prefixes. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Review the complete 8-file diff and privacy boundary, verify generated exactness and clean temporary payloads, then create the signed DCO commit and run exact-commit build gates. |
 
 ### Done (32)
 
