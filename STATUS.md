@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**33 ARs tracked** across 1 active status categories.
+**50 ARs tracked** across 2 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
+| **Planned** | Defined work awaiting promotion or dependencies | 17 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 33 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -61,6 +61,23 @@ flowchart LR
         AR_0031["AR-0031 - Done"]:::status_done
         AR_0032["AR-0032 - Done"]:::status_done
         AR_0033["AR-0033 - Done"]:::status_done
+        AR_0034["AR-0034 - Planned"]:::status_planned
+        AR_0035["AR-0035 - Planned"]:::status_planned
+        AR_0036["AR-0036 - Planned"]:::status_planned
+        AR_0037["AR-0037 - Planned"]:::status_planned
+        AR_0038["AR-0038 - Planned"]:::status_planned
+        AR_0039["AR-0039 - Planned"]:::status_planned
+        AR_0040["AR-0040 - Planned"]:::status_planned
+        AR_0041["AR-0041 - Planned"]:::status_planned
+        AR_0042["AR-0042 - Planned"]:::status_planned
+        AR_0043["AR-0043 - Planned"]:::status_planned
+        AR_0044["AR-0044 - Planned"]:::status_planned
+        AR_0045["AR-0045 - Planned"]:::status_planned
+        AR_0046["AR-0046 - Planned"]:::status_planned
+        AR_0047["AR-0047 - Planned"]:::status_planned
+        AR_0048["AR-0048 - Planned"]:::status_planned
+        AR_0049["AR-0049 - Planned"]:::status_planned
+        AR_0050["AR-0050 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -90,6 +107,8 @@ flowchart LR
     AR_0006 --> AR_0028
     AR_0007 --> AR_0011
     AR_0008 --> AR_0010
+    AR_0010 --> AR_0041
+    AR_0010 --> AR_0043
     AR_0012 --> AR_0019
     AR_0012 --> AR_0020
     AR_0013 --> AR_0019
@@ -98,25 +117,60 @@ flowchart LR
     AR_0014 --> AR_0020
     AR_0015 --> AR_0019
     AR_0015 --> AR_0020
+    AR_0015 --> AR_0035
     AR_0018 --> AR_0005
     AR_0019 --> AR_0005
+    AR_0019 --> AR_0040
     AR_0020 --> AR_0018
     AR_0020 --> AR_0021
     AR_0020 --> AR_0022
     AR_0021 --> AR_0018
+    AR_0021 --> AR_0044
     AR_0022 --> AR_0018
+    AR_0022 --> AR_0046
     AR_0023 --> AR_0007
     AR_0023 --> AR_0024
     AR_0023 --> AR_0025
+    AR_0023 --> AR_0048
     AR_0024 --> AR_0007
     AR_0024 --> AR_0025
+    AR_0024 --> AR_0048
     AR_0025 --> AR_0007
+    AR_0025 --> AR_0048
+    AR_0028 --> AR_0050
     AR_0029 --> AR_0030
     AR_0029 --> AR_0031
     AR_0029 --> AR_0032
+    AR_0029 --> AR_0045
     AR_0030 --> AR_0033
     AR_0031 --> AR_0032
+    AR_0031 --> AR_0045
     AR_0032 --> AR_0033
+    AR_0032 --> AR_0034
+    AR_0033 --> AR_0035
+    AR_0034 --> AR_0036
+    AR_0034 --> AR_0037
+    AR_0034 --> AR_0040
+    AR_0034 --> AR_0041
+    AR_0034 --> AR_0042
+    AR_0034 --> AR_0043
+    AR_0034 --> AR_0045
+    AR_0034 --> AR_0049
+    AR_0035 --> AR_0036
+    AR_0035 --> AR_0038
+    AR_0035 --> AR_0044
+    AR_0035 --> AR_0045
+    AR_0035 --> AR_0050
+    AR_0036 --> AR_0037
+    AR_0036 --> AR_0038
+    AR_0037 --> AR_0047
+    AR_0038 --> AR_0039
+    AR_0040 --> AR_0047
+    AR_0040 --> AR_0050
+    AR_0041 --> AR_0042
+    AR_0041 --> AR_0049
+    AR_0044 --> AR_0046
+    AR_0044 --> AR_0048
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -140,32 +194,71 @@ flowchart LR
 | [AR-0007](tasks/AR-0007.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) | [AR-0011](tasks/AR-0011.md) |
 | [AR-0008](tasks/AR-0008.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0005](tasks/AR-0005.md) | [AR-0010](tasks/AR-0010.md) |
 | [AR-0009](tasks/AR-0009.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md) | None |
-| [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | None |
+| [AR-0010](tasks/AR-0010.md) | [AR-0001](tasks/AR-0001.md), [AR-0008](tasks/AR-0008.md) | [AR-0041](tasks/AR-0041.md), [AR-0043](tasks/AR-0043.md) |
 | [AR-0011](tasks/AR-0011.md) | [AR-0001](tasks/AR-0001.md), [AR-0007](tasks/AR-0007.md) | None |
 | [AR-0012](tasks/AR-0012.md) | [AR-0004](tasks/AR-0004.md) | [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0013](tasks/AR-0013.md) | [AR-0004](tasks/AR-0004.md) | [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
 | [AR-0014](tasks/AR-0014.md) | [AR-0004](tasks/AR-0004.md) | [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
-| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md) |
+| [AR-0015](tasks/AR-0015.md) | [AR-0004](tasks/AR-0004.md) | [AR-0019](tasks/AR-0019.md), [AR-0020](tasks/AR-0020.md), [AR-0035](tasks/AR-0035.md) |
 | [AR-0016](tasks/AR-0016.md) | None | None |
 | [AR-0017](tasks/AR-0017.md) | None | None |
 | [AR-0018](tasks/AR-0018.md) | [AR-0020](tasks/AR-0020.md), [AR-0021](tasks/AR-0021.md), [AR-0022](tasks/AR-0022.md) | [AR-0005](tasks/AR-0005.md) |
-| [AR-0019](tasks/AR-0019.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0005](tasks/AR-0005.md) |
+| [AR-0019](tasks/AR-0019.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0005](tasks/AR-0005.md), [AR-0040](tasks/AR-0040.md) |
 | [AR-0020](tasks/AR-0020.md) | [AR-0001](tasks/AR-0001.md), [AR-0004](tasks/AR-0004.md), [AR-0012](tasks/AR-0012.md), [AR-0013](tasks/AR-0013.md), [AR-0014](tasks/AR-0014.md), [AR-0015](tasks/AR-0015.md) | [AR-0018](tasks/AR-0018.md), [AR-0021](tasks/AR-0021.md), [AR-0022](tasks/AR-0022.md) |
-| [AR-0021](tasks/AR-0021.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md) |
-| [AR-0022](tasks/AR-0022.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md) |
-| [AR-0023](tasks/AR-0023.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md) | [AR-0007](tasks/AR-0007.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md) |
-| [AR-0024](tasks/AR-0024.md) | [AR-0023](tasks/AR-0023.md) | [AR-0007](tasks/AR-0007.md), [AR-0025](tasks/AR-0025.md) |
-| [AR-0025](tasks/AR-0025.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md) | [AR-0007](tasks/AR-0007.md) |
+| [AR-0021](tasks/AR-0021.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md), [AR-0044](tasks/AR-0044.md) |
+| [AR-0022](tasks/AR-0022.md) | [AR-0020](tasks/AR-0020.md) | [AR-0018](tasks/AR-0018.md), [AR-0046](tasks/AR-0046.md) |
+| [AR-0023](tasks/AR-0023.md) | [AR-0001](tasks/AR-0001.md), [AR-0002](tasks/AR-0002.md), [AR-0003](tasks/AR-0003.md) | [AR-0007](tasks/AR-0007.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md), [AR-0048](tasks/AR-0048.md) |
+| [AR-0024](tasks/AR-0024.md) | [AR-0023](tasks/AR-0023.md) | [AR-0007](tasks/AR-0007.md), [AR-0025](tasks/AR-0025.md), [AR-0048](tasks/AR-0048.md) |
+| [AR-0025](tasks/AR-0025.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md) | [AR-0007](tasks/AR-0007.md), [AR-0048](tasks/AR-0048.md) |
 | [AR-0026](tasks/AR-0026.md) | [AR-0006](tasks/AR-0006.md) | None |
 | [AR-0027](tasks/AR-0027.md) | [AR-0006](tasks/AR-0006.md) | None |
-| [AR-0028](tasks/AR-0028.md) | [AR-0006](tasks/AR-0006.md) | None |
-| [AR-0029](tasks/AR-0029.md) | None | [AR-0030](tasks/AR-0030.md), [AR-0031](tasks/AR-0031.md), [AR-0032](tasks/AR-0032.md) |
+| [AR-0028](tasks/AR-0028.md) | [AR-0006](tasks/AR-0006.md) | [AR-0050](tasks/AR-0050.md) |
+| [AR-0029](tasks/AR-0029.md) | None | [AR-0030](tasks/AR-0030.md), [AR-0031](tasks/AR-0031.md), [AR-0032](tasks/AR-0032.md), [AR-0045](tasks/AR-0045.md) |
 | [AR-0030](tasks/AR-0030.md) | [AR-0029](tasks/AR-0029.md) | [AR-0033](tasks/AR-0033.md) |
-| [AR-0031](tasks/AR-0031.md) | [AR-0029](tasks/AR-0029.md) | [AR-0032](tasks/AR-0032.md) |
-| [AR-0032](tasks/AR-0032.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md) | [AR-0033](tasks/AR-0033.md) |
-| [AR-0033](tasks/AR-0033.md) | [AR-0030](tasks/AR-0030.md), [AR-0032](tasks/AR-0032.md) | None |
+| [AR-0031](tasks/AR-0031.md) | [AR-0029](tasks/AR-0029.md) | [AR-0032](tasks/AR-0032.md), [AR-0045](tasks/AR-0045.md) |
+| [AR-0032](tasks/AR-0032.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md) | [AR-0033](tasks/AR-0033.md), [AR-0034](tasks/AR-0034.md) |
+| [AR-0033](tasks/AR-0033.md) | [AR-0030](tasks/AR-0030.md), [AR-0032](tasks/AR-0032.md) | [AR-0035](tasks/AR-0035.md) |
+| [AR-0034](tasks/AR-0034.md) | [AR-0032](tasks/AR-0032.md) | [AR-0036](tasks/AR-0036.md), [AR-0037](tasks/AR-0037.md), [AR-0040](tasks/AR-0040.md), [AR-0041](tasks/AR-0041.md), [AR-0042](tasks/AR-0042.md), [AR-0043](tasks/AR-0043.md), [AR-0045](tasks/AR-0045.md), [AR-0049](tasks/AR-0049.md) |
+| [AR-0035](tasks/AR-0035.md) | [AR-0015](tasks/AR-0015.md), [AR-0033](tasks/AR-0033.md) | [AR-0036](tasks/AR-0036.md), [AR-0038](tasks/AR-0038.md), [AR-0044](tasks/AR-0044.md), [AR-0045](tasks/AR-0045.md), [AR-0050](tasks/AR-0050.md) |
+| [AR-0036](tasks/AR-0036.md) | [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | [AR-0037](tasks/AR-0037.md), [AR-0038](tasks/AR-0038.md) |
+| [AR-0037](tasks/AR-0037.md) | [AR-0034](tasks/AR-0034.md), [AR-0036](tasks/AR-0036.md) | [AR-0047](tasks/AR-0047.md) |
+| [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md) |
+| [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | None |
+| [AR-0040](tasks/AR-0040.md) | [AR-0019](tasks/AR-0019.md), [AR-0034](tasks/AR-0034.md) | [AR-0047](tasks/AR-0047.md), [AR-0050](tasks/AR-0050.md) |
+| [AR-0041](tasks/AR-0041.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0042](tasks/AR-0042.md), [AR-0049](tasks/AR-0049.md) |
+| [AR-0042](tasks/AR-0042.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
+| [AR-0043](tasks/AR-0043.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | None |
+| [AR-0044](tasks/AR-0044.md) | [AR-0021](tasks/AR-0021.md), [AR-0035](tasks/AR-0035.md) | [AR-0046](tasks/AR-0046.md), [AR-0048](tasks/AR-0048.md) |
+| [AR-0045](tasks/AR-0045.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md), [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | None |
+| [AR-0046](tasks/AR-0046.md) | [AR-0022](tasks/AR-0022.md), [AR-0044](tasks/AR-0044.md) | None |
+| [AR-0047](tasks/AR-0047.md) | [AR-0037](tasks/AR-0037.md), [AR-0040](tasks/AR-0040.md) | None |
+| [AR-0048](tasks/AR-0048.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md), [AR-0044](tasks/AR-0044.md) | None |
+| [AR-0049](tasks/AR-0049.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
+| [AR-0050](tasks/AR-0050.md) | [AR-0028](tasks/AR-0028.md), [AR-0035](tasks/AR-0035.md), [AR-0040](tasks/AR-0040.md) | None |
 
 ## Complete AR inventory
+
+### Planned (17)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Unclaimed | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Freeze the generic evidence envelope and native-gate mapping v2 correlation fields, transition rules, compatibility behavior and hostile fixture matrix before implementation. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Unclaimed | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Inventory every shipped public contract and freeze the catalog, discovery, fixture, implementation-conformance and compatibility-baseline rules. |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Define the closed repository-domain inventory and gate coverage rules, including argv, ownership, invariants, evidence class, remediation and unsupported declarations. |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Unclaimed | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Freeze capability maturity states and cross-field evidence obligations, then specify freshness, limitations, surfaces and prohibited claim inflation fixtures. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
+| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Unclaimed | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Unclaimed | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Freeze multidimensional budget, reservation, settlement, process-tree cleanup and optional sandbox-observation contracts without claiming portable isolation. |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Specify immutable observation lineage, publication outcome and deterministic metadata-only retention planning with protected-reference rules. |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Define time-dependent vulnerability observations, exact expiring exceptions and named auxiliary-workspace supply coverage across supported ecosystems. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Freeze formal receipt v2 and decompose Alloy, Kani, Loom, counterexample sensitivity and implementation-trace correspondence into reviewable increments. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Freeze a language-neutral transformation recipe and plan-verification contract covering scope, prohibitions, risk, budgets, fixtures, digests and convergence. |
 
 ### Done (33)
 
