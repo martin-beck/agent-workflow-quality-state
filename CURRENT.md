@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Regenerate release fixtures after the final source changes, rerun the complete confined suite and all remaining publication gates, then review and commit. | codex-awq-ar0030-terminology |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Rerun the corrected focused and fully confined suites after the cross-policy canonical collision hardening, then stage exact files and complete publication gates. | codex-awq-ar0030-terminology |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Complete full diff and privacy review, rerun exact-tree full gates, then create a clean signed DCO commit and PR for independent review. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
