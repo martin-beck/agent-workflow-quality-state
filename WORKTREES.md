@@ -10,8 +10,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `dd1b0ac7b9b8` | 0 | behind 26, ahead 0 |
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 36, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 40, ahead 0 |
-| `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `4a1663896b66` | 4 | behind 0, ahead 0 |
-| changed files | - | - | - | `scripts/adversarial_campaign.py`, `src/awq/adversarial.py`, `src/awq/checks.py`, `src/awq/cli.py` |
+| `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `4a1663896b66` | 12 | behind 0, ahead 0 |
+| changed files | - | - | - | `fixtures/conforming/adversarial/pr.json`, `fixtures/conforming/adversarial/scheduled.json`, `fixtures/conforming/adversarial/workflow-redaction.json`, `fixtures/nonconforming/adversarial/out-of-bound.json`, `fixtures/nonconforming/adversarial/weakened-floor.json`, `schemas/adversarial-campaign.schema.json`, `scripts/adversarial_campaign.py`, `src/awq/adversarial.py`, `src/awq/checks.py`, `src/awq/cli.py`, `templates/adversarial-pr.json`, `templates/adversarial-scheduled.json` |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 7, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 5, ahead 0 |
