@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #20 | `feature/formal-refinement@f2f179b6786c` | `main` | BLOCKED | QUEUED: | feat(formal): add bounded implementation refinement contracts |
+| #20 | `feature/formal-refinement@f2f179b6786c` | `main` | CLEAN | COMPLETED:SUCCESS | feat(formal): add bounded implementation refinement contracts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34422670319 | `f2f179b6786c` | pull_request | Verify | queued:- |
+| 34422670319 | `f2f179b6786c` | pull_request | Verify | completed:success |
 | 34421137144 | `e92eed735826` | push | Release attestation | completed:success |
 | 34420619242 | `e92eed735826` | push | Verify | completed:success |
 | 34420181716 | `05567e7a13b3` | pull_request | Verify | completed:success |
