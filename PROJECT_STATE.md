@@ -15,6 +15,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34441067958 | `4a1663896b66` | push | Release attestation | completed:success |
 | 34440532234 | `4a1663896b66` | push | Verify | completed:success |
 | 34440152431 | `67f22e35e50f` | pull_request | Verify | completed:success |
 | 34437342964 | `15ad92f75eb2` | push | Release attestation | completed:success |
@@ -26,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34418241693 | `ed05fe312c4c` | push | Release attestation | completed:success |
 | 34417566545 | `ed05fe312c4c` | push | Verify | completed:success |
 | 34417084111 | `11a84334d54c` | pull_request | Verify | completed:success |
-| 34365698455 | `b2bc649f6885` | push | Release attestation | completed:success |
