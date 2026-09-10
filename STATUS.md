@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Invoke uv by absolute path while excluding its directory from the test PATH so the reviewed Vale 3.20.0 prefix wins, then rerun full coverage. |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Regenerate the deterministic provenance fixture to bind the expanded required schema set, inspect the exact fixture diff, then rerun provenance and release verification. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Resync the AR environment to Python 3.12.14, verify exact wrapper versions from second-disk prefixes, rerun full coverage with the composed offline PATH, then run all generated/self-host gates. |
 
 ### Planned (15)
