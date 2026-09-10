@@ -59,5 +59,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 64, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 86, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 15, ahead 0 |
-| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `6421166ddefe` | 4 | behind 0, ahead 1 |
-| changed files | - | - | - | `scripts/install_android_jvm_tools.py`, `src/awq/android_jvm_helper.py`, `tests/test_android_jvm_helper.py`, `tests/test_android_jvm_tool_installer.py` |
+| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `bd30eacc3f44` | 0 | behind 0, ahead 1 |
