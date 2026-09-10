@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 12 |
 | **Future** | Deferred roadmap work | 0 |
@@ -67,7 +67,7 @@ flowchart LR
         AR_0037["AR-0037 - Planned"]:::status_planned
         AR_0038["AR-0038 - Planned"]:::status_planned
         AR_0039["AR-0039 - Planned"]:::status_planned
-        AR_0040["AR-0040 - In progress"]:::status_in_progress
+        AR_0040["AR-0040 - Open"]:::status_open
         AR_0041["AR-0041 - In progress"]:::status_in_progress
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Open"]:::status_open
@@ -238,18 +238,18 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-historical-fix-20260911 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Rerun remaining generated-contract checks individually, then full tests, release build and publication gates. |
-| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Force-update PR 39 from remote head 6421166ddefe4254b82ea9c042986e62feea00be to exact signed head bd30eacc3f441d41db06113c59a9469610361288, then await all exact-head CI. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-corrections-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Implementation must address all durable review blockers, package the schema with independent distribution assertions, demonstrate adapter-lifecycle mapping, and coordinate a new versioned release only after a corrected second review. |
 
-### Open (1)
+### Open (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Unclaimed | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Force-update PR 39 from remote head 6421166ddefe4254b82ea9c042986e62feea00be to exact signed head bd30eacc3f441d41db06113c59a9469610361288, then await all exact-head CI. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator independently review the complete PR #40 diff and evidence on exact head 4e061c35aacead45fd94de660afdf2fa14b616db; merge only if review accepts all contracts and gates, then perform post-merge verification before closing AR-0043. |
 
 ### Planned (12)
