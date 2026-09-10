@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Apply smaller scoped patches with quote-safe argv, then regenerate and test generated assets. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Use a temporary patch payload under the second disk to avoid shell quoting, apply it only through handoffctl, then regenerate and test. |
 
 ### Done (32)
 
