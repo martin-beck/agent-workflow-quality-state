@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #36 | `feature/contract-catalog@eb3abccbf49e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(contracts): add exhaustive public catalog |
+| #36 | `feature/contract-catalog@5495a7549a2a` | `main` | BLOCKED | - | feat(contracts): add exhaustive public catalog |
 
 ## Recent workflows
 
