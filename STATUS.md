@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Merge PR 35 only at exact head 565b1b31090e5f206e12a3344cb11f2bbb82a991, verify merged-main exact-head CI, then prepare and publicly verify the next versioned release without weakening any gate. |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Run corrected focused discovery, generated checks, then exact full gates on rebased signed candidate. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Run focused discovery with worktree root plus src/tests on PYTHONPATH, then generated and full gates. |
 
 ### Planned (15)
 
