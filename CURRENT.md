@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Prepare v0.29.0 from exact green merged main 3428532cad60e91423a8e30c9bce3f4b853d2f54 in isolated release worktree /srv/data/projects/agent-workflow-quality-release-v0290; regenerate version-coupled fixtures, review full diff, run gates, and publish only after exact-head release CI. | codex-awq-ar0034-review-20260910 |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Publish release PR for exact signed head c9b2c3e29e1f59c6c333082b624c925c27181c66, await all exact-head checks, independently merge only if green, then rebuild and authenticate/publicly verify v0.29.0 from exact merged main. | codex-awq-ar0034-review-20260910 |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Rerun exact full coverage with worktree venv and reviewed pinned adapter tool prefixes on PATH; then report coverage and complete generated/release gates. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
