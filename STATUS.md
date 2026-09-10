@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260911 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Stage only the four reviewed blocker-fix paths, commit signed conventional fix with matching DCO, then run full exact-head gates. |
-| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. |
+| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Create the signed DCO candidate, run reproducible release checks, publish the PR and await exact-head CI. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-evidence-lineage-20260910 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Regenerate the version-coupled provenance fixture through the repository generator, verify it is stable, then finish formal, contract, doctor and PR-tier gates. |
 
 ### Open (1)
