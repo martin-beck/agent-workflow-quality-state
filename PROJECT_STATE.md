@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #30 | `release/v0.26.0@e896df9b3d29` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.26.0 |
+| #30 | `release/v0.26.0@e896df9b3d29` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.26.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34495860558 | `e896df9b3d29` | pull_request | Verify | in_progress:- |
+| 34495860558 | `e896df9b3d29` | pull_request | Verify | completed:success |
 | 34495860523 | `e896df9b3d29` | pull_request | Portable onboarding | completed:success |
 | 34493131912 | `8e6391a246a2` | push | Verify | completed:success |
 | 34493131840 | `8e6391a246a2` | push | Portable onboarding | completed:success |
