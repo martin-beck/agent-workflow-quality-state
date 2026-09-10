@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Retry deterministic release build with a nonexistent output child under an exact pre-existing private parent, then run source and distribution verification without changing the clean commit. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Confirm remote release branch is absent, non-force push exact clean head, open sanitized release PR, and wait for exact-head required CI without merging or tagging. |
 
 ### Planned (2)
 
