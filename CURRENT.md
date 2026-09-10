@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Implement syntax-aware conflict detection and structured formal-evidence validation with hostile fixtures. | - |
+| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Implement syntax-aware conflict detection and structured formal-evidence validation with hostile fixtures. | codex-awq-ar0029-formal-contracts |
 
 ## Planned
 
