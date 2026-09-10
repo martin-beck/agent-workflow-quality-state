@@ -21,6 +21,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `2b41df203cbb` | 0 | behind 6, ahead 1 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 6, ahead 0 |
+| `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 39, ahead 0 |
 | `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `67f22e35e50f` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-release-024` | `release/v0.24.0` | `89bc34e529c9` | 0 | behind 12, ahead 0 |
