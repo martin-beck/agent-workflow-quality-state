@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Coordinator may merge PR 33 only at exact reviewed head 7b19df677a758bc64ab428c499bdad23351cd5b8, then perform exact-main verification and v0.28 release preparation if all version-coupled gates pass. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Prepare the isolated v0.28.0 release candidate on release/v0.28.0 at exact-main c890e73a26c70381ca6ee8b78e423438f30f68ec; update only version-coupled files and generated fixtures, run complete release/full gates and deterministic build verification, then publish an exact-head release PR without merging, tagging, or releasing. | codex-awq-ar0033-integration |
 
 ## Done
 
