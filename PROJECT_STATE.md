@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #24 | `feature/agent-onboarding@bd841cc1e097` | `main` | UNSTABLE | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:FAILURE, COMPLETED:FAILURE | feat(onboarding): add compatibility and migration diagnostics |
+| #24 | `feature/agent-onboarding@2517805c00fd` | `main` | BLOCKED | - | feat(onboarding): add compatibility and migration diagnostics |
 
 ## Recent workflows
 
