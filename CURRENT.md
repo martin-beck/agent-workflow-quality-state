@@ -8,12 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Freeze the generic evidence envelope and native-gate mapping v2 correlation fields, transition rules, compatibility behavior and hostile fixture matrix before implementation. | codex-awq-ar0034-evidence-v2-20260910 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Inventory every shipped public contract and freeze the catalog, discovery, fixture, implementation-conformance and compatibility-baseline rules. | - |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Inventory every shipped public contract and freeze the catalog, discovery, fixture, implementation-conformance and compatibility-baseline rules. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
 
