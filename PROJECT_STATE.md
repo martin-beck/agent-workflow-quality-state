@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #32 | `release/v0.27.0@e7f333e5aa68` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.27.0 |
+| #32 | `release/v0.27.0@e7f333e5aa68` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.27.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 34505436273 | `e7f333e5aa68` | pull_request | Portable onboarding | completed:success |
-| 34505436188 | `e7f333e5aa68` | pull_request | Verify | in_progress:- |
+| 34505436188 | `e7f333e5aa68` | pull_request | Verify | completed:success |
 | 34502772488 | `1526873872f5` | push | Verify | completed:success |
 | 34502772463 | `1526873872f5` | push | Portable onboarding | completed:success |
 | 34502076651 | `bcb27518094b` | pull_request | Portable onboarding | completed:success |
