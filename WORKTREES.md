@@ -13,8 +13,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 41, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 7, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 59, ahead 0 |
-| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `6e1918ceac91` | 5 | behind 0, ahead 2 |
-| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `src/awq/release.py`, `tests/test_distribution.py`, `tests/test_release.py` |
+| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 0, ahead 3 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `4e061c35aace` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `2d4f198e160e` | 8 | behind 0, ahead 1 |
