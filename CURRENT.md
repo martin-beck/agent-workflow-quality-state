@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Add hostile coverage for canonical collisions and future-dated exceptions, regenerate the expected provenance fixture, then rerun focused and full gates. | codex-awq-ar0030-terminology |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Regenerate release fixtures after the final source changes, rerun the complete confined suite and all remaining publication gates, then review and commit. | codex-awq-ar0030-terminology |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun all generated drift checks, contract, doctor, and self-host gates, then build and inspect source and wheel artifacts with second-disk outputs. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
