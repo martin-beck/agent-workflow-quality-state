@@ -13,8 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 39, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 5, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 57, ahead 0 |
-| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `92c3628315c1` | 2 | behind 0, ahead 1 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `scripts/generate_contract_catalog.py` |
+| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `92c3628315c1` | 1 | behind 0, ahead 1 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 47, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 19, ahead 0 |
