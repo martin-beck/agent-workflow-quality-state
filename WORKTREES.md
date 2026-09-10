@@ -31,8 +31,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0.22.0` | `DETACHED` | `058f76266edc` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-release-v0.23.0` | `DETACHED` | `8a9f056b7fc7` | 0 | behind 12, ahead 0 |
 | `agent-workflow-quality-release-v0.24.0` | `DETACHED` | `2180882aae35` | 0 | behind 3, ahead 0 |
-| `agent-workflow-quality-release-v0.25.0` | `release/v0.25.0` | `f44d2cfe2d55` | 11 | behind 0, ahead 0 |
-| changed files | - | - | - | `CONTRIBUTING.md`, `config/release-licenses.json`, `docs/RELEASES.md`, `pyproject.toml`, `quality/awq.lock.json`, `src/awq/__init__.py`, `tests/release_support.py`, `tests/test_onboarding.py`, `tests/test_release_boundaries.py`, `tests/test_sbom.py`, `tests/test_verified_update.py` |
+| `agent-workflow-quality-release-v0.25.0` | `release/v0.25.0` | `f44d2cfe2d55` | 12 | behind 0, ahead 0 |
+| changed files | - | - | - | `CONTRIBUTING.md`, `config/release-licenses.json`, `docs/RELEASES.md`, `fixtures/conforming/onboarding/same.json`, `pyproject.toml`, `quality/awq.lock.json`, `src/awq/__init__.py`, `tests/release_support.py`, `tests/test_onboarding.py`, `tests/test_release_boundaries.py`, `tests/test_sbom.py`, `tests/test_verified_update.py` |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 34, ahead 0 |
 | `agent-workflow-quality-release-v0150` | `DETACHED` | `2b3ff6ed8c02` | 0 | behind 32, ahead 0 |
 | `agent-workflow-quality-release-v0160` | `DETACHED` | `b2bc649f6885` | 0 | behind 30, ahead 0 |
