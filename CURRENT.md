@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Rerun the 391-test coverage suite with the complete pinned native-tool PATH plus confined TMPDIR/CARGO_HOME/UV_CACHE_DIR, then execute generated/contracts/self-check/release gates. | codex-awq-ar0030-terminology |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Retry the clean v0.26.0 deterministic release build using the existing validated external scratch directory, then review/publish release PR for exact-head CI without merging or tagging. | codex-awq-ar0030-terminology |
 | P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Design native-gate mapping schema and implement validation, evidence normalization, and equivalence fixtures. | codex-awq-ar0032-native-gate |
 
 ## Planned
