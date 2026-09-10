@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | codex-awq-ar0010-reliability |
-
 ## Future
 
 | Priority | Task | Summary | Next action | Owner |
@@ -41,6 +35,7 @@ Never edit this file directly.
 | P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
+| P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | - |
 | P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. | - |
 | P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. | - |
 | P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. | - |
