@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-review-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Run the full suite with the package runner addressed explicitly and reviewed offline adapter prefixes, then complete remaining gates and release the blocked review. |
+| P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-review-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Run the full suite with the locked quality binary directory plus reviewed offline adapter prefixes, then complete remaining gates and release the blocked review. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-corrections-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Rerun the full suite with the established pinned offline tool prefixes on PATH, then run coverage and remaining generated, contract, model and release gates. |
 
 ### Open (2)
