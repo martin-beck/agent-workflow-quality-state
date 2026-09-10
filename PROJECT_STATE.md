@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `2180882aae35431d923e86ba43dece10c4bb01e8`
+- Product remote main: `f44d2cfe2d5510078a54b7ad90983254c4153fde`
 - Local origin/main: `2180882aae35431d923e86ba43dece10c4bb01e8`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #27 | `feature/terminology-gate@6b6147a505b8` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
-| #28 | `feature/formal-adapter@bf7310ef54ad` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(adapters): add bounded formal model profile |
+| #27 | `feature/terminology-gate@6b6147a505b8` | `main` | UNKNOWN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34483456602 | `f44d2cfe2d55` | push | Portable onboarding | queued:- |
+| 34483456029 | `f44d2cfe2d55` | push | Verify | in_progress:- |
 | 34482759931 | `bf7310ef54ad` | pull_request | Verify | completed:success |
 | 34482759830 | `bf7310ef54ad` | pull_request | Portable onboarding | completed:success |
 | 34482425726 | `6b6147a505b8` | pull_request | Portable onboarding | completed:success |
@@ -27,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34468252273 | `2180882aae35` | push | Verify | completed:success |
 | 34468252257 | `2180882aae35` | push | Portable onboarding | completed:success |
 | 34467180413 | `89bc34e529c9` | pull_request | Verify | completed:success |
-| 34467180405 | `89bc34e529c9` | pull_request | Portable onboarding | completed:success |
-| 34467179181 | `3d7e09e1fcb2` | pull_request | Verify | completed:cancelled |
