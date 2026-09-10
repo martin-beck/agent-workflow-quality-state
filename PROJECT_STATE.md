@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #24 | `feature/agent-onboarding@bd841cc1e097` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(onboarding): add compatibility and migration diagnostics |
+| #24 | `feature/agent-onboarding@bd841cc1e097` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:FAILURE, COMPLETED:FAILURE | feat(onboarding): add compatibility and migration diagnostics |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34450768155 | `bd841cc1e097` | pull_request | Portable onboarding | queued:- |
-| 34450768070 | `bd841cc1e097` | pull_request | Verify | queued:- |
+| 34450768155 | `bd841cc1e097` | pull_request | Portable onboarding | completed:failure |
+| 34450768070 | `bd841cc1e097` | pull_request | Verify | in_progress:- |
 | 34449868234 | `7a77aa4b5739` | pull_request | Portable onboarding | completed:failure |
 | 34449868158 | `7a77aa4b5739` | pull_request | Verify | completed:success |
 | 34447539530 | `058f76266edc` | push | Release attestation | completed:success |
