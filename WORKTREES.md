@@ -15,6 +15,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 59, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `5495a7549a2a` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 3, ahead 0 |
+| `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `e0e7b07de927` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 49, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 31, ahead 0 |
@@ -57,3 +58,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 64, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 86, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 15, ahead 0 |
+| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `e0e7b07de927` | 0 | behind 0, ahead 0 |
