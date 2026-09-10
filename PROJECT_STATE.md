@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `1526873872f58e97bda30e21f64f47865ac8027e`
+- Product remote main: `f838c942c36e31473714d676165900f4f0611a40`
 - Local origin/main: `1526873872f58e97bda30e21f64f47865ac8027e`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #32 | `release/v0.27.0@e7f333e5aa68` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.27.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34506178487 | `f838c942c36e` | push | Verify | in_progress:- |
+| 34506178439 | `f838c942c36e` | push | Portable onboarding | queued:- |
 | 34505436273 | `e7f333e5aa68` | pull_request | Portable onboarding | completed:success |
 | 34505436188 | `e7f333e5aa68` | pull_request | Verify | completed:success |
 | 34502772488 | `1526873872f5` | push | Verify | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34496590218 | `c1fb70c52ae3` | push | Verify | completed:success |
 | 34496590216 | `c1fb70c52ae3` | push | Portable onboarding | completed:success |
 | 34495860558 | `e896df9b3d29` | pull_request | Verify | completed:success |
-| 34495860523 | `e896df9b3d29` | pull_request | Portable onboarding | completed:success |
-| 34493131912 | `8e6391a246a2` | push | Verify | completed:success |
