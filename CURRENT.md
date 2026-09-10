@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Discard interrupted invalid full-suite evidence; rerun the exact signed v0.27.0 candidate with the complete reviewed PATH including .awq-v012-public-smoke, then continue remaining release gates. | codex-awq-ar0032-native-gate |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push clean release/v0.27.0 candidate e7f333e5aa686f54b8e7658f7e8ada47a20ab6e9, open release-preparation PR against exact main, and monitor exact-head CI. Do not merge, tag, or publish. | codex-awq-ar0032-native-gate |
 
 ## Planned
 
