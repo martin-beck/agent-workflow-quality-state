@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #36 | `feature/contract-catalog@5495a7549a2a` | `main` | BLOCKED | - | feat(contracts): add exhaustive public catalog |
+| #36 | `feature/contract-catalog@5495a7549a2a` | `main` | BLOCKED | QUEUED:, IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | feat(contracts): add exhaustive public catalog |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34534132308 | `5495a7549a2a` | pull_request | Verify | in_progress:- |
+| 34534132244 | `5495a7549a2a` | pull_request | Portable onboarding | queued:- |
 | 34533483185 | `e0e7b07de927` | push | Release attestation | completed:success |
 | 34532619551 | `e0e7b07de927` | push | Verify | completed:success |
 | 34532619540 | `e0e7b07de927` | push | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34530339353 | `eb3abccbf49e` | pull_request | Verify | completed:success |
 | 34530339227 | `eb3abccbf49e` | pull_request | Portable onboarding | completed:success |
 | 34528980208 | `565b1b31090e` | pull_request | Verify | completed:success |
-| 34528980193 | `565b1b31090e` | pull_request | Portable onboarding | completed:success |
-| 34519652030 | `32f9ebeab405` | push | Release attestation | completed:success |
