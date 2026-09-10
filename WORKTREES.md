@@ -13,8 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 36, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 26, ahead 0 |
-| `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `216a67af3ead` | 7 | behind 0, ahead 1 |
-| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/manifest.json`, `scripts/validate_contracts.py`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `src/awq/data/formal_adapter.json` |
+| `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `216a67af3ead` | 10 | behind 0, ahead 1 |
+| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/manifest.json`, `scripts/install_formal_tools.py`, `scripts/validate_contracts.py`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `src/awq/data/formal_adapter.json`, `tests/test_formal_adapters.py`, `tests/test_formal_tool_installer.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 8, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 22, ahead 0 |
