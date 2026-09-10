@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Publish release PR for exact signed head c9b2c3e29e1f59c6c333082b624c925c27181c66, await all exact-head checks, independently merge only if green, then rebuild and authenticate/publicly verify v0.29.0 from exact merged main. | codex-awq-ar0034-review-20260910 |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Build v0.29.0 twice from a fresh detached clean worktree at exact green merged main e0e7b07de92727e57421e1f8f5418d0eeb53bcde; require byte identity, source verification and archive checks before signing/tagging/publication. | codex-awq-ar0034-review-20260910 |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Run uv sync for exact Python 3.12.14 and locked quality group using /srv/data/projects AR-0035 cache offline, then rerun full coverage and remaining release gates. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
