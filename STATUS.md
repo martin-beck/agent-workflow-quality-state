@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 4 active status categories.
+**50 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 15 |
 | **Future** | Deferred roadmap work | 0 |
@@ -61,7 +61,7 @@ flowchart LR
         AR_0031["AR-0031 - Done"]:::status_done
         AR_0032["AR-0032 - Done"]:::status_done
         AR_0033["AR-0033 - Done"]:::status_done
-        AR_0034["AR-0034 - Open"]:::status_open
+        AR_0034["AR-0034 - In progress"]:::status_in_progress
         AR_0035["AR-0035 - In progress"]:::status_in_progress
         AR_0036["AR-0036 - Planned"]:::status_planned
         AR_0037["AR-0037 - Planned"]:::status_planned
@@ -238,17 +238,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Coordinator independently reviews the complete PR 35 diff at exact head 565b1b31090e5f206e12a3344cb11f2bbb82a991, verifies signature, DCO, privacy and green required checks, then merges; perform post-merge and release/public verification before closing AR-0034. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Regenerate the provenance fixture through its canonical generator, inspect the exact material changes, rerun all generated/model/contract/self-host gates, then audit the complete diff. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Unclaimed | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Coordinator independently reviews the complete PR 35 diff at exact head 565b1b31090e5f206e12a3344cb11f2bbb82a991, verifies signature, DCO, privacy and green required checks, then merges; perform post-merge and release/public verification before closing AR-0034. |
 
 ### Planned (15)
 
