@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Amend the signed DCO commit with the explicit composition contract and exact runtime-prefix tests, verify the clean immutable head, then build and execute offline source and wheel smoke paths. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Re-run the exact-commit deterministic build with the reviewed external trust-policy SHA-256 required by provenance schema v2, then verify and smoke both runtime compositions. | codex-awq-ar0033-integration |
 
 ## Done
 
