@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #26 | `release/v0.24.0@d676ed2d6f1b` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.24.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34460928389 | `d676ed2d6f1b` | pull_request | Verify | queued:- |
+| 34460928332 | `d676ed2d6f1b` | pull_request | Portable onboarding | queued:- |
 | 34460809784 | `2d576be5d319` | push | Verify | in_progress:- |
 | 34460809395 | `2d576be5d319` | push | Portable onboarding | completed:success |
 | 34460110358 | `b3c09ddfc9af` | pull_request | Portable onboarding | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34452137195 | `6133349a8f43` | pull_request | Verify | completed:success |
 | 34452137141 | `6133349a8f43` | pull_request | Portable onboarding | completed:success |
 | 34451684710 | `1bbc11d2299d` | pull_request | Verify | completed:cancelled |
-| 34451684666 | `1bbc11d2299d` | pull_request | Portable onboarding | completed:failure |
-| 34451572821 | `2517805c00fd` | pull_request | Portable onboarding | completed:failure |
