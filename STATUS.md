@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Build v0.29.0 twice from a fresh detached clean worktree at exact green merged main e0e7b07de92727e57421e1f8f5418d0eeb53bcde; require byte identity, source verification and archive checks before signing/tagging/publication. |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Push locally authenticated annotated tag object 936078f39e1fd9e070f1e5b87cd5cb036bcb682b, create v0.29.0 with exactly six verified assets, await exact-tag attestation, then verify fresh public clone, downloads, hashes, authentication and offline wheel behavior. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Refresh the worktree venv offline from the reviewed AR-0034 quality cache, verify installed AWQ 0.29.0, and rerun full coverage. |
 
 ### Planned (15)
