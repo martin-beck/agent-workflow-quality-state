@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Define canonical recipe-prefix replacement in generated metadata and docs, test every runtime prefix and composed recipe, add exact offline source/wheel smoke evidence, then rerun full gates and amend the signed DCO commit. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Amend the signed DCO commit with the explicit composition contract and exact runtime-prefix tests, verify the clean immutable head, then build and execute offline source and wheel smoke paths. |
 
 ### Done (32)
 
