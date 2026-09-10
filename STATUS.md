@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push clean release/v0.27.0 candidate e7f333e5aa686f54b8e7658f7e8ada47a20ab6e9, open release-preparation PR against exact main, and monitor exact-head CI. Do not merge, tag, or publish. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Monitor PR 32 Verify and all six portable onboarding jobs at exact head e7f333e5aa686f54b8e7658f7e8ada47a20ab6e9; hand off after terminal green. Do not merge, tag, or publish. |
 
 ### Planned (1)
 
