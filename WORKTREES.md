@@ -15,8 +15,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 59, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `5495a7549a2a` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 3, ahead 0 |
-| `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `e0e7b07de927` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/execution_budget.py` |
+| `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `e0e7b07de927` | 3 | behind 0, ahead 0 |
+| changed files | - | - | - | `fixtures/conforming/execution-receipt.json`, `schemas/execution-receipt.schema.json`, `src/awq/execution_budget.py` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 49, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 31, ahead 0 |
