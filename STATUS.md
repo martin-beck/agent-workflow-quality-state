@@ -5,15 +5,15 @@
 
 ## Portfolio overview
 
-**28 ARs tracked** across 2 active status categories.
+**28 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
-| **Future** | Deferred roadmap work | 5 |
+| **Planned** | Defined work awaiting promotion or dependencies | 1 |
+| **Future** | Deferred roadmap work | 4 |
 | **Done** | Accepted, integrated, and durably verified | 23 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
@@ -54,7 +54,7 @@ flowchart LR
         AR_0024["AR-0024 - Done"]:::status_done
         AR_0025["AR-0025 - Done"]:::status_done
         AR_0026["AR-0026 - Done"]:::status_done
-        AR_0027["AR-0027 - Future"]:::status_future
+        AR_0027["AR-0027 - Planned"]:::status_planned
         AR_0028["AR-0028 - Future"]:::status_future
     end
     AR_0001 --> AR_0002
@@ -151,14 +151,19 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Future (5)
+### Planned (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Unclaimed | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. |
+
+### Future (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
-| P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Unclaimed | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. |
 | P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Unclaimed | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. |
 
 ### Done (23)
