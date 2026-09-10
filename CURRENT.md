@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Define the terminology registry schema, checker contract, normalized findings, and hostile fixtures. | - |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Define the terminology registry schema, checker contract, normalized findings, and hostile fixtures. | codex-awq-ar0030-terminology |
 
 ## Planned
 
