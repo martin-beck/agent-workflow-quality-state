@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Re-run the exact-commit deterministic build with the reviewed external trust-policy SHA-256 required by provenance schema v2, then verify and smoke both runtime compositions. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Hold clean exact head 7b19df677a758bc64ab428c499bdad23351cd5b8 for coordinator independent complete-diff and focused/full gate review; publish only after explicit approval. |
 
 ### Done (32)
 
