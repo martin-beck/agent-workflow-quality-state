@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 3 active status categories.
+**50 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 13 |
+| **Planned** | Defined work awaiting promotion or dependencies | 12 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 34 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -70,7 +70,7 @@ flowchart LR
         AR_0040["AR-0040 - In progress"]:::status_in_progress
         AR_0041["AR-0041 - In progress"]:::status_in_progress
         AR_0042["AR-0042 - Planned"]:::status_planned
-        AR_0043["AR-0043 - Planned"]:::status_planned
+        AR_0043["AR-0043 - Open"]:::status_open
         AR_0044["AR-0044 - Planned"]:::status_planned
         AR_0045["AR-0045 - Planned"]:::status_planned
         AR_0046["AR-0046 - Planned"]:::status_planned
@@ -246,7 +246,13 @@ flowchart LR
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-budget-receipts-20260910 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Apply the deterministic formatter, then rerun focused lint, typing, schema, generator and full quality gates before publication. |
 
-### Planned (13)
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Specify immutable observation lineage, publication outcome and deterministic metadata-only retention planning with protected-reference rules. |
+
+### Planned (12)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -255,7 +261,6 @@ flowchart LR
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. |
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Specify immutable observation lineage, publication outcome and deterministic metadata-only retention planning with protected-reference rules. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Define time-dependent vulnerability observations, exact expiring exceptions and named auxiliary-workspace supply coverage across supported ecosystems. |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Freeze formal receipt v2 and decompose Alloy, Kani, Loom, counterexample sensitivity and implementation-trace correspondence into reviewable increments. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
