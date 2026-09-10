@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Build into nonexistent /srv/data/projects/.awq-ar0035-release-5495a75c with an existing bounded scratch directory, then verify all release artifacts. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Verify exact commit against product config/allowed_signers, verify DCO/single-commit/clean/privacy, then force-with-lease publish against old PR head eb3abcc. |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-budget-receipts-20260910 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Freeze multidimensional budget, reservation, settlement, process-tree cleanup and optional sandbox-observation contracts without claiming portable isolation. |
 
