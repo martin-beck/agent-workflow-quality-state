@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**28 ARs tracked** across 1 active status categories.
+**33 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
+| **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 28 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -56,6 +56,11 @@ flowchart LR
         AR_0026["AR-0026 - Done"]:::status_done
         AR_0027["AR-0027 - Done"]:::status_done
         AR_0028["AR-0028 - Done"]:::status_done
+        AR_0029["AR-0029 - Open"]:::status_open
+        AR_0030["AR-0030 - Planned"]:::status_planned
+        AR_0031["AR-0031 - Planned"]:::status_planned
+        AR_0032["AR-0032 - Planned"]:::status_planned
+        AR_0033["AR-0033 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -106,6 +111,12 @@ flowchart LR
     AR_0024 --> AR_0007
     AR_0024 --> AR_0025
     AR_0025 --> AR_0007
+    AR_0029 --> AR_0030
+    AR_0029 --> AR_0031
+    AR_0029 --> AR_0032
+    AR_0030 --> AR_0033
+    AR_0031 --> AR_0032
+    AR_0032 --> AR_0033
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -148,8 +159,28 @@ flowchart LR
 | [AR-0026](tasks/AR-0026.md) | [AR-0006](tasks/AR-0006.md) | None |
 | [AR-0027](tasks/AR-0027.md) | [AR-0006](tasks/AR-0006.md) | None |
 | [AR-0028](tasks/AR-0028.md) | [AR-0006](tasks/AR-0006.md) | None |
+| [AR-0029](tasks/AR-0029.md) | None | [AR-0030](tasks/AR-0030.md), [AR-0031](tasks/AR-0031.md), [AR-0032](tasks/AR-0032.md) |
+| [AR-0030](tasks/AR-0030.md) | [AR-0029](tasks/AR-0029.md) | [AR-0033](tasks/AR-0033.md) |
+| [AR-0031](tasks/AR-0031.md) | [AR-0029](tasks/AR-0029.md) | [AR-0032](tasks/AR-0032.md) |
+| [AR-0032](tasks/AR-0032.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md) | [AR-0033](tasks/AR-0033.md) |
+| [AR-0033](tasks/AR-0033.md) | [AR-0030](tasks/AR-0030.md), [AR-0032](tasks/AR-0032.md) | None |
 
 ## Complete AR inventory
+
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Unclaimed | Make formal-language checks precise and formal-evidence claims structured and truthful. | Implement syntax-aware conflict detection and structured formal-evidence validation with hostile fixtures. |
+
+### Planned (4)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Unclaimed | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Define the terminology registry schema, checker contract, normalized findings, and hostile fixtures. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Unclaimed | Add a bounded formal-model execution adapter with truthful evidence output. | Define and implement the bounded formal-model adapter contract and TLC fixtures. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Unclaimed | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Design native-gate mapping schema and implement validation, evidence normalization, and equivalence fixtures. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Unclaimed | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Generate and test the end-to-end agent integration recipe after terminology and mapping contracts stabilize. |
 
 ### Done (28)
 
