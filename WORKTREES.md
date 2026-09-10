@@ -18,8 +18,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 33, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 70, ahead 0 |
-| `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `1d5827e704a4` | 1 | behind 4, ahead 1 |
-| changed files | - | - | - | `fixtures/conforming/native-gate-mapping.json` |
+| `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `e4ddf7528306` | 0 | behind 4, ahead 1 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 19, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 37, ahead 0 |
