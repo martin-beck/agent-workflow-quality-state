@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | After v0.26.0 release, rebase onto exact main, refresh version-coupled release fixtures, rerun complete gates, and publish a clean exact-head PR. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Amend semantically refreshed v0.26.0 provenance fixtures, rerun exact confined focused/full gates, then publish clean exact-head PR for independent review. |
 
 ### Planned (1)
 
