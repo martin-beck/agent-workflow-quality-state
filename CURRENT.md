@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. | codex-awq-ar0028-refactoring |
-
 ## Future
 
 | Priority | Task | Summary | Next action | Owner |
@@ -45,3 +39,4 @@ Never edit this file directly.
 | P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. | - |
 | P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. | - |
 | P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. | - |
+| P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. | - |
