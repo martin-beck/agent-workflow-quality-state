@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `4a1663896b669cc7ac25cab34b947d053fc9ccc8`
+- Product remote main: `c67727cf615f187fa19da4d5d786b449731c2b9a`
 - Local origin/main: `4a1663896b669cc7ac25cab34b947d053fc9ccc8`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,12 +10,12 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #22 | `feature/adversarial-testing@8e290ade5bcc` | `main` | CLEAN | COMPLETED:SUCCESS | feat(assurance): add bounded adversarial campaigns |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34443702601 | `c67727cf615f` | push | Verify | in_progress:- |
 | 34443232548 | `8e290ade5bcc` | pull_request | Verify | completed:success |
 | 34441067958 | `4a1663896b66` | push | Release attestation | completed:success |
 | 34440532234 | `4a1663896b66` | push | Verify | completed:success |
@@ -27,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34420619242 | `e92eed735826` | push | Verify | completed:success |
 | 34420181716 | `05567e7a13b3` | pull_request | Verify | completed:success |
 | 34418241693 | `ed05fe312c4c` | push | Release attestation | completed:success |
-| 34417566545 | `ed05fe312c4c` | push | Verify | completed:success |
