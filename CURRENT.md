@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Hold clean exact head 7b19df677a758bc64ab428c499bdad23351cd5b8 for coordinator independent complete-diff and focused/full gate review; publish only after explicit approval. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Correct PR 33 body using the exact martin-beck/agent-workflow-quality repository identifier, verify the public body and exact head, then monitor exact-head CI without merging. | codex-awq-ar0033-integration |
 
 ## Done
 
