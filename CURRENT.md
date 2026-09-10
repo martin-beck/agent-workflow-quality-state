@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Use a temporary patch payload under the second disk to avoid shell quoting, apply it only through handoffctl, then regenerate and test. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Parse the reviewed schema metadata with bounded duplicate-rejecting JSON rather than the release canonical-input parser, add the malformed-schema negative test, regenerate, and rerun focused gates. | codex-awq-ar0033-integration |
 
 ## Done
 
