@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Populate the AR-scoped uv cache from the exact hashed release build constraints, then rerun the offline clean-HEAD reproducibility build. | codex-awq-ar0034-evidence-v2-20260910 |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Coordinator independently reviews the complete PR 35 diff at exact head 565b1b31090e5f206e12a3344cb11f2bbb82a991, verifies signature, DCO, privacy and green required checks, then merges; perform post-merge and release/public verification before closing AR-0034. | codex-awq-ar0034-evidence-v2-20260910 |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Regenerate the provenance fixture through its canonical generator, inspect the exact material changes, rerun all generated/model/contract/self-host gates, then audit the complete diff. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
