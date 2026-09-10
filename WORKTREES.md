@@ -16,6 +16,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 40, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 7, ahead 0 |
+| `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `15ad92f75eb2` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 9, ahead 0 |
 | `agent-workflow-quality-release-reproducibility` | `feature/release-reproducibility` | `a641a93311d8` | 0 | behind 12, ahead 0 |
 | `agent-workflow-quality-release-sbom` | `feature/release-sbom` | `39663891de5e` | 0 | behind 11, ahead 0 |
