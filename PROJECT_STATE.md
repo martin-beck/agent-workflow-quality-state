@@ -15,7 +15,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34421137144 | `e92eed735826` | push | Release attestation | queued:- |
+| 34421137144 | `e92eed735826` | push | Release attestation | completed:success |
 | 34420619242 | `e92eed735826` | push | Verify | completed:success |
 | 34420181716 | `05567e7a13b3` | pull_request | Verify | completed:success |
 | 34418241693 | `ed05fe312c4c` | push | Release attestation | completed:success |
