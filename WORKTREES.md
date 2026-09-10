@@ -15,8 +15,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 55, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `32f9ebeab405` | 3 | behind 0, ahead 0 |
 | changed files | - | - | - | `schemas/contract-catalog.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/contracts.py` |
-| `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `32f9ebeab405` | 12 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/ARCHITECTURE.md`, `docs/NATIVE_GATE_MAPPINGS.md`, `docs/QUALITY.md`, `schemas/native-gate-mapping.schema.json`, `scripts/validate_contracts.py`, `src/awq/native_mapping.py`, `src/awq/onboarding.py`, `src/awq/release.py`, `tests/test_native_mapping.py`, `tests/test_onboarding.py`, `fixtures/conforming/native-gate-mapping-v2.json`, `schemas/evidence-identity.schema.json` |
+| `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `32f9ebeab405` | 14 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/ARCHITECTURE.md`, `docs/NATIVE_GATE_MAPPINGS.md`, `docs/QUALITY.md`, `schemas/native-gate-mapping.schema.json`, `schemas/onboarding.schema.json`, `scripts/validate_contracts.py`, `src/awq/data/agent_recipes.json`, `src/awq/native_mapping.py`, `src/awq/onboarding.py`, `src/awq/release.py`, `tests/test_native_mapping.py`, `tests/test_onboarding.py`, `fixtures/conforming/native-gate-mapping-v2.json`, `schemas/evidence-identity.schema.json` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 45, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 27, ahead 0 |
