@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #25 | `feature/formal-contracts@b3c09ddfc9af` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(checks): add structured formal evidence contract |
+| #25 | `feature/formal-contracts@b3c09ddfc9af` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add structured formal evidence contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34460110358 | `b3c09ddfc9af` | pull_request | Portable onboarding | queued:- |
-| 34460110310 | `b3c09ddfc9af` | pull_request | Verify | queued:- |
+| 34460110358 | `b3c09ddfc9af` | pull_request | Portable onboarding | completed:success |
+| 34460110310 | `b3c09ddfc9af` | pull_request | Verify | completed:success |
 | 34455272680 | `8a9f056b7fc7` | push | Release attestation | completed:success |
 | 34452729903 | `8a9f056b7fc7` | push | Portable onboarding | completed:success |
 | 34452729786 | `8a9f056b7fc7` | push | Verify | completed:success |
