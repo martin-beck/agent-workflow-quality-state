@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Rerun remaining generated-contract checks individually, then full tests, release build and publication gates. | codex-awq-ar0035-historical-fix-20260911 |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Regenerate and validate provenance fixture, then run the full static/test/contract/release gates. | codex-awq-ar0035-historical-fix-20260911 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Implementation must address all durable review blockers, package the schema with independent distribution assertions, demonstrate adapter-lifecycle mapping, and coordinate a new versioned release only after a corrected second review. | codex-awq-ar0041-corrections-20260911 |
 
 ## Open
