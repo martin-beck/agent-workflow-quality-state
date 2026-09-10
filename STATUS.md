@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Regenerate release fixtures after the final source changes, rerun the complete confined suite and all remaining publication gates, then review and commit. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun all generated drift checks, contract, doctor, and self-host gates, then build and inspect source and wheel artifacts with second-disk outputs. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Complete full diff and privacy review, rerun exact-tree full gates, then create a clean signed DCO commit and PR for independent review. |
 
 ### Planned (2)
 
