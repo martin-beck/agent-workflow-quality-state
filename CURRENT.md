@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Generate and test the end-to-end agent integration recipe after terminology and mapping contracts stabilize. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Apply the scoped onboarding contract patch by passing the patch text as apply_patch's argv, then regenerate and test the exact generated assets. | codex-awq-ar0033-integration |
 
 ## Done
 
