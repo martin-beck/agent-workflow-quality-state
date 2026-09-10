@@ -12,7 +12,7 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #36 | `feature/contract-catalog@6e1918ceac91` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(contracts): add exhaustive public catalog |
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
-| #39 | `feature/test-report-evidence@6421166ddefe` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add generic JUnit report observations |
+| #39 | `feature/test-report-evidence@6421166ddefe` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add generic JUnit report observations |
 | #40 | `feature/evidence-lineage-lifecycle@4e061c35aace` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
@@ -22,7 +22,7 @@ Generated from local Git and GitHub. Do not edit.
 | 34538518998 | `4e061c35aace` | pull_request | Verify | in_progress:- |
 | 34538518962 | `4e061c35aace` | pull_request | Portable onboarding | completed:success |
 | 34538442159 | `6421166ddefe` | pull_request | Portable onboarding | completed:success |
-| 34538442136 | `6421166ddefe` | pull_request | Verify | in_progress:- |
+| 34538442136 | `6421166ddefe` | pull_request | Verify | completed:failure |
 | 34538295226 | `6e1918ceac91` | pull_request | Verify | in_progress:- |
 | 34538295216 | `6e1918ceac91` | pull_request | Portable onboarding | completed:success |
 | 34535951884 | `2d4f198e160e` | pull_request | Verify | completed:success |
