@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Publish v0.28.0 only from exact merge 32f9ebeab405bcd75754e8c4f8244da5a76ee465 and its independently reproduced bundle after verifying external policy/signing identity and release absence. Sign the manifest, create and locally authenticate an SSH-signed annotated tag, then push tag and create exactly six release assets. Await tag attestation and complete fresh-public verification before closing. | codex-awq-ar0033-integration |
-
 ## Done
 
 | Priority | Task | Summary | Next action | Owner |
@@ -45,3 +39,4 @@ Never edit this file directly.
 | P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. | - |
 | P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. | - |
 | P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. | - |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Publish v0.28.0 only from exact merge 32f9ebeab405bcd75754e8c4f8244da5a76ee465 and its independently reproduced bundle after verifying external policy/signing identity and release absence. Sign the manifest, create and locally authenticate an SSH-signed annotated tag, then push tag and create exactly six release assets. Await tag attestation and complete fresh-public verification before closing. | - |
