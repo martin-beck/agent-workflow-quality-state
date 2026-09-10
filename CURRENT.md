@@ -9,13 +9,8 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Stage only the four reviewed blocker-fix paths, commit signed conventional fix with matching DCO, then run full exact-head gates. | codex-awq-ar0035-contract-catalog-20260911 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Retry the unchanged signed candidate with a pre-existing external parent and scratch but a nonexistent parent/bundle output; then verify the bundle, publish the PR, and await exact-head CI. | codex-awq-ar0040-test-reports-20260910 |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Independent reviewer inspects complete PR #38 diff at 2d4f198e160e662864c53fb859b8cd7b2344653c, reruns focused and full gates, and merges only after approval. | codex-awq-ar0041-review-20260911 |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Rerun the clean exact-head deterministic build with existing bounded scratch/cache directories and the release output child still nonexistent, then verify the resulting manifest. | codex-awq-ar0043-evidence-lineage-20260910 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Independent reviewer inspects complete PR #38 diff at 2d4f198e160e662864c53fb859b8cd7b2344653c, reruns focused and full gates, and merges only after approval. | - |
 
 ## Planned
 
