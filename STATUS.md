@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Publish release PR for exact signed head c9b2c3e29e1f59c6c333082b624c925c27181c66, await all exact-head checks, independently merge only if green, then rebuild and authenticate/publicly verify v0.29.0 from exact merged main. |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Rerun exact full coverage with worktree venv and reviewed pinned adapter tool prefixes on PATH; then report coverage and complete generated/release gates. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Append AR-0034 evidence-identity schema v1 to the compatibility baseline via --accept-compatible, inspect exact delta, amend signed candidate, and rerun all generated/release gates. |
 
 ### Planned (15)
 
