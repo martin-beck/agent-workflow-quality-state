@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #34 | `release/v0.28.0@7bd88c84aaf5` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.28.0 |
+| #34 | `release/v0.28.0@7bd88c84aaf5` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.28.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34518078296 | `7bd88c84aaf5` | pull_request | Verify | in_progress:- |
+| 34518078296 | `7bd88c84aaf5` | pull_request | Verify | completed:success |
 | 34518078277 | `7bd88c84aaf5` | pull_request | Portable onboarding | completed:success |
 | 34515576984 | `c890e73a26c7` | push | Portable onboarding | completed:success |
 | 34515576973 | `c890e73a26c7` | push | Verify | completed:success |
