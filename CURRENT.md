@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. | codex-awq-ar0030-terminology |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Create the locked quality environment inside the fresh second-disk worktree, run all complete gates with second-disk temp/cache paths, then perform two independent deterministic builds and exact source/distribution verification. | codex-awq-ar0031-formal-adapter |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Run two separately invoked deterministic release builds from exact merge commit with locally reverified external trust policy, compare complete bundle bytes, run source-bound release verification and both distribution inspections, then report private paths and digests without tagging or publishing. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
 
