@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Rerun the CI-equivalent full suite with the pinned-tool PATH plus the uv executable directory and an AR-scoped cache under /srv/data/projects. | codex-awq-ar0034-evidence-v2-20260910 |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Invoke uv by absolute path while excluding its directory from the test PATH so the reviewed Vale 3.20.0 prefix wins, then rerun full coverage. | codex-awq-ar0034-evidence-v2-20260910 |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Update synthetic distribution builders to include the required catalog schema and data, rerun release/distribution regressions, then proceed to lint, type, full coverage and generated-contract gates. | codex-awq-ar0035-contract-catalog-20260910 |
 
 ## Planned
