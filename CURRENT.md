@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | In a fresh detached worktree, independently build v0.28.0 twice from exact merge 32f9ebeab405bcd75754e8c4f8244da5a76ee465, compare every bundle hash, and run source/distribution verification. Hold all tag, signature, and GitHub release publication until coordinator confirms exact-main Verify 34518763397 green. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Hold all tag, manifest-signature, and GitHub release publication. Await coordinator confirmation that exact-main Verify 34518763397 and Portable onboarding 34518763380 pass for merge commit 32f9ebeab405bcd75754e8c4f8244da5a76ee465; then follow only explicitly authorized publication steps using the independently reproduced exact-main bundle. | codex-awq-ar0033-integration |
 
 ## Done
 
