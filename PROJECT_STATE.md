@@ -15,6 +15,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34469126164 | `2180882aae35` | push | Release attestation | queued:- |
 | 34468252273 | `2180882aae35` | push | Verify | completed:success |
 | 34468252257 | `2180882aae35` | push | Portable onboarding | completed:success |
 | 34467180413 | `89bc34e529c9` | pull_request | Verify | completed:success |
@@ -26,4 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34462003307 | `c980ba56f37f` | pull_request | Verify | completed:failure |
 | 34462003257 | `c980ba56f37f` | pull_request | Portable onboarding | completed:success |
 | 34461305261 | `acfee59cbe59` | pull_request | Verify | completed:failure |
-| 34461305173 | `acfee59cbe59` | pull_request | Portable onboarding | completed:success |
