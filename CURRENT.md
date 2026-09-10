@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Decompose and implement version-coupled release fixture regeneration before promoting v0.24.0. | codex-awq-ar0029-formal-contracts |
+| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Correct synthetic authenticated-release and onboarding version-role fixtures, then rerun focused and full gates. | codex-awq-ar0029-formal-contracts |
 
 ## Planned
 
