@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #22 | `feature/adversarial-testing@8e290ade5bcc` | `main` | BLOCKED | QUEUED: | feat(assurance): add bounded adversarial campaigns |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34443232548 | `8e290ade5bcc` | pull_request | Verify | queued:- |
 | 34441067958 | `4a1663896b66` | push | Release attestation | completed:success |
 | 34440532234 | `4a1663896b66` | push | Verify | completed:success |
 | 34440152431 | `67f22e35e50f` | pull_request | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34420181716 | `05567e7a13b3` | pull_request | Verify | completed:success |
 | 34418241693 | `ed05fe312c4c` | push | Release attestation | completed:success |
 | 34417566545 | `ed05fe312c4c` | push | Verify | completed:success |
-| 34417084111 | `11a84334d54c` | pull_request | Verify | completed:success |
