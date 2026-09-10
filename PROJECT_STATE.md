@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #36 | `feature/contract-catalog@5495a7549a2a` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(contracts): add exhaustive public catalog |
+| #36 | `feature/contract-catalog@6e1918ceac91` | `main` | UNKNOWN | - | feat(contracts): add exhaustive public catalog |
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
 
 ## Recent workflows
