@@ -49,6 +49,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0180` | `DETACHED` | `e92eed735826` | 0 | behind 46, ahead 0 |
 | `agent-workflow-quality-release-v0290` | `release/v0.29.0` | `c9b2c3e29e1f` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-release-verify-v0.28.0` | `DETACHED` | `32f9ebeab405` | 0 | behind 4, ahead 0 |
+| `agent-workflow-quality-release-verify-v0.29.0` | `DETACHED` | `e0e7b07de927` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 39, ahead 0 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 61, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 67, ahead 0 |
