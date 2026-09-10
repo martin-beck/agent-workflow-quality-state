@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #36 | `feature/contract-catalog@5495a7549a2a` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(contracts): add exhaustive public catalog |
+| #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | BLOCKED | - | feat(execution): add bounded budget receipts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34535951884 | `2d4f198e160e` | pull_request | Verify | queued:- |
+| 34535951883 | `2d4f198e160e` | pull_request | Portable onboarding | queued:- |
 | 34534132308 | `5495a7549a2a` | pull_request | Verify | completed:success |
 | 34534132244 | `5495a7549a2a` | pull_request | Portable onboarding | completed:success |
 | 34533483185 | `e0e7b07de927` | push | Release attestation | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34530550191 | `3428532cad60` | push | Verify | completed:success |
 | 34530550130 | `3428532cad60` | push | Portable onboarding | completed:success |
 | 34530339353 | `eb3abccbf49e` | pull_request | Verify | completed:success |
-| 34530339227 | `eb3abccbf49e` | pull_request | Portable onboarding | completed:success |
-| 34528980208 | `565b1b31090e` | pull_request | Verify | completed:success |
