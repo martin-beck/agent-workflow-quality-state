@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | codex-awq-ar0029-formal-contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Implement syntax-aware conflict detection and structured formal-evidence validation with hostile fixtures. |
+| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | codex-awq-ar0029-formal-contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Decompose and implement version-coupled release fixture regeneration before promoting v0.24.0. |
 
 ### Planned (4)
 
