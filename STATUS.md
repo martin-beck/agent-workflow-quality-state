@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**28 ARs tracked** across 3 active status categories.
+**28 ARs tracked** across 2 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 0 |
 | **Future** | Deferred roadmap work | 2 |
-| **Done** | Accepted, integrated, and durably verified | 25 |
+| **Done** | Accepted, integrated, and durably verified | 26 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -36,7 +36,7 @@ flowchart LR
         AR_0006["AR-0006 - Done"]:::status_done
         AR_0007["AR-0007 - Done"]:::status_done
         AR_0008["AR-0008 - Done"]:::status_done
-        AR_0009["AR-0009 - In progress"]:::status_in_progress
+        AR_0009["AR-0009 - Done"]:::status_done
         AR_0010["AR-0010 - Future"]:::status_future
         AR_0011["AR-0011 - Future"]:::status_future
         AR_0012["AR-0012 - Done"]:::status_done
@@ -151,12 +151,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | codex-awq-ar0009-adversarial | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
-
 ### Future (2)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -164,7 +158,7 @@ flowchart LR
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
 | P2 | [AR-0011](tasks/AR-0011.md): Agent onboarding distribution and compatibility | Unclaimed | Make AWQ easy for new agents to adopt, update and diagnose across supported environments. | Design compatibility metadata, agent-readable recipes, migration fixtures and package distribution channels. |
 
-### Done (25)
+### Done (26)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -189,6 +183,7 @@ flowchart LR
 | P1 | [AR-0024](tasks/AR-0024.md): Canonical SPDX SBOM and license inventory | Unclaimed | Generate deterministic release SBOMs that identify AWQ, build inputs, licenses and artifact relationships. | Implement after AR-0023 fixes the release-manifest and artifact identity contracts. |
 | P1 | [AR-0025](tasks/AR-0025.md): Signed provenance trust roots and verified updates | Unclaimed | Bind release provenance to trusted identities and require verified local bundles before consumer lock updates. | Implement after AR-0023 and AR-0024 stabilize artifact and SBOM identities. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
+| P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0022](tasks/AR-0022.md): Bounded Rust coverage fuzz and mutation evidence | Unclaimed | Add bounded coverage, fuzzing and mutation contracts with explicit corpus, time and platform limits. | Push signed commit e32c5a3, open the PR, and verify hosted exact-head CI. |
 | P2 | [AR-0026](tasks/AR-0026.md): Formal policy lifecycle and concurrency models | Unclaimed | Extend bounded formal assurance to policy updates, exception renewal, tier transitions, freshness, rollback and concurrent crash recovery. | Define the finite lifecycle state, interleavings, recovery assumptions and counterexample corpus. |
 | P2 | [AR-0027](tasks/AR-0027.md): Formal implementation refinement contracts | Unclaimed | Bind bounded AWQ models to reviewed implementation refinement maps without overstating formal proof. | Define refinement-map schema, correspondence obligations, executable trace checks and hostile mismatch fixtures. |
