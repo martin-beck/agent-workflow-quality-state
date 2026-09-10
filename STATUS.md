@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Perform complete release diff/privacy review, stage exact paths, create and verify a clean signed DCO v0.25.0 preparation commit, then run deterministic release build and structural source verification. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Retry deterministic release build with a nonexistent output child under an exact pre-existing private parent, then run source and distribution verification without changing the clean commit. |
 
 ### Planned (2)
 
