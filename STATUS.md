@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Run generated-contract, formatting, lint, typing, privacy, header, and full test/coverage gates on the exact dirty candidate, then review and commit if clean. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Give the negative-contract mutator tuple an explicit Callable type, rerun formatting, focused tests, and full mypy before proceeding. |
 
 ### Done (32)
 
