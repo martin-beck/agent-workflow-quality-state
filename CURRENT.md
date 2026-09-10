@@ -8,12 +8,12 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Freeze the generic evidence envelope and native-gate mapping v2 correlation fields, transition rules, compatibility behavior and hostile fixture matrix before implementation. | - |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Inventory every shipped public contract and freeze the catalog, discovery, fixture, implementation-conformance and compatibility-baseline rules. | - |
 
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Inventory every shipped public contract and freeze the catalog, discovery, fixture, implementation-conformance and compatibility-baseline rules. | - |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Define the closed repository-domain inventory and gate coverage rules, including argv, ownership, invariants, evidence class, remediation and unsupported declarations. | - |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Freeze capability maturity states and cross-field evidence obligations, then specify freshness, limitations, surfaces and prohibited claim inflation fixtures. | - |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. | - |
