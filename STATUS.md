@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Hold all tag, manifest-signature, and GitHub release publication. Await coordinator confirmation that exact-main Verify 34518763397 and Portable onboarding 34518763380 pass for merge commit 32f9ebeab405bcd75754e8c4f8244da5a76ee465; then follow only explicitly authorized publication steps using the independently reproduced exact-main bundle. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Exact-main Verify 34518763397 and Portable 34518763380 are green at 32f9ebeab405bcd75754e8c4f8244da5a76ee465. Publish v0.28.0 only via the authorized signed tag, exact six assets, attestation, authentication, fresh-clone and offline-wheel verification; fail closed and then close AR-0033 with durable evidence. |
 
 ### Done (32)
 
