@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**33 ARs tracked** across 4 active status categories.
+**33 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
@@ -59,7 +59,7 @@ flowchart LR
         AR_0029["AR-0029 - Done"]:::status_done
         AR_0030["AR-0030 - In progress"]:::status_in_progress
         AR_0031["AR-0031 - Done"]:::status_done
-        AR_0032["AR-0032 - Open"]:::status_open
+        AR_0032["AR-0032 - In progress"]:::status_in_progress
         AR_0033["AR-0033 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
@@ -167,17 +167,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Unclaimed | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Design native-gate mapping schema and implement validation, evidence normalization, and equivalence fixtures. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Design native-gate mapping schema and implement validation, evidence normalization, and equivalence fixtures. |
 
 ### Planned (1)
 
