@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #33 | `feature/agent-quality-integration@7b19df677a75` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | feat(onboarding): publish agent integration workflow |
+| #33 | `feature/agent-quality-integration@7b19df677a75` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(onboarding): publish agent integration workflow |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 34514826477 | `7b19df677a75` | pull_request | Verify | in_progress:- |
-| 34514826393 | `7b19df677a75` | pull_request | Portable onboarding | in_progress:- |
+| 34514826393 | `7b19df677a75` | pull_request | Portable onboarding | completed:success |
 | 34508019371 | `f838c942c36e` | push | Release attestation | completed:success |
 | 34506178487 | `f838c942c36e` | push | Verify | completed:success |
 | 34506178439 | `f838c942c36e` | push | Portable onboarding | completed:success |
