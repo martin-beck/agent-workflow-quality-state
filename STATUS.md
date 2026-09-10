@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Independent coordinator review of release-preparation PR 32; merge only if complete diff/evidence at exact green head e7f333e5aa686f54b8e7658f7e8ada47a20ab6e9 is accepted. Then perform exact-main post-merge gates and publish v0.27.0 only if every release/authentication/public gate passes. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. |
 
 ### Planned (1)
 
