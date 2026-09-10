@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Coordinator independently reviews exact-merge gates, source binding, bundle bytes/digests, external trust-policy binding, and release procedure. Only after acceptance may the coordinator perform the separately authorized signed-manifest/annotated-tag/publication sequence and exact-tag/public verification. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Push the independently authenticated signed v0.25.0 annotated tag, create the GitHub release with the exact verified bundle and detached manifest signature, then require exact-tag attestation CI plus fresh public download/authentication/install verification before closing AR-0031. |
 
 ### Planned (2)
 
