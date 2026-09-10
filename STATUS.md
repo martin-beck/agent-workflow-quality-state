@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Authenticate exact c1fb70c v0.26.0 candidate against the pinned external trust policy and exact local tag object; publish only after the gate passes. |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Create the v0.26.0 GitHub release for the already-published verified tag with the six exact authenticated assets, then verify tag CI and public public bundle. |
 | P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | After v0.26.0 release, rebase onto exact main, refresh version-coupled release fixtures, rerun complete gates, and publish a clean exact-head PR. |
 
 ### Planned (1)
