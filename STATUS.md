@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Rerun the full unittest discovery with fail-fast to capture the first exact traceback, correct the implementation or fixture assumption, then rerun the complete coverage gate. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Rerun full coverage with the reviewed Android, Rust, Rust supply, shell, documentation, and schema tool prefixes prepended to PATH; then distinguish any remaining product failure. |
 
 ### Done (32)
 
