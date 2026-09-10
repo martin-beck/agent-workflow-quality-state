@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Correct PR 33 body using the exact martin-beck/agent-workflow-quality repository identifier, verify the public body and exact head, then monitor exact-head CI without merging. | codex-awq-ar0033-integration |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Monitor PR 33 exact-head Verify run 34514826477 to terminal success; portable onboarding run 34514826393 is green on all six OS/Python jobs. Do not merge; hand off to coordinator after exact-head CI is fully green. | codex-awq-ar0033-integration |
 
 ## Done
 
