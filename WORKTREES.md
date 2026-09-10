@@ -11,6 +11,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 74, ahead 0 |
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 33, ahead 0 |
+| `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `f838c942c36e` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 51, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 41, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 13, ahead 0 |
