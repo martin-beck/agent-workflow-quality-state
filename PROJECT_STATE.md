@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #26 | `release/v0.24.0@d676ed2d6f1b` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.24.0 |
+| #26 | `release/v0.24.0@5b4f8767b596` | `main` | BLOCKED | - | chore(release): prepare v0.24.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34460928389 | `d676ed2d6f1b` | pull_request | Verify | queued:- |
-| 34460928332 | `d676ed2d6f1b` | pull_request | Portable onboarding | queued:- |
+| 34460928389 | `d676ed2d6f1b` | pull_request | Verify | completed:failure |
+| 34460928332 | `d676ed2d6f1b` | pull_request | Portable onboarding | completed:failure |
 | 34460809784 | `2d576be5d319` | push | Verify | in_progress:- |
 | 34460809395 | `2d576be5d319` | push | Portable onboarding | completed:success |
 | 34460110358 | `b3c09ddfc9af` | pull_request | Portable onboarding | completed:success |
