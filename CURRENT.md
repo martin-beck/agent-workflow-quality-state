@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Monitor PR 31 exact-head Verify and six portable onboarding jobs; hand off unchanged bcb27518094b1a3ec58eb9051ca305138e1fd751 for independent coordinator review after all required checks are green. Do not merge. | codex-awq-ar0032-native-gate |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Independent coordinator review of complete PR 31 diff and evidence; merge only if review accepts exact green head bcb27518094b1a3ec58eb9051ca305138e1fd751, then perform post-merge verification and release/public verification as required. | codex-awq-ar0032-native-gate |
 
 ## Planned
 
