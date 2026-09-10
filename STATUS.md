@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 4 active status categories.
+**50 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 4 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 12 |
 | **Future** | Deferred roadmap work | 0 |
@@ -70,7 +70,7 @@ flowchart LR
         AR_0040["AR-0040 - In progress"]:::status_in_progress
         AR_0041["AR-0041 - In progress"]:::status_in_progress
         AR_0042["AR-0042 - Planned"]:::status_planned
-        AR_0043["AR-0043 - Open"]:::status_open
+        AR_0043["AR-0043 - In progress"]:::status_in_progress
         AR_0044["AR-0044 - Planned"]:::status_planned
         AR_0045["AR-0045 - Planned"]:::status_planned
         AR_0046["AR-0046 - Planned"]:::status_planned
@@ -238,19 +238,14 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Wait for all required exact-head checks on PR #36 head 5495a7549a2a18e7cbe1ca19d8787c6f943e2431, then record evidence and release claim for independent review. |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-test-reports-20260910 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-budget-receipts-20260910 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Apply the deterministic formatter, then rerun focused lint, typing, schema, generator and full quality gates before publication. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Specify immutable observation lineage, publication outcome and deterministic metadata-only retention planning with protected-reference rules. |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-evidence-lineage-20260910 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Specify immutable observation lineage, publication outcome and deterministic metadata-only retention planning with protected-reference rules. |
 
 ### Planned (12)
 
