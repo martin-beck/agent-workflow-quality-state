@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Create and verify the clean signed DCO commit, build and verify the exact release candidate, then publish the PR and wait for exact-head CI. |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Non-force push clean signed head 46f11b65f63dbf6ef1fe58522316698625d53218, open a sanitized PR, and wait for required exact-head CI before handing off for independent review. |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Complete full diff and privacy review, rerun exact-tree full gates, then create a clean signed DCO commit and PR for independent review. |
 
 ### Planned (2)
