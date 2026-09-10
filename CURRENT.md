@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Fix the one task-related standards count, then rerun the full suite with Python 3.12 and the already installed pinned adapter tool prefixes. | codex-awq-ar0030-terminology |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Rerun the complete suite with TMPDIR, CARGO_HOME, and UV_CACHE_DIR confined below the task's /srv/data/projects prefixes, then complete remaining gates. | codex-awq-ar0030-terminology |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Run every focused and full gate from the clean Python 3.12.14 environment with TMPDIR, UV cache, Python install, coverage data, and build output explicitly rooted under /srv/data/projects. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
