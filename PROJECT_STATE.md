@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #27 | `feature/terminology-gate@6b6147a505b8` | `main` | UNKNOWN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
+| #27 | `feature/terminology-gate@6b6147a505b8` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34483456602 | `f44d2cfe2d55` | push | Portable onboarding | queued:- |
+| 34483456602 | `f44d2cfe2d55` | push | Portable onboarding | completed:success |
 | 34483456029 | `f44d2cfe2d55` | push | Verify | in_progress:- |
 | 34482759931 | `bf7310ef54ad` | pull_request | Verify | completed:success |
 | 34482759830 | `bf7310ef54ad` | pull_request | Portable onboarding | completed:success |
