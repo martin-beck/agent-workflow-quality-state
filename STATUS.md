@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Regenerate deterministic onboarding metadata for native mapping schema v2, then rerun focused tests. |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Run the focused suite from the AR worktree, correct product failures, then verify generated artifacts and the full applicable gate. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Install the locked quality dependency group in the isolated worktree, rerun focused contract-catalog tests, and address any actual assertion failures. |
 
 ### Planned (15)
 
