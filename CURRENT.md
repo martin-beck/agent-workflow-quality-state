@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. | codex-awq-ar0032-native-gate |
-
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
@@ -42,6 +36,7 @@ Never edit this file directly.
 | P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Coordinator independently reviews exact-head PR 26 at 89bc34e529c9dc77523a0316501eb255c3c43c8e; merge and release only after that review. | - |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Create the v0.26.0 GitHub release for the already-published verified tag with the six exact authenticated assets, then verify tag CI and public public bundle. | - |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | No further AR-0031 action; v0.25.0 is publicly released and independently authenticated. Continue dependency-ready AR-0030 and AR-0032 work. | - |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | - |

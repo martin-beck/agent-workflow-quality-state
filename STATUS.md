@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**33 ARs tracked** across 3 active status categories.
+**33 ARs tracked** across 2 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 31 |
+| **Done** | Accepted, integrated, and durably verified | 32 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -59,7 +59,7 @@ flowchart LR
         AR_0029["AR-0029 - Done"]:::status_done
         AR_0030["AR-0030 - Done"]:::status_done
         AR_0031["AR-0031 - Done"]:::status_done
-        AR_0032["AR-0032 - In progress"]:::status_in_progress
+        AR_0032["AR-0032 - Done"]:::status_done
         AR_0033["AR-0033 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
@@ -167,19 +167,13 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. |
-
 ### Planned (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Unclaimed | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Generate and test the end-to-end agent integration recipe after terminology and mapping contracts stabilize. |
 
-### Done (31)
+### Done (32)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -206,6 +200,7 @@ flowchart LR
 | P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | Unclaimed | Make formal-language checks precise and formal-evidence claims structured and truthful. | Coordinator independently reviews exact-head PR 26 at 89bc34e529c9dc77523a0316501eb255c3c43c8e; merge and release only after that review. |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Unclaimed | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Create the v0.26.0 GitHub release for the already-published verified tag with the six exact authenticated assets, then verify tag CI and public public bundle. |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Unclaimed | Add a bounded formal-model execution adapter with truthful evidence output. | No further AR-0031 action; v0.25.0 is publicly released and independently authenticated. Continue dependency-ready AR-0030 and AR-0032 work. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Unclaimed | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
