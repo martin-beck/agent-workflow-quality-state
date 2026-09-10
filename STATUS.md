@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | codex-awq-ar0029-formal-contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Rerun shell-focused and full coverage gates with the verified shell-tool prefix, then execute remaining release gates. |
+| P1 | [AR-0029](tasks/AR-0029.md): Formal syntax and evidence contracts | codex-awq-ar0029-formal-contracts | Make formal-language checks precise and formal-evidence claims structured and truthful. | Coordinator independently reviews exact-head PR 26 at 89bc34e529c9dc77523a0316501eb255c3c43c8e; merge and release only after that review. |
 
 ### Planned (4)
 
