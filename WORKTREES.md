@@ -13,10 +13,10 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 37, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 55, ahead 0 |
-| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `32f9ebeab405` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `schemas/contract-catalog.schema.json` |
-| `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `32f9ebeab405` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/native_mapping.py` |
+| `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `32f9ebeab405` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/contract-catalog.schema.json`, `src/awq/contracts.py` |
+| `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `32f9ebeab405` | 3 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/native-gate-mapping.schema.json`, `src/awq/native_mapping.py`, `schemas/evidence-identity.schema.json` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 45, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 27, ahead 0 |
