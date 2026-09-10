@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Complete schema agreement and generated contracts, then run focused and full exact-tree gates. |
+| P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Fix the one task-related standards count, then rerun the full suite with Python 3.12 and the already installed pinned adapter tool prefixes. |
 | P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun focused tests after the test helper rename, then fix only observed contract or schema failures before distribution fixture updates. |
 
 ### Planned (2)
