@@ -16,7 +16,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 9, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 7, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 46, ahead 0 |
-| `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `058f76266edc` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `058f76266edc` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/onboarding.py` |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 13, ahead 0 |
 | `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `67f22e35e50f` | 0 | behind 5, ahead 0 |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 15, ahead 0 |
