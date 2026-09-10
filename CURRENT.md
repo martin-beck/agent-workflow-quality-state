@@ -9,13 +9,13 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Rerun the unchanged exact-head Verify job once after its Android/JVM setup probe mismatch; if it repeats, investigate the pinned installer boundary before changing product bytes. | codex-awq-ar0040-test-reports-20260910 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Implementation must correct the recorded lifecycle, parity, cleanup, bounded-model and sandbox-outcome blockers before a second independent review; PR #38 must not merge. | codex-awq-ar0041-review-20260911 |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator independently review the complete PR #40 diff and evidence on exact head 4e061c35aacead45fd94de660afdf2fa14b616db; merge only if review accepts all contracts and gates, then perform post-merge verification before closing AR-0043. | codex-awq-ar0043-evidence-lineage-20260910 |
 
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Second independent reviewer replays all three prior hostile findings against corrected PR #36 head 6e1918ceac9138335a9173a70edbbe80f7cc74af, reviews the complete diff and merges only if every gate remains green. | - |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator independently review the complete PR #40 diff and evidence on exact head 4e061c35aacead45fd94de660afdf2fa14b616db; merge only if review accepts all contracts and gates, then perform post-merge verification before closing AR-0043. | - |
 
 ## Planned
 
