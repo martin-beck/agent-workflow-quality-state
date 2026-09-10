@@ -172,7 +172,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | codex-awq-ar0030-terminology | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Add hostile coverage for canonical collisions and future-dated exceptions, regenerate the expected provenance fixture, then rerun focused and full gates. |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun the complete suite through uv --directory so cwd and venv tool discovery match the documented gate, retaining explicit second-disk TMPDIR, cache, Python, coverage, and external-tool paths. |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | codex-awq-ar0031-formal-adapter | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun all generated drift checks, contract, doctor, and self-host gates, then build and inspect source and wheel artifacts with second-disk outputs. |
 
 ### Planned (2)
 
