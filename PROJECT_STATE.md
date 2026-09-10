@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #27 | `feature/terminology-gate@6b6147a505b8` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
+| #29 | `release/v0.25.0@1a3e6cba4d32` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.25.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34486290110 | `1a3e6cba4d32` | pull_request | Portable onboarding | queued:- |
+| 34486290095 | `1a3e6cba4d32` | pull_request | Verify | queued:- |
 | 34483456602 | `f44d2cfe2d55` | push | Portable onboarding | completed:success |
 | 34483456029 | `f44d2cfe2d55` | push | Verify | completed:success |
 | 34482759931 | `bf7310ef54ad` | pull_request | Verify | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34479255188 | `46f11b65f63d` | pull_request | Portable onboarding | completed:success |
 | 34469126164 | `2180882aae35` | push | Release attestation | completed:success |
 | 34468252273 | `2180882aae35` | push | Verify | completed:success |
-| 34468252257 | `2180882aae35` | push | Portable onboarding | completed:success |
-| 34467180413 | `89bc34e529c9` | pull_request | Verify | completed:success |
