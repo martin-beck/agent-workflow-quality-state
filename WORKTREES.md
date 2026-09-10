@@ -16,8 +16,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 40, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 7, ahead 0 |
-| `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `15ad92f75eb2` | 4 | behind 0, ahead 0 |
-| changed files | - | - | - | `scripts/install_refactor_tools.py`, `src/awq/cli.py`, `src/awq/refactor.py`, `src/awq/refactor_worker.py` |
+| `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `15ad92f75eb2` | 22 | behind 0, ahead 0 |
+| changed files | - | - | - | `fixtures/conforming/refactoring/after.py`, `fixtures/conforming/refactoring/before.py`, `fixtures/conforming/refactoring/error.py`, `fixtures/conforming/refactoring/mismatch.py`, `fixtures/conforming/refactoring/mutant.py`, `fixtures/conforming/refactoring/property-after.py`, `fixtures/conforming/refactoring/property-before.py`, `fixtures/conforming/refactoring/quality/python-refactor.json`, `fixtures/conforming/refactoring/survivor.py`, `fixtures/nonconforming/refactoring/error.json`, `fixtures/nonconforming/refactoring/mismatch.json`, `fixtures/nonconforming/refactoring/property.json`, `fixtures/nonconforming/refactoring/survivor.json`, `schemas/adapter-result.schema.json`, `schemas/python-refactor.schema.json`, `scripts/install_refactor_tools.py`, `src/awq/adapters.py`, `src/awq/cli.py`, `src/awq/data/adapter_catalog.json`, `src/awq/refactor.py`, `src/awq/refactor_worker.py`, `templates/python-refactor.json` |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 9, ahead 0 |
 | `agent-workflow-quality-release-reproducibility` | `feature/release-reproducibility` | `a641a93311d8` | 0 | behind 12, ahead 0 |
 | `agent-workflow-quality-release-sbom` | `feature/release-sbom` | `39663891de5e` | 0 | behind 11, ahead 0 |
