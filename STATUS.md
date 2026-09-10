@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Monitor PR 33 exact-head Verify run 34514826477 to terminal success; portable onboarding run 34514826393 is green on all six OS/Python jobs. Do not merge; hand off to coordinator after exact-head CI is fully green. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Coordinator may merge PR 33 only at exact reviewed head 7b19df677a758bc64ab428c499bdad23351cd5b8, then perform exact-main verification and v0.28 release preparation if all version-coupled gates pass. |
 
 ### Done (32)
 
