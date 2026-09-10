@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Install the locked quality group with a reviewed Python 3.13 interpreter, then add and run v2 schema/runtime fixtures. |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Regenerate deterministic onboarding metadata for native mapping schema v2, then rerun focused tests. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Apply all implementation changes through handoffctl run using apply_patch patch-text arguments; verify catalog inventory and focused hostile tests. |
 
 ### Planned (15)
