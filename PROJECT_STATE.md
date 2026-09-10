@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #27 | `feature/terminology-gate@46f11b65f63d` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(checks): add terminology contracts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34479255315 | `46f11b65f63d` | pull_request | Verify | queued:- |
+| 34479255188 | `46f11b65f63d` | pull_request | Portable onboarding | queued:- |
 | 34469126164 | `2180882aae35` | push | Release attestation | completed:success |
 | 34468252273 | `2180882aae35` | push | Verify | completed:success |
 | 34468252257 | `2180882aae35` | push | Portable onboarding | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34462677324 | `3d7e09e1fcb2` | pull_request | Verify | completed:failure |
 | 34462677284 | `3d7e09e1fcb2` | pull_request | Portable onboarding | completed:success |
 | 34462003307 | `c980ba56f37f` | pull_request | Verify | completed:failure |
-| 34462003257 | `c980ba56f37f` | pull_request | Portable onboarding | completed:success |
-| 34461305261 | `acfee59cbe59` | pull_request | Verify | completed:failure |
