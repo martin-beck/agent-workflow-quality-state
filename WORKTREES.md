@@ -20,7 +20,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-refactoring-adapters` | `feature/refactoring-adapters` | `67f22e35e50f` | 0 | behind 13, ahead 0 |
-| `agent-workflow-quality-release-024` | `release/v0.24.0` | `acfee59cbe59` | 0 | behind 0, ahead 3 |
+| `agent-workflow-quality-release-024` | `release/v0.24.0` | `c980ba56f37f` | 0 | behind 0, ahead 4 |
 | `agent-workflow-quality-release-provenance-updates` | `feature/release-provenance-updates` | `bb469ca69dcd` | 0 | behind 23, ahead 0 |
 | `agent-workflow-quality-release-reproducibility` | `feature/release-reproducibility` | `a641a93311d8` | 0 | behind 26, ahead 0 |
 | `agent-workflow-quality-release-sbom` | `feature/release-sbom` | `39663891de5e` | 0 | behind 25, ahead 0 |
