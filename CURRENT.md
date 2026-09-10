@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Run focused format/lint/mypy and 8 hostile catalog tests; inspect any true failures before full gates. | codex-awq-ar0035-contract-catalog-20260911 |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Stage only the four reviewed blocker-fix paths, commit signed conventional fix with matching DCO, then run full exact-head gates. | codex-awq-ar0035-contract-catalog-20260911 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. | codex-awq-ar0040-test-reports-20260910 |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Rerun the unchanged full branch-coverage suite with the reviewed AR-0034 external tool bundle explicitly prepended to PATH. | codex-awq-ar0043-evidence-lineage-20260910 |
 
