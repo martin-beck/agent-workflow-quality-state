@@ -18,7 +18,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 29, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 27, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 66, ahead 0 |
-| `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `05abe8999b47` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `05abe8999b47` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/cli.py`, `src/awq/native_mapping.py` |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 15, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-promotion` | `feature/consumer-promotion` | `41090ec04193` | 0 | behind 33, ahead 0 |
