@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Fix the one task-related standards count, then rerun the full suite with Python 3.12 and the already installed pinned adapter tool prefixes. | codex-awq-ar0030-terminology |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun focused tests after the test helper rename, then fix only observed contract or schema failures before distribution fixture updates. | codex-awq-ar0031-formal-adapter |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Correct the independently re-downloaded TLA+ Tools v1.8.0 SHA-256 pin, rerun the live atomic installer, then execute full gates. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
 
