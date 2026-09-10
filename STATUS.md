@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Run documented release build with exact pre-existing external scratch, then source verification and distribution inspection before publication. |
+| P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | codex-awq-ar0032-native-gate | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Fetch and confirm unchanged exact main, verify clean signed-DCO exact tree and privacy review, publish PR, then monitor exact-head CI for independent coordinator review. |
 
 ### Planned (1)
 
