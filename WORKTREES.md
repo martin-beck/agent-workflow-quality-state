@@ -17,8 +17,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 3, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `e0e7b07de927` | 8 | behind 0, ahead 0 |
 | changed files | - | - | - | `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/release.py`, `tests/test_distribution.py`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/`, `schemas/evidence-lifecycle.schema.json`, `src/awq/evidence_lifecycle.py` |
-| `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `e0e7b07de927` | 10 | behind 0, ahead 0 |
-| changed files | - | - | - | `README.md`, `docs/ARCHITECTURE.md`, `docs/QUALITY.md`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `docs/EXECUTION_RECEIPTS.md`, `fixtures/conforming/execution-receipt.json`, `schemas/execution-receipt.schema.json`, `src/awq/execution_budget.py`, `tests/test_execution_budget.py` |
+| `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `2d4f198e160e` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 49, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 31, ahead 0 |
