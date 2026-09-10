@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Coordinator independently reviews exact clean signed/DCO release head 7bd88c84aaf5992d289a613ae3e194df104fee47 and its 27-file version-only diff plus deterministic bundle evidence. After explicit approval, publish only this exact head as a sanitized release PR; do not merge, tag, or release. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | In a fresh detached worktree, independently build v0.28.0 twice from exact merge 32f9ebeab405bcd75754e8c4f8244da5a76ee465, compare every bundle hash, and run source/distribution verification. Hold all tag, signature, and GitHub release publication until coordinator confirms exact-main Verify 34518763397 green. |
 
 ### Done (32)
 
