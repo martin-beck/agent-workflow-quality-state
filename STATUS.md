@@ -171,7 +171,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Parse the reviewed schema metadata with bounded duplicate-rejecting JSON rather than the release canonical-input parser, add the malformed-schema negative test, regenerate, and rerun focused gates. |
+| P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | codex-awq-ar0033-integration | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Run generated-contract, formatting, lint, typing, privacy, header, and full test/coverage gates on the exact dirty candidate, then review and commit if clean. |
 
 ### Done (32)
 
