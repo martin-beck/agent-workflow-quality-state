@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0030](tasks/AR-0030.md): Terminology registry and enforcement | Add reusable canonical-vocabulary declarations and deterministic terminology enforcement. | Coordinator independently reviews exact-head PR 27 at 6b6147a505b81d642df47dc84bca4a5156c5150b; merge only after accepting the Markdown fence correction and all durable evidence. | codex-awq-ar0030-terminology |
-| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Inspect exact semantic version roles, regenerate onboarding/SBOM/provenance fixtures, run focused and full release gates, then prepare a clean signed DCO release PR for independent review. | codex-awq-ar0031-formal-adapter |
+| P1 | [AR-0031](tasks/AR-0031.md): Formal-model adapter profile | Add a bounded formal-model execution adapter with truthful evidence output. | Rerun the complete exact-tree gate with the exact uv launcher, then review and commit the release candidate. | codex-awq-ar0031-formal-adapter |
 
 ## Planned
 
