@@ -7,7 +7,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Coordinator may independently merge PR 36 only while its head remains 4f7ccc848817f8d8a954264a854bcb430ebd8eb2 and required checks remain green, then run post-merge release and fresh-clone verification; do not merge any changed head without renewed review. | codex-awq-ar0035-independent-review-20260911 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Correct nested-suite accounting, aggregate count and suite bounds, schema-runtime path parity, and early discovery bounds with hostile regressions; publish a new signed DCO head, rerun all gates and exact-head CI, then request a fresh independent review. | codex-awq-ar0040-corrections-20260911 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Rerun the full suite with the established pinned offline tool prefixes on PATH, then run coverage and remaining generated, contract, model and release gates. | codex-awq-ar0041-corrections-20260911 |
 
@@ -15,6 +14,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Coordinator may independently merge PR 36 only while its head remains 4f7ccc848817f8d8a954264a854bcb430ebd8eb2 and required checks remain green, then run post-merge release and fresh-clone verification; do not merge any changed head without renewed review. | - |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator independently review the complete PR #40 diff and evidence on exact head 4e061c35aacead45fd94de660afdf2fa14b616db; merge only if review accepts all contracts and gates, then perform post-merge verification before closing AR-0043. | - |
 
 ## Planned
