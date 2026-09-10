@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #27 | `feature/terminology-gate@6b6147a505b8` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(checks): add terminology contracts |
-| #28 | `feature/formal-adapter@bf7310ef54ad` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, IN_PROGRESS: | feat(adapters): add bounded formal model profile |
+| #28 | `feature/formal-adapter@bf7310ef54ad` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(adapters): add bounded formal model profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34482759931 | `bf7310ef54ad` | pull_request | Verify | queued:- |
-| 34482759830 | `bf7310ef54ad` | pull_request | Portable onboarding | queued:- |
+| 34482759931 | `bf7310ef54ad` | pull_request | Verify | in_progress:- |
+| 34482759830 | `bf7310ef54ad` | pull_request | Portable onboarding | in_progress:- |
 | 34482425726 | `6b6147a505b8` | pull_request | Portable onboarding | completed:success |
 | 34482425716 | `6b6147a505b8` | pull_request | Verify | in_progress:- |
 | 34479255315 | `46f11b65f63d` | pull_request | Verify | completed:success |
