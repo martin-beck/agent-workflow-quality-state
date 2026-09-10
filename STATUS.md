@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-evidence-v2-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Create the exact external scratch directory under /srv/data/projects and rerun the clean-HEAD reproducible build with the reviewed fixture trust-policy digest for structural verification only. |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Resync the AR environment to Python 3.12.14, verify exact wrapper versions from second-disk prefixes, rerun full coverage with the composed offline PATH, then run all generated/self-host gates. |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Regenerate the provenance fixture through its canonical generator, inspect the exact material changes, rerun all generated/model/contract/self-host gates, then audit the complete diff. |
 
 ### Planned (15)
 
