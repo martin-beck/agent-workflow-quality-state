@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `f838c942c36e31473714d676165900f4f0611a40`
+- Product remote main: `c890e73a26c70381ca6ee8b78e423438f30f68ec`
 - Local origin/main: `f838c942c36e31473714d676165900f4f0611a40`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #33 | `feature/agent-quality-integration@7b19df677a75` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(onboarding): publish agent integration workflow |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34515576984 | `c890e73a26c7` | push | Portable onboarding | queued:- |
+| 34515576973 | `c890e73a26c7` | push | Verify | in_progress:- |
 | 34514826477 | `7b19df677a75` | pull_request | Verify | completed:success |
 | 34514826393 | `7b19df677a75` | pull_request | Portable onboarding | completed:success |
 | 34508019371 | `f838c942c36e` | push | Release attestation | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34502772488 | `1526873872f5` | push | Verify | completed:success |
 | 34502772463 | `1526873872f5` | push | Portable onboarding | completed:success |
 | 34502076651 | `bcb27518094b` | pull_request | Portable onboarding | completed:success |
-| 34502076647 | `bcb27518094b` | pull_request | Verify | completed:success |
-| 34498660473 | `c1fb70c52ae3` | push | Release attestation | completed:success |
