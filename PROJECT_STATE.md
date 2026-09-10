@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #30 | `release/v0.26.0@e896df9b3d29` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.26.0 |
+| #30 | `release/v0.26.0@e896df9b3d29` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.26.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34495860558 | `e896df9b3d29` | pull_request | Verify | queued:- |
-| 34495860523 | `e896df9b3d29` | pull_request | Portable onboarding | queued:- |
+| 34495860558 | `e896df9b3d29` | pull_request | Verify | in_progress:- |
+| 34495860523 | `e896df9b3d29` | pull_request | Portable onboarding | in_progress:- |
 | 34493131912 | `8e6391a246a2` | push | Verify | completed:success |
 | 34493131840 | `8e6391a246a2` | push | Portable onboarding | completed:success |
 | 34492578592 | `3cee7d430fc9` | pull_request | Verify | completed:success |
