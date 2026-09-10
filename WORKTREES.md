@@ -15,8 +15,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 59, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `5495a7549a2a` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 3, ahead 0 |
-| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `e0e7b07de927` | 9 | behind 0, ahead 0 |
-| changed files | - | - | - | `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/release.py`, `tests/test_distribution.py`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/`, `schemas/evidence-lifecycle.schema.json`, `src/awq/evidence_lifecycle.py`, `tests/test_evidence_lifecycle.py` |
+| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `e0e7b07de927` | 14 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/ARCHITECTURE.md`, `docs/DEVELOPMENT.md`, `docs/QUALITY.md`, `docs/RELIABILITY.md`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/release.py`, `tests/test_distribution.py`, `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/`, `schemas/evidence-lifecycle.schema.json`, `src/awq/evidence_lifecycle.py`, `tests/test_evidence_lifecycle.py` |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `2d4f198e160e` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 49, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 21, ahead 0 |
