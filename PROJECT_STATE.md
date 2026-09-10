@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #36 | `feature/contract-catalog@eb3abccbf49e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(contracts): add exhaustive public catalog |
+| #37 | `release/v0.29.0@c9b2c3e29e1f` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.29.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34532008803 | `c9b2c3e29e1f` | pull_request | Portable onboarding | queued:- |
+| 34532008670 | `c9b2c3e29e1f` | pull_request | Verify | queued:- |
 | 34530550191 | `3428532cad60` | push | Verify | completed:success |
 | 34530550130 | `3428532cad60` | push | Portable onboarding | completed:success |
 | 34530339353 | `eb3abccbf49e` | pull_request | Verify | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34518763397 | `32f9ebeab405` | push | Verify | completed:success |
 | 34518763380 | `32f9ebeab405` | push | Portable onboarding | completed:success |
 | 34518078296 | `7bd88c84aaf5` | pull_request | Verify | completed:success |
-| 34518078277 | `7bd88c84aaf5` | pull_request | Portable onboarding | completed:success |
-| 34515576984 | `c890e73a26c7` | push | Portable onboarding | completed:success |
