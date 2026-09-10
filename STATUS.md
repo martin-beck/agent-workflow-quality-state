@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 15 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 33 |
+| **Done** | Accepted, integrated, and durably verified | 34 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -61,7 +61,7 @@ flowchart LR
         AR_0031["AR-0031 - Done"]:::status_done
         AR_0032["AR-0032 - Done"]:::status_done
         AR_0033["AR-0033 - Done"]:::status_done
-        AR_0034["AR-0034 - In progress"]:::status_in_progress
+        AR_0034["AR-0034 - Done"]:::status_done
         AR_0035["AR-0035 - In progress"]:::status_in_progress
         AR_0036["AR-0036 - Planned"]:::status_planned
         AR_0037["AR-0037 - Planned"]:::status_planned
@@ -238,11 +238,10 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | codex-awq-ar0034-review-20260910 | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Push locally authenticated annotated tag object 936078f39e1fd9e070f1e5b87cd5cb036bcb682b, create v0.29.0 with exactly six verified assets, await exact-tag attestation, then verify fresh public clone, downloads, hashes, authentication and offline wheel behavior. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-contract-catalog-20260910 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Refresh the worktree venv offline from the reviewed AR-0034 quality cache, verify installed AWQ 0.29.0, and rerun full coverage. |
 
 ### Planned (15)
@@ -265,12 +264,13 @@ flowchart LR
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Freeze a language-neutral transformation recipe and plan-verification contract covering scope, prohibitions, risk, budgets, fixtures, digests and convergence. |
 
-### Done (33)
+### Done (34)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0001](tasks/AR-0001.md): Bootstrap Agent Workflow Quality | Unclaimed |  Published AWQ v0.1.0 and integrated its pinned shadow policy across all four target repositories.  | No further bootstrap action; select and promote a dependency-ready planned AR through the coordinator. |
 | P0 | [AR-0017](tasks/AR-0017.md): State coordinator v0.3.1 and source-header compliance | Unclaimed | Sync immutable coordinator v0.3.2 and enforce Huawei/MIT headers on state-owned source files. | Sync and verify coordinator v0.3.2, then implement state-owned header policy and run focused and full gates. |
+| P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Unclaimed | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Push locally authenticated annotated tag object 936078f39e1fd9e070f1e5b87cd5cb036bcb682b, create v0.29.0 with exactly six verified assets, await exact-tag attestation, then verify fresh public clone, downloads, hashes, authentication and offline wheel behavior. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
