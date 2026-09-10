@@ -10,11 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #21 | `feature/refactoring-adapters@67f22e35e50f` | `main` | BLOCKED | QUEUED: | feat(refactor): add bounded Python evidence adapter |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34440152431 | `67f22e35e50f` | pull_request | Verify | queued:- |
 | 34437342964 | `15ad92f75eb2` | push | Release attestation | completed:success |
 | 34423114956 | `15ad92f75eb2` | push | Verify | completed:success |
 | 34422670319 | `f2f179b6786c` | pull_request | Verify | completed:success |
@@ -26,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34417084111 | `11a84334d54c` | pull_request | Verify | completed:success |
 | 34365698455 | `b2bc649f6885` | push | Release attestation | completed:success |
 | 34364301228 | `b2bc649f6885` | push | Verify | completed:success |
-| 34363730582 | `41090ec04193` | pull_request | Verify | completed:success |
