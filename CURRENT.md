@@ -7,6 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | A new independent reviewer must inspect the complete base-to-head diff and exact evidence, then decide whether PR 36 may merge; do not merge from this implementation claim. | codex-awq-ar0035-independent-review-20260911 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Run the full suite with the locked quality binary directory plus reviewed offline adapter prefixes, then complete remaining gates and release the blocked review. | codex-awq-ar0040-review-20260911 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Rerun the full suite with the established pinned offline tool prefixes on PATH, then run coverage and remaining generated, contract, model and release gates. | codex-awq-ar0041-corrections-20260911 |
 
@@ -14,7 +15,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | A new independent reviewer must inspect the complete base-to-head diff and exact evidence, then decide whether PR 36 may merge; do not merge from this implementation claim. | - |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator independently review the complete PR #40 diff and evidence on exact head 4e061c35aacead45fd94de660afdf2fa14b616db; merge only if review accepts all contracts and gates, then perform post-merge verification before closing AR-0043. | - |
 
 ## Planned
