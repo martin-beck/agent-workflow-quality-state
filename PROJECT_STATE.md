@@ -10,16 +10,16 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #24 | `feature/agent-onboarding@1bbc11d2299d` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(onboarding): add compatibility and migration diagnostics |
+| #24 | `feature/agent-onboarding@1bbc11d2299d` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:FAILURE, COMPLETED:FAILURE | feat(onboarding): add compatibility and migration diagnostics |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34451684710 | `1bbc11d2299d` | pull_request | Verify | pending:- |
-| 34451684666 | `1bbc11d2299d` | pull_request | Portable onboarding | queued:- |
+| 34451684710 | `1bbc11d2299d` | pull_request | Verify | in_progress:- |
+| 34451684666 | `1bbc11d2299d` | pull_request | Portable onboarding | completed:failure |
 | 34451572821 | `2517805c00fd` | pull_request | Portable onboarding | completed:failure |
-| 34451572810 | `2517805c00fd` | pull_request | Verify | in_progress:- |
+| 34451572810 | `2517805c00fd` | pull_request | Verify | completed:cancelled |
 | 34450768155 | `bd841cc1e097` | pull_request | Portable onboarding | completed:failure |
 | 34450768070 | `bd841cc1e097` | pull_request | Verify | completed:success |
 | 34449868234 | `7a77aa4b5739` | pull_request | Portable onboarding | completed:failure |
