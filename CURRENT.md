@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Refresh the worktree venv offline from the reviewed AR-0034 quality cache, verify installed AWQ 0.29.0, and rerun full coverage. | codex-awq-ar0035-contract-catalog-20260910 |
+| P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Build deterministic v0.29.0 candidate in fresh AR-0035 directories using the dedicated release cache, then verify source, distributions and installed catalog CLI. | codex-awq-ar0035-contract-catalog-20260910 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Extract a bounded generic JUnit observation contract from the Android connected-test evidence while preserving exact report-set and freshness semantics. | codex-awq-ar0040-test-reports-20260910 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Freeze multidimensional budget, reservation, settlement, process-tree cleanup and optional sandbox-observation contracts without claiming portable isolation. | codex-awq-ar0041-budget-receipts-20260910 |
 
