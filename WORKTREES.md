@@ -13,14 +13,15 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 52, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 70, ahead 0 |
-| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 17 | behind 4, ahead 0 |
-| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `fixtures/nonconforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
+| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 18 | behind 4, ahead 0 |
+| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `fixtures/nonconforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 8, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 14, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `4564b985ce7b` | 0 | behind 4, ahead 3 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 11, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 60, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 32, ahead 0 |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d6f5231c176c` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 42, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 58, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 56, ahead 0 |
