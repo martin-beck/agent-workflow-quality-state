@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | After AR-0035 v0.30 and AR-0040 v0.31 are merged and publicly verified, rebase signed correction head 19b3398 onto exact main, retain the v0.32 execution-schema threshold, regenerate fixtures, rerun all gates/builds, and update PR 38 only from a clean exact tree. | codex-awq-ar0041-corrections-20260911 |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Correct the lifecycle API and contract to bind evaluation to a caller-supplied trusted prior head or explicit expected append-only prefix, add self-consistent truncation and replacement hostile tests, rebase current main, rerun all gates and obtain fresh independent review. | codex-awq-ar0043-independent-review-20260911 |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Add a trusted prior-lineage head or explicit expected immutable prefix to schema, runtime and CLI, reject self-consistent truncation and replacement with hostile tests, rebase exact current main, regenerate, rerun all gates and obtain another independent review. | codex-awq-ar0043-independent-review-20260911 |
 
 ## Open
 
