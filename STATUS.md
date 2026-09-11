@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-assurance-plan-20260911 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Define the closed repository-domain inventory and gate coverage rules, including argv, ownership, invariants, evidence class, remediation and unsupported declarations. |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-assurance-plan-20260911 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Inspect the v0.30 catalog evolution and existing identity/native-mapping contracts in the clean assurance-plan worktree, then implement the closed assurance-plan schema, runtime, fixtures, generated docs and tests. |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-catalog-resume-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Wait for AR-0035 signed structured-registry evolution correction and v0.30 release; then rebase exact main, add reviewed test-report catalog history, regenerate deterministic assets and run full release/publication gates. |
 
 ### Open (2)
