@@ -61,5 +61,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 71, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 93, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
-| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `50b02828b355` | 0 | behind 3, ahead 2 |
+| `agent-workflow-quality-test-report-evidence` | `DETACHED` | `ab61d8fa4d9e` | 18 | behind 0, ahead 0 |
+| changed files | - | - | - | `README.md`, `docs/ANDROID_JVM_ADAPTERS.md`, `docs/ARCHITECTURE.md`, `docs/QUALITY.md`, `docs/TEST_REPORTS.md`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `schemas/test-report-evidence.schema.json`, `scripts/install_android_jvm_tools.py`, `scripts/validate_contracts.py`, `src/awq/android_jvm_helper.py`, `src/awq/cli.py`, `src/awq/release.py`, `src/awq/test_reports.py`, `tests/test_android_jvm_helper.py`, `tests/test_android_jvm_tool_installer.py`, `tests/test_distribution.py`, `tests/test_test_reports.py` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
