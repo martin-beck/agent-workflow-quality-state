@@ -63,6 +63,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 71, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 93, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
-| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `fc5d063d7c22` | 4 | behind 0, ahead 2 |
-| changed files | - | - | - | `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py` |
+| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `fc5d063d7c22` | 5 | behind 0, ahead 2 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
