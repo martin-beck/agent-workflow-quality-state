@@ -13,7 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 14, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 66, ahead 0 |
-| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 0 | behind 0, ahead 2 |
