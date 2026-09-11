@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 5 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 4 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Open"]:::status_open
         AR_0044["AR-0044 - Open"]:::status_open
-        AR_0045["AR-0045 - Open"]:::status_open
+        AR_0045["AR-0045 - In progress"]:::status_in_progress
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -238,13 +238,14 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-release-review-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Correct PR #42 migration-preview template from_version to 0.30.0, add or tighten a release-current/predecessor assertion so this cannot recur, regenerate affected fixtures if required, create a new signed DCO head, then rerun independent exact-head review and CI; do not merge 3ba4ba42. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-independent-review-20260911 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Independently review signed checkpoint 313514ddf21120aecd09f626287534d45940db0d; do not publish or merge. After acceptance, create separate dependency-linked Alloy, Kani and Loom adapter ARs depending on AR-0045 and schedule the v0.34 release increment in dependency order. |
 
-### Open (5)
+### Open (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -252,7 +253,6 @@ flowchart LR
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Unclaimed | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | After AR-0035 v0.30 and AR-0040 v0.31 are merged and publicly verified, rebase signed correction head 19b3398 onto exact main, retain the v0.32 execution-schema threshold, regenerate fixtures, rerun all gates/builds, and update PR 38 only from a clean exact tree. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | After AR-0040 v0.31 and AR-0041 v0.32 are released, rebase signed local checkpoint cb8e20a832c8f61dbcad905c16ca0df9856a3a26, integrate the new contract through the shared reviewed additive-baseline mechanism for the dependency-ordered future version, then rerun full distribution and release gates before review. |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Independently review signed checkpoint 313514ddf21120aecd09f626287534d45940db0d; do not publish or merge. After acceptance, create separate dependency-linked Alloy, Kani and Loom adapter ARs depending on AR-0045 and schedule the v0.34 release increment in dependency order. |
 
 ### Planned (9)
 
