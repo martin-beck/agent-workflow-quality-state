@@ -64,7 +64,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 78, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 100, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `623d1d9dd140` | 9 | behind 0, ahead 0 |
-| changed files | - | - | - | `scripts/validate_contracts.py`, `src/awq/cli.py`, `docs/STRUCTURAL_REFACTORING.md`, `fixtures/conforming/structural-refactoring-json.json`, `fixtures/conforming/structural-refactoring-python.json`, `fixtures/conforming/structural-refactoring-rust.json`, `schemas/structural-refactoring.schema.json`, `src/awq/structural_refactoring.py`, `tests/test_structural_refactoring.py` |
+| changed files | - | - | - | `docs/STRUCTURAL_REFACTORING.md`, `fixtures/conforming/structural-refactoring-json.json`, `fixtures/conforming/structural-refactoring-python.json`, `fixtures/conforming/structural-refactoring-rust.json`, `schemas/structural-refactoring.schema.json`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/structural_refactoring.py`, `tests/test_structural_refactoring.py` |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 29, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 7, ahead 0 |
