@@ -7,6 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Define the closed repository-domain inventory and gate coverage rules, including argv, ownership, invariants, evidence class, remediation and unsupported declarations. | codex-awq-ar0036-assurance-plan-20260911 |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Wait for AR-0035 signed structured-registry evolution correction and v0.30 release; then rebase exact main, add reviewed test-report catalog history, regenerate deterministic assets and run full release/publication gates. | codex-awq-ar0040-catalog-resume-20260911 |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | After AR-0035 v0.30 and AR-0040 v0.31 are merged and publicly verified, rebase signed correction head 19b3398 onto exact main, retain the v0.32 execution-schema threshold, regenerate fixtures, rerun all gates/builds, and update PR 38 only from a clean exact tree. | codex-awq-ar0041-corrections-20260911 |
 
@@ -14,7 +15,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Define the closed repository-domain inventory and gate coverage rules, including argv, ownership, invariants, evidence class, remediation and unsupported declarations. | - |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Add a trusted prior-lineage head or explicit expected immutable prefix to schema, runtime and CLI, reject self-consistent truncation and replacement with hostile tests, rebase exact current main, regenerate, rerun all gates and obtain another independent review. | - |
 
 ## Planned
