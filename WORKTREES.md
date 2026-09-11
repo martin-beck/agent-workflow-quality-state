@@ -20,8 +20,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `2b745d3a4499` | 0 | behind 0, ahead 5 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 63, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 35, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `02fbdf488923` | 6 | behind 3, ahead 3 |
-| changed files | - | - | - | `docs/FORMAL_RECEIPTS.md`, `schemas/formal-execution-expectation.schema.json`, `schemas/formal-execution-receipt.schema.json`, `src/awq/formal_receipts.py`, `src/awq/release.py`, `templates/formal-execution-expectation.json` |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `02fbdf488923` | 8 | behind 3, ahead 3 |
+| changed files | - | - | - | `docs/FORMAL_RECEIPTS.md`, `schemas/formal-execution-expectation.schema.json`, `schemas/formal-execution-receipt.schema.json`, `scripts/validate_contracts.py`, `src/awq/formal_receipts.py`, `src/awq/release.py`, `templates/formal-execution-expectation.json`, `tests/test_formal_receipts.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 45, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 61, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 59, ahead 0 |
