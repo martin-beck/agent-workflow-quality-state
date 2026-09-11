@@ -13,8 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 14, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 66, ahead 0 |
-| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 2 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/cli.py`, `src/awq/assurance_plan.py` |
+| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 3 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/cli.py`, `schemas/assurance-plan.schema.json`, `src/awq/assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 0 | behind 0, ahead 2 |
@@ -62,5 +62,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 71, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 93, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
-| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `fc5d063d7c22` | 0 | behind 0, ahead 2 |
+| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `fc5d063d7c22` | 1 | behind 0, ahead 2 |
+| changed files | - | - | - | `scripts/generate_contract_catalog.py` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
