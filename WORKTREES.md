@@ -48,8 +48,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0.27.0` | `release/v0.27.0` | `e7f333e5aa68` | 0 | behind 20, ahead 0 |
 | `agent-workflow-quality-release-v0.28.0` | `release/v0.28.0` | `7bd88c84aaf5` | 0 | behind 16, ahead 0 |
 | `agent-workflow-quality-release-v0.30.0` | `release/v0.30.0` | `aee980759189` | 0 | behind 5, ahead 0 |
-| `agent-workflow-quality-release-v0.31.0` | `release/v0.31.0` | `d6f5231c176c` | 28 | behind 0, ahead 0 |
-| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `config/release-licenses.json`, `contracts/contract-baseline-v1.json`, `docs/RELEASES.md`, `fixtures/conforming/onboarding/same.json`, `fixtures/conforming/onboarding/upgrade.json`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json`, `fixtures/nonconforming/onboarding/downgrade.json`, `fixtures/nonconforming/onboarding/future.json`, `fixtures/nonconforming/onboarding/legacy-policy.json`, `fixtures/nonconforming/onboarding/policy-change.json`, `pyproject.toml`, `quality/awq.lock.json`, `schemas/onboarding.schema.json`, `src/awq/__init__.py`, `src/awq/data/agent_recipes.json`, `src/awq/data/compatibility.json`, `templates/migration-preview.json`, `tests/release_support.py`, `tests/test_onboarding.py`, `tests/test_release_boundaries.py`, `tests/test_sbom.py`, `tests/test_verified_update.py`, `uv.lock` |
+| `agent-workflow-quality-release-v0.31.0` | `release/v0.31.0` | `3ba4ba42a1fa` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 65, ahead 0 |
 | `agent-workflow-quality-release-v0150` | `DETACHED` | `2b3ff6ed8c02` | 0 | behind 63, ahead 0 |
 | `agent-workflow-quality-release-v0160` | `DETACHED` | `b2bc649f6885` | 0 | behind 61, ahead 0 |
