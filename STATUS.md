@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
-| **Open** | Dependency-ready and available to claim | 4 |
+| **In progress** | Claimed work with a live lease | 3 |
+| **Open** | Dependency-ready and available to claim | 3 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Open"]:::status_open
         AR_0044["AR-0044 - Open"]:::status_open
-        AR_0045["AR-0045 - Open"]:::status_open
+        AR_0045["AR-0045 - In progress"]:::status_in_progress
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -238,21 +238,21 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-correction4-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Correction required before publication: restore an explicit 64-character maximum for every execution-receipt measurement tool version in the public schema, add schema/runtime parity regression proving length 64 accepted and 65 rejected, regenerate the prepublication additive baseline intentionally, rerun all gates/build evidence, then obtain another fresh independent review. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-independent-review5-20260911 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | A different independent reviewer must inspect exact clean checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e, replay primary result/counterexample/count and complete correspondence substitutions against the trusted expectation, verify exhausted-zero rejection and verified-zero allowance in schema/runtime, verify both v0.34 schema omission gates, and rerun focused/full/static/generated/privacy/distribution gates. Hold publication and merge for dependency/version sequencing. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-correction1-20260911 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Correction1 is implemented and focused 10-test suite passes at 100 percent line/branch. Inspect the complete seven-file delta, run full/static/generated/model/schema/privacy/doctor gates with the exact v0.31 installed runtime, then create a signed DCO checkpoint and release open for different review. |
 
-### Open (4)
+### Open (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Implementation checkpoint c6a0c6968483d8c741eae2a41f8ccb0beed9a8ee independently accepted for its dependency-deferred scope. After the preceding version sequence is merged and publicly verified, rebase onto exact main, preserve newer contracts, integrate AWQ-CONTRACT-VULNERABILITY-SUPPLY-V1 through the shared reviewed additive catalog flow, resolve the release version without collision, rerun focused/full/static/generated/model/schema/privacy plus deterministic release gates, then obtain a fresh exact rebased-head review before publication. |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | A different independent reviewer must inspect exact clean checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e, replay primary result/counterexample/count and complete correspondence substitutions against the trusted expectation, verify exhausted-zero rejection and verified-zero allowance in schema/runtime, verify both v0.34 schema omission gates, and rerun focused/full/static/generated/privacy/distribution gates. Hold publication and merge for dependency/version sequencing. |
 
 ### Planned (8)
 
