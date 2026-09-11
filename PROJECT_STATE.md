@@ -12,13 +12,13 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
 | #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
-| #42 | `release/v0.31.0@3ba4ba42a1fa` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.31.0 |
+| #42 | `release/v0.31.0@3ba4ba42a1fa` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.31.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34555280163 | `3ba4ba42a1fa` | pull_request | Portable onboarding | in_progress:- |
+| 34555280163 | `3ba4ba42a1fa` | pull_request | Portable onboarding | completed:success |
 | 34555280160 | `3ba4ba42a1fa` | pull_request | Verify | in_progress:- |
 | 34553070619 | `d6f5231c176c` | push | Portable onboarding | completed:success |
 | 34553070613 | `d6f5231c176c` | push | Verify | completed:success |
