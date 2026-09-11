@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `d6f5231c176c852a5fd22a10afb502fbf2cb947b`
+- Product remote main: `623d1d9dd140bcc0945ba1409a876b908ab7e2d6`
 - Local origin/main: `d6f5231c176c852a5fd22a10afb502fbf2cb947b`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,14 +10,15 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
-| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
-| #42 | `release/v0.31.0@2f744013f4ed` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.31.0 |
+| #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | UNKNOWN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
+| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | UNKNOWN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34556969399 | `623d1d9dd140` | push | Verify | queued:- |
+| 34556969395 | `623d1d9dd140` | push | Portable onboarding | queued:- |
 | 34555837033 | `2f744013f4ed` | pull_request | Verify | completed:success |
 | 34555837014 | `2f744013f4ed` | pull_request | Portable onboarding | completed:success |
 | 34555280163 | `3ba4ba42a1fa` | pull_request | Portable onboarding | completed:success |
@@ -28,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34551991870 | `f01b01e1a60f` | pull_request | Verify | completed:success |
 | 34549305844 | `ab61d8fa4d9e` | push | Release attestation | completed:success |
 | 34548624493 | `ab61d8fa4d9e` | push | Verify | completed:success |
-| 34548624402 | `ab61d8fa4d9e` | push | Portable onboarding | completed:success |
-| 34547998516 | `8ca6980d9114` | pull_request | Verify | completed:success |
