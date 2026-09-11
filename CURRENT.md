@@ -9,7 +9,6 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Register execution-receipt.schema.json through the additive contract catalog and compatible self-history, prepare v0.32 release fixtures from exact v0.31 main, then run focused/full/static/generated/model/schema/privacy/doctor/PR and deterministic production-policy gates before publication. | codex-awq-ar0041-integration-20260911 |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Complete static/schema/privacy gates, create a signed DCO correction checkpoint, and release open for fresh review. Preserve deferred catalog integration until dependency-ordered AR-0041 v0.32 is merged; do not rebase or publish. | codex-awq-ar0044-correction-20260911 |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Independently review exact signed checkpoint 779a07daf131236c823acb5af415ca43037ffbe5 for all five corrected receipt blockers. Do not publish or merge; retain dependency/version sequencing and create separate Alloy, Kani and Loom child ARs only after acceptance. | codex-awq-ar0045-correction-20260911 |
 
 ## Open
 
@@ -17,6 +16,7 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. | - |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. | - |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Independently review exact signed checkpoint 779a07daf131236c823acb5af415ca43037ffbe5 for all five corrected receipt blockers. Do not publish or merge; retain dependency/version sequencing and create separate Alloy, Kani and Loom child ARs only after acceptance. | - |
 
 ## Planned
 
