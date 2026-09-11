@@ -17,8 +17,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `fixtures/nonconforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
-| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 7 | behind 0, ahead 2 |
-| changed files | - | - | - | `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json`, `schemas/evidence-lifecycle.schema.json`, `src/awq/cli.py`, `src/awq/evidence_lifecycle.py`, `tests/test_evidence_lifecycle.py` |
+| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `4564b985ce7b` | 0 | behind 0, ahead 3 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 7, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 56, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 28, ahead 0 |
