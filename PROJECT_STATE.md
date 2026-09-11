@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #38 | `feature/execution-budget-receipts@ec2706285693` | `main` | BLOCKED | QUEUED:, IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | feat(execution): add bounded budget receipts |
+| #38 | `feature/execution-budget-receipts@ec2706285693` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(execution): add bounded budget receipts |
 | #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34560321957 | `ec2706285693` | pull_request | Portable onboarding | queued:- |
+| 34560321957 | `ec2706285693` | pull_request | Portable onboarding | in_progress:- |
 | 34560321894 | `ec2706285693` | pull_request | Verify | in_progress:- |
 | 34557402454 | `623d1d9dd140` | push | Release attestation | completed:success |
 | 34556969399 | `623d1d9dd140` | push | Verify | completed:success |
