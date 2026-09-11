@@ -13,14 +13,14 @@ Generated from local Git and GitHub. Do not edit.
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
 | #39 | `feature/test-report-evidence@bd30eacc3f44` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add generic JUnit report observations |
 | #40 | `feature/evidence-lineage-lifecycle@4e061c35aace` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
-| #41 | `release/v0.30.0@0e573fe17f89` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.30.0 |
+| #41 | `release/v0.30.0@0e573fe17f89` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.30.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34546607630 | `0e573fe17f89` | pull_request | Verify | queued:- |
-| 34546607554 | `0e573fe17f89` | pull_request | Portable onboarding | queued:- |
+| 34546607630 | `0e573fe17f89` | pull_request | Verify | in_progress:- |
+| 34546607554 | `0e573fe17f89` | pull_request | Portable onboarding | in_progress:- |
 | 34543153019 | `b934eab4b4d8` | push | Portable onboarding | completed:success |
 | 34543153009 | `b934eab4b4d8` | push | Verify | completed:success |
 | 34541376910 | `4f7ccc848817` | pull_request | Portable onboarding | completed:success |
