@@ -44,8 +44,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0.26.0` | `release/v0.26.0` | `e896df9b3d29` | 0 | behind 17, ahead 0 |
 | `agent-workflow-quality-release-v0.27.0` | `release/v0.27.0` | `e7f333e5aa68` | 0 | behind 13, ahead 0 |
 | `agent-workflow-quality-release-v0.28.0` | `release/v0.28.0` | `7bd88c84aaf5` | 0 | behind 9, ahead 0 |
-| `agent-workflow-quality-release-v0.30.0` | `release/v0.30.0` | `0e573fe17f89` | 3 | behind 0, ahead 1 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `scripts/generate_contract_catalog.py`, `tests/test_contract_catalog.py` |
+| `agent-workflow-quality-release-v0.30.0` | `release/v0.30.0` | `aee980759189` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 58, ahead 0 |
 | `agent-workflow-quality-release-v0150` | `DETACHED` | `2b3ff6ed8c02` | 0 | behind 56, ahead 0 |
 | `agent-workflow-quality-release-v0160` | `DETACHED` | `b2bc649f6885` | 0 | behind 54, ahead 0 |
