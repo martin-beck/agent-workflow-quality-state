@@ -12,15 +12,15 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
 | #39 | `feature/test-report-evidence@bd30eacc3f44` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add generic JUnit report observations |
-| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(evidence): add lineage lifecycle contract |
-| #41 | `release/v0.30.0@aee980759189` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.30.0 |
+| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(evidence): add lineage lifecycle contract |
+| #41 | `release/v0.30.0@aee980759189` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, QUEUED:, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.30.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34547998516 | `8ca6980d9114` | pull_request | Verify | queued:- |
-| 34547998505 | `8ca6980d9114` | pull_request | Portable onboarding | queued:- |
+| 34547998516 | `8ca6980d9114` | pull_request | Verify | in_progress:- |
+| 34547998505 | `8ca6980d9114` | pull_request | Portable onboarding | in_progress:- |
 | 34547977966 | `aee980759189` | pull_request | Verify | in_progress:- |
 | 34547977947 | `aee980759189` | pull_request | Portable onboarding | queued:- |
 | 34546607630 | `0e573fe17f89` | pull_request | Verify | completed:success |
