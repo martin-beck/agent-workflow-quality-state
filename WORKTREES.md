@@ -16,8 +16,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
-| `agent-workflow-quality-evidence-lifecycle` | `DETACHED` | `c36098824bd1` | 13 | behind 0, ahead 1 |
-| changed files | - | - | - | `docs/CONTRACTS.md`, `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json`, `schemas/evidence-lifecycle.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `src/awq/evidence_lifecycle.py`, `src/awq/release.py`, `tests/test_contract_catalog.py`, `tests/test_distribution.py`, `tests/test_evidence_lifecycle.py`, `tests/test_release.py` |
+| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 7, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 56, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 28, ahead 0 |
@@ -62,6 +61,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 71, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 93, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
-| `agent-workflow-quality-test-report-evidence` | `DETACHED` | `ad5d3968453d` | 7 | behind 0, ahead 1 |
-| changed files | - | - | - | `docs/TEST_REPORTS.md`, `schemas/test-report-evidence.schema.json`, `src/awq/release.py`, `src/awq/test_reports.py`, `tests/test_distribution.py`, `tests/test_release.py`, `tests/test_test_reports.py` |
+| `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `fc5d063d7c22` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
