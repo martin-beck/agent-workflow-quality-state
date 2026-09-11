@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Independently review exact clean checkpoint f24842de37a5b92b7216538409b310191722cc7e via explicit product-directory commands; replay length bounds and prior blockers, then run all gates and reproducible builds without modifying or publishing the checkpoint. | codex-awq-ar0041-independent-review5-20260911 |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Independent review accepted exact checkpoint f24842de37a5b92b7216538409b310191722cc7e. Preserve it unchanged for coordinator publication sequencing; no merge or release was performed by the reviewer. | codex-awq-ar0041-independent-review5-20260911 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Different independent reviewer must inspect exact clean signed checkpoint 3408f0fb, replay recipe/result transplant and hostile scope/order cases, and confirm the sole full-suite failure is the intentionally dependency-deferred catalog registration. Keep version, catalog, publication, merge, and release deferred. | codex-awq-ar0050-independent-review2-20260911 |
 
 ## Open
