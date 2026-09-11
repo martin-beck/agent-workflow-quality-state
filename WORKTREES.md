@@ -63,8 +63,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 80, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 78, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 100, ahead 0 |
-| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `79049d8eaa7b` | 7 | behind 0, ahead 1 |
-| changed files | - | - | - | `docs/STRUCTURAL_REFACTORING.md`, `fixtures/conforming/structural-refactoring-json.json`, `fixtures/conforming/structural-refactoring-python.json`, `fixtures/conforming/structural-refactoring-rust.json`, `schemas/structural-refactoring.schema.json`, `src/awq/structural_refactoring.py`, `tests/test_structural_refactoring.py` |
+| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 29, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 7, ahead 0 |
