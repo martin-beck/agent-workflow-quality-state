@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 4 active status categories.
+**50 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 4 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 12 |
 | **Future** | Deferred roadmap work | 0 |
@@ -70,7 +70,7 @@ flowchart LR
         AR_0040["AR-0040 - In progress"]:::status_in_progress
         AR_0041["AR-0041 - In progress"]:::status_in_progress
         AR_0042["AR-0042 - Planned"]:::status_planned
-        AR_0043["AR-0043 - Open"]:::status_open
+        AR_0043["AR-0043 - In progress"]:::status_in_progress
         AR_0044["AR-0044 - Planned"]:::status_planned
         AR_0045["AR-0045 - Planned"]:::status_planned
         AR_0046["AR-0046 - Planned"]:::status_planned
@@ -238,19 +238,14 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | codex-awq-ar0035-release-20260911 | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Correct the newly discovered contract-baseline release blocker, add a real version-only registry evolution test, classify the two reviewed release-metadata byte changes, then rerun every release gate before publication. |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-corrections-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Rebase onto exact main b934eab4b4d8f76b752fc43c30667001b996d9b1, resolve conflicts preserving both capability families, regenerate deterministic fixtures, and revalidate before force-with-lease publication. |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-corrections-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Rerun the full suite with the established pinned offline tool prefixes on PATH, then run coverage and remaining generated, contract, model and release gates. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Rebase onto current main, resolve combined generated and release-version gates, normalize hostile mixed-type failures, align identifier bounds, add a truthful lineage anchor and cross-lifecycle artifact correspondence or narrow the public claim, and represent published failed-validation evidence; rerun full gates on a signed DCO head and await renewed exact-head CI before fresh independent review. |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-lineage-corrections-20260911 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Rebase onto current main, resolve combined generated and release-version gates, normalize hostile mixed-type failures, align identifier bounds, add a truthful lineage anchor and cross-lifecycle artifact correspondence or narrow the public claim, and represent published failed-validation evidence; rerun full gates on a signed DCO head and await renewed exact-head CI before fresh independent review. |
 
 ### Planned (12)
 
