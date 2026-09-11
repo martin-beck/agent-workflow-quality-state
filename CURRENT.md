@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Fresh independent review required for clean checkpoint f24842de37a5b92b7216538409b310191722cc7e. Recheck the 64-character measurement tool bounds in schema and runtime, the prepublication baseline, complete gates and production-policy reproducibility; do not publish, merge or release until accepted. | codex-awq-ar0041-independent-review5-20260911 |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Independently review exact clean checkpoint f24842de37a5b92b7216538409b310191722cc7e via explicit product-directory commands; replay length bounds and prior blockers, then run all gates and reproducible builds without modifying or publishing the checkpoint. | codex-awq-ar0041-independent-review5-20260911 |
 
 ## Open
 
