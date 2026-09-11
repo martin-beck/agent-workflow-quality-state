@@ -13,12 +13,12 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 14, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 66, ahead 0 |
-| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 4 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/cli.py`, `fixtures/conforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `src/awq/assurance_plan.py` |
+| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 7 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/cli.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 6 | behind 0, ahead 2 |
-| changed files | - | - | - | `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `schemas/evidence-lifecycle.schema.json`, `src/awq/cli.py`, `src/awq/evidence_lifecycle.py`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json.formatted` |
+| changed files | - | - | - | `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json`, `schemas/evidence-lifecycle.schema.json`, `src/awq/cli.py`, `src/awq/evidence_lifecycle.py` |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 7, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 56, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 28, ahead 0 |
