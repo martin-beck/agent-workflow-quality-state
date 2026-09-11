@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 4 |
-| **Open** | Dependency-ready and available to claim | 2 |
+| **In progress** | Claimed work with a live lease | 3 |
+| **Open** | Dependency-ready and available to claim | 3 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Open"]:::status_open
         AR_0044["AR-0044 - In progress"]:::status_in_progress
-        AR_0045["AR-0045 - In progress"]:::status_in_progress
+        AR_0045["AR-0045 - Open"]:::status_open
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -238,21 +238,21 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (4)
+### In progress (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-independent-review4-20260911 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Correction required before publication: enforce exact non-ref-like measurement versions in schema/runtime; reject boolean schema_version; normalize unhashable reservation dimensions; validate optional adapter bindings against the adapter-result schema and contract result protocol so arbitrary private bindings fail; add hostile regressions, rerun all gates, then obtain another independent review. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-independent-review5-20260911 | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Assign a different independent reviewer to exact clean checkpoint c6a0c6968483d8c741eae2a41f8ccb0beed9a8ee. Replay digit-bearing scanner version aliases, two-time receipt identity, reused workspace path tuples with distinct asserted digests, and prior path-alias cases; verify focused/full/static/schema/model/privacy evidence. Keep catalog and publication work deferred until AR-0041 dependency ordering permits integration. |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-independent-review4-20260911 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Correct trusted expectation and result semantics before another independent review: bind the primary result digest, counterexample digest and explored counts plus correspondence implementation/definition/trace evidence to the externally trusted expectation; reject exhausted pass with zero explored states (and define outcome-specific count constraints); require both formal receipt and expectation schemas in v0.34 distribution omission gates. Add schema/runtime hostile regressions, rerun all gates and deterministic production builds, then obtain a different review. Do not publish or merge. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-independent-review-20260911 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Independent review in progress at exact checkpoint 79049d8; rerun the full suite with the exact v0.31 installed runtime, complete static/generated/privacy/signature review, then record acceptance or precise blockers and release open. |
 
-### Open (2)
+### Open (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Correct trusted expectation and result semantics before another independent review: bind the primary result digest, counterexample digest and explored counts plus correspondence implementation/definition/trace evidence to the externally trusted expectation; reject exhausted pass with zero explored states (and define outcome-specific count constraints); require both formal receipt and expectation schemas in v0.34 distribution omission gates. Add schema/runtime hostile regressions, rerun all gates and deterministic production builds, then obtain a different review. Do not publish or merge. |
 
 ### Planned (8)
 
