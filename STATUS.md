@@ -10,9 +10,9 @@
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 2 |
+| **Open** | Dependency-ready and available to claim | 3 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 10 |
+| **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 35 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Open"]:::status_open
         AR_0044["AR-0044 - In progress"]:::status_in_progress
-        AR_0045["AR-0045 - Planned"]:::status_planned
+        AR_0045["AR-0045 - Open"]:::status_open
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -246,14 +246,15 @@ flowchart LR
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-independent-review-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Merge PR #39 only at exact accepted head f01b01e1a60fa0937302a5fd1bd5d79a238c539b, verify exact-main CI, then prepare and authenticate the dependency-ordered v0.31.0 release with production trust policy and fresh public verification before closing AR-0040. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-cross-supply-20260911 | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Run existing Rust supply and Android/JVM compatibility suites, complete full static/schema/privacy tests, review the exact diff, and create a clean signed DCO local checkpoint with catalog/release integration deferred. |
 
-### Open (2)
+### Open (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Unclaimed | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | After AR-0035 v0.30 and AR-0040 v0.31 are merged and publicly verified, rebase signed correction head 19b3398 onto exact main, retain the v0.32 execution-schema threshold, regenerate fixtures, rerun all gates/builds, and update PR 38 only from a clean exact tree. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Freeze formal receipt v2 and decompose Alloy, Kani, Loom, counterexample sensitivity and implementation-trace correspondence into reviewable increments. |
 
-### Planned (10)
+### Planned (9)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -261,7 +262,6 @@ flowchart LR
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. |
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Freeze formal receipt v2 and decompose Alloy, Kani, Loom, counterexample sensitivity and implementation-trace correspondence into reviewable increments. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
