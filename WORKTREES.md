@@ -61,3 +61,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 93, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `50b02828b355` | 0 | behind 3, ahead 2 |
+| `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
