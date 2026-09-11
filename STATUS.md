@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | codex-awq-ar0040-release-review-20260911 | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Correct PR #42 migration-preview template from_version to 0.30.0, add or tighten a release-current/predecessor assertion so this cannot recur, regenerate affected fixtures if required, create a new signed DCO head, then rerun independent exact-head review and CI; do not merge 3ba4ba42. |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-formal-receipts-20260911 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Freeze formal receipt v2 and decompose Alloy, Kani, Loom, counterexample sensitivity and implementation-trace correspondence into reviewable increments. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-formal-receipts-20260911 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Independently review signed checkpoint 313514ddf21120aecd09f626287534d45940db0d; do not publish or merge. After acceptance, create separate dependency-linked Alloy, Kani and Loom adapter ARs depending on AR-0045 and schedule the v0.34 release increment in dependency order. |
 
 ### Open (4)
 
