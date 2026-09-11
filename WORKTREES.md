@@ -21,8 +21,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | changed files | - | - | - | `schemas/execution-receipt.schema.json`, `src/awq/execution_budget.py`, `tests/test_execution_budget.py` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 63, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 35, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `779a07daf131` | 8 | behind 3, ahead 2 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `src/awq/formal_receipts.py`, `templates/formal-execution-expectation.json`, `tests/test_formal_receipts.py`, `schemas/formal-execution-expectation.schema.json` |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `779a07daf131` | 9 | behind 3, ahead 2 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/FORMAL_RECEIPTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `src/awq/formal_receipts.py`, `templates/formal-execution-expectation.json`, `tests/test_formal_receipts.py`, `schemas/formal-execution-expectation.schema.json` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 45, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 61, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 59, ahead 0 |
