@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Create external empty scratch roots and run two production-policy builds from clean exact head ec270628; verify source/distribution byte parity, then exact force-with-lease publication of PR 38 and exact-head CI before independent review. | codex-awq-ar0041-integration-20260911 |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Publish clean signed DCO head ec2706285693b0afbf45f4903d24838fe6cb7ef1 to PR #38 with an exact force-with-lease against remote 2d4f198e160e662864c53fb859b8cd7b2344653c, then wait for all exact-head CI and release the claim for independent review; do not merge. | codex-awq-ar0041-integration-20260911 |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | After AR-0041 v0.32 is merged and released, rebase signed checkpoint fe1db46 onto exact main, integrate the shared reviewed additive catalog baseline for the dependency-ordered version, rerun all release gates, and obtain fresh independent review before publication. | codex-awq-ar0044-independent-review2-20260911 |
 
 ## Open
