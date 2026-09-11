@@ -13,8 +13,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 14, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 66, ahead 0 |
-| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 14 | behind 0, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `fixtures/nonconforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
+| `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `ab61d8fa4d9e` | 18 | behind 0, ahead 0 |
+| changed files | - | - | - | `.github/workflows/verify.yml`, `CONTRIBUTING.md`, `README.md`, `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_contract_catalog.py`, `docs/ASSURANCE_PLANS.md`, `fixtures/conforming/assurance-plan/`, `fixtures/nonconforming/assurance-plan/`, `schemas/assurance-plan.schema.json`, `scripts/generate_assurance_plan_docs.py`, `src/awq/assurance_plan.py`, `tests/test_assurance_plan.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 10, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `340a3993ecda` | 7 | behind 0, ahead 2 |
