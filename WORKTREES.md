@@ -21,7 +21,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 11, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 60, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 32, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d6f5231c176c` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d6f5231c176c` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/formal_receipts.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 42, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 58, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 56, ahead 0 |
@@ -48,6 +49,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0.27.0` | `release/v0.27.0` | `e7f333e5aa68` | 0 | behind 20, ahead 0 |
 | `agent-workflow-quality-release-v0.28.0` | `release/v0.28.0` | `7bd88c84aaf5` | 0 | behind 16, ahead 0 |
 | `agent-workflow-quality-release-v0.30.0` | `release/v0.30.0` | `aee980759189` | 0 | behind 5, ahead 0 |
+| `agent-workflow-quality-release-v0.31.0` | `release/v0.31.0` | `d6f5231c176c` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 65, ahead 0 |
 | `agent-workflow-quality-release-v0150` | `DETACHED` | `2b3ff6ed8c02` | 0 | behind 63, ahead 0 |
 | `agent-workflow-quality-release-v0160` | `DETACHED` | `b2bc649f6885` | 0 | behind 61, ahead 0 |
