@@ -11,13 +11,15 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #38 | `feature/execution-budget-receipts@2d4f198e160e` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
-| #39 | `feature/test-report-evidence@bd30eacc3f44` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add generic JUnit report observations |
+| #39 | `feature/test-report-evidence@f01b01e1a60f` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(evidence): add generic JUnit report observations |
 | #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34551991902 | `f01b01e1a60f` | pull_request | Portable onboarding | queued:- |
+| 34551991870 | `f01b01e1a60f` | pull_request | Verify | queued:- |
 | 34549305844 | `ab61d8fa4d9e` | push | Release attestation | completed:success |
 | 34548624493 | `ab61d8fa4d9e` | push | Verify | completed:success |
 | 34548624402 | `ab61d8fa4d9e` | push | Portable onboarding | completed:success |
@@ -28,5 +30,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34546607630 | `0e573fe17f89` | pull_request | Verify | completed:success |
 | 34546607554 | `0e573fe17f89` | pull_request | Portable onboarding | completed:success |
 | 34543153019 | `b934eab4b4d8` | push | Portable onboarding | completed:success |
-| 34543153009 | `b934eab4b4d8` | push | Verify | completed:success |
-| 34541376910 | `4f7ccc848817` | pull_request | Portable onboarding | completed:success |
