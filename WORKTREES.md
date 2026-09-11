@@ -67,4 +67,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 29, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 4, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 7, ahead 0 |
-| `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `cb8e20a832c8` | 0 | behind 7, ahead 1 |
+| `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `cb8e20a832c8` | 1 | behind 7, ahead 1 |
+| changed files | - | - | - | `src/awq/vulnerability_supply.py` |
