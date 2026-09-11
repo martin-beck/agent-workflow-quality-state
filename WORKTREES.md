@@ -64,3 +64,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 22, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 0, ahead 3 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `ab61d8fa4d9e` | 0 | behind 0, ahead 0 |
