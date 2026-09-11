@@ -20,8 +20,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `19b3398e1681` | 0 | behind 11, ahead 2 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 60, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 32, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d6f5231c176c` | 14 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/ARCHITECTURE.md`, `docs/QUALITY.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/release.py`, `tests/test_distribution.py`, `tests/test_release.py`, `docs/FORMAL_RECEIPTS.md`, `fixtures/nonconforming/formal-receipt/`, `schemas/formal-execution-receipt.schema.json`, `src/awq/formal_receipts.py`, `templates/formal-execution-receipt.json`, `tests/test_formal_receipts.py` |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d6f5231c176c` | 16 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `docs/QUALITY.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/release.py`, `tests/test_distribution.py`, `tests/test_release.py`, `docs/FORMAL_RECEIPTS.md`, `fixtures/nonconforming/formal-receipt/`, `schemas/formal-execution-receipt.schema.json`, `src/awq/formal_receipts.py`, `templates/formal-execution-receipt.json`, `tests/test_formal_receipts.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 42, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 58, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 56, ahead 0 |
