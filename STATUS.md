@@ -243,7 +243,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-release-20260913 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Run independent manifest/bundle verification, create and locally verify annotated SSH-signed v0.32.0 tag at exact merge, then publish exact six assets only after all checks pass. |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-reviewer-20260913 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Different independent reviewer must inspect exact clean signed checkpoint 3408f0fb, replay recipe/result transplant and hostile scope/order cases, and confirm the sole full-suite failure is the intentionally dependency-deferred catalog registration. Keep version, catalog, publication, merge, and release deferred. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-reviewer-20260913 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Independent product review is clean at exact signed checkpoint 3408f0fb and focused/static/model/doctor/PR/privacy checks pass. Re-run the full suite in the original complete pinned-tool environment (including the exact refactor Python and advanced Rust wrapper) to confirm only the intentionally deferred structural schema catalog registration fails; keep catalog/version/publication/merge/release deferred. |
 
 ### Open (4)
 
