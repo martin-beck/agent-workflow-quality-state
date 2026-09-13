@@ -4,10 +4,10 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 
 | Worktree | Branch | Head | Dirty | vs origin/main |
 | --- | --- | --- | ---: | --- |
-| `agent-workflow-quality` | `main` | `49d0a2b72ffb` | 0 | behind 72, ahead 1 |
-| `agent-workflow-quality-adapter-docs` | `feature/docs-adapter` | `cbf103305786` | 0 | behind 83, ahead 0 |
-| `agent-workflow-quality-adapter-python` | `feature/python-adapter` | `34351626f8dc` | 0 | behind 94, ahead 0 |
-| `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `dd1b0ac7b9b8` | 0 | behind 82, ahead 0 |
+| `agent-workflow-quality` | `main` | `49d0a2b72ffb` | 0 | behind 79, ahead 1 |
+| `agent-workflow-quality-adapter-docs` | `feature/docs-adapter` | `cbf103305786` | 0 | behind 90, ahead 0 |
+| `agent-workflow-quality-adapter-python` | `feature/python-adapter` | `34351626f8dc` | 0 | behind 101, ahead 0 |
+| `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `dd1b0ac7b9b8` | 0 | behind 89, ahead 0 |
 | `agent-workflow-quality-adapter-shell` | `feature/shell-adapter` | `ae71bc5c29b6` | 0 | behind 99, ahead 0 |
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 103, ahead 0 |
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 62, ahead 0 |
