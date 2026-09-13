@@ -71,8 +71,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 44, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 10, ahead 0 |
-| `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `87e666ae51ac` | 4 | behind 0, ahead 1 |
-| changed files | - | - | - | `fixtures/nonconforming/onboarding/future.json`, `tests/release_support.py`, `tests/test_release_boundaries.py`, `tests/test_verified_update.py` |
+| `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `45e18899717f` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 15, ahead 0 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 23, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 14, ahead 0 |
