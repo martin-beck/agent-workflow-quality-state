@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Rebase/version-update AR-0054 onto exact current main 6f88824, preserve AR-0045 formal receipts, rerun independent review and release gates, then publish a new exact accepted head. | codex-awq-ar0054-rebase-implementation-20260914 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Independent review rejected exact head e13d06a8d860c37caabecdaf4003e765744bbf9e against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Implementation owner must update stale docs/STRUCTURAL_REFACTORING.md catalog-integration claims, restore _format_argument(item) for evidence-lifecycle-evaluate while retaining structural-refactor-verify formatting, add regression coverage, regenerate/check docs, rerun focused/full gates in a version-consistent confined environment, make signed DCO commit, and request fresh independent review. | codex-awq-ar0050-rebase-review-20260914 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Rebase/version-update AR-0054 onto exact current main 6f88824, preserve AR-0045 formal receipts, rerun independent review and release gates, then publish a new exact accepted head. | - |
 
 ## Planned
 
