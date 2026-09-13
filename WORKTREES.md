@@ -69,6 +69,6 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 46, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 21, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 24, ahead 0 |
-| `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `0831b8a3d283` | 0 | behind 0, ahead 5 |
+| `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 0, ahead 5 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 3, ahead 0 |
 | `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 0, ahead 0 |
