@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Run focused assurance-plan and catalog tests through handoffctl with explicit absolute PYTHONPATH; fix only product failures and record gate evidence. | codex-awq-ar0036-assurance-plan-20260913 |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Publish reviewed exact head 0831b8a3d2834a7edd33560e609bf248469fdb79 via clean signed DCO PR; require exact-head CI, merge and release gates. Full-suite environment limitation remains documented. | codex-awq-ar0044-cross-supply-publish-20260913 |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | PR #44 published at exact head 0831b8a3d2834a7edd33560e609bf248469fdb79. Await all required exact-head CI checks; then release for a separate guarded merge/release owner. No merge or release in publication role. | codex-awq-ar0044-cross-supply-publish-20260913 |
 
 ## Open
 
