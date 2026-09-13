@@ -68,8 +68,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 26, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 55, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 30, ahead 0 |
-| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `508f72cc2337` | 2 | behind 0, ahead 2 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `src/awq/data/contract_catalog.json` |
+| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `06cc73f76428` | 0 | behind 0, ahead 3 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 33, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `c394d232fc34` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 4, ahead 0 |
