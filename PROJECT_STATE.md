@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #50 | `feature/structural-refactoring@7e6bc9f3695c` | `main` | DIRTY | - | feat(refactor): verify bounded structural plans |
+| #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | QUEUED: | release: prepare v0.35.0 version-coupled artifacts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | queued:- |
+| 34790139613 | `60ffdc73b646` | pull_request | Verify | queued:- |
 | 34787420745 | `6f88824ed763` | push | Verify | completed:success |
 | 34787420735 | `6f88824ed763` | push | Portable onboarding | completed:success |
 | 34786766587 | `1ff0c2e51c68` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34783047774 | `9fcf1ad43daf` | pull_request | Portable onboarding | completed:success |
 | 34782551135 | `394d62dff187` | pull_request | Verify | completed:failure |
 | 34782551090 | `394d62dff187` | pull_request | Portable onboarding | completed:success |
-| 34781781219 | `d14ac51618ea` | pull_request | Portable onboarding | completed:success |
-| 34781781197 | `d14ac51618ea` | pull_request | Verify | completed:failure |
