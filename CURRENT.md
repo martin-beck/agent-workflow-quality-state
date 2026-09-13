@@ -8,7 +8,12 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Distinct publication owner may publish the clean exact-head 60ffdc7 PR, wait for exact-head required CI and native checks, then merge/release only after all gates pass; use only rebased a12e4690 manifest family and preserve AR-0045 evidence. | codex-awq-ar0054-publication-20260914b |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #52 is stale after PR #51 merged current main at 3b4d124; merge attempt failed because GitHub cannot cleanly create merge commit. Release publication claim and hand off rebase df31c648 onto exact current main 3b4d124, preserving all fixes and obtaining fresh review/CI before any merge. | codex-awq-ar0050-publication-20260914 |
+
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #52 is stale after PR #51 merged current main at 3b4d124; merge attempt failed because GitHub cannot cleanly create merge commit. Release publication claim and hand off rebase df31c648 onto exact current main 3b4d124, preserving all fixes and obtaining fresh review/CI before any merge. | - |
 
 ## Planned
 
