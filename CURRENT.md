@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Maintain claim; await fresh exact-head CI for 9e9518d. If all required checks pass, obtain independent exact-head review and proceed with authenticated v0.33 release/public verification. Do not merge on stale failed run. | codex-awq-ar0043-lineage-20260913 |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Independent reviewer must inspect exact clean signed head 9e9518d077d5f314f14c6b1650d53c815ef040c1 and CI runs 34771961244/34771961243; after review acceptance, coordinator may merge PR #40 and execute authenticated v0.33 release/public verification gates. | codex-awq-ar0043-lineage-20260913 |
 
 ## Open
 
