@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #46 | `feature/version-v0340@c394d232fc34` | `main` | BLOCKED | - | chore(release): prepare v0.34.0 |
+| #46 | `feature/version-v0340@c394d232fc34` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.34.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34779773495 | `c394d232fc34` | pull_request | Verify | in_progress:- |
+| 34779773494 | `c394d232fc34` | pull_request | Portable onboarding | in_progress:- |
 | 34778385666 | `4a1d02602d15` | push | Verify | completed:success |
 | 34778385663 | `4a1d02602d15` | push | Portable onboarding | completed:success |
 | 34778043761 | `d66e57e7a3d8` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34777484607 | `e69d6ae4dc98` | pull_request | Verify | completed:success |
 | 34777354089 | `68545a1a5605` | pull_request | Verify | completed:success |
 | 34777354046 | `68545a1a5605` | pull_request | Portable onboarding | completed:success |
-| 34776958253 | `0831b8a3d283` | pull_request | Portable onboarding | completed:success |
-| 34776958242 | `0831b8a3d283` | pull_request | Verify | completed:failure |
