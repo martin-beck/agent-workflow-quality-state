@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Independent exact-head review accepted; publication gates remain | Publish clean signed DCO PR for f926a74, await exact-head required CI, then merge only after green and run guarded v0.33.0 release/public verification. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Clean signed PR #43 published; exact-head CI pending. | Wait exact-head required Verify and all platform checks to terminal green; then release claim for guarded merge/release worker with PR/head/check evidence. |
 
 ### Open (4)
 
