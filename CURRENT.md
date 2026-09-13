@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent review found a runtime/schema parity blocker: _validate_tlc_contract accepts bool for queue_limit, cancel_timeout_seconds, and restart_limit because bool is an int; JSON Schema rejects these values. | Fresh independent exact-head review of d14ac51 against 52018dc; verify bool rejection, v2 schema reference, helper/cgroup boundary, signatures/DCO/privacy, then PR/CI. | codex-awq-ar0052-final-review-20260913 |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Publish PR from clean exact head d14ac516; wait for exact-head required CI, then merge only after green checks. | codex-awq-ar0052-final-review-20260913 |
 
 ## Open
 
