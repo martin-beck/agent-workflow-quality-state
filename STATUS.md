@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 2 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - Open"]:::status_open
+        AR_0054["AR-0054 - In progress"]:::status_in_progress
         AR_0055["AR-0055 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
@@ -252,17 +252,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-implementation-look-20260913 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-release-20260913 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Version-bump working tree has 21 intended files modified from exact fda0517. Onboarding/SBOM checks pass after regeneration; validate_contracts is blocked by missing offline jsonschema dependency, one probe hit coordinator LOCK_TIMEOUT. Refresh dependencies/tooling, run every applicable gate with unambiguous exit records, then independently review and commit signed DCO. |
 
-### Open (2)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Version-bump working tree has 21 intended files modified from exact fda0517. Onboarding/SBOM checks pass after regeneration; validate_contracts is blocked by missing offline jsonschema dependency, one probe hit coordinator LOCK_TIMEOUT. Refresh dependencies/tooling, run every applicable gate with unambiguous exit records, then independently review and commit signed DCO. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. |
 
 ### Planned (9)
