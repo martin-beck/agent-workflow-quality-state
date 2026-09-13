@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
+| **In progress** | Claimed work with a live lease | 2 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 43 |
+| **Done** | Accepted, integrated, and durably verified | 44 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Done"]:::status_done
         AR_0044["AR-0044 - Done"]:::status_done
-        AR_0045["AR-0045 - In progress"]:::status_in_progress
+        AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -256,11 +256,10 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-publication-20260914 | PR #49 published at exact head 1ff0c2e; portable onboarding green, required verify still running. | Continue polling PR #49 exact-head verify; merge only after required verify and all required checks green, then run post-merge verification. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-catalog-implementation-20260914 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | AR-0056 should append reviewed compatible v0.35 history entries for exactly AWQ-CONTRACT-AGENT-RECIPES-REGISTRY-V1, AWQ-CONTRACT-COMPATIBILITY-REGISTRY-V1 and AWQ-CONTRACT-ONBOARDING-V1 using a truthful reviewed reason; review the one-file baseline diff and hostile evolution tests, rerun generate_contract_catalog.py --check plus complete 497-test/96&#37;-coverage and release build/source/distribution gates, then return AR-0054 for fresh exact-head review and PR publication. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-publication-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Catalog-registration fix commit 7e6bc9f is complete and focused structural/catalog tests (22/22), validate_contracts, catalog --check and diff-check pass. Exact-Python full-suite replay after the fix exited 1; output is intentionally not retained, so this remains non-green pending fresh environment-qualified replay. Known advanced-Rust dependency-cache limitation remains. Independent review must inspect the four-file diff before publication. |
 
@@ -279,7 +278,7 @@ flowchart LR
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
 | P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Unclaimed | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. |
 
-### Done (43)
+### Done (44)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -315,6 +314,7 @@ flowchart LR
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Unclaimed | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | No further AR-0041 work; continue dependency-ordered AR loop with AR-0043 and later release sequencing. |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | PR #49 published at exact head 1ff0c2e; portable onboarding green, required verify still running. | Continue polling PR #49 exact-head verify; merge only after required verify and all required checks green, then run post-merge verification. |
 | P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Unclaimed | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Unclaimed | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
