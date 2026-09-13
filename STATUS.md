@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-lineage-20260913 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | After AR-0040 publishes v0.31 and AR-0041 publishes v0.32, rebase this clean signed checkpoint, integrate the v0.33 contract through the shared reviewed --accept-addition flow, run complete generated/full/release gates, and update PR 40 for fresh independent review. |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-lineage-20260913 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Independent reviewer must inspect exact clean signed head f619c2ef905366dfa88e768d5487c41413ce1a57 and CI run 34771610545/34771610549; after green required checks, merge PR #40 and execute authenticated v0.33 release/public verification gates. |
 
 ### Open (4)
 
