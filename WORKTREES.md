@@ -68,8 +68,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 23, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 52, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 27, ahead 0 |
-| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `469439b03491` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/adapters.py` |
+| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `469439b03491` | 4 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/adapter-contract.schema.json`, `schemas/formal-adapter-contract.schema.json`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 30, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `469439b03491` | 24 | behind 0, ahead 0 |
 | changed files | - | - | - | `.github/workflows/verify.yml`, `config/release-licenses.json`, `contracts/contract-baseline-v1.json`, `docs/RELEASES.md`, `fixtures/conforming/onboarding/same.json`, `fixtures/conforming/onboarding/upgrade.json`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json`, `fixtures/nonconforming/onboarding/future.json`, `pyproject.toml`, `quality/awq.lock.json`, `schemas/onboarding.schema.json`, `src/awq/__init__.py`, `src/awq/data/agent_recipes.json`, `src/awq/data/compatibility.json`, `templates/migration-preview.json`, `tests/release_support.py`, `tests/test_onboarding.py`, `tests/test_release_boundaries.py`, `tests/test_sbom.py`, `tests/test_verified_update.py`, `uv.lock` |
