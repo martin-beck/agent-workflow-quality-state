@@ -8,12 +8,12 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Independent reviewer must inspect complete diff at e69d6ae; after acceptance publish PR and await exact-head CI. | codex-awq-ar0036-assurance-plan-20260913 |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Fresh review accepted amended DCO head 68545a1; PR #44 exact-head CI fully green. | PR #44 exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9 and required Verify run 34777354089 are green. Release for separate guarded merge/release worker; preserve exact head and revalidate before merge. | codex-awq-ar0044-publication-20260913 |
 
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Fresh review accepted amended DCO head 68545a1; PR #44 exact-head CI fully green. | PR #44 exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9 and required Verify run 34777354089 are green. Release for separate guarded merge/release worker; preserve exact head and revalidate before merge. | - |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. | - |
 
