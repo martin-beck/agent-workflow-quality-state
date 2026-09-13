@@ -8,12 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Distinct publication owner may publish the clean exact-head 60ffdc7 PR, wait for exact-head required CI and native checks, then merge/release only after all gates pass; use only rebased a12e4690 manifest family and preserve AR-0045 evidence. | codex-awq-ar0054-publication-20260914b |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Separate publication owner may safely update PR #50 to exact accepted head df31c648, verify exact base/current mergeability and required exact-head Verify plus Portable CI, and merge only after all required checks are green; reviewer grants no tag or release authority. | - |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Separate publication owner may safely update PR #50 to exact accepted head df31c648, verify exact base/current mergeability and required exact-head Verify plus Portable CI, and merge only after all required checks are green; reviewer grants no tag or release authority. | codex-awq-ar0050-publication-20260914 |
 
 ## Planned
 
