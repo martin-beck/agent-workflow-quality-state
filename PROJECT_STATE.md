@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `7debe212ffe94f40e23d57486f211037407e05b3`
+- Product remote main: `1c1bf3b6943a2a2cb6be95d5e6b7b6bfbd69c455`
 - Local origin/main: `7debe212ffe94f40e23d57486f211037407e05b3`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #43 | `release/v0.33.0@f926a74cdac8` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.33.0 version-coupled fixtures |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34775238468 | `1c1bf3b6943a` | push | Portable onboarding | queued:- |
+| 34775238334 | `1c1bf3b6943a` | push | Verify | in_progress:- |
 | 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | completed:success |
 | 34774859564 | `f926a74cdac8` | pull_request | Verify | completed:success |
 | 34772447332 | `7debe212ffe9` | push | Portable onboarding | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34771610545 | `f619c2ef9053` | pull_request | Verify | completed:failure |
 | 34770599674 | `f1c40859e9d1` | push | Release attestation | completed:success |
 | 34769824047 | `f1c40859e9d1` | push | Portable onboarding | completed:success |
-| 34769824016 | `f1c40859e9d1` | push | Verify | completed:success |
-| 34568248869 | `f24842de37a5` | pull_request | Verify | completed:success |
