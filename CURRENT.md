@@ -7,8 +7,13 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fresh independent owner must review exact head 66f125ebb9dea311c4bf63399870d4575de636ed and full fda0517..66f125e diff, verify the three compatible histories/signature/DCO/privacy and local gate evidence, then publish the clean exact-head PR only if approved and wait for exact-head CI. Preserve AR-0056 planned record; do not duplicate its scope. | codex-awq-ar0054-catalog-implementation-20260914 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Catalog-registration fix commit 7e6bc9f is complete and focused structural/catalog tests (22/22), validate_contracts, catalog --check and diff-check pass. Exact-Python full-suite replay after the fix exited 1; output is intentionally not retained, so this remains non-green pending fresh environment-qualified replay. Known advanced-Rust dependency-cache limitation remains. Independent review must inspect the four-file diff before publication. | codex-awq-ar0050-rebase-20260914 |
+
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fresh independent owner must review exact head 66f125ebb9dea311c4bf63399870d4575de636ed and full fda0517..66f125e diff, verify the three compatible histories/signature/DCO/privacy and local gate evidence, then publish the clean exact-head PR only if approved and wait for exact-head CI. Preserve AR-0056 planned record; do not duplicate its scope. | - |
 
 ## Planned
 
