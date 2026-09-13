@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #45 | `feature/assurance-plan-contract@e69d6ae4dc98` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(assurance): add consumer assurance-plan contract |
+| #45 | `feature/assurance-plan-contract@e69d6ae4dc98` | `main` | DIRTY | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(assurance): add consumer assurance-plan contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34777760465 | `469439b03491` | push | Verify | queued:- |
-| 34777760442 | `469439b03491` | push | Portable onboarding | queued:- |
+| 34777760465 | `469439b03491` | push | Verify | in_progress:- |
+| 34777760442 | `469439b03491` | push | Portable onboarding | in_progress:- |
 | 34777484609 | `e69d6ae4dc98` | pull_request | Portable onboarding | completed:success |
 | 34777484607 | `e69d6ae4dc98` | pull_request | Verify | in_progress:- |
 | 34777354089 | `68545a1a5605` | pull_request | Verify | completed:success |
