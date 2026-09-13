@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Fresh independent reviewer must inspect exact current-main diff 6f88824..60ffdc7, verify AR-0045 formal receipts and the three catalog histories/signatures/DCO/privacy, reproduce focused/full/generated/release verification as appropriate, then hand to a distinct publication owner only if accepted. Do not publish stale pre-rebase artifacts; use only the new a12e4690... manifest family. | codex-awq-ar0054-rebased-review-20260914 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Independent review rejected exact head e13d06a8d860c37caabecdaf4003e765744bbf9e against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Fresh documentation/CLI correction is committed at df31c64 atop exact origin/main 6f88824. Focused structural/catalog/evidence-lifecycle suites 36/36, Ruff and diff-check pass. Independent reviewer must inspect the two-file diff, rerun full applicable gates with the corrected lifecycle --format parser, then decide PR/CI; do not merge or publish from this worker. | codex-awq-ar0050-fix-review-20260914 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Fresh independent reviewer must inspect exact current-main diff 6f88824..60ffdc7, verify AR-0045 formal receipts and the three catalog histories/signatures/DCO/privacy, reproduce focused/full/generated/release verification as appropriate, then hand to a distinct publication owner only if accepted. Do not publish stale pre-rebase artifacts; use only the new a12e4690... manifest family. | - |
 
 ## Planned
 
