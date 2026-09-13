@@ -8,6 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Resolve contract-baseline schema evolution cleanly: preserve v1 schema, add versioned admission-aware schema/registration, then rerun generated and focused gates. | codex-awq-ar0052-tla-admission-20260913 |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Publish PR from clean ae98eaa after independent review handoff; exact-head CI then guarded merge. | codex-awq-ar0053-independent-review-20260913 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. | codex-awq-ar0050-environment-20260913 |
 
 ## Open
@@ -15,7 +16,6 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. | - |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Publish PR from clean ae98eaa after independent review handoff; exact-head CI then guarded merge. | - |
 
 ## Planned
 
