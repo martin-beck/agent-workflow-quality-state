@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #43 | `release/v0.33.0@f926a74cdac8` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.33.0 version-coupled fixtures |
+| #43 | `release/v0.33.0@f926a74cdac8` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | chore(release): prepare v0.33.0 version-coupled fixtures |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | in_progress:- |
+| 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | completed:success |
 | 34774859564 | `f926a74cdac8` | pull_request | Verify | in_progress:- |
 | 34772447332 | `7debe212ffe9` | push | Portable onboarding | completed:success |
 | 34772447235 | `7debe212ffe9` | push | Verify | completed:success |
