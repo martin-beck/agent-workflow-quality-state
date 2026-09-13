@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Signed v0.35.0 version-bump commit 87e666a is clean and ready for independent diff review/PR only after required environment gates are restored. validate_contracts, onboarding/SBOM/provenance generators, Ruff and mypy pass. Full 497-test unittest run is not publishable: 48 failures/50 errors, predominantly missing pinned native wrappers/tools and fixture-dependent unavailable inputs; release-boundary assertions also reveal version-coupled expected fixtures need independent review. Do not publish/tag/release until these are classified and required green gates are achieved. | codex-awq-ar0054-independent-review-20260913 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fix version-coupled synthetic release fixtures before publication: update tests/release_support.py initial and rotation versions from 0.34.x to a sequence above current 0.35.0 (for example 0.35.1/0.35.2/0.35.3), update all exact expected target/error assertions, then rerun complete 497-test suite and release gates. Keep v0.34 fixtures only where explicitly testing prior-release compatibility. | codex-awq-ar0054-independent-review-20260913 |
 
 ## Open
 
