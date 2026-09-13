@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Run full applicable AWQ gates with PATH including pinned venv; then hand clean exact head dc22541 to independent reviewer. | codex-awq-ar0052-tla-admission-20260913 |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Rebase PR #46 onto exact current main 4a1d026; rerun independent review and exact-head CI before any merge/release. | codex-awq-ar0053-rebase-20260913 |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Update PR #46 from c394d232 using force-with-lease expected ae98eaaa; independently review exact amended head and await all required exact-head CI. | codex-awq-ar0053-rebase-20260913 |
 
 ## Open
 
