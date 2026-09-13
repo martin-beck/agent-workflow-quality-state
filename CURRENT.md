@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Verify signed manifest, tag exact merge f1c40859e9d10cacbc79100ed136c38bce48cd39, exact six assets, attestation and fresh public clone/download/install before closing. | codex-awq-ar0041-release-20260913 |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Run independent manifest/bundle verification, create and locally verify annotated SSH-signed v0.32.0 tag at exact merge, then publish exact six assets only after all checks pass. | codex-awq-ar0041-release-20260913 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Different independent reviewer must inspect exact clean signed checkpoint 3408f0fb, replay recipe/result transplant and hostile scope/order cases, and confirm the sole full-suite failure is the intentionally dependency-deferred catalog registration. Keep version, catalog, publication, merge, and release deferred. | codex-awq-ar0050-reviewer-20260913 |
 
 ## Open
