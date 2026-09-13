@@ -250,7 +250,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Resolve contract-baseline schema evolution cleanly: preserve v1 schema, add versioned admission-aware schema/registration, then rerun generated and focused gates. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Preserve v1 schema and complete v2 registration for adapter catalog/ref semantics; do not publish until baseline and generated checks pass. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-independent-review-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Publish PR from clean ae98eaa after independent review handoff; exact-head CI then guarded merge. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-environment-20260913 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. |
 
