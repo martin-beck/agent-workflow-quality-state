@@ -65,8 +65,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 124, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 122, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 144, ahead 0 |
-| `agent-workflow-quality-structural-refactoring` | `DETACHED` | `6f88824ed763` | 9 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/STRUCTURAL_REFACTORING.md`, `fixtures/conforming/structural-refactoring-json.json`, `fixtures/conforming/structural-refactoring-python.json`, `fixtures/conforming/structural-refactoring-rust.json`, `schemas/structural-refactoring.schema.json`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/structural_refactoring.py`, `tests/test_structural_refactoring.py` |
+| `agent-workflow-quality-structural-refactoring` | `DETACHED` | `a6f6cf6efd44` | 4 | behind 0, ahead 2 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json` |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 73, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 8, ahead 0 |
