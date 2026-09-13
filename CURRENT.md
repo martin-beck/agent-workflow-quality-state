@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Guarded release worker claimed; exact-head 0831b8a3 remains unchanged, six portable checks green, Verify test/coverage job still in progress. | Maintain heartbeat and await Verify completion; merge only exact head after all required checks green, then run post-merge CI and separate next-version release gates. | codex-awq-ar0044-dco-repair-20260913 |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | DCO identity repaired at exact signed head 68545a1; fresh review and PR/CI required before merge. | Fresh independent review required for amended exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9; then republish PR #44 head and await all required exact-head CI. No merge/release. | codex-awq-ar0044-dco-repair-20260913 |
 
 ## Open
 
