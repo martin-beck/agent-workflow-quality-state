@@ -250,7 +250,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Preserve v1 schema and complete v2 registration for adapter catalog/ref semantics; do not publish until baseline and generated checks pass. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Run adapter tests outside wrapper fixture-path restriction; then fix any test-only environment issue, commit signed DCO checkpoint, and request independent exact-head review. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-rebase-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Rebase PR #46 onto exact current main 4a1d026; rerun independent review and exact-head CI before any merge/release. |
 
 ### Open (2)
