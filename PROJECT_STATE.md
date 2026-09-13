@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 version-coupled artifacts |
+| #51 | `feature/version-v0350@60ffdc73b646` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 version-coupled artifacts |
 | #52 | `feature/structural-refactoring-publication@df31c648d782` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix: register structural refactoring contract |
 
 ## Recent workflows
@@ -20,7 +20,7 @@ Generated from local Git and GitHub. Do not edit.
 | 34790259048 | `df31c648d782` | pull_request | Portable onboarding | completed:success |
 | 34790259035 | `df31c648d782` | pull_request | Verify | in_progress:- |
 | 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | completed:success |
-| 34790139613 | `60ffdc73b646` | pull_request | Verify | in_progress:- |
+| 34790139613 | `60ffdc73b646` | pull_request | Verify | completed:success |
 | 34787420745 | `6f88824ed763` | push | Verify | completed:success |
 | 34787420735 | `6f88824ed763` | push | Portable onboarding | completed:success |
 | 34786766587 | `1ff0c2e51c68` | pull_request | Portable onboarding | completed:success |
