@@ -20,8 +20,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 100, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 72, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `DETACHED` | `fda0517db777` | 19 | behind 0, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `docs/FORMAL_RECEIPTS.md`, `docs/QUALITY.md`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/nonconforming/formal-receipt/proof-inflation.json`, `schemas/formal-execution-receipt.schema.json`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/formal_receipts.py`, `src/awq/release.py`, `templates/formal-execution-receipt.json`, `tests/test_distribution.py`, `tests/test_formal_receipts.py`, `tests/test_release.py` |
+| `agent-workflow-quality-formal-adapters-v2` | `DETACHED` | `5a827ff24399` | 10 | behind 0, ahead 1 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/FORMAL_RECEIPTS.md`, `fixtures/nonconforming/formal-receipt/proof-inflation.json`, `schemas/formal-execution-receipt.schema.json`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/formal_receipts.py`, `templates/formal-execution-expectation.json`, `templates/formal-execution-receipt.json`, `tests/test_formal_receipts.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 82, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 98, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 96, ahead 0 |

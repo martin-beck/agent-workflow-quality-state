@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**53 ARs tracked** across 3 active status categories.
+**54 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 2 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 8 |
+| **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 43 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -81,6 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
+        AR_0054["AR-0054 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -176,6 +177,7 @@ flowchart LR
     AR_0044 --> AR_0046
     AR_0044 --> AR_0048
     AR_0044 --> AR_0053
+    AR_0052 --> AR_0054
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -241,8 +243,9 @@ flowchart LR
 | [AR-0049](tasks/AR-0049.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
 | [AR-0050](tasks/AR-0050.md) | [AR-0028](tasks/AR-0028.md), [AR-0035](tasks/AR-0035.md), [AR-0040](tasks/AR-0040.md) | None |
 | [AR-0051](tasks/AR-0051.md) | [AR-0043](tasks/AR-0043.md) | None |
-| [AR-0052](tasks/AR-0052.md) | None | None |
+| [AR-0052](tasks/AR-0052.md) | None | [AR-0054](tasks/AR-0054.md) |
 | [AR-0053](tasks/AR-0053.md) | [AR-0044](tasks/AR-0044.md) | None |
+| [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | None |
 
 ## Complete AR inventory
 
@@ -253,7 +256,7 @@ flowchart LR
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-implementation-look-20260913 | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-environment-20260913b | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Provision the exact reviewed CPython 3.12.14 interpreter and Rust advanced/supply dependency caches under /srv/data/projects, then rerun the complete 430-test suite. Current suite with all available AR-0034 wrappers and PATH: 430 tests, 2 failures, 1 error; failures are intentional unregistered structural-refactoring catalog plus environment CPython 3.12.3 mismatch, error is refactor installer rejecting interpreter-version; advanced Rust wrapper reports reviewed failure due missing dependency cache. Focused structural 10/10 and validate_contracts pass. |
 
-### Planned (8)
+### Planned (9)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -262,6 +265,7 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Claim only after selecting a release worker; start from exact AR-0052 merge fda0517db777b834173253261aca0ba44b28f0f7 and execute the version-coupled v0.35.0 plan. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
