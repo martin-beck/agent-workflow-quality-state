@@ -69,7 +69,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 52, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 27, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 30, ahead 0 |
-| `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `469439b03491` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `469439b03491` | 10 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/RELEASES.md`, `pyproject.toml`, `schemas/onboarding.schema.json`, `src/awq/__init__.py`, `src/awq/data/agent_recipes.json`, `src/awq/data/compatibility.json`, `tests/release_support.py`, `tests/test_onboarding.py`, `tests/test_sbom.py`, `uv.lock` |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 1, ahead 0 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 9, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 0, ahead 0 |
