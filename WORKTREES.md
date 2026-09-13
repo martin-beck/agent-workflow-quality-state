@@ -68,8 +68,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 23, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 52, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 27, ahead 0 |
-| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `469439b03491` | 8 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/FORMAL_ADAPTERS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `tests/test_formal_adapters.py`, `schemas/adapter-contract-v2.schema.json`, `schemas/formal-adapter-contract-v2.schema.json` |
+| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `469439b03491` | 11 | behind 0, ahead 0 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/FORMAL_ADAPTERS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `src/awq/data/contract_catalog.json`, `tests/test_formal_adapters.py`, `schemas/adapter-contract-v2.schema.json`, `schemas/formal-adapter-contract-v2.schema.json` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 30, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `ae98eaaa0b00` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 1, ahead 0 |
