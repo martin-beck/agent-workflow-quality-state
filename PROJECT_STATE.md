@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #49 | `feature/formal-adapters-v2@1ff0c2e51c68` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, QUEUED: | feat: add formal execution receipts and adapter evidence |
+| #49 | `feature/formal-adapters-v2@1ff0c2e51c68` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, QUEUED: | feat: add formal execution receipts and adapter evidence |
 
 ## Recent workflows
 
