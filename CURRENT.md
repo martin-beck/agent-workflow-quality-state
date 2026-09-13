@@ -3,16 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #51 merged and post-merge CI green; v0.35.0 release awaits external signing/tag authority. | Provision reviewed external release signing/trust authority, sign manifest and annotated v0.35.0 tag, publish exactly six assets, await attestation, then perform fresh public verification before closing. | codex-awq-ar0054-publication-20260914b |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #51 merged and post-merge CI green; v0.35.0 release awaits external signing/tag authority. | Provision reviewed external release signing/trust authority, sign manifest and annotated v0.35.0 tag, publish exactly six assets, await attestation, then perform fresh public verification before closing. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #52 is stale after PR #51 merged current main at 3b4d124; merge attempt failed because GitHub cannot cleanly create merge commit. Release publication claim and hand off rebase df31c648 onto exact current main 3b4d124, preserving all fixes and obtaining fresh review/CI before any merge. | - |
 
 ## Planned
