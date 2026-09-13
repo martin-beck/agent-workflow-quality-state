@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 version-coupled artifacts |
-| #52 | `feature/structural-refactoring-publication@df31c648d782` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | fix: register structural refactoring contract |
+| #52 | `feature/structural-refactoring-publication@df31c648d782` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | fix: register structural refactoring contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34790259048 | `df31c648d782` | pull_request | Portable onboarding | queued:- |
-| 34790259035 | `df31c648d782` | pull_request | Verify | queued:- |
+| 34790259048 | `df31c648d782` | pull_request | Portable onboarding | in_progress:- |
+| 34790259035 | `df31c648d782` | pull_request | Verify | in_progress:- |
 | 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | completed:success |
 | 34790139613 | `60ffdc73b646` | pull_request | Verify | in_progress:- |
 | 34787420745 | `6f88824ed763` | push | Verify | completed:success |
