@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Rebase signed checkpoint onto exact current origin/main, rerun focused and applicable gates; full-suite remaining failures require provisioned wrappers and version-aligned venv before review handoff. | codex-awq-ar0052-tla-admission-20260913 |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Independent exact-head review of 06cc73f against base 4a1d026; verify admission semantics, v1 preservation, signatures/DCO/privacy, then PR/CI handoff. | codex-awq-ar0052-tla-admission-20260913 |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Update PR #46 from c394d232 using force-with-lease expected ae98eaaa; independently review exact amended head and await all required exact-head CI. | codex-awq-ar0053-rebase-20260913 |
 
 ## Open
