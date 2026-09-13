@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**55 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 9 |
+| **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 43 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -83,6 +83,7 @@ flowchart LR
         AR_0053["AR-0053 - Done"]:::status_done
         AR_0054["AR-0054 - Open"]:::status_open
         AR_0055["AR-0055 - Planned"]:::status_planned
+        AR_0056["AR-0056 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -166,6 +167,7 @@ flowchart LR
     AR_0035 --> AR_0044
     AR_0035 --> AR_0045
     AR_0035 --> AR_0050
+    AR_0035 --> AR_0056
     AR_0036 --> AR_0037
     AR_0036 --> AR_0038
     AR_0037 --> AR_0047
@@ -180,6 +182,7 @@ flowchart LR
     AR_0044 --> AR_0053
     AR_0050 --> AR_0055
     AR_0052 --> AR_0054
+    AR_0054 --> AR_0056
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -228,7 +231,7 @@ flowchart LR
 | [AR-0032](tasks/AR-0032.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md) | [AR-0033](tasks/AR-0033.md), [AR-0034](tasks/AR-0034.md) |
 | [AR-0033](tasks/AR-0033.md) | [AR-0030](tasks/AR-0030.md), [AR-0032](tasks/AR-0032.md) | [AR-0035](tasks/AR-0035.md) |
 | [AR-0034](tasks/AR-0034.md) | [AR-0032](tasks/AR-0032.md) | [AR-0036](tasks/AR-0036.md), [AR-0037](tasks/AR-0037.md), [AR-0040](tasks/AR-0040.md), [AR-0041](tasks/AR-0041.md), [AR-0042](tasks/AR-0042.md), [AR-0043](tasks/AR-0043.md), [AR-0045](tasks/AR-0045.md), [AR-0049](tasks/AR-0049.md) |
-| [AR-0035](tasks/AR-0035.md) | [AR-0015](tasks/AR-0015.md), [AR-0033](tasks/AR-0033.md) | [AR-0036](tasks/AR-0036.md), [AR-0038](tasks/AR-0038.md), [AR-0044](tasks/AR-0044.md), [AR-0045](tasks/AR-0045.md), [AR-0050](tasks/AR-0050.md) |
+| [AR-0035](tasks/AR-0035.md) | [AR-0015](tasks/AR-0015.md), [AR-0033](tasks/AR-0033.md) | [AR-0036](tasks/AR-0036.md), [AR-0038](tasks/AR-0038.md), [AR-0044](tasks/AR-0044.md), [AR-0045](tasks/AR-0045.md), [AR-0050](tasks/AR-0050.md), [AR-0056](tasks/AR-0056.md) |
 | [AR-0036](tasks/AR-0036.md) | [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | [AR-0037](tasks/AR-0037.md), [AR-0038](tasks/AR-0038.md) |
 | [AR-0037](tasks/AR-0037.md) | [AR-0034](tasks/AR-0034.md), [AR-0036](tasks/AR-0036.md) | [AR-0047](tasks/AR-0047.md) |
 | [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md) |
@@ -247,8 +250,9 @@ flowchart LR
 | [AR-0051](tasks/AR-0051.md) | [AR-0043](tasks/AR-0043.md) | None |
 | [AR-0052](tasks/AR-0052.md) | None | [AR-0054](tasks/AR-0054.md) |
 | [AR-0053](tasks/AR-0053.md) | [AR-0044](tasks/AR-0044.md) | None |
-| [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | None |
+| [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | [AR-0056](tasks/AR-0056.md) |
 | [AR-0055](tasks/AR-0055.md) | [AR-0050](tasks/AR-0050.md) | None |
+| [AR-0056](tasks/AR-0056.md) | [AR-0035](tasks/AR-0035.md), [AR-0054](tasks/AR-0054.md) | None |
 
 ## Complete AR inventory
 
@@ -265,7 +269,7 @@ flowchart LR
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. |
 
-### Planned (9)
+### Planned (10)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -274,6 +278,7 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
+| P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
