@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. | awq-coordinator-20260913 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
@@ -64,6 +58,7 @@ Never edit this file directly.
 | P1 | [AR-0032](tasks/AR-0032.md): Native-gate and requirement mapping contracts | Bind AWQ requirements to existing native gates without duplicating or weakening them. | Push authenticated annotated tag v0.27.0 object 37e365001a13745a38fa415b33d06a9a97f55870, create exact six-asset GitHub release, await exact tag attestation, then verify fresh public clone/download/authentication/offline install. | - |
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Merge PR #42 only at independently accepted exact head 2f744013f4ed6880b61002427c6a767dc44c764f, verify exact-main CI, then authenticate and publish v0.31.0 only through the production trust and tag gates and perform fresh public verification before closing AR-0040. | - |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | No further AR-0041 work; continue dependency-ordered AR loop with AR-0043 and later release sequencing. | - |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | - |
