@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Revalidate PR #45 at exact head d66e57e; await fresh Verify and six-platform CI, then merge only if all required checks green. Release version ownership remains coordinated with AR-0044. | codex-awq-ar0036-independent-review-20260913 |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | PR #45 exact head d66e57e independently accepted; await Verify and six-platform CI to terminal, then release for guarded merge owner. CI is pending and no merge/release authority is transferred. | codex-awq-ar0036-independent-review-20260913 |
 
 ## Open
 
