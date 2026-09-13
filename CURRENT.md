@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Add strict admission metadata and -J-Xmx512m TLC argv, then regenerate catalog/docs and run focused tests. | codex-awq-ar0052-tla-admission-20260913 |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Run focused formal adapter tests with worktree PYTHONPATH; repair schema/catalog/test drift, then add admission queue/cancel contract coverage. | codex-awq-ar0052-tla-admission-20260913 |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Run complete suite with pinned tool wrappers or classify unavailable native adapters; run static/generated/model/schema/privacy gates and deterministic build. | codex-awq-ar0053-version-release-20260913 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. | codex-awq-ar0050-environment-20260913 |
 
