@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**53 ARs tracked** across 4 active status categories.
+**53 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 42 |
+| **Done** | Accepted, integrated, and durably verified | 43 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -79,7 +79,7 @@ flowchart LR
         AR_0049["AR-0049 - Planned"]:::status_planned
         AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
-        AR_0052["AR-0052 - In progress"]:::status_in_progress
+        AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
     end
     AR_0001 --> AR_0002
@@ -246,12 +246,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-sbom-review-20260913 | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. |
-
 ### Open (2)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -272,7 +266,7 @@ flowchart LR
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
 
-### Done (42)
+### Done (43)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -281,6 +275,7 @@ flowchart LR
 | P0 | [AR-0034](tasks/AR-0034.md): Evidence identity and native-gate correlation v2 | Unclaimed | Bind every mapped observation to an exact source, scope, definition, run, platform class and freshness context. | Push locally authenticated annotated tag object 936078f39e1fd9e070f1e5b87cd5cb036bcb682b, create v0.29.0 with exactly six verified assets, await exact-tag attestation, then verify fresh public clone, downloads, hashes, authentication and offline wheel behavior. |
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Unclaimed | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Coordinator may independently merge PR 41 only at exact accepted head aee98075918926a46a0d2281da6c9a3cd8b91024, verify exact-main CI, then rebuild the exact merge with production trust digest a2b3c0cb2542cae59846b1dd0f91aeb05c961b5fcb00da573f61d823d1a60108 and perform every authenticated v0.30 publication and public verification gate before closing AR-0035. |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | PR #45 exact head d66e57e independently accepted; await Verify and six-platform CI to terminal, then release for guarded merge owner. CI is pending and no merge/release authority is transferred. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
