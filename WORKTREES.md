@@ -65,8 +65,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 117, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 115, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 137, ahead 0 |
-| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 1 | behind 37, ahead 2 |
-| changed files | - | - | - | `scripts/generate_contract_catalog.py` |
+| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 3 | behind 37, ahead 2 |
+| changed files | - | - | - | `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json` |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 66, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 41, ahead 0 |
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 1, ahead 0 |
