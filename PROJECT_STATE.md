@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #44 | `feature/vulnerability-supply-policy@0831b8a3d283` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add cross-ecosystem vulnerability and workspace supply policy |
+| #44 | `feature/vulnerability-supply-policy@68545a1a5605` | `main` | BLOCKED | - | feat: add cross-ecosystem vulnerability and workspace supply policy |
 
 ## Recent workflows
 
