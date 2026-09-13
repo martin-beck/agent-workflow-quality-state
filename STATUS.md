@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-assurance-plan-20260913 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Run focused assurance-plan and catalog tests through handoffctl with explicit absolute PYTHONPATH; fix only product failures and record gate evidence. |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-assurance-plan-20260913 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Obtain independent exact-head review of e69d6ae, then publish PR from clean exact tree and await exact-head CI; retain full-suite environment limitation without weakening gates. |
 
 ### Open (3)
 
