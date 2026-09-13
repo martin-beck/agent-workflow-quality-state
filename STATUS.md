@@ -250,7 +250,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Independent review found a runtime/schema parity blocker: _validate_tlc_contract accepts bool for queue_limit, cancel_timeout_seconds, and restart_limit because bool is an int; JSON Schema rejects these values. | Implementation must reject bool explicitly for all admission integer fields, add runtime/schema parity negative tests, correct docs schema filename, rerun focused gates, then request fresh exact-head review. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Independent review found a runtime/schema parity blocker: _validate_tlc_contract accepts bool for queue_limit, cancel_timeout_seconds, and restart_limit because bool is an int; JSON Schema rejects these values. | Fresh independent exact-head review of d14ac51 against 52018dc; verify bool rejection, v2 schema reference, helper/cgroup boundary, signatures/DCO/privacy, then PR/CI. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
 
 ### Open (2)
