@@ -250,7 +250,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Reject publication pending admission enforcement: run_adapter must route formal TLC through mandatory shared helper with durable bounded queue/cancel/restart and cgroup memory/swap limits; add tests, then rerun native schema environment and exact review. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Rebase 3f97b8e onto current origin/main, rerun full applicable gates and independent review; helper must be provisioned for native equivalence. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-rebase-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
 
 ### Open (2)
