@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #48 | `feature/tla-admission-safety@394d62dff187` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(formal): enforce bounded TLC admission safety |
+| #48 | `feature/tla-admission-safety@394d62dff187` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(formal): enforce bounded TLC admission safety |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34782551135 | `394d62dff187` | pull_request | Verify | queued:- |
-| 34782551090 | `394d62dff187` | pull_request | Portable onboarding | queued:- |
+| 34782551135 | `394d62dff187` | pull_request | Verify | in_progress:- |
+| 34782551090 | `394d62dff187` | pull_request | Portable onboarding | completed:success |
 | 34781781219 | `d14ac51618ea` | pull_request | Portable onboarding | completed:success |
 | 34781781197 | `d14ac51618ea` | pull_request | Verify | completed:failure |
 | 34781373211 | `52018dc79c13` | push | Release attestation | completed:success |
