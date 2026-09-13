@@ -20,8 +20,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 100, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 72, ahead 0 |
-| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d2525d6e26fb` | 5 | behind 0, ahead 4 |
-| changed files | - | - | - | `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/release.py`, `tests/test_distribution.py` |
+| `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `d2525d6e26fb` | 6 | behind 0, ahead 4 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/release.py`, `tests/test_distribution.py` |
 | `agent-workflow-quality-formal-contracts` | `feature/formal-contracts` | `b3c09ddfc9af` | 0 | behind 82, ahead 0 |
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 98, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 96, ahead 0 |
