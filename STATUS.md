@@ -242,7 +242,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-release-20260913 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | Run independent manifest/bundle verification, create and locally verify annotated SSH-signed v0.32.0 tag at exact merge, then publish exact six assets only after all checks pass. |
+| P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | codex-awq-ar0041-release-20260913 | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | No further AR-0041 work; continue dependency-ordered AR loop with AR-0043 and later release sequencing. |
 
 ### Open (5)
 
