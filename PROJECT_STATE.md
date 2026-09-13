@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #53 | `feature/structural-refactoring-publication-v2@86fb6c598d13` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | fix: preserve structural refactoring contract integration |
+| #53 | `feature/structural-refactoring-publication-v2@86fb6c598d13` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix: preserve structural refactoring contract integration |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34790970140 | `86fb6c598d13` | pull_request | Verify | queued:- |
-| 34790970139 | `86fb6c598d13` | pull_request | Portable onboarding | queued:- |
+| 34790970140 | `86fb6c598d13` | pull_request | Verify | completed:success |
+| 34790970139 | `86fb6c598d13` | pull_request | Portable onboarding | completed:success |
 | 34790450233 | `3b4d12457b0c` | push | Verify | completed:success |
 | 34790450230 | `3b4d12457b0c` | push | Portable onboarding | completed:success |
 | 34790259048 | `df31c648d782` | pull_request | Portable onboarding | completed:success |
