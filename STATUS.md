@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 3 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -72,7 +72,7 @@ flowchart LR
         AR_0042["AR-0042 - Planned"]:::status_planned
         AR_0043["AR-0043 - Done"]:::status_done
         AR_0044["AR-0044 - Done"]:::status_done
-        AR_0045["AR-0045 - In progress"]:::status_in_progress
+        AR_0045["AR-0045 - Open"]:::status_open
         AR_0046["AR-0046 - Planned"]:::status_planned
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
@@ -256,13 +256,18 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-final-review-20260914 | Independent review completed: exact remediation head 1ff0c2e is clean, signed/DCO, focused and generated gates pass. | Publication owner may claim and publish 1ff0c2e against 55b18b1; await exact-head required CI before merge/release. Full adapter execution rerun requires unavailable native tools/inputs. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-independent-review-20260914 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | AR-0056 must review and explicitly append compatible v0.35 baseline history for agent recipes and compatibility, and version or otherwise formally resolve onboarding schema semantic evolution without weakening in-place rejection; regenerate projections, then rerun the complete exact-Python release gates before AR-0054 publication. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-implementation-look-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. |
+
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Independent review completed: exact remediation head 1ff0c2e is clean, signed/DCO, focused and generated gates pass. | Publication owner may claim and publish 1ff0c2e against 55b18b1; await exact-head required CI before merge/release. Full adapter execution rerun requires unavailable native tools/inputs. |
 
 ### Planned (10)
 
