@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | PR #43 exact-head Verify and all platform checks green; ready for guarded merge/release worker. | Release claim for guarded merge/release worker; merge only after independent release-worker checks, then perform signed tag/assets/attestation/public verification. | codex-awq-ar0051-version-release-20260913 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
@@ -16,6 +10,7 @@ Never edit this file directly.
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. | - |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Implementation checkpoint c6a0c6968483d8c741eae2a41f8ccb0beed9a8ee independently accepted for its dependency-deferred scope. After the preceding version sequence is merged and publicly verified, rebase onto exact main, preserve newer contracts, integrate AWQ-CONTRACT-VULNERABILITY-SUPPLY-V1 through the shared reviewed additive catalog flow, resolve the release version without collision, rerun focused/full/static/generated/model/schema/privacy plus deterministic release gates, then obtain a fresh exact rebased-head review before publication. | - |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. | - |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | PR #43 exact-head Verify and all platform checks green; ready for guarded merge/release worker. | Release claim for guarded merge/release worker; merge only after independent release-worker checks, then perform signed tag/assets/attestation/public verification. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Independent product review is clean at exact signed checkpoint 3408f0fb and focused/static/model/doctor/PR/privacy checks pass. Re-run the full suite in the original complete pinned-tool environment (including the exact refactor Python and advanced Rust wrapper) to confirm only the intentionally deferred structural schema catalog registration fails; keep catalog/version/publication/merge/release deferred. | - |
 
 ## Planned
