@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Refresh the checked-in provenance manifest/statement for the exact 55b18b1 source material (generator digest changed) through generate_provenance_fixture.py, commit a new signed DCO fix, then rerun focused/full suites and every generated/release gate before requesting independent review again. | codex-awq-ar0045-provenance-remediation-20260914 |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Fresh independent exact-head review of remediation head 1ff0c2e51c687393195b1fd04632d43dcd1a84a6 against 55b18b1; if accepted, publish PR and wait exact-head CI before any merge/release. | codex-awq-ar0045-provenance-remediation-20260914 |
 
 ## Open
 
