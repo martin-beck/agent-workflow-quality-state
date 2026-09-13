@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Distinct publication owner may publish the clean exact-head 60ffdc7 PR, wait for exact-head required CI and native checks, then merge/release only after all gates pass; use only rebased a12e4690 manifest family and preserve AR-0045 evidence. | codex-awq-ar0054-publication-20260914b |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #51 merged and post-merge CI green; v0.35.0 release awaits external signing/tag authority. | Provision reviewed external release signing/trust authority, sign manifest and annotated v0.35.0 tag, publish exactly six assets, await attestation, then perform fresh public verification before closing. | codex-awq-ar0054-publication-20260914b |
 
 ## Open
 
