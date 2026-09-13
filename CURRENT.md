@@ -3,11 +3,16 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## In Progress
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Publish PR from clean exact head d14ac516; wait for exact-head required CI, then merge only after green checks. | codex-awq-ar0052-pr-monitor-20260913 |
+
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Publish PR from clean exact head d14ac516; wait for exact-head required CI, then merge only after green checks. | - |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Provision the exact reviewed CPython 3.12.14 interpreter and Rust advanced/supply dependency caches under /srv/data/projects, then rerun the complete 430-test suite. Current suite with all available AR-0034 wrappers and PATH: 430 tests, 2 failures, 1 error; failures are intentional unregistered structural-refactoring catalog plus environment CPython 3.12.3 mismatch, error is refactor installer rejecting interpreter-version; advanced Rust wrapper reports reviewed failure due missing dependency cache. Focused structural 10/10 and validate_contracts pass. | - |
 
