@@ -251,7 +251,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-merge-release-20260913 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | PR #45 exact head d66e57e independently accepted; await Verify and six-platform CI to terminal, then release for guarded merge owner. CI is pending and no merge/release authority is transferred. |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-version-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Implement a signed, reviewed version-coupled 0.34.0 follow-up from exact merge 469439b; preserve v0.33.0 and rerun all version/generated/release gates. |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-version-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Run dependency-backed validate_contracts and full focused/static/generated/model/schema/privacy/deterministic gates from dirty v0.34.0 worktree; then inspect diff and commit. |
 
 ### Open (3)
 
