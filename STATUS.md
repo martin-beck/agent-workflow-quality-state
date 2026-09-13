@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Independent review blocked: contract baseline evolution gate fails | Resolve contract-baseline evolution for version-coupled compatibility and agent-recipes contracts; do not publish until generate_contract_catalog --check passes and fresh exact-head review is possible. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Fresh signed checkpoint records reviewed v0.33 contract-baseline evolution; generated and focused gates pass. | Release claim for fresh independent exact-head review of f926a74; no publication until reviewer accepts and exact-head CI is green. |
 
 ### Open (4)
 
