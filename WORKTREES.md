@@ -71,3 +71,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `c6a0c6968483` | 0 | behind 24, ahead 4 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 3, ahead 0 |
+| `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 0, ahead 0 |
