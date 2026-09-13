@@ -11,13 +11,13 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #50 | `feature/structural-refactoring@7e6bc9f3695c` | `main` | DIRTY | - | feat(refactor): verify bounded structural plans |
-| #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | release: prepare v0.35.0 version-coupled artifacts |
+| #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 version-coupled artifacts |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | in_progress:- |
+| 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | completed:success |
 | 34790139613 | `60ffdc73b646` | pull_request | Verify | in_progress:- |
 | 34787420745 | `6f88824ed763` | push | Verify | completed:success |
 | 34787420735 | `6f88824ed763` | push | Portable onboarding | completed:success |
