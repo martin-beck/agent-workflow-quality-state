@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-review-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Rebased exact signed head e13d06a8d860c37caabecdaf4003e765744bbf9e onto origin/main 6f88824. Focused structural/catalog 23/23, Ruff, mypy and validate_contracts pass. Full discover remains non-green (exit 1); captured failure is subprocess AWQ CLI rejecting --format json, indicating stale/incompatible installed subprocess package or invocation environment; no merge/publication. Independent reviewer must inspect the five-file rebase diff and rerun full gates with correct package environment. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-review-20260914 | Independent review rejected exact head e13d06a8d860c37caabecdaf4003e765744bbf9e against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Implementation owner must update stale docs/STRUCTURAL_REFACTORING.md catalog-integration claims, restore _format_argument(item) for evidence-lifecycle-evaluate while retaining structural-refactor-verify formatting, add regression coverage, regenerate/check docs, rerun focused/full gates in a version-consistent confined environment, make signed DCO commit, and request fresh independent review. |
 
 ### Open (1)
 
