@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Clean signed PR #43 published; exact-head CI pending. | Wait exact-head required Verify and all platform checks to terminal green; then release claim for guarded merge/release worker with PR/head/check evidence. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | PR #43 exact-head Verify and all platform checks green; ready for guarded merge/release worker. | Release claim for guarded merge/release worker; merge only after independent release-worker checks, then perform signed tag/assets/attestation/public verification. |
 
 ### Open (4)
 
