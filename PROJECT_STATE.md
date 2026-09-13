@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #52 | `feature/structural-refactoring-publication@df31c648d782` | `main` | DIRTY | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix: register structural refactoring contract |
+| #52 | `feature/structural-refactoring-publication@df31c648d782` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix: register structural refactoring contract |
 
 ## Recent workflows
 
@@ -19,7 +19,7 @@ Generated from local Git and GitHub. Do not edit.
 | 34790450233 | `3b4d12457b0c` | push | Verify | in_progress:- |
 | 34790450230 | `3b4d12457b0c` | push | Portable onboarding | completed:success |
 | 34790259048 | `df31c648d782` | pull_request | Portable onboarding | completed:success |
-| 34790259035 | `df31c648d782` | pull_request | Verify | in_progress:- |
+| 34790259035 | `df31c648d782` | pull_request | Verify | completed:success |
 | 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | completed:success |
 | 34790139613 | `60ffdc73b646` | pull_request | Verify | completed:success |
 | 34787420745 | `6f88824ed763` | push | Verify | completed:success |
