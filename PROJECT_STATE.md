@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #46 | `feature/version-v0340@56195a163388` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.34.0 |
+| #46 | `feature/version-v0340@56195a163388` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.34.0 |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34780181269 | `56195a163388` | pull_request | Portable onboarding | queued:- |
-| 34780181146 | `56195a163388` | pull_request | Verify | queued:- |
+| 34780181269 | `56195a163388` | pull_request | Portable onboarding | in_progress:- |
+| 34780181146 | `56195a163388` | pull_request | Verify | in_progress:- |
 | 34779773495 | `c394d232fc34` | pull_request | Verify | completed:failure |
 | 34779773494 | `c394d232fc34` | pull_request | Portable onboarding | completed:success |
 | 34778385666 | `4a1d02602d15` | push | Verify | completed:success |
