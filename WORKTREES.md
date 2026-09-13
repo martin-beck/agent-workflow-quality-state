@@ -65,7 +65,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 124, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 122, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 144, ahead 0 |
-| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `f8f437aba04b` | 0 | behind 0, ahead 3 |
+| `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `f8f437aba04b` | 1 | behind 0, ahead 3 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 73, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 48, ahead 0 |
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 8, ahead 0 |
