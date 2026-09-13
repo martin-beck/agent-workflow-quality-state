@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Publication owner may publish a clean exact-head PR for 66f125e, obtain exact-head required CI, then merge/release only after independent gates and public verification; preserve AR-0056 planned dependency. | codex-awq-ar0054-publication-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Rebase/version-update AR-0054 onto exact current main 6f88824, preserve AR-0045 formal receipts, rerun independent review and release gates, then publish a new exact accepted head. | codex-awq-ar0054-publication-20260914 |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Rebased exact signed head e13d06a8d860c37caabecdaf4003e765744bbf9e onto origin/main 6f88824. Focused structural/catalog 23/23, Ruff, mypy and validate_contracts pass. Full discover remains non-green (exit 1); captured failure is subprocess AWQ CLI rejecting --format json, indicating stale/incompatible installed subprocess package or invocation environment; no merge/publication. Independent reviewer must inspect the five-file rebase diff and rerun full gates with correct package environment. | codex-awq-ar0050-rebase-review-20260914 |
 
 ## Planned
