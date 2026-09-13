@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Run focused assurance-plan and catalog tests through handoffctl with explicit absolute PYTHONPATH; fix only product failures and record gate evidence. | codex-awq-ar0036-assurance-plan-20260913 |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Accept new vulnerability contract and compatible catalog registry evolution with explicit baseline reason; then run generated and focused gates. | codex-awq-ar0044-cross-supply-20260913 |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Focused AR-0044 suite, catalog generation/check, validate_contracts, ruff format/check and mypy pass. Full suite 479 tests has 41 failures/69 errors solely due unavailable external native wrappers/tools and wrapper environment; rerun in complete pinned-tool environment before publication. | codex-awq-ar0044-cross-supply-20260913 |
 
 ## Open
 
