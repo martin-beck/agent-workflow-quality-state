@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Fresh signed checkpoint records reviewed v0.33 contract-baseline evolution; generated and focused gates pass. | Release claim for fresh independent exact-head review of f926a74; no publication until reviewer accepts and exact-head CI is green. | codex-awq-ar0051-independent-review-20260913b |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Independent exact-head review accepted; publication gates remain | Publish clean signed DCO PR for f926a74, await exact-head required CI, then merge only after green and run guarded v0.33.0 release/public verification. | codex-awq-ar0051-independent-review-20260913b |
 
 ## Open
 
