@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 41 |
+| **Done** | Accepted, integrated, and durably verified | 42 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -80,7 +80,7 @@ flowchart LR
         AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - In progress"]:::status_in_progress
-        AR_0053["AR-0053 - In progress"]:::status_in_progress
+        AR_0053["AR-0053 - Done"]:::status_done
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -246,12 +246,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-final-review-20260913 | Independent review found a runtime/schema parity blocker: _validate_tlc_contract accepts bool for queue_limit, cancel_timeout_seconds, and restart_limit because bool is an int; JSON Schema rejects these values. | Fresh independent exact-head review of d14ac51 against 52018dc; verify bool rejection, v2 schema reference, helper/cgroup boundary, signatures/DCO/privacy, then PR/CI. |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
 
 ### Open (2)
 
@@ -273,7 +272,7 @@ flowchart LR
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
 
-### Done (41)
+### Done (42)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -309,6 +308,7 @@ flowchart LR
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. |
 | P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Unclaimed | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Unclaimed | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
