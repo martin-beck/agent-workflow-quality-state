@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Obtain independent exact-head review of e69d6ae, then publish PR from clean exact tree and await exact-head CI; retain full-suite environment limitation without weakening gates. | codex-awq-ar0036-assurance-plan-20260913 |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Independent reviewer must inspect complete diff at e69d6ae; after acceptance publish PR and await exact-head CI. | codex-awq-ar0036-assurance-plan-20260913 |
 
 ## Open
 
