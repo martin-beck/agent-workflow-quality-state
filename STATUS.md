@@ -256,7 +256,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-fixture-remediation-20260913 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fix version-coupled synthetic release fixtures before publication: update tests/release_support.py initial and rotation versions from 0.34.x to a sequence above current 0.35.0 (for example 0.35.1/0.35.2/0.35.3), update all exact expected target/error assertions, then rerun complete 497-test suite and release gates. Keep v0.34 fixtures only where explicitly testing prior-release compatibility. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-fixture-remediation-20260913 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. |
 
 ### Open (2)
 
