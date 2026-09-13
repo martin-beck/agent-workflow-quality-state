@@ -3,17 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. | codex-awq-ar0054-fixture-remediation-20260913 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Fresh independent exact-head review of 55b18b1 against fda0517; do not publish until accepted. Then publish PR, wait exact-head CI, merge and perform post-merge/release gates. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. | - |
 
 ## Planned
