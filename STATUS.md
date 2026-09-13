@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - Open"]:::status_open
+        AR_0054["AR-0054 - In progress"]:::status_in_progress
         AR_0055["AR-0055 - Planned"]:::status_planned
         AR_0056["AR-0056 - Planned"]:::status_planned
     end
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-fresh-review-20260914 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fresh independent owner must review exact head 66f125ebb9dea311c4bf63399870d4575de636ed and full fda0517..66f125e diff, verify the three compatible histories/signature/DCO/privacy and local gate evidence, then publish the clean exact-head PR only if approved and wait for exact-head CI. Preserve AR-0056 planned record; do not duplicate its scope. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Catalog-registration fix commit 7e6bc9f is complete and focused structural/catalog tests (22/22), validate_contracts, catalog --check and diff-check pass. Exact-Python full-suite replay after the fix exited 1; output is intentionally not retained, so this remains non-green pending fresh environment-qualified replay. Known advanced-Rust dependency-cache limitation remains. Independent review must inspect the four-file diff before publication. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fresh independent owner must review exact head 66f125ebb9dea311c4bf63399870d4575de636ed and full fda0517..66f125e diff, verify the three compatible histories/signature/DCO/privacy and local gate evidence, then publish the clean exact-head PR only if approved and wait for exact-head CI. Preserve AR-0056 planned record; do not duplicate its scope. |
 
 ### Planned (10)
 
