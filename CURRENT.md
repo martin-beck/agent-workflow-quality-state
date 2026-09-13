@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. | codex-awq-ar0044-coordinator-20260913 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
@@ -65,6 +59,7 @@ Never edit this file directly.
 | P1 | [AR-0040](tasks/AR-0040.md): Generic structured test-report evidence | Provide reusable structured test-report evidence for mixed-language repositories without mistaking file presence for executed tests. | Merge PR #42 only at independently accepted exact head 2f744013f4ed6880b61002427c6a767dc44c764f, verify exact-main CI, then authenticate and publish v0.31.0 only through the production trust and tag gates and perform fresh public verification before closing AR-0040. | - |
 | P1 | [AR-0041](tasks/AR-0041.md): Execution budgets and process-boundary receipts | Represent enforced, observed, estimated and unavailable execution resources with bounded lifecycle and uncertainty evidence. | No further AR-0041 work; continue dependency-ordered AR loop with AR-0043 and later release sequencing. | - |
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. | - |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. | - |
 | P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
