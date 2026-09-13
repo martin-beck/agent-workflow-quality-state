@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Version bump and generated fixture regeneration complete; focused gates are correcting intentional historical test assumptions. | Update remaining current-version test fixtures/helpers, rerun focused release/SBOM/onboarding gates, then full/static/generated/privacy gates and commit signed DCO checkpoint. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-version-release-20260913 | Version-coupled source and all generated public fixtures updated for 0.33.0; focused release and negative mixed-version gates pass. | Run deterministic focused/full gates with reviewed external tool prefixes where available; record any remaining dependency-limited tests, then inspect diff, DCO/SSH signature, commit clean checkpoint, and prepare PR only if applicable gates pass. |
 
 ### Open (4)
 
