@@ -16,8 +16,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `1dd98150ca5c` | 0 | behind 14, ahead 1 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 24, ahead 0 |
-| `agent-workflow-quality-evidence-lifecycle` | `DETACHED` | `c0a46a5a701a` | 7 | behind 0, ahead 2 |
-| changed files | - | - | - | `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json`, `schemas/evidence-lifecycle.schema.json`, `src/awq/cli.py`, `src/awq/evidence_lifecycle.py`, `tests/test_evidence_lifecycle.py` |
+| `agent-workflow-quality-evidence-lifecycle` | `DETACHED` | `c0a46a5a701a` | 6 | behind 0, ahead 2 |
+| changed files | - | - | - | `docs/EVIDENCE_LIFECYCLE.md`, `fixtures/conforming/evidence-lifecycle.json`, `fixtures/nonconforming/evidence-lifecycle/broken-parent.json`, `schemas/evidence-lifecycle.schema.json`, `src/awq/evidence_lifecycle.py`, `tests/test_evidence_lifecycle.py` |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 42, ahead 0 |
