@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 3 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
@@ -79,7 +79,7 @@ flowchart LR
         AR_0049["AR-0049 - Planned"]:::status_planned
         AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
-        AR_0052["AR-0052 - Open"]:::status_open
+        AR_0052["AR-0052 - In progress"]:::status_in_progress
         AR_0053["AR-0053 - In progress"]:::status_in_progress
     end
     AR_0001 --> AR_0002
@@ -246,17 +246,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Define and implement bounded TLC invocation and host-admission integration without interrupting active coordination. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-version-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Run dependency-backed validate_contracts and full focused/static/generated/model/schema/privacy/deterministic gates from dirty v0.34.0 worktree; then inspect diff and commit. |
 
-### Open (3)
+### Open (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Define and implement bounded TLC invocation and host-admission integration without interrupting active coordination. |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. |
 
