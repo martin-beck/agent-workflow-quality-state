@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**50 ARs tracked** across 3 active status categories.
+**50 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 5 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 4 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
@@ -70,7 +70,7 @@ flowchart LR
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
         AR_0042["AR-0042 - Planned"]:::status_planned
-        AR_0043["AR-0043 - Open"]:::status_open
+        AR_0043["AR-0043 - In progress"]:::status_in_progress
         AR_0044["AR-0044 - Open"]:::status_open
         AR_0045["AR-0045 - Open"]:::status_open
         AR_0046["AR-0046 - Planned"]:::status_planned
@@ -238,12 +238,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (5)
+### In progress (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | codex-awq-ar0043-release-20260913 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator may merge PR #40 at exact head 9e9518d, then perform authenticated v0.33 release, attestation, and fresh-clone public verification; retain full-gate environment limitations as recorded. |
+
+### Open (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Unclaimed | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator may merge PR #40 at exact head 9e9518d, then perform authenticated v0.33 release, attestation, and fresh-clone public verification; retain full-gate environment limitations as recorded. |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Implementation checkpoint c6a0c6968483d8c741eae2a41f8ccb0beed9a8ee independently accepted for its dependency-deferred scope. After the preceding version sequence is merged and publicly verified, rebase onto exact main, preserve newer contracts, integrate AWQ-CONTRACT-VULNERABILITY-SUPPLY-V1 through the shared reviewed additive catalog flow, resolve the release version without collision, rerun focused/full/static/generated/model/schema/privacy plus deterministic release gates, then obtain a fresh exact rebased-head review before publication. |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Independent product review is clean at exact signed checkpoint 3408f0fb and focused/static/model/doctor/PR/privacy checks pass. Re-run the full suite in the original complete pinned-tool environment (including the exact refactor Python and advanced Rust wrapper) to confirm only the intentionally deferred structural schema catalog registration fails; keep catalog/version/publication/merge/release deferred. |
