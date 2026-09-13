@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `623d1d9dd140bcc0945ba1409a876b908ab7e2d6`
+- Product remote main: `f1c40859e9d10cacbc79100ed136c38bce48cd39`
 - Local origin/main: `623d1d9dd140bcc0945ba1409a876b908ab7e2d6`
 - Primary worktree head: `49d0a2b72ffbcff89b19d5dee2fe847e3eabb771`
 
@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #38 | `feature/execution-budget-receipts@f24842de37a5` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(execution): add bounded budget receipts |
-| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
+| #40 | `feature/evidence-lineage-lifecycle@8ca6980d9114` | `main` | UNKNOWN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34769824047 | `f1c40859e9d1` | push | Portable onboarding | queued:- |
+| 34769824016 | `f1c40859e9d1` | push | Verify | queued:- |
 | 34568248869 | `f24842de37a5` | pull_request | Verify | completed:success |
 | 34568248866 | `f24842de37a5` | pull_request | Portable onboarding | completed:success |
 | 34560321957 | `ec2706285693` | pull_request | Portable onboarding | completed:success |
@@ -27,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34555837033 | `2f744013f4ed` | pull_request | Verify | completed:success |
 | 34555837014 | `2f744013f4ed` | pull_request | Portable onboarding | completed:success |
 | 34555280163 | `3ba4ba42a1fa` | pull_request | Portable onboarding | completed:success |
-| 34555280160 | `3ba4ba42a1fa` | pull_request | Verify | completed:success |
-| 34553070619 | `d6f5231c176c` | push | Portable onboarding | completed:success |
