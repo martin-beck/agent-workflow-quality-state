@@ -261,7 +261,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-publication-20260914b | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Distinct publication owner may publish the clean exact-head 60ffdc7 PR, wait for exact-head required CI and native checks, then merge/release only after all gates pass; use only rebased a12e4690 manifest family and preserve AR-0045 evidence. |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-fix-review-20260914 | Independent review rejected exact head e13d06a8d860c37caabecdaf4003e765744bbf9e against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Fresh documentation/CLI correction is committed at df31c64 atop exact origin/main 6f88824. Focused structural/catalog/evidence-lifecycle suites 36/36, Ruff and diff-check pass. Independent reviewer must inspect the two-file diff, rerun full applicable gates with the corrected lifecycle --format parser, then decide PR/CI; do not merge or publish from this worker. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-fix-review-20260914 | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | Separate publication owner may safely update PR #50 to exact accepted head df31c648, verify exact base/current mergeability and required exact-head Verify plus Portable CI, and merge only after all required checks are green; reviewer grants no tag or release authority. |
 
 ### Planned (10)
 
