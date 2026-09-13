@@ -7,13 +7,13 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Fresh independent exact-head review of 55b18b1 against fda0517; do not publish until accepted. Then publish PR, wait exact-head CI, merge and perform post-merge/release gates. | codex-awq-ar0045-implementation-look-20260913 |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Signed v0.35.0 version-bump commit 87e666a is clean and ready for independent diff review/PR only after required environment gates are restored. validate_contracts, onboarding/SBOM/provenance generators, Ruff and mypy pass. Full 497-test unittest run is not publishable: 48 failures/50 errors, predominantly missing pinned native wrappers/tools and fixture-dependent unavailable inputs; release-boundary assertions also reveal version-coupled expected fixtures need independent review. Do not publish/tag/release until these are classified and required green gates are achieved. | codex-awq-ar0054-independent-review-20260913 |
 
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Fresh independent exact-head review of 55b18b1 against fda0517; do not publish until accepted. Then publish PR, wait exact-head CI, merge and perform post-merge/release gates. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. | - |
 
 ## Planned
