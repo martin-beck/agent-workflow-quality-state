@@ -251,7 +251,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-tla-admission-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Define and implement bounded TLC invocation and host-admission integration without interrupting active coordination. |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-version-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Run dependency-backed validate_contracts and full focused/static/generated/model/schema/privacy/deterministic gates from dirty v0.34.0 worktree; then inspect diff and commit. |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-version-release-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Rerun focused onboarding/SBOM/release tests after updating current-version test fixtures, then run full suite and static gates. |
 
 ### Open (2)
 
