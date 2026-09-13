@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-release-20260913 | PR #43 exact-head Verify and all platform checks green; ready for guarded merge/release worker. | Release claim for guarded merge/release worker; merge only after independent release-worker checks, then perform signed tag/assets/attestation/public verification. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-release-20260913 | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. |
 
 ### Open (4)
 
