@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
+| **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -77,7 +77,7 @@ flowchart LR
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
         AR_0049["AR-0049 - Planned"]:::status_planned
-        AR_0050["AR-0050 - In progress"]:::status_in_progress
+        AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-current-20260914 | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. |
-
-### Open (1)
+### Open (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. |
 
 ### Planned (10)
 
