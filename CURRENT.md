@@ -8,7 +8,12 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | AR-0056 should append reviewed compatible v0.35 history entries for exactly AWQ-CONTRACT-AGENT-RECIPES-REGISTRY-V1, AWQ-CONTRACT-COMPATIBILITY-REGISTRY-V1 and AWQ-CONTRACT-ONBOARDING-V1 using a truthful reviewed reason; review the one-file baseline diff and hostile evolution tests, rerun generate_contract_catalog.py --check plus complete 497-test/96%-coverage and release build/source/distribution gates, then return AR-0054 for fresh exact-head review and PR publication. | codex-awq-ar0054-catalog-implementation-20260914 |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Catalog-registration fix commit 7e6bc9f is complete and focused structural/catalog tests (22/22), validate_contracts, catalog --check and diff-check pass. Exact-Python full-suite replay after the fix exited 1; output is intentionally not retained, so this remains non-green pending fresh environment-qualified replay. Known advanced-Rust dependency-cache limitation remains. Independent review must inspect the four-file diff before publication. | codex-awq-ar0050-publication-20260914 |
+
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Catalog-registration fix commit 7e6bc9f is complete and focused structural/catalog tests (22/22), validate_contracts, catalog --check and diff-check pass. Exact-Python full-suite replay after the fix exited 1; output is intentionally not retained, so this remains non-green pending fresh environment-qualified replay. Known advanced-Rust dependency-cache limitation remains. Independent review must inspect the four-file diff before publication. | - |
 
 ## Planned
 
