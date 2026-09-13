@@ -68,8 +68,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 26, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 55, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 30, ahead 0 |
-| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `dc22541375eb` | 5 | behind 3, ahead 1 |
-| changed files | - | - | - | `tests/test_android_jvm_adapters.py`, `tests/test_documentation_adapters.py`, `tests/test_python_adapters.py`, `tests/test_rust_adapters.py`, `tests/test_schema_adapters.py` |
+| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `93b2e37fef02` | 0 | behind 3, ahead 2 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 33, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `c394d232fc34` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 4, ahead 0 |
