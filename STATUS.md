@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 2 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - In progress"]:::status_in_progress
+        AR_0054["AR-0054 - Open"]:::status_open
         AR_0055["AR-0055 - Planned"]:::status_planned
         AR_0056["AR-0056 - Planned"]:::status_planned
     end
@@ -256,17 +256,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | codex-awq-ar0045-independent-review-20260913b | Rebased AR-0045 formal receipt implementation onto exact origin/main fda0517 (post-AR-0052). Signed clean head 55b18b1 integrates receipt/expectation schemas, CLI, validation, release assets, catalog baseline and historical distribution tests. | Fresh independent exact-head review of 55b18b1 against fda0517; do not publish until accepted. Then publish PR, wait exact-head CI, merge and perform post-merge/release gates. |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0056-state-durable-20260913 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. |
 
-### Open (1)
+### Open (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Resolve the contract-catalog evolution gate for version-coupled agent-recipes/compatibility/onboarding bytes: add the required reviewed evolution entries/baseline updates (without weakening in-place change rejection), regenerate all catalog projections, rerun --check and full 497-test/release gates, then obtain fresh independent review. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. |
 
 ### Planned (10)
