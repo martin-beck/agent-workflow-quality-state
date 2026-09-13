@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-current-20260914 | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #52 is stale after PR #51 merged current main at 3b4d124; merge attempt failed because GitHub cannot cleanly create merge commit. Release publication claim and hand off rebase df31c648 onto exact current main 3b4d124, preserving all fixes and obtaining fresh review/CI before any merge. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-current-20260914 | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. |
 
 ### Open (1)
 
