@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-independent-review-20260913 | Clean signed v0.33.0 version-bump checkpoint ready for independent review. | Obtain independent exact-head review of 089c63d, publish clean signed DCO PR if reviewer accepts, await green required CI; only then merge and run v0.33.0 release gates. |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | codex-awq-ar0051-independent-review-20260913 | Independent review blocked: contract baseline evolution gate fails | Resolve contract-baseline evolution for version-coupled compatibility and agent-recipes contracts; do not publish until generate_contract_catalog --check passes and fresh exact-head review is possible. |
 
 ### Open (4)
 
