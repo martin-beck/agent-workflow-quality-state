@@ -10,9 +10,9 @@
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 3 |
+| **Open** | Dependency-ready and available to claim | 4 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 9 |
+| **Planned** | Defined work awaiting promotion or dependencies | 8 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 39 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -79,7 +79,7 @@ flowchart LR
         AR_0049["AR-0049 - Planned"]:::status_planned
         AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
-        AR_0052["AR-0052 - Planned"]:::status_planned
+        AR_0052["AR-0052 - Open"]:::status_open
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -249,22 +249,22 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-merge-release-20260913 | Fresh review accepted amended DCO head 68545a1; PR #44 exact-head CI fully green. | PR #44 exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9 and required Verify run 34777354089 are green. Release for separate guarded merge/release worker; preserve exact head and revalidate before merge. |
 
-### Open (3)
+### Open (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Guarded merge/release worker must independently verify PR #45 exact head and green required checks, merge, then perform v0.34 release/public verification and close AR-0036. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Define and implement bounded TLC invocation and host-admission integration without interrupting active coordination. |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | Unclaimed | Extend formal assurance beyond TLC while binding executions to exact models, tools, bounds, results and production correspondences. | Implementation checkpoint f83f9b1a7590c863a76cb374c07ae80dd1b3175e independently accepted for dependency-deferred scope. Before publication, resolve release-train version ownership against AR-0036 and other queued contracts, rebase onto exact then-current main while preserving all newer contracts, regenerate the catalog/version-coupled fixtures through reviewed evolution, rerun focused/full/static/generated/model/schema/privacy and two-build production gates, then obtain a fresh exact rebased-head review. Do not publish or merge the stale-base checkpoint. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Restore the reviewed pinned-tool environment (refactor Python 3.13.15, documentation/schema/shell/Android wrappers, advanced Rust wrapper and adapter PATH) and rerun the complete 430-test suite; current focused structural 10/10 and validate_contracts pass, while contract-catalog check intentionally fails only for unregistered structural-refactoring. |
 
-### Planned (9)
+### Planned (8)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Unclaimed | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Freeze capability maturity states and cross-field evidence obligations, then specify freshness, limitations, surfaces and prohibited claim inflation fixtures. |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. |
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Define and implement bounded TLC invocation and host-admission integration without interrupting active coordination. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
