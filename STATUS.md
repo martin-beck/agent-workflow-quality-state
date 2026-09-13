@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 3 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - In progress"]:::status_in_progress
+        AR_0054["AR-0054 - Open"]:::status_open
         AR_0055["AR-0055 - Planned"]:::status_planned
         AR_0056["AR-0056 - Planned"]:::status_planned
     end
@@ -256,12 +256,17 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-publication-20260914 | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Rebase/version-update AR-0054 onto exact current main 6f88824, preserve AR-0045 formal receipts, rerun independent review and release gates, then publish a new exact accepted head. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-review-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Rebased exact signed head e13d06a8d860c37caabecdaf4003e765744bbf9e onto origin/main 6f88824. Focused structural/catalog 23/23, Ruff, mypy and validate_contracts pass. Full discover remains non-green (exit 1); captured failure is subprocess AWQ CLI rejecting --format json, indicating stale/incompatible installed subprocess package or invocation environment; no merge/publication. Independent reviewer must inspect the five-file rebase diff and rerun full gates with correct package environment. |
+
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Publication blocked: accepted head 66f125e is stale against current main 6f88824. | Rebase/version-update AR-0054 onto exact current main 6f88824, preserve AR-0045 formal receipts, rerun independent review and release gates, then publish a new exact accepted head. |
 
 ### Planned (10)
 
