@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Rebase 3f97b8e onto current origin/main, rerun full applicable gates and independent review; helper must be provisioned for native equivalence. | codex-awq-ar0052-tla-admission-20260913 |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Independent exact-head review of 9a1ffbd against base 52018dc; verify helper-only execution, bounded durable queue/recovery arguments, cgroup memory/swap contract, signatures/DCO/privacy, then PR/CI. | codex-awq-ar0052-tla-admission-20260913 |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. | codex-awq-ar0053-release-20260913 |
 
 ## Open
