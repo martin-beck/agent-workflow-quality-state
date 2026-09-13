@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #44 | `feature/vulnerability-supply-policy@0831b8a3d283` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add cross-ecosystem vulnerability and workspace supply policy |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34776958253 | `0831b8a3d283` | pull_request | Portable onboarding | queued:- |
+| 34776958242 | `0831b8a3d283` | pull_request | Verify | queued:- |
 | 34775673703 | `1c1bf3b6943a` | push | Release attestation | completed:success |
 | 34775238468 | `1c1bf3b6943a` | push | Portable onboarding | completed:success |
 | 34775238334 | `1c1bf3b6943a` | push | Verify | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34771961244 | `9e9518d077d5` | pull_request | Verify | completed:success |
 | 34771961243 | `9e9518d077d5` | pull_request | Portable onboarding | completed:success |
 | 34771610549 | `f619c2ef9053` | pull_request | Portable onboarding | completed:success |
-| 34771610545 | `f619c2ef9053` | pull_request | Verify | completed:failure |
-| 34770599674 | `f1c40859e9d1` | push | Release attestation | completed:success |
