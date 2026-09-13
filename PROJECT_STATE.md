@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #48 | `feature/tla-admission-safety@9fcf1ad43daf` | `main` | BLOCKED | - | feat(formal): enforce bounded TLC admission safety |
+| #48 | `feature/tla-admission-safety@9fcf1ad43daf` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(formal): enforce bounded TLC admission safety |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34783047838 | `9fcf1ad43daf` | pull_request | Verify | in_progress:- |
+| 34783047774 | `9fcf1ad43daf` | pull_request | Portable onboarding | in_progress:- |
 | 34782551135 | `394d62dff187` | pull_request | Verify | completed:failure |
 | 34782551090 | `394d62dff187` | pull_request | Portable onboarding | completed:success |
 | 34781781219 | `d14ac51618ea` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34780181269 | `56195a163388` | pull_request | Portable onboarding | completed:success |
 | 34780181146 | `56195a163388` | pull_request | Verify | completed:success |
 | 34779773495 | `c394d232fc34` | pull_request | Verify | completed:failure |
-| 34779773494 | `c394d232fc34` | pull_request | Portable onboarding | completed:success |
-| 34778385666 | `4a1d02602d15` | push | Verify | completed:success |
