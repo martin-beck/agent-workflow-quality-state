@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #45 | `feature/assurance-plan-contract@e69d6ae4dc98` | `main` | DIRTY | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(assurance): add consumer assurance-plan contract |
+| #45 | `feature/assurance-plan-contract@d66e57e7a3d8` | `main` | BLOCKED | QUEUED: | feat(assurance): add consumer assurance-plan contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34778043761 | `d66e57e7a3d8` | pull_request | Portable onboarding | queued:- |
+| 34778043711 | `d66e57e7a3d8` | pull_request | Verify | queued:- |
 | 34777760465 | `469439b03491` | push | Verify | in_progress:- |
 | 34777760442 | `469439b03491` | push | Portable onboarding | completed:success |
 | 34777484609 | `e69d6ae4dc98` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34776958242 | `0831b8a3d283` | pull_request | Verify | completed:failure |
 | 34775673703 | `1c1bf3b6943a` | push | Release attestation | completed:success |
 | 34775238468 | `1c1bf3b6943a` | push | Portable onboarding | completed:success |
-| 34775238334 | `1c1bf3b6943a` | push | Verify | completed:success |
-| 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | completed:success |
