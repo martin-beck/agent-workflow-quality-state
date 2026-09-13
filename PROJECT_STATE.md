@@ -10,7 +10,6 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #50 | `feature/structural-refactoring@7e6bc9f3695c` | `main` | DIRTY | - | feat(refactor): verify bounded structural plans |
 | #51 | `feature/version-v0350@60ffdc73b646` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 version-coupled artifacts |
 
 ## Recent workflows
