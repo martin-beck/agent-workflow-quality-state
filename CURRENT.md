@@ -3,12 +3,17 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## In Progress
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. | codex-awq-ar0050-pr53-review-20260914 |
+
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. | - |
 
 ## Planned
 
