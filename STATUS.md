@@ -250,7 +250,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-sbom-review-20260913 | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job; if green, hand off for merge review. |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-sbom-review-20260913 | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. |
 
 ### Open (2)
 
