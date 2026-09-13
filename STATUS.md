@@ -251,7 +251,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | codex-awq-ar0052-independent-review-20260913 | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Independent exact-head review of 06cc73f against base 4a1d026; verify admission semantics, v1 preservation, signatures/DCO/privacy, then PR/CI handoff. |
-| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-rebase-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Force-with-lease PR #46 expected remote c394d232fc34ee109d0fb5f56b1d0af6af05225b to 56195a163388f97aa8ff3023b059660007c3172a, then verify fresh exact-head CI. |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | codex-awq-ar0053-rebase-20260913 | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Continue heartbeat and wait exact-head Verify 34780181146; inspect any failure logs and repair only with reviewed signed/DCO update. |
 
 ### Open (2)
 
