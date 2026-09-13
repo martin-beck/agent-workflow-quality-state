@@ -68,8 +68,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `3408f0fb026d` | 0 | behind 28, ahead 2 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 57, ahead 0 |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 32, ahead 0 |
-| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `06cc73f76428` | 5 | behind 2, ahead 3 |
-| changed files | - | - | - | `schemas/adapter-contract-v2.schema.json`, `schemas/formal-adapter-contract-v2.schema.json`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `tests/test_formal_adapters.py` |
+| `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `06cc73f76428` | 6 | behind 2, ahead 3 |
+| changed files | - | - | - | `docs/FORMAL_ADAPTERS.md`, `schemas/adapter-contract-v2.schema.json`, `schemas/formal-adapter-contract-v2.schema.json`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json`, `tests/test_formal_adapters.py` |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 35, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 6, ahead 0 |
