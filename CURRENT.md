@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Independent exact-head review of 06cc73f against base 4a1d026; verify admission semantics, v1 preservation, signatures/DCO/privacy, then PR/CI handoff. | codex-awq-ar0052-independent-review-20260913 |
+| P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Prevent Agent Workflow Quality formal jobs from exhausting shared host memory. | Reject publication pending admission enforcement: run_adapter must route formal TLC through mandatory shared helper with durable bounded queue/cancel/restart and cgroup memory/swap limits; add tests, then rerun native schema environment and exact review. | codex-awq-ar0052-independent-review-20260913 |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Continue heartbeat and wait exact-head Verify 34780181146; inspect any failure logs and repair only with reviewed signed/DCO update. | codex-awq-ar0053-rebase-20260913 |
 
 ## Open
