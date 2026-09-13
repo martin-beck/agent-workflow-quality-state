@@ -245,7 +245,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | awq-coordinator-20260913 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Coordinator may merge PR #40 at exact head 9e9518d, then perform authenticated v0.33 release, attestation, and fresh-clone public verification; retain full-gate environment limitations as recorded. |
+| P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | awq-coordinator-20260913 | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. |
 
 ### Open (4)
 
