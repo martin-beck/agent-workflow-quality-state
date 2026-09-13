@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Resolve version-coupled source and release fixtures for a truthful v0.33.0 publication after AR-0043. | Promote only after AR-0043 release blocker is acknowledged; start from exact merge 7debe212, perform a reviewed version bump to 0.33.0, regenerate all coupled fixtures, then run full/release/public gates. | codex-awq-ar0051-version-release-20260913 |
+| P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Version bump and generated fixture regeneration complete; focused gates are correcting intentional historical test assumptions. | Update remaining current-version test fixtures/helpers, rerun focused release/SBOM/onboarding gates, then full/static/generated/privacy gates and commit signed DCO checkpoint. | codex-awq-ar0051-version-release-20260913 |
 
 ## Open
 
