@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #50 | `feature/structural-refactoring@7e6bc9f3695c` | `main` | DIRTY | - | feat(refactor): verify bounded structural plans |
 
 ## Recent workflows
 
