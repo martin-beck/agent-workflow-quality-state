@@ -49,6 +49,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-v0.30.0` | `release/v0.30.0` | `aee980759189` | 0 | behind 15, ahead 0 |
 | `agent-workflow-quality-release-v0.31.0` | `release/v0.31.0` | `2f744013f4ed` | 0 | behind 8, ahead 0 |
 | `agent-workflow-quality-release-v0.31.0-merge` | `DETACHED` | `623d1d9dd140` | 0 | behind 7, ahead 0 |
+| `agent-workflow-quality-release-v0.32.0` | `DETACHED` | `f1c40859e9d1` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-release-v0140` | `DETACHED` | `43bcdbc38e7b` | 0 | behind 75, ahead 0 |
 | `agent-workflow-quality-release-v0150` | `DETACHED` | `2b3ff6ed8c02` | 0 | behind 73, ahead 0 |
 | `agent-workflow-quality-release-v0160` | `DETACHED` | `b2bc649f6885` | 0 | behind 71, ahead 0 |
