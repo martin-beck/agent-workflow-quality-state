@@ -10,7 +10,6 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #47 | `feature/tla-admission-safety@d14ac51618ea` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(formal): enforce bounded TLC admission safety |
 
 ## Recent workflows
 
