@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Implementation merged at 469439b with exact-main CI green; release requires a version-coupled follow-up because merged source declares 0.33.0. | Create and independently review a signed DCO version-bump follow-up from merge 469439b to 0.34.0, then run exact-head CI and guarded deterministic six-asset release/public verification; preserve existing v0.33.0. | codex-awq-ar0044-coordinator-20260913 |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. | codex-awq-ar0044-coordinator-20260913 |
 
 ## Open
 
