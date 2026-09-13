@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #43 | `release/v0.33.0@f926a74cdac8` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | chore(release): prepare v0.33.0 version-coupled fixtures |
+| #43 | `release/v0.33.0@f926a74cdac8` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | chore(release): prepare v0.33.0 version-coupled fixtures |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | queued:- |
-| 34774859564 | `f926a74cdac8` | pull_request | Verify | queued:- |
+| 34774859620 | `f926a74cdac8` | pull_request | Portable onboarding | in_progress:- |
+| 34774859564 | `f926a74cdac8` | pull_request | Verify | in_progress:- |
 | 34772447332 | `7debe212ffe9` | push | Portable onboarding | completed:success |
 | 34772447235 | `7debe212ffe9` | push | Verify | completed:success |
 | 34771961244 | `9e9518d077d5` | pull_request | Verify | completed:success |
