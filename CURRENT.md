@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Hold clean signed checkpoint 1dd98150 until v0.31-v0.33 are merged and publicly verified; then rebase onto exact main, resolve catalog/version fixtures for v0.34, rerun full/release gates, publish clean PR and await exact-head CI. | codex-awq-ar0036-assurance-plan-20260913 |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Run focused assurance-plan and catalog tests through handoffctl with explicit absolute PYTHONPATH; fix only product failures and record gate evidence. | codex-awq-ar0036-assurance-plan-20260913 |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | Accept new vulnerability contract and compatible catalog registry evolution with explicit baseline reason; then run generated and focused gates. | codex-awq-ar0044-cross-supply-20260913 |
 
 ## Open
