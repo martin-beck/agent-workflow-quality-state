@@ -16,8 +16,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `1dd98150ca5c` | 0 | behind 14, ahead 1 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 18, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 24, ahead 0 |
-| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `74a81c4a5eb1` | 5 | behind 0, ahead 3 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `scripts/generate_contract_catalog.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/release.py` |
+| `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `74a81c4a5eb1` | 7 | behind 0, ahead 3 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `scripts/generate_contract_catalog.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/release.py`, `tests/test_distribution.py`, `tests/test_release.py` |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 42, ahead 0 |
