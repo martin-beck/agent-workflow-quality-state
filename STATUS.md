@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**54 ARs tracked** across 4 active status categories.
+**55 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 2 |
 | **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 8 |
+| **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 43 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -82,6 +82,7 @@ flowchart LR
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
         AR_0054["AR-0054 - In progress"]:::status_in_progress
+        AR_0055["AR-0055 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -177,6 +178,7 @@ flowchart LR
     AR_0044 --> AR_0046
     AR_0044 --> AR_0048
     AR_0044 --> AR_0053
+    AR_0050 --> AR_0055
     AR_0052 --> AR_0054
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -241,11 +243,12 @@ flowchart LR
 | [AR-0047](tasks/AR-0047.md) | [AR-0037](tasks/AR-0037.md), [AR-0040](tasks/AR-0040.md) | None |
 | [AR-0048](tasks/AR-0048.md) | [AR-0023](tasks/AR-0023.md), [AR-0024](tasks/AR-0024.md), [AR-0025](tasks/AR-0025.md), [AR-0044](tasks/AR-0044.md) | None |
 | [AR-0049](tasks/AR-0049.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
-| [AR-0050](tasks/AR-0050.md) | [AR-0028](tasks/AR-0028.md), [AR-0035](tasks/AR-0035.md), [AR-0040](tasks/AR-0040.md) | None |
+| [AR-0050](tasks/AR-0050.md) | [AR-0028](tasks/AR-0028.md), [AR-0035](tasks/AR-0035.md), [AR-0040](tasks/AR-0040.md) | [AR-0055](tasks/AR-0055.md) |
 | [AR-0051](tasks/AR-0051.md) | [AR-0043](tasks/AR-0043.md) | None |
 | [AR-0052](tasks/AR-0052.md) | None | [AR-0054](tasks/AR-0054.md) |
 | [AR-0053](tasks/AR-0053.md) | [AR-0044](tasks/AR-0044.md) | None |
 | [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | None |
+| [AR-0055](tasks/AR-0055.md) | [AR-0050](tasks/AR-0050.md) | None |
 
 ## Complete AR inventory
 
@@ -262,7 +265,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Resolve the intentional contract-catalog registration deferral for schemas/structural-refactoring.schema.json in a separate reviewed catalog follow-up, then rerun catalog and release gates. Exact CPython 3.12.14 is now provisioned under /srv/data/projects/.uv-python and its isolated venv/package under /srv/data/projects/.awq-ar0050-python312; full replay has only the catalog failure remaining. Advanced Rust wrapper still reports reviewed dependency-cache failure, but no full-suite test errors remain. |
 
-### Planned (8)
+### Planned (9)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -274,6 +277,7 @@ flowchart LR
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
+| P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Unclaimed | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. |
 
 ### Done (43)
 
