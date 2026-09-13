@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #40 | `feature/evidence-lineage-lifecycle@9e9518d077d5` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
+| #40 | `feature/evidence-lineage-lifecycle@9e9518d077d5` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(evidence): add lineage lifecycle contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34771961244 | `9e9518d077d5` | pull_request | Verify | in_progress:- |
+| 34771961244 | `9e9518d077d5` | pull_request | Verify | completed:success |
 | 34771961243 | `9e9518d077d5` | pull_request | Portable onboarding | completed:success |
 | 34771610549 | `f619c2ef9053` | pull_request | Portable onboarding | completed:success |
 | 34771610545 | `f619c2ef9053` | pull_request | Verify | completed:failure |
