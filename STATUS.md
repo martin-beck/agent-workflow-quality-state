@@ -246,7 +246,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-assurance-plan-20260913 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Independent reviewer must inspect complete diff at e69d6ae; after acceptance publish PR and await exact-head CI. |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-independent-review-20260913b | DCO identity repaired at exact signed head 68545a1; fresh review and PR/CI required before merge. | Fresh independent review required for amended exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9; then republish PR #44 head and await all required exact-head CI. No merge/release. |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-independent-review-20260913b | DCO identity repaired at exact signed head 68545a1; fresh review and PR/CI required before merge. | Republish PR #44 at exact amended head 68545a1a5605d1fb27d698777d53f2d3c00eaac9; await required exact-head CI. No merge/release until green. |
 
 ### Open (2)
 
