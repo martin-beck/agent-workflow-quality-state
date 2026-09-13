@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Wait for required Verify run 34777484607 at exact PR #45 head e69d6ae; once green, release AR-0036 claim to guarded merge/release worker without merging or releasing in publication role. | codex-awq-ar0036-assurance-plan-20260913 |
+| P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Guarded merge/release worker must independently verify PR #45 exact head and green required checks, merge, then perform v0.34 release/public verification and close AR-0036. | codex-awq-ar0036-assurance-plan-20260913 |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Fresh review accepted amended DCO head 68545a1; PR #44 exact-head CI fully green. | PR #44 exact head 68545a1a5605d1fb27d698777d53f2d3c00eaac9 and required Verify run 34777354089 are green. Release for separate guarded merge/release worker; preserve exact head and revalidate before merge. | codex-awq-ar0044-merge-release-20260913 |
 
 ## Open
