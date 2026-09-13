@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**52 ARs tracked** across 5 active status categories.
+**53 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 3 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
-| **Planned** | Defined work awaiting promotion or dependencies | 8 |
+| **Planned** | Defined work awaiting promotion or dependencies | 9 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 39 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -80,6 +80,7 @@ flowchart LR
         AR_0050["AR-0050 - Open"]:::status_open
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Open"]:::status_open
+        AR_0053["AR-0053 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -174,6 +175,7 @@ flowchart LR
     AR_0043 --> AR_0051
     AR_0044 --> AR_0046
     AR_0044 --> AR_0048
+    AR_0044 --> AR_0053
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -231,7 +233,7 @@ flowchart LR
 | [AR-0041](tasks/AR-0041.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0042](tasks/AR-0042.md), [AR-0049](tasks/AR-0049.md) |
 | [AR-0042](tasks/AR-0042.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
 | [AR-0043](tasks/AR-0043.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0051](tasks/AR-0051.md) |
-| [AR-0044](tasks/AR-0044.md) | [AR-0021](tasks/AR-0021.md), [AR-0035](tasks/AR-0035.md) | [AR-0046](tasks/AR-0046.md), [AR-0048](tasks/AR-0048.md) |
+| [AR-0044](tasks/AR-0044.md) | [AR-0021](tasks/AR-0021.md), [AR-0035](tasks/AR-0035.md) | [AR-0046](tasks/AR-0046.md), [AR-0048](tasks/AR-0048.md), [AR-0053](tasks/AR-0053.md) |
 | [AR-0045](tasks/AR-0045.md) | [AR-0029](tasks/AR-0029.md), [AR-0031](tasks/AR-0031.md), [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | None |
 | [AR-0046](tasks/AR-0046.md) | [AR-0022](tasks/AR-0022.md), [AR-0044](tasks/AR-0044.md) | None |
 | [AR-0047](tasks/AR-0047.md) | [AR-0037](tasks/AR-0037.md), [AR-0040](tasks/AR-0040.md) | None |
@@ -240,6 +242,7 @@ flowchart LR
 | [AR-0050](tasks/AR-0050.md) | [AR-0028](tasks/AR-0028.md), [AR-0035](tasks/AR-0035.md), [AR-0040](tasks/AR-0040.md) | None |
 | [AR-0051](tasks/AR-0051.md) | [AR-0043](tasks/AR-0043.md) | None |
 | [AR-0052](tasks/AR-0052.md) | None | None |
+| [AR-0053](tasks/AR-0053.md) | [AR-0044](tasks/AR-0044.md) | None |
 
 ## Complete AR inventory
 
@@ -263,7 +266,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | Unclaimed | Implementation merged at 469439b with exact-main CI green; release requires a version-coupled follow-up because merged source declares 0.33.0. | Create and independently review a signed DCO version-bump follow-up from merge 469439b to 0.34.0, then run exact-head CI and guarded deterministic six-asset release/public verification; preserve existing v0.33.0. |
 
-### Planned (8)
+### Planned (9)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -272,6 +275,7 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Unclaimed | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Define canonical cassette, versioned redaction, bounded event timeline, uncertain-delivery and agent-launch provenance contracts before selecting adapters. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
+| P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Unclaimed | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Implement a signed, reviewed version-coupled 0.34.0 follow-up from exact merge 469439b; preserve v0.33.0 and rerun all version/generated/release gates. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
