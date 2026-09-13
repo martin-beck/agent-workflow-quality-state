@@ -246,7 +246,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | codex-awq-ar0036-independent-review-20260913 | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | Independent reviewer must inspect complete diff at e69d6ae; after acceptance publish PR and await exact-head CI. |
-| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-merge-release-20260913 | Generalize advisory evidence and ensure every executed auxiliary dependency graph receives locked supply-chain review. | PR #44 published at exact head 0831b8a3d2834a7edd33560e609bf248469fdb79. Await all required exact-head CI checks; then release for a separate guarded merge/release owner. No merge or release in publication role. |
+| P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | codex-awq-ar0044-merge-release-20260913 | Guarded release worker claimed; exact-head 0831b8a3 remains unchanged, six portable checks green, Verify test/coverage job still in progress. | Maintain heartbeat and await Verify completion; merge only exact head after all required checks green, then run post-merge CI and separate next-version release gates. |
 
 ### Open (2)
 
