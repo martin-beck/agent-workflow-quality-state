@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 10 |
 | **Future** | Deferred roadmap work | 0 |
@@ -77,7 +77,7 @@ flowchart LR
         AR_0047["AR-0047 - Planned"]:::status_planned
         AR_0048["AR-0048 - Planned"]:::status_planned
         AR_0049["AR-0049 - Planned"]:::status_planned
-        AR_0050["AR-0050 - Open"]:::status_open
+        AR_0050["AR-0050 - In progress"]:::status_in_progress
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-fresh-review-20260914 | Version-coupled v0.35.0 release follow-up for the merged AR-0052 bounded TLA+ admission-safety capability. | Fresh independent owner must review exact head 66f125ebb9dea311c4bf63399870d4575de636ed and full fda0517..66f125e diff, verify the three compatible histories/signature/DCO/privacy and local gate evidence, then publish the clean exact-head PR only if approved and wait for exact-head CI. Preserve AR-0056 planned record; do not duplicate its scope. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Rebased exact signed head e13d06a8d860c37caabecdaf4003e765744bbf9e onto origin/main 6f88824. Focused structural/catalog 23/23, Ruff, mypy and validate_contracts pass. Full discover remains non-green (exit 1); captured failure is subprocess AWQ CLI rejecting --format json, indicating stale/incompatible installed subprocess package or invocation environment; no merge/publication. Independent reviewer must inspect the five-file rebase diff and rerun full gates with correct package environment. |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-review-20260914 | Generalize bounded refactoring assurance while leaving mutation ownership and language-specific semantics downstream. | Rebased exact signed head e13d06a8d860c37caabecdaf4003e765744bbf9e onto origin/main 6f88824. Focused structural/catalog 23/23, Ruff, mypy and validate_contracts pass. Full discover remains non-green (exit 1); captured failure is subprocess AWQ CLI rejecting --format json, indicating stale/incompatible installed subprocess package or invocation environment; no merge/publication. Independent reviewer must inspect the five-file rebase diff and rerun full gates with correct package environment. |
 
 ### Planned (10)
 
