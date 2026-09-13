@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-release-operator-20260914 | PR #51 merged and post-merge CI green; v0.35.0 release awaits external signing/tag authority. | Provision reviewed external release signing/trust authority, sign manifest and annotated v0.35.0 tag, publish exactly six assets, await attestation, then perform fresh public verification before closing. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-release-operator-20260914 | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | codex-awq-ar0050-rebase-current-20260914 | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #52 is stale after PR #51 merged current main at 3b4d124; merge attempt failed because GitHub cannot cleanly create merge commit. Release publication claim and hand off rebase df31c648 onto exact current main 3b4d124, preserving all fixes and obtaining fresh review/CI before any merge. |
 
 ### Planned (10)
