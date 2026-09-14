@@ -18,6 +18,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `3077596f36d1` | 0 | behind 3, ahead 7 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 67, ahead 0 |
+| `agent-workflow-quality-contract-catalog-structural-refactoring` | `feature/contract-catalog-structural-refactoring` | `5658f859c721` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 73, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 43, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 50, ahead 0 |
