@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for amended head 0e17cb35; if all required checks are green, release ownerless for independent review. DCO trailer casing was repaired by SSH-signed commits; native evidence remains optional/non-authorizing. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for amended head 0e17cb35; if all required checks are green, release ownerless for independent review. DCO trailer casing was repaired by SSH-signed commits; native evidence remains optional/non-authorizing. | codex-awq-ar0038-independent-review-20260914b |
 
 ## Blocked
 
