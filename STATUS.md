@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | awq-coordinator-publication | Current main e584c54 already contains v0.35 release files; old ca111 PR is redundant | Use current exact main e584c54/tree aa8313e as release source after fresh release-gate review; close redundant PR #58 or leave superseded, then deterministic build/sign/tag/public verification. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | awq-coordinator-publication | Current main e584c54 gates and deterministic v0.35 builds pass; external signature authority unavailable | An authorized external signer must sign manifest 86793b9d... and annotated v0.35.0 tag for e584c54, then push tag, await attestation, publish six assets, and complete fresh public verification. Do not create unsigned tag/release. |
 
 ### Blocked (4)
 
