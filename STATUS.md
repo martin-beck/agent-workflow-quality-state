@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-native-boundary-20260914 | Workflow trust policy with consumer-neutral Android/JVM evidence boundary | Provision genuine consumer-owned Android/JVM device observation/report evidence and valid Rust advanced/vulnerability-supply inputs; rerun exact-head native gates. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-native-boundary-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Independent exact-head review PR #56 at fe686e199f2b729643380da311c9c94fc7b76754/tree 23f7da109d91a412fb6556d9da1d1172a8a6d810; then release ownerless blocked with native-evidence limitations. |
 
 ### Blocked (3)
 
