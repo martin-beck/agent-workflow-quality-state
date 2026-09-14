@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Wait fresh hosted Verify and Portable terminal; release ownerless for independent exact-head review, merge only after review and all required checks green. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Wait fresh hosted Verify and Portable terminal; release ownerless for independent exact-head review, merge only after review and all required checks green. | codex-awq-ar0038-independent-review-20260914 |
 
 ## Blocked
 
