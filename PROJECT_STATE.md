@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `ba074f97af9b529f60931ba411556dca5c798212`
+- Product remote main: `e584c54ef2b57eaaa251499819357d91604a8a03`
 - Local origin/main: `ba074f97af9b529f60931ba411556dca5c798212`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,14 +10,15 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #57 | `feature/workflow-claim-evidence@c090998352c0` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(claims): bind workflow and visual evidence |
-| #58 | `release/v0.35.0-publication@ca11169a8842` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 from current main |
+| #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | UNKNOWN | - | fix(trust): require unique pinned candidate checkout |
+| #58 | `release/v0.35.0-publication@ca11169a8842` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 from current main |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34819151074 | `e584c54ef2b5` | push | Verify | queued:- |
+| 34819151045 | `e584c54ef2b5` | push | Portable onboarding | queued:- |
 | 34818735588 | `ca11169a8842` | pull_request | Verify | in_progress:- |
 | 34818735509 | `ca11169a8842` | pull_request | Portable onboarding | completed:success |
 | 34818715630 | `c090998352c0` | pull_request | Portable onboarding | completed:success |
@@ -28,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34801452856 | `85ec76fa1d29` | pull_request | Portable onboarding | completed:success |
 | 34796366915 | `5658f859c721` | push | Portable onboarding | completed:success |
 | 34796366909 | `5658f859c721` | push | Verify | completed:success |
-| 34795975857 | `cbc900704b02` | pull_request | Portable onboarding | completed:success |
-| 34795975817 | `cbc900704b02` | pull_request | Verify | completed:success |
