@@ -9,7 +9,7 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release this claim for a distinct independent exact-head reviewer to inspect the complete diff, evidence/privacy boundaries and rerun focused/full applicable gates before any PR publication. | codex-awq-ar0037-independent-review-20260914 |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. | codex-awq-ar0038-workflow-trust-20260914 |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Re-run lint/type/focused gates, regenerate catalog and release-coupled fixtures, then execute full confined gate suite. | codex-awq-ar0042-cassette-contract-20260914 |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Re-run the complete 524-test coverage gate from the exact worktree cwd, then coverage floor and remaining generated/native gates. | codex-awq-ar0042-cassette-contract-20260914 |
 
 ## Open
 
