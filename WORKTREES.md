@@ -32,7 +32,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 132, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 130, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 169, ahead 0 |
-| `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `0206fa1c94e5` | 0 | behind 15, ahead 5 |
+| `agent-workflow-quality-native-bundles` | `DETACHED` | `0f3fdc2b68fc` | 9 | behind 0, ahead 0 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/NATIVE_BUNDLES.md`, `schemas/native-bundle-assurance.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/native_bundle.py`, `tests/test_native_bundle.py` |
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 96, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 118, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 103, ahead 0 |
