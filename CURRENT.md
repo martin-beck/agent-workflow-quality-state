@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Run focused capability suite with the reviewed Python 3.12 quality environment, then generated and PR/full gates; commit only the newline-byte repair if all pass. | codex-awq-ar0037-newline-remediation-20260914 |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. | codex-awq-ar0037-newline-remediation-20260914 |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | codex-awq-ar0048-observation-binding-20260914 |
 
 ## Open
