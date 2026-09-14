@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent exact-head review of cae5f77d3e04b6e1cc7b0c531ee011045ed5067a against current main, then publish only after acceptance. | codex-awq-ar0037-review2-20260914 |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Fresh independent reviewer: inspect exact 3d9e703..cbc9007 two-commit diff and rerun exact-head gates before any publication. | codex-awq-ar0042-independent-review-20260914 |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Distinct publication owner may publish exact clean head cbc900704b02af4a7e712499d2dcc3edc10621fd after confirming current base and exact-head CI. | codex-awq-ar0042-independent-review-20260914 |
 
 ## Open
 
