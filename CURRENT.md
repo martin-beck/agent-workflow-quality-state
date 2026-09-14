@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Create a candidate-matched isolated advanced-Rust wrapper prefix from the exact provisioned immutable toolchain, rerun native-equivalence focused tests, then run bounded full gates or release with precise remaining input blocker. | codex-awq-ar0046-provisioned-review-20260914 |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Run one bounded complete suite with the candidate-matched pinned wrapper to delimit all failures, then release blocked for product remediation of the noncanonical rust-advanced policy fixture and dependent digest bindings. | codex-awq-ar0046-provisioned-review-20260914 |
 
 ## Blocked
 
