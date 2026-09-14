@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@3fc9b846abf5` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix(trust): require unique pinned candidate checkout |
+| #56 | `feature/workflow-trust-policy@ffe9eabd0523` | `main` | BLOCKED | - | fix(trust): require unique pinned candidate checkout |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34869767931 | `ffe9eabd0523` | pull_request | Verify | queued:- |
+| 34869767907 | `ffe9eabd0523` | pull_request | Portable onboarding | queued:- |
 | 34869306464 | `3fc9b846abf5` | pull_request | Verify | completed:failure |
 | 34869306457 | `3fc9b846abf5` | pull_request | Portable onboarding | completed:success |
 | 34867311222 | `d9240aefddf1` | push | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34865535100 | `90a192901bb3` | pull_request | Portable onboarding | completed:success |
 | 34864799477 | `3b33ce55f348` | pull_request | Portable onboarding | completed:success |
 | 34864799340 | `3b33ce55f348` | pull_request | Verify | completed:failure |
-| 34864589344 | `09205ea2ee7f` | push | Verify | completed:success |
-| 34864589335 | `09205ea2ee7f` | push | Portable onboarding | completed:success |
