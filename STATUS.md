@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-baseline-remediation-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Claim rebased head 1a9af30b3630a1e8bcfa852409fd08acaf5ffefa under distinct reviewer; verify full diff, generated baseline/catalog, signatures/DCO/privacy and gates; then publish a replacement PR. |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-baseline-remediation-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent exact-head review of cae5f77d3e04b6e1cc7b0c531ee011045ed5067a against current main, then publish only after acceptance. |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-cassette-contract-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Complete deterministic SBOM/provenance regeneration checks, verify version lock under exact source routing, commit signed/DCO, and rerun full 524-test/release gates. |
 
 ### Open (3)
