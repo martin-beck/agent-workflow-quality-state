@@ -16,8 +16,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 129, ahead 0 |
 | `agent-workflow-quality-ar0042-postmerge` | `DETACHED` | `5658f859c721` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 31, ahead 0 |
-| `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `cae5f77d3e04` | 9 | behind 3, ahead 5 |
-| changed files | - | - | - | `docs/CAPABILITY_CLAIMS.md`, `docs/CONTRACTS.md`, `schemas/capability-claims-v2.schema.json`, `schemas/capability-claims.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/capability_claims.py`, `src/awq/commands.py`, `src/awq/data/capability_claims.json`, `src/awq/data/contract_catalog.json` |
+| `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `cae5f77d3e04` | 10 | behind 3, ahead 5 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CAPABILITY_CLAIMS.md`, `docs/CONTRACTS.md`, `schemas/capability-claims-v2.schema.json`, `schemas/capability-claims.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/capability_claims.py`, `src/awq/commands.py`, `src/awq/data/capability_claims.json`, `src/awq/data/contract_catalog.json` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 67, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 73, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 43, ahead 0 |
