@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #54 | `feature/capability-claims@7a4c087ad01a` | `main` | DIRTY | - | feat: add evidence-bound capability maturity claims |
+| #54 | `feature/capability-claims@85ec76fa1d29` | `main` | BLOCKED | - | feat: add evidence-bound capability maturity claims |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34801452864 | `85ec76fa1d29` | pull_request | Verify | queued:- |
+| 34801452856 | `85ec76fa1d29` | pull_request | Portable onboarding | queued:- |
 | 34796366915 | `5658f859c721` | push | Portable onboarding | completed:success |
 | 34796366909 | `5658f859c721` | push | Verify | completed:success |
 | 34795975857 | `cbc900704b02` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34790970139 | `86fb6c598d13` | pull_request | Portable onboarding | completed:success |
 | 34790450233 | `3b4d12457b0c` | push | Verify | completed:success |
 | 34790450230 | `3b4d12457b0c` | push | Portable onboarding | completed:success |
-| 34790259048 | `df31c648d782` | pull_request | Portable onboarding | completed:success |
-| 34790259035 | `df31c648d782` | pull_request | Verify | completed:success |
