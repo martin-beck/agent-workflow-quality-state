@@ -12,7 +12,7 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
 | #60 | `feature/native-binary-bundles@9de404d26406` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add native binary and runtime bundle assurance |
-| #61 | `feature/rust-critical-assurance@9a404d2268b2` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
+| #61 | `feature/rust-critical-assurance@92fb42e2fb81` | `main` | BLOCKED | - | feat(rust): enforce critical coverage and workspace supply |
 
 ## Recent workflows
 
