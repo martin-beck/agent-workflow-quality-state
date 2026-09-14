@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Run corrected immutable verifier using trailer-aware DCO matching, then release exact candidate for fresh independent review; no publication. | codex-awq-ar0046-canonical-remediation-20260914 |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Run final immutable verifier with DCO matched to the actual commit author identity, then release for fresh independent review. | codex-awq-ar0046-canonical-remediation-20260914 |
 
 ## Blocked
 
