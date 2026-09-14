@@ -261,7 +261,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-remediation-review-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent review of exact head 3077596f36d13e507a769be75307c1b4c87db4ec against base 3d9e7037e99bee66de9242fbef8115463215e434; reviewer must inspect contract identity/compatibility, source/evidence truthfulness, policy-diff/generated docs, hostile bounds and full gates. |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | codex-awq-ar0048-native-bundles-20260914 | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | codex-awq-ar0048-native-bundles-20260914 | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Run generated-contract validation and the focused native-bundle suite, then correct remaining schema/runtime drift before full gates. |
 
 ### Open (4)
 
