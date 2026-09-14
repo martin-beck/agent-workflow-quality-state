@@ -86,4 +86,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 46, ahead 0 |
 | `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 52, ahead 0 |
 | `awq-release-0053` | `DETACHED` | `52018dc79c13` | 0 | behind 41, ahead 0 |
-| `awq-release-0054-current` | `release/v0.35.0-publication` | `ca11169a8842` | 0 | behind 3, ahead 3 |
+| `awq-release-0054-current` | `DETACHED` | `33e53c2901e8` | 1 | behind 0, ahead 1 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |

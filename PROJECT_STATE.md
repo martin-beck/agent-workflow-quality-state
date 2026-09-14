@@ -11,7 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #58 | `release/v0.35.0-publication@ca11169a8842` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 from current main |
+| #58 | `release/v0.35.0-publication@ca11169a8842` | `main` | BEHIND | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 from current main |
 
 ## Recent workflows
 
@@ -19,7 +19,7 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- |
 | 34819151074 | `e584c54ef2b5` | push | Verify | in_progress:- |
 | 34819151045 | `e584c54ef2b5` | push | Portable onboarding | completed:success |
-| 34818735588 | `ca11169a8842` | pull_request | Verify | in_progress:- |
+| 34818735588 | `ca11169a8842` | pull_request | Verify | completed:success |
 | 34818735509 | `ca11169a8842` | pull_request | Portable onboarding | completed:success |
 | 34818715630 | `c090998352c0` | pull_request | Portable onboarding | completed:success |
 | 34818715626 | `c090998352c0` | pull_request | Verify | completed:success |
