@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Fresh independent review of exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a/tree aa8313e9128903aad0941f50bc5ac58c5567471a with current reviewed adapter bundles; reproduce focused/full gates before publication. | codex-awq-ar0047-env-review-20260914 |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. | codex-awq-ar0047-env-review-20260914 |
 
 ## Blocked
 
