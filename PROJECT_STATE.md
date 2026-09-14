@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | UNKNOWN | - | fix(trust): require unique pinned candidate checkout |
+| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34867311222 | `d9240aefddf1` | push | Portable onboarding | queued:- |
+| 34867311222 | `d9240aefddf1` | push | Portable onboarding | in_progress:- |
 | 34867311129 | `d9240aefddf1` | push | Verify | in_progress:- |
 | 34866204472 | `6772e64ae652` | pull_request | Portable onboarding | completed:success |
 | 34866204339 | `6772e64ae652` | pull_request | Verify | completed:success |
