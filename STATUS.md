@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-provisioned-review-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Run one bounded complete suite with the candidate-matched pinned wrapper to delimit all failures, then release blocked for product remediation of the noncanonical rust-advanced policy fixture and dependent digest bindings. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-provisioned-review-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Implementation remediation must canonicalize fixtures/conforming/rust-advanced/quality/rust-advanced.json with recursively sorted keys and final newline, update every dependent digest fixture/binding, rerun candidate-matched advanced native-equivalence and full pinned gates, create signed DCO commit, then obtain fresh independent review. |
 
 ### Blocked (3)
 
