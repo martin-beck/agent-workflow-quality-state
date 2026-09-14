@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_pins | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Remediate installer with verified official asset names and independently recorded real SHA-256 pins (including supported architecture matrix), add installer fixture/tests, publish fresh exact head, rerun Verify/Portable; then repeat independent review. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_pins | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Implement official asset matrix and deterministic installer fixture tests; run focused and applicable full gates. |
 
 ### Blocked (1)
 
