@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root/ar0039_security | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34892076733 and Portable onboarding 34892076757 at e575348800be0ed8b78572c4da68ab33f46df4bb; independent review before merge. |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root/ar0039_security | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await Verify 34893158668 and Portable onboarding 34893158651 at exact head 1194fa750112b8c4e388ce87888047ffefa93aa6; then independent exact-head review. |
 
 ### Blocked (2)
 
