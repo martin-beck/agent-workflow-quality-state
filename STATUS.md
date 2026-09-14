@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-rebase-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Wait fresh exact-head Verify and Portable terminal; release ownerless for independent exact-head review, merge only after review and all required checks green. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-rebase-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Wait fresh hosted Verify and Portable terminal; release ownerless for independent exact-head review, merge only after review and all required checks green. |
 
 ### Blocked (1)
 
