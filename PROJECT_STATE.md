@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #62 | `feature/repository-security-adapters@38aa20523de3` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
+| #62 | `feature/repository-security-adapters@38aa20523de3` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 34889454774 | `38aa20523de3` | pull_request | Portable onboarding | completed:success |
-| 34889454532 | `38aa20523de3` | pull_request | Verify | in_progress:- |
+| 34889454532 | `38aa20523de3` | pull_request | Verify | completed:failure |
 | 34889198695 | `eaa24141ef96` | pull_request | Verify | completed:failure |
 | 34889198580 | `eaa24141ef96` | pull_request | Portable onboarding | completed:success |
 | 34889078662 | `b9e1ebfd1d7a` | pull_request | Portable onboarding | completed:success |
