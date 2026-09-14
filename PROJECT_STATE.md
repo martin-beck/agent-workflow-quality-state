@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #59 | `feature/experiment-evidence-integration@30d2e670a283` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | fix(experiment): integrate receipt contract catalog |
+| #59 | `feature/experiment-evidence-integration@30d2e670a283` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix(experiment): integrate receipt contract catalog |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34823874755 | `30d2e670a283` | pull_request | Verify | queued:- |
-| 34823874735 | `30d2e670a283` | pull_request | Portable onboarding | queued:- |
+| 34823874755 | `30d2e670a283` | pull_request | Verify | in_progress:- |
+| 34823874735 | `30d2e670a283` | pull_request | Portable onboarding | completed:success |
 | 34819151074 | `e584c54ef2b5` | push | Verify | completed:success |
 | 34819151045 | `e584c54ef2b5` | push | Portable onboarding | completed:success |
 | 34818735588 | `ca11169a8842` | pull_request | Verify | completed:success |
