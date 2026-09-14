@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for fresh Verify 34879166932 and Portable 34879167186 at exact head ae02dea; then independently review the complete PR diff. | /root/ar0039_catalog_fix |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Independent exact-head review of PR #62 at ae02dea before any merge. | /root/ar0039_catalog_fix |
 
 ## Blocked
 
