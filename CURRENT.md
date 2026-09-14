@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted exact clean head df31c648d78296c24805f8c2535921818f8fcc55 against base 6f88824ed7636420cc83263c9b55755b23d3c7ae. | PR #53 is open from exact rebased head 86fb6c598d13d075925eb7feadab5a37a0ea3388 onto current main 3b4d12457b0c422a80d346a41e6d9953b51aab20. Fresh independent exact-head review and Verify/Portable CI are required; do not merge or release from this worker. | codex-awq-ar0050-pr53-review-20260914 |
+| P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted PR #53 exact clean head 86fb6c598d13d075925eb7feadab5a37a0ea3388 against base 3b4d12457b0c422a80d346a41e6d9953b51aab20. | Separate guarded merge owner may merge PR #53 only at exact accepted head 86fb6c598d13d075925eb7feadab5a37a0ea3388/base 3b4d12457b0c422a80d346a41e6d9953b51aab20 while mergeable and exact-head Verify 34790970140 plus all six Portable onboarding jobs 34790970139 remain green; then verify exact-main CI and durable completion. No tag/release authority is implied. | codex-awq-ar0050-pr53-review-20260914 |
 
 ## Open
 
