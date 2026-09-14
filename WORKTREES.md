@@ -80,7 +80,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 39, ahead 0 |
 | `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `60ffdc73b646` | 0 | behind 19, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 44, ahead 0 |
-| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `67385d25b95a` | 0 | behind 13, ahead 1 |
+| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `67385d25b95a` | 1 | behind 13, ahead 1 |
+| changed files | - | - | - | `src/awq/workflow_trust.py` |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 52, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 43, ahead 0 |
 | `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 49, ahead 0 |
