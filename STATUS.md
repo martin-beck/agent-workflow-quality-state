@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 5 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -75,7 +75,7 @@ flowchart LR
         AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - In progress"]:::status_in_progress
         AR_0047["AR-0047 - Done"]:::status_done
-        AR_0048["AR-0048 - Open"]:::status_open
+        AR_0048["AR-0048 - In progress"]:::status_in_progress
         AR_0049["AR-0049 - Done"]:::status_done
         AR_0050["AR-0050 - Done"]:::status_done
         AR_0051["AR-0051 - Done"]:::status_done
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-review-20260914b | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | codex-awq-ar0048-review-20260914 | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. |
 
 ### Blocked (2)
 
