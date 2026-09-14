@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 50 |
+| **Done** | Accepted, integrated, and durably verified | 51 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -75,7 +75,7 @@ flowchart LR
         AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - In progress"]:::status_in_progress
         AR_0047["AR-0047 - Done"]:::status_done
-        AR_0048["AR-0048 - In progress"]:::status_in_progress
+        AR_0048["AR-0048 - Done"]:::status_done
         AR_0049["AR-0049 - Done"]:::status_done
         AR_0050["AR-0050 - Done"]:::status_done
         AR_0051["AR-0051 - Done"]:::status_done
@@ -256,12 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-mypy-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Wait exact-head Verify terminal; then safely rebase feature/rust-critical-assurance onto current main 09205ea, preserve signed coverage commits, rerun focused/full applicable gates, push and obtain fresh exact-head review. |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | codex-awq-coordinator-20260914 | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Guarded merge owner may merge PR #60 only at exact head 1fd998b50031683a2cbd4fe21753262a7ec7e333 while CLEAN; then verify generated merge main, post-merge checks, and AR completion. |
 
 ### Blocked (2)
 
@@ -277,7 +276,7 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
-### Done (50)
+### Done (51)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -328,6 +327,7 @@ flowchart LR
 | P2 | [AR-0028](tasks/AR-0028.md): Language-specific refactoring evidence adapters | Unclaimed | Add reviewed collectors/adapters for language-specific characterization, differential, property and mutation evidence. | Select first supported language, define pinned tool and native-equivalence contracts, then add hostile fixtures. |
 | P2 | [AR-0033](tasks/AR-0033.md): Agent-ready quality integration workflow | Unclaimed | Publish a complete agent-ready workflow for adopting AWQ while retaining native gates. | Publish v0.28.0 only from exact merge 32f9ebeab405bcd75754e8c4f8244da5a76ee465 and its independently reproduced bundle after verifying external policy/signing identity and release absence. Sign the manifest, create and locally authenticate an SSH-signed annotated tag, then push tag and create exactly six release assets. Await tag attestation and complete fresh-public verification before closing. |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Completed: PR #57 merged at e584c54ef2b57eaaa251499819357d91604a8a03 with exact-main Verify and Portable onboarding green; no release or tag required. |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Guarded merge owner may merge PR #60 only at exact head 1fd998b50031683a2cbd4fe21753262a7ec7e333 while CLEAN; then verify generated merge main, post-merge checks, and AR completion. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Complete: AR-0049 is merged and exact-main/public verification is green; no release or tag is implied. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Fresh independent review accepted PR #53 exact clean head 86fb6c598d13d075925eb7feadab5a37a0ea3388 against base 3b4d12457b0c422a80d346a41e6d9953b51aab20. | Separate guarded merge owner may merge PR #53 only at exact accepted head 86fb6c598d13d075925eb7feadab5a37a0ea3388/base 3b4d12457b0c422a80d346a41e6d9953b51aab20 while mergeable and exact-head Verify 34790970140 plus all six Portable onboarding jobs 34790970139 remain green; then verify exact-main CI and durable completion. No tag/release authority is implied. |
 | P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Unclaimed | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. |
