@@ -262,7 +262,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-maturity-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Freeze capability maturity states and cross-field evidence obligations, then specify freshness, limitations, surfaces and prohibited claim inflation fixtures. |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-workflow-trust-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Define event, runner and privilege trust classes plus exact-checkout, permission, credential, expression, fail-open and container-pin policies. |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-cassette-contract-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Complete schema, fixture, CLI, hostile tests, generated catalog/docs, then focused/full confined gates. |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-cassette-contract-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Run focused discovery invocation, correct any product failures, then regenerate catalog and complete full gates. |
 
 ### Open (2)
 
