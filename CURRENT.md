@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Repair/reproduce native full-suite fixture environment; no publication. | - |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Repair/reproduce native full-suite fixture environment; no publication. | codex-awq-ar0046-test-isolation-remediation-20260914 |
 
 ## Blocked
 
