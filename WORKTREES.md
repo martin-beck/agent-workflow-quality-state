@@ -12,8 +12,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 149, ahead 0 |
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 108, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 74, ahead 0 |
-| `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `79446c4a06b7` | 3 | behind 0, ahead 1 |
-| changed files | - | - | - | `src/awq/provenance.py`, `src/awq/sbom.py`, `tests/test_sbom.py` |
+| `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `79446c4a06b7` | 5 | behind 0, ahead 1 |
+| changed files | - | - | - | `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json`, `src/awq/provenance.py`, `src/awq/sbom.py`, `tests/test_sbom.py` |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 126, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 28, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `DETACHED` | `d0e7522679fb` | 1 | behind 0, ahead 1 |
