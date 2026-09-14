@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #62 | `feature/repository-security-adapters@59b76dcb5a47` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
+| #62 | `feature/repository-security-adapters@48c10ea93105` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(security): add pinned repository security adapters |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34877397568 | `48c10ea93105` | pull_request | Verify | queued:- |
+| 34877397566 | `48c10ea93105` | pull_request | Portable onboarding | queued:- |
 | 34877055523 | `59b76dcb5a47` | pull_request | Portable onboarding | completed:success |
 | 34877055494 | `59b76dcb5a47` | pull_request | Verify | completed:failure |
 | 34876605204 | `d8614ef79071` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34874823106 | `d4b18413ab86` | push | Portable onboarding | completed:success |
 | 34873854608 | `0e17cb35d0e0` | pull_request | Verify | completed:success |
 | 34873854586 | `0e17cb35d0e0` | pull_request | Portable onboarding | completed:success |
-| 34872785133 | `445088a3da29` | pull_request | Verify | completed:failure |
-| 34872785093 | `445088a3da29` | pull_request | Portable onboarding | completed:success |
