@@ -71,7 +71,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 9, ahead 3 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 155, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 161, ahead 0 |
-| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `90a192901bb3` | 0 | behind 0, ahead 6 |
+| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `6772e64ae652` | 0 | behind 0, ahead 6 |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 160, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 158, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 180, ahead 0 |
