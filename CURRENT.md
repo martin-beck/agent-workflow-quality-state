@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for fresh Verify 34876605117 and Portable onboarding 34876605204 at exact head d8614ef79071ab8b780bc7fd183a722b25a0c1c2; if terminal green obtain independent exact-head review. | /root/ar0039_security |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Run Ruff after installer lint remediation, commit signed correction, push, and await fresh exact-head Verify/Portable. | /root/ar0039_security |
 
 ## Blocked
 
