@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Implementation remediation must canonicalize fixtures/conforming/rust-advanced/quality/rust-advanced.json with recursively sorted keys and final newline, update every dependent digest fixture/binding, rerun candidate-matched advanced native-equivalence and full pinned gates, create signed DCO commit, then obtain fresh independent review. | codex-awq-ar0046-canonical-remediation-20260914 |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Rerun documented mypy scope with MYPYPATH bound to candidate src, then candidate-matched advanced focused tests; proceed to full gates only when green. | codex-awq-ar0046-canonical-remediation-20260914 |
 
 ## Blocked
 
