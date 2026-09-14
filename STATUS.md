@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 5 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 3 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 47 |
@@ -64,7 +64,7 @@ flowchart LR
         AR_0034["AR-0034 - Done"]:::status_done
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
-        AR_0037["AR-0037 - In progress"]:::status_in_progress
+        AR_0037["AR-0037 - Blocked"]:::status_blocked
         AR_0038["AR-0038 - Blocked"]:::status_blocked
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
@@ -256,12 +256,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-final-review-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. |
-
 ### Open (3)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -270,10 +264,11 @@ flowchart LR
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. |
 
-### Blocked (2)
+### Blocked (3)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Unclaimed | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
 

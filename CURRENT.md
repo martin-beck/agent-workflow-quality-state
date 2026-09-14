@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. | codex-awq-ar0037-final-review-20260914 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
@@ -21,6 +15,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. | - |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. | - |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. | - |
 
