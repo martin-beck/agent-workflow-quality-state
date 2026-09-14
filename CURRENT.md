@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. | /root/ar0039_security |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. | - |
 
 ## Blocked
 
