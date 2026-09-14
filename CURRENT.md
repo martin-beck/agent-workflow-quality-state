@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Publication PR #58 open; exact-head matrix green, Verify running | Await PR #58 required Verify run 34818735588 terminal green; then merge exact head, verify post-merge main, build/sign/publish v0.35.0 and complete attestation/public verification. | awq-coordinator-publication |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #58 green but base advanced; rebasing publication candidate | Rebase signed release candidate onto current origin/main e584c54, force-with-lease PR branch, rerun exact-head CI, then merge only after green. | awq-coordinator-publication |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. | codex-awq-ar0047-publication-20260914 |
 
 ## Blocked
