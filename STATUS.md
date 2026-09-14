@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_evolution | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for new exact-head Verify and Portable jobs; if terminal green, request independent exact-head review of d6b17ab and proceed to guarded merge. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_evolution | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Request independent complete-diff review of PR #62 at exact head d6b17abd5fcc68c3a285bd6c818052f0a5db9aa6 against base d4b18413; then guarded merge only after review remains accepted. |
 
 ### Blocked (1)
 
