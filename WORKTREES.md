@@ -68,8 +68,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-verify-v0.28.0` | `DETACHED` | `32f9ebeab405` | 0 | behind 115, ahead 0 |
 | `agent-workflow-quality-release-verify-v0.29.0` | `DETACHED` | `e0e7b07de927` | 0 | behind 111, ahead 0 |
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 150, ahead 0 |
-| `agent-workflow-quality-repository-security` | `feature/repository-security-adapters` | `da598c5991d1` | 22 | behind 0, ahead 9 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/ADAPTERS.md`, `docs/CONTRACTS.md`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json`, `scripts/build_release.py`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/adapters.py`, `src/awq/data/adapter_catalog.json -> src/awq/data/adapter_catalog_v2.json`, `src/awq/data/contract_catalog.json`, `src/awq/release.py`, `src/awq/sbom.py`, `tests/release_support.py`, `tests/test_distribution.py`, `tests/test_release.py`, `tests/test_release_builder.py`, `tests/test_repository_security_adapters.py`, `tests/test_sbom.py`, `src/awq/data/adapter_catalog.json` |
+| `agent-workflow-quality-repository-security` | `feature/repository-security-adapters` | `7fa2d6e21972` | 0 | behind 0, ahead 10 |
 | `agent-workflow-quality-review-ar0039` | `DETACHED` | `ae02dea8cd22` | 0 | behind 0, ahead 6 |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 26, ahead 3 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 172, ahead 0 |
