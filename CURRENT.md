@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Add AWQ-CONTRACT-WORKFLOW-TRUST-POLICY-V1 to contracts/contract-baseline-v1.json only through reviewed generator baseline evolution with explicit reason, signed DCO commit, then rerun every generator/catalog/contract/full gate and obtain fresh exact-head CI and independent review. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Add AWQ-CONTRACT-WORKFLOW-TRUST-POLICY-V1 to contracts/contract-baseline-v1.json only through reviewed generator baseline evolution with explicit reason, signed DCO commit, then rerun every generator/catalog/contract/full gate and obtain fresh exact-head CI and independent review. | codex-awq-ar0038-baseline-20260914 |
 
 ## Blocked
 
