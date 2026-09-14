@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #62 | `feature/repository-security-adapters@dc0f1fbde709` | `main` | DIRTY | - | feat(security): add pinned repository security adapters |
 
 ## Recent workflows
 
