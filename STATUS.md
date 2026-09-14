@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-integration-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Run focused trust/catalog tests and every complete documented gate on clean integrated head 2e9fcc9 with explicit reviewed bundles; then verify regenerated merge-tree equivalence, signatures/DCO/privacy and release for fresh independent review. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-integration-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. |
 
 ### Open (1)
 
