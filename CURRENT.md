@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Coordinate the explicit versioned adapter-catalog evolution as a concrete follow-up (AR-0056-style), then regenerate all dependent artifacts and rerun exact-head gates. | - |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Coordinate the explicit versioned adapter-catalog evolution as a concrete follow-up (AR-0056-style), then regenerate all dependent artifacts and rerun exact-head gates. | /root/ar0039_catalog_evolution |
 
 ## Blocked
 
