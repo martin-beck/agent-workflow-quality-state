@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_security | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Fresh workflows for exact head 885e75ee176a2aef1ad4fa9fa703af0948ebbf57 are required; prior b77 Verify still running on superseded head. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_security | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34887622731 and Portable onboarding 34887622762 at exact head 3c7c851cf745decd2d8ff22b225cb1a913d87536; then hand off for independent exact-head review. |
 
 ### Blocked (1)
 
