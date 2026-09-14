@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Open
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Resume under a mechanical integration owner, rebase accepted head 2fbd6128c64301d76e82482829631e629ab29af4 onto exact current main e584c54ef2b57eaaa251499819357d91604a8a03, resolve only generated catalog/baseline conflicts semantically while preserving both AR-0047 and AR-0049 contracts, rerun full gates with signed DCO integration commit, then obtain fresh independent exact-head review before publication. | - |
+
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -11,7 +17,6 @@ Never edit this file directly.
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main e584c54 gates and deterministic v0.35 builds pass; external signature authority unavailable | An authorized external signer must sign manifest 86793b9d... and annotated v0.35.0 tag for e584c54, then push tag, await attestation, publish six assets, and complete fresh public verification. Do not create unsigned tag/release. | - |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. | - |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Resume under a mechanical integration owner, rebase accepted head 2fbd6128c64301d76e82482829631e629ab29af4 onto exact current main e584c54ef2b57eaaa251499819357d91604a8a03, resolve only generated catalog/baseline conflicts semantically while preserving both AR-0047 and AR-0049 contracts, rerun full gates with signed DCO integration commit, then obtain fresh independent exact-head review before publication. | - |
 
 ## Planned
 
