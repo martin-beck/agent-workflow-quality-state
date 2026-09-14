@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | awq-coordinator-ar0038-schema-retry-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Provision a complete immutable offline Python dependency bundle (including jsonschema) plus valid Android/JVM device observation and Rust/vulnerability-supply evidence fixtures; rerun exact-head native gates before any publication or merge. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | awq-coordinator-ar0038-schema-retry-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Provision and independently verify a complete immutable offline Python dependency bundle that actually contains jsonschema, plus valid Android/JVM device observation and Rust/vulnerability-supply evidence fixtures; rerun exact-head native gates before publication or merge. |
 
 ### Blocked (3)
 
