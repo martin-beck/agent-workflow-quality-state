@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. | codex-awq-ar0038-classify-20260914 |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Await exact-main Verify 34824498884 and Portable onboarding 34824498781 at merge 0f3fdc2b68fce48b0b517dd33e1d94dfa2422954; close AR-0049 only if both are terminal green and fresh public GitHub state confirms merged content. | codex-awq-ar0049-publication2-20260914 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. | - |
 
 ## Blocked
 

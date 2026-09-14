@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 5 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -65,7 +65,7 @@ flowchart LR
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
-        AR_0038["AR-0038 - Open"]:::status_open
+        AR_0038["AR-0038 - In progress"]:::status_in_progress
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-classify-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication2-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Await exact-main Verify 34824498884 and Portable onboarding 34824498781 at merge 0f3fdc2b68fce48b0b517dd33e1d94dfa2422954; close AR-0049 only if both are terminal green and fresh public GitHub state confirms merged content. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. |
 
 ### Blocked (3)
 
