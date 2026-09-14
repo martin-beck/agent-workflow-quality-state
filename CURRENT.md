@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Independent semantic review and exact provisioned gates; classify contract acceptance gaps before accept/block. | codex-awq-ar0047-review-20260914 |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | BLOCKED: remediate incomplete workflow/visual contract and hostile coverage; rerun exact Python 3.13 full suite in a dedicated locked environment. | codex-awq-ar0047-review-20260914 |
 
 ## Blocked
 
