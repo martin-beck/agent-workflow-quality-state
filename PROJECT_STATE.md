@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `3d9e7037e99bee66de9242fbef8115463215e434`
+- Product remote main: `5658f859c7218c9c14f4321580008e4361d9c7d3`
 - Local origin/main: `3d9e7037e99bee66de9242fbef8115463215e434`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #54 | `feature/capability-claims@340072216410` | `main` | DIRTY | - | feat: add evidence-bound capability maturity claims |
-| #55 | `feature/agent-runtime-replay@cbc900704b02` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add deterministic agent runtime replay |
+| #54 | `feature/capability-claims@340072216410` | `main` | UNKNOWN | - | feat: add evidence-bound capability maturity claims |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34796366915 | `5658f859c721` | push | Portable onboarding | queued:- |
+| 34796366909 | `5658f859c721` | push | Verify | in_progress:- |
 | 34795975857 | `cbc900704b02` | pull_request | Portable onboarding | completed:success |
 | 34795975817 | `cbc900704b02` | pull_request | Verify | completed:success |
 | 34791372554 | `3d9e7037e99b` | push | Verify | completed:success |
@@ -27,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34790450230 | `3b4d12457b0c` | push | Portable onboarding | completed:success |
 | 34790259048 | `df31c648d782` | pull_request | Portable onboarding | completed:success |
 | 34790259035 | `df31c648d782` | pull_request | Verify | completed:success |
-| 34790139617 | `60ffdc73b646` | pull_request | Portable onboarding | completed:success |
-| 34790139613 | `60ffdc73b646` | pull_request | Verify | completed:success |
