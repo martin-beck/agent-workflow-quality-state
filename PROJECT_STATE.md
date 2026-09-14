@@ -12,14 +12,14 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
 | #60 | `feature/native-binary-bundles@6db185444511` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add native binary and runtime bundle assurance |
-| #61 | `feature/rust-critical-assurance@9a404d2268b2` | `main` | BLOCKED | - | feat(rust): enforce critical coverage and workspace supply |
+| #61 | `feature/rust-critical-assurance@9a404d2268b2` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34859825002 | `9a404d2268b2` | pull_request | Portable onboarding | queued:- |
-| 34859824836 | `9a404d2268b2` | pull_request | Verify | queued:- |
+| 34859825002 | `9a404d2268b2` | pull_request | Portable onboarding | completed:success |
+| 34859824836 | `9a404d2268b2` | pull_request | Verify | in_progress:- |
 | 34859421917 | `6db185444511` | pull_request | Verify | in_progress:- |
 | 34859421816 | `6db185444511` | pull_request | Portable onboarding | completed:success |
 | 34831429959 | `0f3fdc2b68fc` | schedule | Scheduled reliability assurance | completed:success |
