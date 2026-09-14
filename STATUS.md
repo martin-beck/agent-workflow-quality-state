@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 4 active status categories.
+**57 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 53 |
@@ -66,7 +66,7 @@ flowchart LR
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
         AR_0038["AR-0038 - Done"]:::status_done
-        AR_0039["AR-0039 - In progress"]:::status_in_progress
+        AR_0039["AR-0039 - Blocked"]:::status_blocked
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
         AR_0042["AR-0042 - Done"]:::status_done
@@ -259,16 +259,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### Blocked (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_security | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |
-
-### Blocked (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
 
 ### Planned (2)
