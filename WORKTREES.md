@@ -22,8 +22,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 83, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 53, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 60, ahead 0 |
-| `agent-workflow-quality-experiment-evidence` | `feature/experiment-evidence` | `ba074f97af9b` | 1 | behind 0, ahead 0 |
-| changed files | - | - | - | `src/awq/experiment.py` |
+| `agent-workflow-quality-experiment-evidence` | `feature/experiment-evidence` | `ba074f97af9b` | 2 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/experiment-receipt.schema.json`, `src/awq/experiment.py` |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 129, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 101, ahead 0 |
 | `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `1ff0c2e51c68` | 0 | behind 23, ahead 0 |
