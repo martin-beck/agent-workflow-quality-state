@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | UNKNOWN | - | fix(trust): require unique pinned candidate checkout |
+| #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34824498884 | `0f3fdc2b68fc` | push | Verify | queued:- |
-| 34824498781 | `0f3fdc2b68fc` | push | Portable onboarding | queued:- |
+| 34824498884 | `0f3fdc2b68fc` | push | Verify | in_progress:- |
+| 34824498781 | `0f3fdc2b68fc` | push | Portable onboarding | completed:success |
 | 34823874755 | `30d2e670a283` | pull_request | Verify | completed:success |
 | 34823874735 | `30d2e670a283` | pull_request | Portable onboarding | completed:success |
 | 34819151074 | `e584c54ef2b5` | push | Verify | completed:success |
