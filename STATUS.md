@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 4 active status categories.
+**57 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 53 |
+| **Done** | Accepted, integrated, and durably verified | 54 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -84,7 +84,7 @@ flowchart LR
         AR_0054["AR-0054 - Blocked"]:::status_blocked
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
-        AR_0057["AR-0057 - In progress"]:::status_in_progress
+        AR_0057["AR-0057 - Done"]:::status_done
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -259,12 +259,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. |
-
 ### Blocked (2)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -278,7 +272,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
-### Done (53)
+### Done (54)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -290,6 +284,7 @@ flowchart LR
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Unclaimed | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Complete: PR #54 merged exact accepted head; no release or tag required by AR-0037. |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
