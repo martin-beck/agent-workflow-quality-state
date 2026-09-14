@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Distinct publication owner may claim AR-0049, revalidate the accepted exact head/tree and clean mergeability against current main, then publish only through reviewed PR and exact-head required CI; no self-publication by this reviewer. | - |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Distinct publication owner may claim AR-0049, revalidate the accepted exact head/tree and clean mergeability against current main, then publish only through reviewed PR and exact-head required CI; no self-publication by this reviewer. | codex-awq-ar0049-publication-20260914 |
 
 ## Blocked
 

@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 4 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -76,7 +76,7 @@ flowchart LR
         AR_0046["AR-0046 - Blocked"]:::status_blocked
         AR_0047["AR-0047 - Done"]:::status_done
         AR_0048["AR-0048 - Blocked"]:::status_blocked
-        AR_0049["AR-0049 - Open"]:::status_open
+        AR_0049["AR-0049 - In progress"]:::status_in_progress
         AR_0050["AR-0050 - Done"]:::status_done
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
@@ -256,11 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Distinct publication owner may claim AR-0049, revalidate the accepted exact head/tree and clean mergeability against current main, then publish only through reviewed PR and exact-head required CI; no self-publication by this reviewer. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Distinct publication owner may claim AR-0049, revalidate the accepted exact head/tree and clean mergeability against current main, then publish only through reviewed PR and exact-head required CI; no self-publication by this reviewer. |
 
 ### Blocked (4)
 
