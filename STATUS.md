@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
@@ -84,7 +84,7 @@ flowchart LR
         AR_0054["AR-0054 - Blocked"]:::status_blocked
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
-        AR_0057["AR-0057 - Open"]:::status_open
+        AR_0057["AR-0057 - In progress"]:::status_in_progress
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -259,11 +259,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. |
 
 ### Blocked (2)
 
