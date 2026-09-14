@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-baseline-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Add AWQ-CONTRACT-WORKFLOW-TRUST-POLICY-V1 to contracts/contract-baseline-v1.json only through reviewed generator baseline evolution with explicit reason, signed DCO commit, then rerun every generator/catalog/contract/full gate and obtain fresh exact-head CI and independent review. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-baseline-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for 5af63ac; if required checks are green, release ownerless for independent review. Local 551-test run is environment-limited only by unavailable native/tool bundles. |
 
 ### Blocked (1)
 
