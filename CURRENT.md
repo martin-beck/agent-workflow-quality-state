@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must claim AR-0049, inspect complete integration diff at exact base e584c54ef2b57eaaa251499819357d91604a8a03/head 30d2e670a283efb0caa7f2b74f9b40cb28e3939f/tree 03bdb4fa38b35ba51d2e74982c6a68ff85abddcf, reproduce focused/full gates, and accept or block before any distinct publication owner acts. | - |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must claim AR-0049, inspect complete integration diff at exact base e584c54ef2b57eaaa251499819357d91604a8a03/head 30d2e670a283efb0caa7f2b74f9b40cb28e3939f/tree 03bdb4fa38b35ba51d2e74982c6a68ff85abddcf, reproduce focused/full gates, and accept or block before any distinct publication owner acts. | codex-awq-ar0049-integrated-review-20260914 |
 
 ## Blocked
 
