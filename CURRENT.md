@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35.0 candidate reconstructed; release gates pending | Run focused/full release gates on exact current-main candidate 6737cb8; then independent review and publication gates. External signer/trust authority remains required for authenticated tag/manifest. | awq-coordinator |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main candidate reconstructed; release blocked by catalog/generated fixture gates | Promote/complete AR-0056 contract-catalog evolution and regenerate v0.35 fixtures on current main; rerun full release gates. Do not publish until all gates green, then independent review and signed publication. | awq-coordinator |
 
 ## Blocked
 
