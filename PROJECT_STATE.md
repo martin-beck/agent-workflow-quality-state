@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | UNKNOWN | - | fix(trust): require unique pinned candidate checkout |
-| #61 | `feature/rust-critical-assurance@c63f8f6ae596` | `main` | UNKNOWN | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
+| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
+| #61 | `feature/rust-critical-assurance@c63f8f6ae596` | `main` | BEHIND | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34864589344 | `09205ea2ee7f` | push | Verify | queued:- |
+| 34864589344 | `09205ea2ee7f` | push | Verify | in_progress:- |
 | 34864589335 | `09205ea2ee7f` | push | Portable onboarding | queued:- |
 | 34864333544 | `c63f8f6ae596` | pull_request | Portable onboarding | completed:success |
 | 34864333516 | `c63f8f6ae596` | pull_request | Verify | completed:failure |
