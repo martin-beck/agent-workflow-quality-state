@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | awq-coordinator |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | BLOCKED: remediate incomplete workflow/visual contract and hostile coverage; rerun exact Python 3.13 full suite in a dedicated locked environment. | codex-awq-ar0047-remediation-20260914 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | - |
 
 ## Blocked
 
