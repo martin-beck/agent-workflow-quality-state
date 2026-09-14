@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for 5af63ac; if required checks are green, release ownerless for independent review. Local 551-test run is environment-limited only by unavailable native/tool bundles. | codex-awq-ar0038-baseline-20260914 |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for amended head 0e17cb35; if all required checks are green, release ownerless for independent review. DCO trailer casing was repaired by SSH-signed commits; native evidence remains optional/non-authorizing. | codex-awq-ar0038-baseline-20260914 |
 
 ## Blocked
 
