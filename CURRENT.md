@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Provision a complete immutable offline Python dependency bundle (including jsonschema) plus valid Android/JVM device observation and Rust/vulnerability-supply evidence fixtures; rerun exact-head native gates before any publication or merge. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Provision a complete immutable offline Python dependency bundle (including jsonschema) plus valid Android/JVM device observation and Rust/vulnerability-supply evidence fixtures; rerun exact-head native gates before any publication or merge. | awq-coordinator-ar0038-schema-retry-20260914 |
 
 ## Blocked
 
