@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #62 | `feature/repository-security-adapters@8dc1f1201360` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
+| #62 | `feature/repository-security-adapters@8dc1f1201360` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34889795324 | `8dc1f1201360` | pull_request | Verify | in_progress:- |
+| 34889795324 | `8dc1f1201360` | pull_request | Verify | completed:success |
 | 34889795203 | `8dc1f1201360` | pull_request | Portable onboarding | completed:success |
 | 34889454774 | `38aa20523de3` | pull_request | Portable onboarding | completed:success |
 | 34889454532 | `38aa20523de3` | pull_request | Verify | completed:failure |

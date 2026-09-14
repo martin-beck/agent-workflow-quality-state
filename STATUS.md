@@ -173,7 +173,7 @@ flowchart LR
     AR_0036 --> AR_0038
     AR_0037 --> AR_0047
     AR_0038 --> AR_0039
-    AR_0039 --> AR_0057
+    AR_0038 --> AR_0057
     AR_0040 --> AR_0047
     AR_0040 --> AR_0050
     AR_0041 --> AR_0042
@@ -236,8 +236,8 @@ flowchart LR
 | [AR-0035](tasks/AR-0035.md) | [AR-0015](tasks/AR-0015.md), [AR-0033](tasks/AR-0033.md) | [AR-0036](tasks/AR-0036.md), [AR-0038](tasks/AR-0038.md), [AR-0044](tasks/AR-0044.md), [AR-0045](tasks/AR-0045.md), [AR-0050](tasks/AR-0050.md), [AR-0056](tasks/AR-0056.md) |
 | [AR-0036](tasks/AR-0036.md) | [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | [AR-0037](tasks/AR-0037.md), [AR-0038](tasks/AR-0038.md) |
 | [AR-0037](tasks/AR-0037.md) | [AR-0034](tasks/AR-0034.md), [AR-0036](tasks/AR-0036.md) | [AR-0047](tasks/AR-0047.md) |
-| [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md) |
-| [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | [AR-0057](tasks/AR-0057.md) |
+| [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md), [AR-0057](tasks/AR-0057.md) |
+| [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | None |
 | [AR-0040](tasks/AR-0040.md) | [AR-0019](tasks/AR-0019.md), [AR-0034](tasks/AR-0034.md) | [AR-0047](tasks/AR-0047.md), [AR-0050](tasks/AR-0050.md) |
 | [AR-0041](tasks/AR-0041.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0042](tasks/AR-0042.md), [AR-0049](tasks/AR-0049.md) |
 | [AR-0042](tasks/AR-0042.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
@@ -255,7 +255,7 @@ flowchart LR
 | [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | [AR-0056](tasks/AR-0056.md) |
 | [AR-0055](tasks/AR-0055.md) | [AR-0050](tasks/AR-0050.md) | None |
 | [AR-0056](tasks/AR-0056.md) | [AR-0035](tasks/AR-0035.md), [AR-0054](tasks/AR-0054.md) | None |
-| [AR-0057](tasks/AR-0057.md) | [AR-0039](tasks/AR-0039.md) | None |
+| [AR-0057](tasks/AR-0057.md) | [AR-0038](tasks/AR-0038.md) | None |
 
 ## Complete AR inventory
 
@@ -270,7 +270,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote after AR-0039 review rejection; implement exact revision substitution and bounded repository-security range tests. |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
 ### Done (53)
