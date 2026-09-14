@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-final-review-20260914c | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Wait fresh exact-head Verify and Portable onboarding terminal; record DCO/coverage result, obtain independent exact-head review, then merge only if all required checks green. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-final-review-20260914c | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Complete independent exact-head review of PR #61 at 6772e64/tree 41617e40 against base 09205ea; verify green exact-head CI and release ownerless with durable recommendation. |
 
 ### Blocked (2)
 
