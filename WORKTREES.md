@@ -92,3 +92,4 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `awq-release-0054-audit` | `DETACHED` | `0f3fdc2b68fc` | 0 | behind 0, ahead 0 |
 | `awq-release-0054-current` | `release/v0.35.0-publication` | `e8005910fd04` | 0 | behind 2, ahead 2 |
 | `awq-release-0054-pub2` | `DETACHED` | `e584c54ef2b5` | 0 | behind 2, ahead 0 |
+| `awq-review-pr60` | `DETACHED` | `6db185444511` | 0 | behind 0, ahead 6 |
