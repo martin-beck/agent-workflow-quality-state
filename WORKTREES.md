@@ -83,8 +83,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `60ffdc73b646` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 49, ahead 0 |
 | `agent-workflow-quality-workflow-claims` | `feature/workflow-claim-evidence` | `c090998352c0` | 0 | behind 3, ahead 0 |
-| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `2e9fcc9bc299` | 3 | behind 5, ahead 2 |
-| changed files | - | - | - | `docs/ANDROID_JVM_ADAPTERS.md`, `scripts/generate_assurance_plan_docs.py`, `tests/test_assurance_plan.py` |
+| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `2e9fcc9bc299` | 4 | behind 5, ahead 2 |
+| changed files | - | - | - | `docs/ANDROID_JVM_ADAPTERS.md`, `docs/ASSURANCE_PLANS.md`, `scripts/generate_assurance_plan_docs.py`, `tests/test_assurance_plan.py` |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 57, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 48, ahead 0 |
 | `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 54, ahead 0 |
