@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #62 | `feature/repository-security-adapters@8dc1f1201360` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
+| #63 | `feature/repository-security-range-validation@a01e1d173c66` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | test(security): validate exact introduced ranges |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34891167825 | `a01e1d173c66` | pull_request | Verify | queued:- |
+| 34891167818 | `a01e1d173c66` | pull_request | Portable onboarding | queued:- |
 | 34889795324 | `8dc1f1201360` | pull_request | Verify | completed:success |
 | 34889795203 | `8dc1f1201360` | pull_request | Portable onboarding | completed:success |
 | 34889454774 | `38aa20523de3` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34889078647 | `b9e1ebfd1d7a` | pull_request | Verify | completed:cancelled |
 | 34888991131 | `ff3c84b9eb8f` | pull_request | Portable onboarding | completed:success |
 | 34888990804 | `ff3c84b9eb8f` | pull_request | Verify | completed:cancelled |
-| 34888753921 | `b5b69b59c030` | pull_request | Portable onboarding | completed:success |
-| 34888753883 | `b5b69b59c030` | pull_request | Verify | completed:failure |
