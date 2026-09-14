@@ -69,7 +69,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-verify-v0.29.0` | `DETACHED` | `e0e7b07de927` | 0 | behind 111, ahead 0 |
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 150, ahead 0 |
 | `agent-workflow-quality-repository-security` | `feature/repository-security-adapters` | `8dc1f1201360` | 0 | behind 0, ahead 21 |
-| `agent-workflow-quality-repository-security-range-validation` | `feature/repository-security-range-validation` | `a01e1d173c66` | 0 | behind 0, ahead 22 |
+| `agent-workflow-quality-repository-security-range-validation` | `feature/repository-security-range-validation` | `a01e1d173c66` | 1 | behind 0, ahead 22 |
+| changed files | - | - | - | `tests/test_repository_security_adapters.py` |
 | `agent-workflow-quality-review-ar0039` | `DETACHED` | `ae02dea8cd22` | 0 | behind 0, ahead 6 |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 26, ahead 3 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 172, ahead 0 |

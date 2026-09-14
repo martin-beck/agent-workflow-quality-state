@@ -11,13 +11,13 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #62 | `feature/repository-security-adapters@8dc1f1201360` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
-| #63 | `feature/repository-security-range-validation@a01e1d173c66` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | test(security): validate exact introduced ranges |
+| #63 | `feature/repository-security-range-validation@a01e1d173c66` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | test(security): validate exact introduced ranges |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34891167825 | `a01e1d173c66` | pull_request | Verify | in_progress:- |
+| 34891167825 | `a01e1d173c66` | pull_request | Verify | completed:success |
 | 34891167818 | `a01e1d173c66` | pull_request | Portable onboarding | completed:success |
 | 34889795324 | `8dc1f1201360` | pull_request | Verify | completed:success |
 | 34889795203 | `8dc1f1201360` | pull_request | Portable onboarding | completed:success |
