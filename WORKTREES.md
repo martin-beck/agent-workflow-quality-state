@@ -23,6 +23,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 56, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 63, ahead 0 |
 | `agent-workflow-quality-experiment-evidence` | `feature/experiment-evidence` | `2fbd6128c643` | 0 | behind 3, ahead 1 |
+| `agent-workflow-quality-experiment-evidence-integration` | `feature/experiment-evidence-integration` | `e584c54ef2b5` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-formal` | `feature/formal-refactoring` | `11a84334d54c` | 0 | behind 132, ahead 0 |
 | `agent-workflow-quality-formal-adapter` | `feature/formal-adapter` | `bf7310ef54ad` | 0 | behind 104, ahead 0 |
 | `agent-workflow-quality-formal-adapters-v2` | `feature/formal-adapters-v2` | `1ff0c2e51c68` | 0 | behind 26, ahead 0 |
