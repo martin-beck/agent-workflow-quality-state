@@ -8,12 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Await exact-head Verify and Portable onboarding checks for PR #61 at c63f8f6; obtain fresh independent review, merge only if required checks green. | codex-awq-ar0046-final-review-20260914b |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Monitor PR #60 exact-head Verify run 34863724731 and Portable onboarding run 34863724735 to terminal; merge only after every required check is green, then perform post-merge verification. | - |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Monitor PR #60 exact-head Verify run 34863724731 and Portable onboarding run 34863724735 to terminal; merge only after every required check is green, then perform post-merge verification. | codex-awq-ar0048-dco-remediation-20260914 |
 
 ## Blocked
 
