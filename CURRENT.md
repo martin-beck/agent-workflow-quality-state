@@ -7,13 +7,13 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. | codex-awq-ar0038-review-20260914 |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must verify exact base/head/tree, complete diff and focused/full gate evidence before any publication decision; implementation owner must not self-approve. | codex-awq-ar0049-provisioned-review-20260914 |
 
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
 
 ## Blocked
