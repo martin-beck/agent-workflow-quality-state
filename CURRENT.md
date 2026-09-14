@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | codex-awq-ar0048-e501-remediation-20260914 |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. | codex-awq-ar0048-e501-remediation-20260914 |
 
 ## Open
 
