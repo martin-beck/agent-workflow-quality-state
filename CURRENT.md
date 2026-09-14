@@ -3,11 +3,16 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## In Progress
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Implementation owner must fail closed when a policy-designated required gate has no statically inspectable candidate checkout, add a hostile no-checkout fixture (and ambiguity coverage), rerun focused/full gates, and release a new signed-DCO head for fresh independent review. | codex-awq-ar0038-checkout-remediation-20260914 |
+
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Implementation owner must fail closed when a policy-designated required gate has no statically inspectable candidate checkout, add a hostile no-checkout fixture (and ambiguity coverage), rerun focused/full gates, and release a new signed-DCO head for fresh independent review. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
 
 ## Blocked
