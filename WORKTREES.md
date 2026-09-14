@@ -5,6 +5,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | Worktree | Branch | Head | Dirty | vs origin/main |
 | --- | --- | --- | ---: | --- |
 | `agent-workflow-quality` | `main` | `0c6247f5afe0` | 0 | behind 27, ahead 1 |
+| `.awq-ar0054-current-main` | `DETACHED` | `0f3fdc2b68fc` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-adapter-docs` | `feature/docs-adapter` | `cbf103305786` | 0 | behind 154, ahead 0 |
 | `agent-workflow-quality-adapter-python` | `feature/python-adapter` | `34351626f8dc` | 0 | behind 165, ahead 0 |
 | `agent-workflow-quality-adapter-schemas` | `feature/schema-adapter` | `dd1b0ac7b9b8` | 0 | behind 153, ahead 0 |
