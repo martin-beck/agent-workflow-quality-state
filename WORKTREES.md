@@ -17,7 +17,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 126, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 28, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `3b4d12457b0c` | 9 | behind 5, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `docs/CAPABILITY_CLAIMS.md`, `schemas/capability-claims.schema.json`, `src/awq/capability_claims.py`, `src/awq/data/capability_claims.json`, `tests/test_capability_claims.py` |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CAPABILITY_CLAIMS.md`, `docs/CONTRACTS.md`, `schemas/capability-claims.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/capability_claims.py`, `src/awq/data/capability_claims.json`, `src/awq/data/contract_catalog.json`, `tests/test_capability_claims.py` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 64, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 40, ahead 0 |
