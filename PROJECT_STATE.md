@@ -11,6 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
+| #60 | `feature/native-binary-bundles@0206fa1c94e5` | `main` | DIRTY | - | feat: add native binary and runtime bundle assurance |
 
 ## Recent workflows
 
