@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **In progress** | Claimed work with a live lease | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -65,7 +65,7 @@ flowchart LR
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
-        AR_0038["AR-0038 - In progress"]:::status_in_progress
+        AR_0038["AR-0038 - Open"]:::status_open
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
@@ -256,11 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-independent-review-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Add AWQ-CONTRACT-WORKFLOW-TRUST-POLICY-V1 to contracts/contract-baseline-v1.json only through reviewed generator baseline evolution with explicit reason, signed DCO commit, then rerun every generator/catalog/contract/full gate and obtain fresh exact-head CI and independent review. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | AWQ acceptance separates optional native evidence from implementation authorization | Add AWQ-CONTRACT-WORKFLOW-TRUST-POLICY-V1 to contracts/contract-baseline-v1.json only through reviewed generator baseline evolution with explicit reason, signed DCO commit, then rerun every generator/catalog/contract/full gate and obtain fresh exact-head CI and independent review. |
 
 ### Blocked (1)
 
