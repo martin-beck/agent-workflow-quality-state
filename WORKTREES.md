@@ -80,8 +80,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 39, ahead 0 |
 | `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `60ffdc73b646` | 0 | behind 19, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 44, ahead 0 |
-| `agent-workflow-quality-workflow-claims` | `feature/workflow-claim-evidence` | `ba074f97af9b` | 6 | behind 0, ahead 0 |
-| changed files | - | - | - | `scripts/generate_contract_catalog.py`, `docs/WORKFLOW_CLAIMS.md`, `schemas/workflow-claims.schema.json`, `src/awq/data/workflow_claims.json`, `src/awq/workflow_claims.py`, `tests/test_workflow_claims.py` |
+| `agent-workflow-quality-workflow-claims` | `feature/workflow-claim-evidence` | `ba074f97af9b` | 8 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `docs/WORKFLOW_CLAIMS.md`, `schemas/workflow-claims.schema.json`, `src/awq/data/workflow_claims.json`, `src/awq/workflow_claims.py`, `tests/test_workflow_claims.py` |
 | `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `2e9fcc9bc299` | 0 | behind 0, ahead 2 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 52, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 43, ahead 0 |
