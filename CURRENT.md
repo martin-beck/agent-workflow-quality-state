@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Request independent complete-diff review of PR #62 at exact head d6b17abd5fcc68c3a285bd6c818052f0a5db9aa6 against base d4b18413; then guarded merge only after review remains accepted. | - |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Request independent complete-diff review of PR #62 at exact head d6b17abd5fcc68c3a285bd6c818052f0a5db9aa6 against base d4b18413; then guarded merge only after review remains accepted. | /root/ar0039_catalog_evolution |
 
 ## Blocked
 
