@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Await fresh exact-head Verify and Portable runs for amended head 0e17cb35; if all required checks are green, release ownerless for independent review. DCO trailer casing was repaired by SSH-signed commits; native evidence remains optional/non-authorizing. | codex-awq-ar0038-independent-review-20260914b |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. | codex-awq-ar0038-independent-review-20260914b |
 
 ## Blocked
 
