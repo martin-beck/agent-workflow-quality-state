@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication2-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Await exact-main Verify 34824498884 and Portable onboarding 34824498781 at merge 0f3fdc2b68fce48b0b517dd33e1d94dfa2422954; close AR-0049 only if both are terminal green and fresh public GitHub state confirms merged content. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication2-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Complete: AR-0049 is merged and exact-main/public verification is green; no release or tag is implied. |
 
 ### Blocked (4)
 
