@@ -29,8 +29,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-formal-lifecycle` | `feature/formal-policy-lifecycle` | `05567e7a13b3` | 0 | behind 117, ahead 0 |
 | `agent-workflow-quality-formal-refinement` | `feature/formal-refinement` | `f2f179b6786c` | 0 | behind 115, ahead 0 |
 | `agent-workflow-quality-governance` | `feature/policy-governance` | `b742f2671f57` | 0 | behind 154, ahead 0 |
-| `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `362fa9fabc11` | 6 | behind 0, ahead 3 |
-| changed files | - | - | - | `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `src/awq/native_bundle.py`, `tests/test_native_bundle.py`, `schemas/native-bundle-assurance-v2.schema.json` |
+| `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `362fa9fabc11` | 7 | behind 0, ahead 3 |
+| changed files | - | - | - | `docs/CONTRACTS.md`, `schemas/native-bundle-assurance.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/data/contract_catalog.json`, `src/awq/native_bundle.py`, `tests/test_native_bundle.py`, `schemas/native-bundle-assurance-v2.schema.json` |
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 81, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 103, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 88, ahead 0 |
