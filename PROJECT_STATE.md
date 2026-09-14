@@ -11,12 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #60 | `feature/native-binary-bundles@0206fa1c94e5` | `main` | DIRTY | - | feat: add native binary and runtime bundle assurance |
+| #60 | `feature/native-binary-bundles@6db185444511` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add native binary and runtime bundle assurance |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34859421917 | `6db185444511` | pull_request | Verify | queued:- |
+| 34859421816 | `6db185444511` | pull_request | Portable onboarding | queued:- |
 | 34831429959 | `0f3fdc2b68fc` | schedule | Scheduled reliability assurance | completed:success |
 | 34830742495 | `0f3fdc2b68fc` | schedule | Scheduled adversarial assurance | completed:success |
 | 34824498884 | `0f3fdc2b68fc` | push | Verify | completed:success |
@@ -27,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34819151045 | `e584c54ef2b5` | push | Portable onboarding | completed:success |
 | 34818735588 | `ca11169a8842` | pull_request | Verify | completed:success |
 | 34818735509 | `ca11169a8842` | pull_request | Portable onboarding | completed:success |
-| 34818715630 | `c090998352c0` | pull_request | Portable onboarding | completed:success |
-| 34818715626 | `c090998352c0` | pull_request | Verify | completed:success |
