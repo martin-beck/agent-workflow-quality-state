@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-remediation-review-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Implementation owner must fail closed when a policy-designated required gate has no statically inspectable candidate checkout, add a hostile no-checkout fixture (and ambiguity coverage), rerun focused/full gates, and release a new signed-DCO head for fresh independent review. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-remediation-review-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | A distinct publication owner may publish exact accepted head 07755f7e69139d65d0e6405fd5fab470f7743ca0 only from the clean tree, then require exact-head CI and guarded merge; no release/tag is implied. |
 
 ### Open (1)
 
