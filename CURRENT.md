@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | codex-awq-ar0054-corrected-env-20260914 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
@@ -21,6 +15,7 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. | - |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | - |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. | - |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must verify exact base/head/tree, complete diff and focused/full gate evidence before any publication decision; implementation owner must not self-approve. | - |
 
