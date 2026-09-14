@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of integrated head 85ec76fa1d2927892b1e3446138347bbdb2eb549, tree ac9227739d4ad2b34e5c8f81cbc46aa17bac78e1, against exact main parent 5658f859c7218c9c14f4321580008e4361d9c7d3; verify semantic catalog union, signatures/DCO/privacy and complete gates before updating PR #54. | codex-awq-ar0037-final-publication-20260914 |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Complete: PR #54 merged exact accepted head; no release or tag required by AR-0037. | codex-awq-ar0037-final-publication-20260914 |
 
 ## Open
 
