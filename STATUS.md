@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 5 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 6 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 48 |
@@ -74,7 +74,7 @@ flowchart LR
         AR_0044["AR-0044 - Done"]:::status_done
         AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - Blocked"]:::status_blocked
-        AR_0047["AR-0047 - In progress"]:::status_in_progress
+        AR_0047["AR-0047 - Blocked"]:::status_blocked
         AR_0048["AR-0048 - Blocked"]:::status_blocked
         AR_0049["AR-0049 - Blocked"]:::status_blocked
         AR_0050["AR-0050 - Done"]:::status_done
@@ -256,19 +256,14 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-fixture-investigation-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Fresh independent review of exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a/tree aa8313e9128903aad0941f50bc5ac58c5567471a with current reviewed adapter bundles; reproduce focused/full gates before publication. |
-
-### Blocked (5)
+### Blocked (6)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must verify exact base ba074f97, integrated head 2e9fcc9/tree 8f5c048, regenerated histories and full 535-test evidence before any update to conflicting PR 56. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Fresh independent review of exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a/tree aa8313e9128903aad0941f50bc5ac58c5567471a with current reviewed adapter bundles; reproduce focused/full gates before publication. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must verify exact base/head/tree, complete diff and focused/full gate evidence before any publication decision; implementation owner must not self-approve. |
 
