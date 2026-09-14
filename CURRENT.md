@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | BLOCKED: remediate incomplete workflow/visual contract and hostile coverage; rerun exact Python 3.13 full suite in a dedicated locked environment. | - |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | BLOCKED: remediate incomplete workflow/visual contract and hostile coverage; rerun exact Python 3.13 full suite in a dedicated locked environment. | codex-awq-ar0047-remediation-20260914 |
 
 ## Blocked
 
