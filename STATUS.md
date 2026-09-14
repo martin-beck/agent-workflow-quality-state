@@ -261,7 +261,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | awq-coordinator-publication | PR #58 green but base advanced; rebasing publication candidate | Rebase signed release candidate onto current origin/main e584c54, force-with-lease PR branch, rerun exact-head CI, then merge only after green. |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-publication-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-publication-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Completed: PR #57 merged at e584c54ef2b57eaaa251499819357d91604a8a03 with exact-main Verify and Portable onboarding green; no release or tag required. |
 
 ### Blocked (4)
 
