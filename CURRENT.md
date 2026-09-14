@@ -8,12 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Provision genuine Android/JVM device observation/report evidence and valid Rust advanced/vulnerability-supply inputs; rerun exact-head native gates. Keep schema v2 bundle with verified jsonschema 4.25.1. | codex-awq-ar0038-upstream-recheck-20260914 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. | codex-awq-ar0054-trust-recheck-20260914 |
 
 ## Blocked
 
