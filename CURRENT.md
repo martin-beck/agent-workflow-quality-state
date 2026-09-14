@@ -3,16 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | codex-awq-ar0054-final-acceptance-20260914 |
-
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. | - |
 | P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. | - |
 
 ## Blocked
