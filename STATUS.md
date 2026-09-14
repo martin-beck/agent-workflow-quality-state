@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-review-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-review-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Independent semantic review and exact provisioned gates; classify contract acceptance gaps before accept/block. |
 
 ### Blocked (5)
 
