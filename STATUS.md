@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-publication-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of 7a4c087ad01adf04762d02e64b3154344ac04e60 against base 3d9e7037e99bee66de9242fbef8115463215e434; verify newline-only remediation commit, complete diff, signatures/DCO/privacy and rerun required gates before publication. |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-publication-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Integrate accepted capability changes onto exact current main 5658f859c7218c9c14f4321580008e4361d9c7d3, semantically reconcile contract-baseline-v1.json and contract_catalog.json with both AR-0037 capability and merged AR-0042 replay entries, rerun full gates, and obtain fresh independent exact-head review before updating PR #54; do not merge conflicting accepted head. |
 
 ### Open (2)
 
