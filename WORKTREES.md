@@ -13,7 +13,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 108, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 74, ahead 0 |
 | `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `3d9e7037e99b` | 11 | behind 0, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `docs/AGENT_RUNTIME_REPLAY.md`, `fixtures/conforming/agent-runtime-replay.json`, `schemas/agent-runtime-replay.schema.json`, `src/awq/agent_replay.py`, `tests/test_agent_replay.py` |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/AGENT_RUNTIME_REPLAY.md`, `docs/CONTRACTS.md`, `fixtures/conforming/agent-runtime-replay.json`, `schemas/agent-runtime-replay.schema.json`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/agent_replay.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `tests/test_agent_replay.py` |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 126, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 28, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `dba9aa319e6a` | 4 | behind 5, ahead 2 |
