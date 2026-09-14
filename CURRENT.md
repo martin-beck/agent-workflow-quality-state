@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Resolve pre-existing Rust advanced adapter binding failures ADAPTER-RUST-COVERAGE, ADAPTER-RUST-FUZZ, and ADAPTER-RUST-MUTATION before any merge. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Resolve pre-existing Rust advanced adapter binding failures ADAPTER-RUST-COVERAGE, ADAPTER-RUST-FUZZ, and ADAPTER-RUST-MUTATION before any merge. | codex-awq-ar0038-postmerge-diagnostic-20260914 |
 
 ## Blocked
 
