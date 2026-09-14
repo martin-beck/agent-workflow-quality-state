@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 4 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 5 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 49 |
@@ -76,7 +76,7 @@ flowchart LR
         AR_0046["AR-0046 - Blocked"]:::status_blocked
         AR_0047["AR-0047 - Done"]:::status_done
         AR_0048["AR-0048 - Blocked"]:::status_blocked
-        AR_0049["AR-0049 - In progress"]:::status_in_progress
+        AR_0049["AR-0049 - Blocked"]:::status_blocked
         AR_0050["AR-0050 - Done"]:::status_done
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
@@ -256,13 +256,7 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Resume under a mechanical integration owner, rebase accepted head 2fbd6128c64301d76e82482829631e629ab29af4 onto exact current main e584c54ef2b57eaaa251499819357d91604a8a03, resolve only generated catalog/baseline conflicts semantically while preserving both AR-0047 and AR-0049 contracts, rerun full gates with signed DCO integration commit, then obtain fresh independent exact-head review before publication. |
-
-### Blocked (4)
+### Blocked (5)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -270,6 +264,7 @@ flowchart LR
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Current main e584c54 gates and deterministic v0.35 builds pass; external signature authority unavailable | An authorized external signer must sign manifest 86793b9d... and annotated v0.35.0 tag for e584c54, then push tag, await attestation, publish six assets, and complete fresh public verification. Do not create unsigned tag/release. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Resume under a mechanical integration owner, rebase accepted head 2fbd6128c64301d76e82482829631e629ab29af4 onto exact current main e584c54ef2b57eaaa251499819357d91604a8a03, resolve only generated catalog/baseline conflicts semantically while preserving both AR-0047 and AR-0049 contracts, rerun full gates with signed DCO integration commit, then obtain fresh independent exact-head review before publication. |
 
 ### Planned (2)
 
