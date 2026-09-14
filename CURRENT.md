@@ -14,14 +14,9 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Fresh independent reviewer: inspect complete 3d9e703..79446c4 diff, rerun exact-head focused/full/release gates, and publish only after approval. | - |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
-
-## Blocked
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Fresh independent reviewer: inspect complete 3d9e703..79446c4 diff, rerun exact-head focused/full/release gates, and publish only after approval. | - |
 
 ## Planned
 
