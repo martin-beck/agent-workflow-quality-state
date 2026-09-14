@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. | codex-awq-ar0038-review-20260914 |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Implementation owner must fail closed when a policy-designated required gate has no statically inspectable candidate checkout, add a hostile no-checkout fixture (and ambiguity coverage), rerun focused/full gates, and release a new signed-DCO head for fresh independent review. | codex-awq-ar0038-review-20260914 |
 
 ## Open
 
