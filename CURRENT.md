@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. | codex-awq-ar0049-experiment-evidence-20260914 |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Complete runtime/schema syntax validation, add deterministic and consumer-study positive fixtures plus hostile cross-field mutations, register generated contract/docs, then run focused/full gates. | codex-awq-ar0049-experiment-evidence-20260914 |
 
 ## Open
 
