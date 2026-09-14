@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for Verify 34876232444 and Portable onboarding 34876232471 at exact head 010f6270dcb8aff0a1d4e1220561e7cfa882cf21; then obtain independent exact-head review. | /root/ar0039_security |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Format scripts/install_repository_security_tools.py and tests/test_repository_security_adapters.py, sign/push correction, then await fresh Verify and Portable. | /root/ar0039_security |
 
 ## Blocked
 
