@@ -11,7 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #54 | `feature/capability-claims@340072216410` | `main` | DIRTY | - | feat: add evidence-bound capability maturity claims |
-| #55 | `feature/agent-runtime-replay@cbc900704b02` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | feat: add deterministic agent runtime replay |
+| #55 | `feature/agent-runtime-replay@cbc900704b02` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, COMPLETED:SUCCESS | feat: add deterministic agent runtime replay |
 
 ## Recent workflows
 
