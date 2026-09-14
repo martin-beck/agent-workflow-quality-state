@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 4 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 50 |
@@ -65,7 +65,7 @@ flowchart LR
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
-        AR_0038["AR-0038 - In progress"]:::status_in_progress
+        AR_0038["AR-0038 - Blocked"]:::status_blocked
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
@@ -256,16 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### Blocked (4)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-publication-20260914 | Workflow trust policy with consumer-neutral Android/JVM evidence boundary | Provision genuine consumer-owned Android/JVM device observation/report evidence and valid Rust advanced/vulnerability-supply inputs; rerun exact-head native gates. |
-
-### Blocked (3)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | Workflow trust policy with consumer-neutral Android/JVM evidence boundary | Provision genuine consumer-owned Android/JVM device observation/report evidence and valid Rust advanced/vulnerability-supply inputs; rerun exact-head native gates. |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. |
