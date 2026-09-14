@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Independent review rejects signing helper head 0e1015a; preflight and trust defects remain | Rebase helper onto current main; require external signer policy and exact GitHub identity; make preview side-effect-free and signing rollback truthful; fix default bundle workflow, bounded output, format, and add hostile end-to-end tests; then request fresh exact-head review. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Independent review rejects signing helper head bdaacd6; trust, rollback, docs, format and hostile-test gates remain | Verify actual external GitHub signing identity and compare with candidate commit signer; require strict 40-hex/state authorization; ensure rollback on tag timeout/error; align docs/defaults; format; add confirmed signing, checkout/state, timeout/rollback and end-to-end tests; request fresh review. |
 
 ### Planned (1)
 
