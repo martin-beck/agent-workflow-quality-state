@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-provisioned-review-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-provisioned-review-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Create a candidate-matched isolated advanced-Rust wrapper prefix from the exact provisioned immutable toolchain, rerun native-equivalence focused tests, then run bounded full gates or release with precise remaining input blocker. |
 
 ### Blocked (3)
 
