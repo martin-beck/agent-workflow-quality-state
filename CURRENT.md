@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent exact-head review of 3400722; reviewer must inspect v1/v2 catalog evolution, complete diff, signatures/DCO/privacy, and rerun focused/full gates before publication. | codex-awq-ar0037-final-review-20260914 |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Distinct publication owner may publish PR from clean exact head 34007221641025e71a2c62d5d125ad1fb80d6267 after confirming exact-head CI authorization. | codex-awq-ar0037-final-review-20260914 |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Run focused and full confined gates, review the complete diff/privacy/contracts, then create a clean signed DCO implementation commit for independent review; no publication. | codex-awq-ar0038-workflow-trust-20260914 |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Fresh independent reviewer: inspect complete 3d9e703..79446c4 diff, rerun exact-head focused/full/release gates, and publish only after approval. | codex-awq-ar0042-review-20260914 |
 
