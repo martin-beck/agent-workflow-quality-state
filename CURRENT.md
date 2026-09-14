@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Implement bounded scratch-local Cargo home isolation for stable and advanced helpers, with unit tests proving distinct per-run CARGO_HOME and rejection of unsafe/unbounded cache inputs; then run candidate-wrapper focused/full gates. | codex-awq-ar0046-test-isolation-remediation-20260914 |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Apply Ruff's mechanical formatting to the two changed tests, then rerun focused static/unit gates. | codex-awq-ar0046-test-isolation-remediation-20260914 |
 
 ## Blocked
 
