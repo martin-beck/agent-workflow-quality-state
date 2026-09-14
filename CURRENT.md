@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent review rejects signing helper head de3361c; process-tree bound and hostile signing tests remain | Make _run wait for pipe EOF and kill the process group even after the direct child exits; add confirmed signing, hostile checkout/state, timeout/process-tree, tag rollback and end-to-end default tests; bind the intended dedicated release key to externally verified GitHub registration; request fresh exact-head review. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent review rejects 43db4e3: format and signing-path coverage gaps remain | Format tests/test_sign_release.py; add real confirmed-signing, tag-failure rollback, confirmed hostile checkout/state, and end-to-end default-path tests; bind the dedicated release key to externally verified GitHub registration; request fresh exact-head review. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
