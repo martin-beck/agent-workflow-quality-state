@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. | - |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. | /root/ar0039_security |
 
 ## Blocked
 
