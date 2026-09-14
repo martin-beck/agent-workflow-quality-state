@@ -12,12 +12,12 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-adapters` | `feature/core-adapters` | `165ec3c0cb3c` | 0 | behind 149, ahead 0 |
 | `agent-workflow-quality-adversarial` | `feature/adversarial-testing` | `8e290ade5bcc` | 0 | behind 108, ahead 0 |
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 74, ahead 0 |
-| `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `79446c4a06b7` | 1 | behind 0, ahead 1 |
-| changed files | - | - | - | `src/awq/sbom.py` |
+| `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `79446c4a06b7` | 3 | behind 0, ahead 1 |
+| changed files | - | - | - | `src/awq/provenance.py`, `src/awq/sbom.py`, `tests/test_sbom.py` |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 126, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 28, ahead 0 |
-| `agent-workflow-quality-capability-claims` | `DETACHED` | `3d9e7037e99b` | 8 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/CAPABILITY_CLAIMS.md`, `docs/CONTRACTS.md`, `schemas/capability-claims.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/capability_claims.py`, `src/awq/data/capability_claims.json`, `src/awq/data/contract_catalog.json`, `tests/test_capability_claims.py` |
+| `agent-workflow-quality-capability-claims` | `DETACHED` | `d0e7522679fb` | 1 | behind 0, ahead 1 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 64, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 40, ahead 0 |
