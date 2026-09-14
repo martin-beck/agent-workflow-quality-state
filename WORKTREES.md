@@ -67,8 +67,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 109, ahead 0 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 131, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 137, ahead 0 |
-| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `5658f859c721` | 9 | behind 0, ahead 0 |
-| changed files | - | - | - | `fixtures/conforming/rust-advanced/quality/rust-advanced.json`, `src/awq/rust_advanced_helper.py`, `tests/test_rust_advanced_adapters.py`, `tests/test_rust_advanced_helper.py`, `tests/test_rust_advanced_helper_edges.py`, `fixtures/conforming/rust-advanced/quality/rust-advisory-policy.json`, `fixtures/conforming/rust-advanced/quality/rust-advisory-snapshot.json`, `fixtures/conforming/rust-advanced/quality/rust-license-policy.json`, `fixtures/conforming/rust-advanced/quality/rust-source-policy.json` |
+| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `5658f859c721` | 8 | behind 0, ahead 0 |
+| changed files | - | - | - | `fixtures/conforming/rust-advanced/quality/rust-advanced.json`, `src/awq/rust_advanced_helper.py`, `tests/test_rust_advanced_adapters.py`, `tests/test_rust_advanced_helper.py`, `fixtures/conforming/rust-advanced/quality/rust-advisory-policy.json`, `fixtures/conforming/rust-advanced/quality/rust-advisory-snapshot.json`, `fixtures/conforming/rust-advanced/quality/rust-license-policy.json`, `fixtures/conforming/rust-advanced/quality/rust-source-policy.json` |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 136, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 134, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 156, ahead 0 |
