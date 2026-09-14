@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. | codex-awq-coordinator-20260914 |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -32,6 +26,7 @@ Never edit this file directly.
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Coordinator may independently merge PR 41 only at exact accepted head aee98075918926a46a0d2281da6c9a3cd8b91024, verify exact-main CI, then rebuild the exact merge with production trust digest a2b3c0cb2542cae59846b1dd0f91aeb05c961b5fcb00da573f61d823d1a60108 and perform every authenticated v0.30 publication and public verification gate before closing AR-0035. | - |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | PR #45 exact head d66e57e independently accepted; await Verify and six-platform CI to terminal, then release for guarded merge owner. CI is pending and no merge/release authority is transferred. | - |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Complete: PR #54 merged exact accepted head; no release or tag required by AR-0037. | - |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. | - |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. | - |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. | - |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. | - |

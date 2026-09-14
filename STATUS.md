@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 52 |
+| **Done** | Accepted, integrated, and durably verified | 53 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 0 |
 
@@ -65,7 +65,7 @@ flowchart LR
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
-        AR_0038["AR-0038 - In progress"]:::status_in_progress
+        AR_0038["AR-0038 - Done"]:::status_done
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
@@ -256,12 +256,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-coordinator-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. |
-
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -275,7 +269,7 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
-### Done (52)
+### Done (53)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -285,6 +279,7 @@ flowchart LR
 | P0 | [AR-0035](tasks/AR-0035.md): Public contract catalog and evolution gate | Unclaimed | Prove that every public AWQ contract is registered, versioned, documented and covered by positive, hostile and implementation tests. | Coordinator may independently merge PR 41 only at exact accepted head aee98075918926a46a0d2281da6c9a3cd8b91024, verify exact-main CI, then rebuild the exact merge with production trust digest a2b3c0cb2542cae59846b1dd0f91aeb05c961b5fcb00da573f61d823d1a60108 and perform every authenticated v0.30 publication and public verification gate before closing AR-0035. |
 | P0 | [AR-0036](tasks/AR-0036.md): Consumer assurance-plan contract | Unclaimed | Validate that consumers have a complete, owned and evidence-producing assurance plan without replacing their native gates. | PR #45 exact head d66e57e independently accepted; await Verify and six-platform CI to terminal, then release for guarded merge owner. CI is pending and no merge/release authority is transferred. |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Unclaimed | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Complete: PR #54 merged exact accepted head; no release or tag required by AR-0037. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Unclaimed | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
