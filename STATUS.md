@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-remediation-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Implementation owner must remediate source-path binding, explicit reviewed maturity transition semantics, contradictory surface rules, synthetic/live distinction and required hostile/positive fixtures; regenerate catalog/baseline/docs, rerun focused/full gates, and release a new clean signed head for fresh review. |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-remediation-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent exact-head review of 3400722; reviewer must inspect v1/v2 catalog evolution, complete diff, signatures/DCO/privacy, and rerun focused/full gates before publication. |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-workflow-trust-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Run focused and full confined gates, review the complete diff/privacy/contracts, then create a clean signed DCO implementation commit for independent review; no publication. |
 
 ### Open (3)
