@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #58 green but base advanced; rebasing publication candidate | Rebase signed release candidate onto current origin/main e584c54, force-with-lease PR branch, rerun exact-head CI, then merge only after green. | awq-coordinator-publication |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main e584c54 already contains v0.35 release files; old ca111 PR is redundant | Use current exact main e584c54/tree aa8313e as release source after fresh release-gate review; close redundant PR #58 or leave superseded, then deterministic build/sign/tag/public verification. | awq-coordinator-publication |
 
 ## Blocked
 
