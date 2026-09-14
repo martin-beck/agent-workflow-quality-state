@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -65,7 +65,7 @@ flowchart LR
         AR_0035["AR-0035 - Done"]:::status_done
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
-        AR_0038["AR-0038 - Open"]:::status_open
+        AR_0038["AR-0038 - In progress"]:::status_in_progress
         AR_0039["AR-0039 - Planned"]:::status_planned
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
@@ -256,11 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | AWQ acceptance separates optional native evidence from implementation authorization | Independent exact-head review PR #56 at fe686e199f2b729643380da311c9c94fc7b76754/tree 23f7da109d91a412fb6556d9da1d1172a8a6d810; then release ownerless blocked with native-evidence limitations. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-clarification-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Independent exact-head review PR #56 at fe686e199f2b729643380da311c9c94fc7b76754/tree 23f7da109d91a412fb6556d9da1d1172a8a6d810; then release ownerless blocked with native-evidence limitations. |
 
 ### Blocked (3)
 
