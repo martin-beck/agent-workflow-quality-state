@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-canonical-remediation-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Rerun the complete 24-test candidate-matched focused suite after updating the coverage binding expectation, then run full pinned gates, commit signed DCO, and release for fresh review. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-canonical-remediation-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Run corrected immutable verifier using trailer-aware DCO matching, then release exact candidate for fresh independent review; no publication. |
 
 ### Blocked (3)
 
