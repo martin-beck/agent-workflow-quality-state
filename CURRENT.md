@@ -3,11 +3,16 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## In Progress
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Independent exact-head review PR #61 at 9a404d2268b2839c39526e4798b9c2e676a8bdaf/tree current clean; wait Verify and six Portable onboarding checks, then merge only if required checks green. Full local residuals are unrelated Python/refactor/onboarding environment setup; native downstream evidence is optional. | codex-awq-ar0046-final-review-20260914 |
+
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Independent exact-head review PR #61 at 9a404d2268b2839c39526e4798b9c2e676a8bdaf/tree current clean; wait Verify and six Portable onboarding checks, then merge only if required checks green. Full local residuals are unrelated Python/refactor/onboarding environment setup; native downstream evidence is optional. | - |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Independent exact-head review/CI for PR #60; resolve any current-base integration drift, then merge only with green required checks and post-merge verification. | - |
 
 ## Blocked
