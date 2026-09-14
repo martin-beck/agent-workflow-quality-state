@@ -261,7 +261,7 @@ flowchart LR
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | codex-awq-ar0037-remediation-final-20260914 | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Implementation owner must align one versioned registry and schema, restore truthful exact source/evidence bindings or explicit nonclaims, implement policy-diff and generated claim/limitation output, close transition chronology type uniqueness normalization and bounded-load gaps with positive plus hostile tests, fix full mypy, regenerate catalog/baseline/docs, rerun full gates, and release a new exact signed head for fresh review. PR 54 must not merge. |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-publication-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Distinct publication owner may publish exact clean head cbc900704b02af4a7e712499d2dcc3edc10621fd after confirming current base and exact-head CI. |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-publication-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | No further AR-0042 action; preserve exact merge and CI evidence and continue dependency-ordered work. |
 
 ### Open (3)
 
