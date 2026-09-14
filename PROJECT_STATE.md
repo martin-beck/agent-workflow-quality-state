@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@5af63ac4c570` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | fix(trust): require unique pinned candidate checkout |
+| #56 | `feature/workflow-trust-policy@445088a3da29` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | fix(trust): require unique pinned candidate checkout |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34872785133 | `445088a3da29` | pull_request | Verify | queued:- |
+| 34872785093 | `445088a3da29` | pull_request | Portable onboarding | queued:- |
 | 34871718780 | `5af63ac4c570` | pull_request | Portable onboarding | completed:success |
 | 34871718708 | `5af63ac4c570` | pull_request | Verify | completed:failure |
 | 34869767931 | `ffe9eabd0523` | pull_request | Verify | completed:failure |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34867311129 | `d9240aefddf1` | push | Verify | completed:success |
 | 34866204472 | `6772e64ae652` | pull_request | Portable onboarding | completed:success |
 | 34866204339 | `6772e64ae652` | pull_request | Verify | completed:success |
-| 34865535122 | `90a192901bb3` | pull_request | Verify | completed:failure |
-| 34865535100 | `90a192901bb3` | pull_request | Portable onboarding | completed:success |
