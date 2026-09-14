@@ -69,8 +69,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 124, ahead 0 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 146, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 152, ahead 0 |
-| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `26b31175419a` | 4 | behind 15, ahead 1 |
-| changed files | - | - | - | `fixtures/conforming/rust-advanced/quality/rust-advanced.json`, `src/awq/rust_advanced_helper.py`, `tests/test_rust_advanced_adapters.py`, `tests/test_rust_advanced_helper.py` |
+| `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `b6fe8eedda9b` | 0 | behind 15, ahead 2 |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 151, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 149, ahead 0 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 171, ahead 0 |
