@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root/ar0039_security | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | /root/ar0039_security | Make introduced-range repository-security scans exact, bounded, and fully tested. | Create PR from clean exact head a01e1d173c66875b2e619e65e57cbeaf398af74c, then await exact-head Verify/Portable and independent review. |
 
 ### Blocked (2)
 
