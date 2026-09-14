@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_fix | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for fresh Verify and Portable workflows at exact head cd27c7b; then obtain independent exact-head review. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_fix | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Regenerate SPDX/provenance fixtures for exact head cd27c7b, commit signed DCO, publish, and rerun exact-head Verify/Portable. |
 
 ### Blocked (1)
 
