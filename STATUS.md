@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 3 active status categories.
+**57 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
-| **Planned** | Defined work awaiting promotion or dependencies | 1 |
+| **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 53 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -84,6 +84,7 @@ flowchart LR
         AR_0054["AR-0054 - Blocked"]:::status_blocked
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
+        AR_0057["AR-0057 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -172,6 +173,7 @@ flowchart LR
     AR_0036 --> AR_0038
     AR_0037 --> AR_0047
     AR_0038 --> AR_0039
+    AR_0039 --> AR_0057
     AR_0040 --> AR_0047
     AR_0040 --> AR_0050
     AR_0041 --> AR_0042
@@ -235,7 +237,7 @@ flowchart LR
 | [AR-0036](tasks/AR-0036.md) | [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | [AR-0037](tasks/AR-0037.md), [AR-0038](tasks/AR-0038.md) |
 | [AR-0037](tasks/AR-0037.md) | [AR-0034](tasks/AR-0034.md), [AR-0036](tasks/AR-0036.md) | [AR-0047](tasks/AR-0047.md) |
 | [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md) |
-| [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | None |
+| [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | [AR-0057](tasks/AR-0057.md) |
 | [AR-0040](tasks/AR-0040.md) | [AR-0019](tasks/AR-0019.md), [AR-0034](tasks/AR-0034.md) | [AR-0047](tasks/AR-0047.md), [AR-0050](tasks/AR-0050.md) |
 | [AR-0041](tasks/AR-0041.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0042](tasks/AR-0042.md), [AR-0049](tasks/AR-0049.md) |
 | [AR-0042](tasks/AR-0042.md) | [AR-0034](tasks/AR-0034.md), [AR-0041](tasks/AR-0041.md) | None |
@@ -253,6 +255,7 @@ flowchart LR
 | [AR-0054](tasks/AR-0054.md) | [AR-0052](tasks/AR-0052.md) | [AR-0056](tasks/AR-0056.md) |
 | [AR-0055](tasks/AR-0055.md) | [AR-0050](tasks/AR-0050.md) | None |
 | [AR-0056](tasks/AR-0056.md) | [AR-0035](tasks/AR-0035.md), [AR-0054](tasks/AR-0054.md) | None |
+| [AR-0057](tasks/AR-0057.md) | [AR-0039](tasks/AR-0039.md) | None |
 
 ## Complete AR inventory
 
@@ -263,10 +266,11 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Request independent complete-diff review of PR #62 at exact head d6b17abd5fcc68c3a285bd6c818052f0a5db9aa6 against base d4b18413; then guarded merge only after review remains accepted. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
 
-### Planned (1)
+### Planned (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote after AR-0039 review rejection; implement exact revision substitution and bounded repository-security range tests. |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
 ### Done (53)
