@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent review rejects signing helper head 0e1015a; preflight and trust defects remain | Rebase helper onto current main; require external signer policy and exact GitHub identity; make preview side-effect-free and signing rollback truthful; fix default bundle workflow, bounded output, format, and add hostile end-to-end tests; then request fresh exact-head review. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
