@@ -11,13 +11,13 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #62 | `feature/repository-security-adapters@8dc1f1201360` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(security): add pinned repository security adapters |
-| #63 | `feature/repository-security-range-validation@1194fa750112` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | test(security): validate exact introduced ranges |
+| #63 | `feature/repository-security-range-validation@1194fa750112` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | test(security): validate exact introduced ranges |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34893158668 | `1194fa750112` | pull_request | Verify | in_progress:- |
+| 34893158668 | `1194fa750112` | pull_request | Verify | completed:success |
 | 34893158651 | `1194fa750112` | pull_request | Portable onboarding | completed:success |
 | 34892076757 | `e575348800be` | pull_request | Portable onboarding | completed:success |
 | 34892076733 | `e575348800be` | pull_request | Verify | completed:success |
