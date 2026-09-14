@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. | codex-awq-ar0054-sign-helper-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. | - |
 
 ## Planned
 
