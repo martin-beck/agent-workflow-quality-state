@@ -68,7 +68,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-release-verify-v0.28.0` | `DETACHED` | `32f9ebeab405` | 0 | behind 105, ahead 0 |
 | `agent-workflow-quality-release-verify-v0.29.0` | `DETACHED` | `e0e7b07de927` | 0 | behind 101, ahead 0 |
 | `agent-workflow-quality-reliability` | `feature/reliability-budgets` | `fa1f1c4ef60d` | 0 | behind 140, ahead 0 |
-| `agent-workflow-quality-repository-security` | `feature/repository-security-adapters` | `d9240aefddf1` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-repository-security` | `feature/repository-security-adapters` | `d9240aefddf1` | 6 | behind 0, ahead 0 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/ADAPTERS.md`, `docs/REPOSITORY_SECURITY_ADAPTERS.md`, `scripts/install_repository_security_tools.py`, `src/awq/data/adapter_catalog.json`, `tests/test_repository_security_adapters.py` |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 16, ahead 3 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 162, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 168, ahead 0 |
