@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-integration-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Run focused and complete pinned-environment gates on the resolved integration tree, create a signed DCO integration commit, verify exact base/head/tree/privacy, then release for fresh independent review without publication. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-integration-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must claim AR-0049, inspect complete integration diff at exact base e584c54ef2b57eaaa251499819357d91604a8a03/head 30d2e670a283efb0caa7f2b74f9b40cb28e3939f/tree 03bdb4fa38b35ba51d2e74982c6a68ff85abddcf, reproduce focused/full gates, and accept or block before any distinct publication owner acts. |
 
 ### Blocked (4)
 
