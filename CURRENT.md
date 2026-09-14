@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Guarded merge may proceed only at exact head 6772e64/tree 9613d8e6df62358fbf52c729a210bace50319325/base 09205ea after current required checks remain green; then verify generated merge-main CI and perform post-merge AR completion. | codex-awq-ar0046-final-review-20260914c |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Guarded merge may proceed only at exact head 6772e64/tree 9613d8e6df62358fbf52c729a210bace50319325/base 09205ea after current required checks remain green; then verify generated merge-main CI and perform post-merge AR completion. | - |
 
 ## Blocked
 
