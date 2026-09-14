@@ -3,16 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Independent exact-head review PR #56 at fe686e199f2b729643380da311c9c94fc7b76754/tree 23f7da109d91a412fb6556d9da1d1172a8a6d810; then release ownerless blocked with native-evidence limitations. | codex-awq-ar0038-native-boundary-20260914 |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Independent exact-head review PR #56 at fe686e199f2b729643380da311c9c94fc7b76754/tree 23f7da109d91a412fb6556d9da1d1172a8a6d810; then release ownerless blocked with native-evidence limitations. | - |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. | - |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent exact-head review of 0206fa1c94e5042e34c5198446dcff4bc2868b71, tree aab719baf3a74bdf42f75171f5b2e609c7d83df4, against base 5658f859c7218c9c14f4321580008e4361d9c7d3; verify the two purely formatting changes, complete AR-0048 diff, ELF evidence boundary, signatures/DCO/privacy and all gates before publication. | - |
