@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_evolution | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Coordinate the explicit versioned adapter-catalog evolution as a concrete follow-up (AR-0056-style), then regenerate all dependent artifacts and rerun exact-head gates. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_evolution | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for exact-head Verify and Portable workflows to terminal; investigate product failures only, then obtain independent exact-head review before guarded merge. |
 
 ### Blocked (1)
 
