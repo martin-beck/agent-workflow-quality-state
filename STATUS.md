@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-rebase-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Fresh independent exact-head review of PR #56 at fe686e199f2b729643380da311c9c94fc7b76754; Rust advanced adapter blockers resolved on merged main d9240ae; merge only after required review/CI. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-rebase-20260914 | AWQ acceptance separates optional native evidence from implementation authorization | Wait fresh exact-head Verify and Portable terminal; release ownerless for independent exact-head review, merge only after review and all required checks green. |
 
 ### Blocked (1)
 
