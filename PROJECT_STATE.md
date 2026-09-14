@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #54 | `feature/capability-claims@340072216410` | `main` | UNKNOWN | - | feat: add evidence-bound capability maturity claims |
+| #54 | `feature/capability-claims@340072216410` | `main` | DIRTY | - | feat: add evidence-bound capability maturity claims |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34796366915 | `5658f859c721` | push | Portable onboarding | queued:- |
+| 34796366915 | `5658f859c721` | push | Portable onboarding | in_progress:- |
 | 34796366909 | `5658f859c721` | push | Verify | in_progress:- |
 | 34795975857 | `cbc900704b02` | pull_request | Portable onboarding | completed:success |
 | 34795975817 | `cbc900704b02` | pull_request | Verify | completed:success |
