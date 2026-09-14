@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-integration-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | A distinct publication owner may publish exact accepted head 07755f7e69139d65d0e6405fd5fab470f7743ca0 only from the clean tree, then require exact-head CI and guarded merge; no release/tag is implied. |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | codex-awq-ar0038-integration-20260914 | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Resolve only five generated conflicts by retaining exact current-main histories, semantically regenerate combined contract/SBOM/provenance outputs with explicit additive contract admission, continue the signed rebase, then rerun focused/full gates. |
 
 ### Open (1)
 
