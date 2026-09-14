@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-cassette-contract-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Complete deterministic SBOM/provenance regeneration checks, verify version lock under exact source routing, commit signed/DCO, and rerun full 524-test/release gates. |
+| P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | codex-awq-ar0042-cassette-contract-20260914 | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Final diff/privacy/signature/DCO review, then release clean cbc9007 claim for fresh independent exact-head review; no publication. |
 
 ### Open (4)
 
