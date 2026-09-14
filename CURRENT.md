@@ -15,6 +15,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | - |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. | - |
 
 ## Blocked
@@ -22,7 +23,6 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Fresh independent reviewer must claim AR-0038, inspect complete base-to-head diff and public contract semantics, rerun focused/full applicable gates, and accept or return a precise blocker before any publication. | - |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | - |
 
 ## Planned
 
