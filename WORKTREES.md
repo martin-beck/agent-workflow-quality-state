@@ -14,6 +14,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-agent-integration` | `feature/agent-quality-integration` | `7b19df677a75` | 0 | behind 77, ahead 0 |
 | `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `cbc900704b02` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 129, ahead 0 |
+| `agent-workflow-quality-ar0042-postmerge` | `DETACHED` | `5658f859c721` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 31, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `cae5f77d3e04` | 6 | behind 3, ahead 5 |
 | changed files | - | - | - | `schemas/capability-claims-v2.schema.json`, `schemas/capability-claims.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/capability_claims.py`, `src/awq/commands.py`, `src/awq/data/capability_claims.json` |
