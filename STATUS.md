@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Independent review rejects b639a5d: new success/default tests remain mocked and external-registration evidence is absent | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise detached checkout, bind the dedicated release key to independently verified GitHub registration evidence, then request fresh exact-head review. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. |
 
 ### Planned (1)
 
