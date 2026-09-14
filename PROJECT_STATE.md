@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `0f3fdc2b68fce48b0b517dd33e1d94dfa2422954`
+- Product remote main: `09205ea2ee7f2552fac00ae8f9bd17bc4805a36c`
 - Local origin/main: `0f3fdc2b68fce48b0b517dd33e1d94dfa2422954`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,14 +10,15 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #60 | `feature/native-binary-bundles@1fd998b50031` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add native binary and runtime bundle assurance |
-| #61 | `feature/rust-critical-assurance@c63f8f6ae596` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
+| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | UNKNOWN | - | fix(trust): require unique pinned candidate checkout |
+| #61 | `feature/rust-critical-assurance@c63f8f6ae596` | `main` | UNKNOWN | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(rust): enforce critical coverage and workspace supply |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34864589344 | `09205ea2ee7f` | push | Verify | queued:- |
+| 34864589335 | `09205ea2ee7f` | push | Portable onboarding | queued:- |
 | 34864333544 | `c63f8f6ae596` | pull_request | Portable onboarding | completed:success |
 | 34864333516 | `c63f8f6ae596` | pull_request | Verify | completed:failure |
 | 34863724735 | `1fd998b50031` | pull_request | Portable onboarding | completed:success |
@@ -28,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34862254290 | `92fb42e2fb81` | pull_request | Verify | completed:failure |
 | 34861063619 | `9de404d26406` | pull_request | Portable onboarding | completed:success |
 | 34861063506 | `9de404d26406` | pull_request | Verify | completed:failure |
-| 34859825002 | `9a404d2268b2` | pull_request | Portable onboarding | completed:success |
-| 34859824836 | `9a404d2268b2` | pull_request | Verify | completed:failure |
