@@ -7,7 +7,6 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Distinct publication owner may publish PR from clean exact head 34007221641025e71a2c62d5d125ad1fb80d6267 after confirming exact-head CI authorization. | codex-awq-ar0037-final-review-20260914 |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Run focused and full confined gates, review the complete diff/privacy/contracts, then create a clean signed DCO implementation commit for independent review; no publication. | codex-awq-ar0038-workflow-trust-20260914 |
 | P1 | [AR-0042](tasks/AR-0042.md): Agent runtime replay and execution provenance | Add deterministic offline replay and secret-free agent execution provenance with explicit synthetic and live evidence boundaries. | Fresh independent reviewer: inspect complete 3d9e703..79446c4 diff, rerun exact-head focused/full/release gates, and publish only after approval. | codex-awq-ar0042-review-20260914 |
 
@@ -15,6 +14,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Distinct publication owner may publish PR from clean exact head 34007221641025e71a2c62d5d125ad1fb80d6267 after confirming exact-head CI authorization. | - |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Define independent critical-package coverage floors and extend locked supply checks to every named Rust auxiliary workspace and fuzz graph. | - |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
 
