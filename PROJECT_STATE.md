@@ -16,6 +16,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34830742495 | `0f3fdc2b68fc` | schedule | Scheduled adversarial assurance | completed:success |
 | 34824498884 | `0f3fdc2b68fc` | push | Verify | completed:success |
 | 34824498781 | `0f3fdc2b68fc` | push | Portable onboarding | completed:success |
 | 34823874755 | `30d2e670a283` | pull_request | Verify | completed:success |
@@ -27,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34818715630 | `c090998352c0` | pull_request | Portable onboarding | completed:success |
 | 34818715626 | `c090998352c0` | pull_request | Verify | completed:success |
 | 34801878348 | `ba074f97af9b` | push | Portable onboarding | completed:success |
-| 34801878310 | `ba074f97af9b` | push | Verify | completed:success |
