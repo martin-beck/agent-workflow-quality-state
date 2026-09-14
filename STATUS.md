@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 5 active status categories.
+**56 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 4 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -74,7 +74,7 @@ flowchart LR
         AR_0044["AR-0044 - Done"]:::status_done
         AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - Blocked"]:::status_blocked
-        AR_0047["AR-0047 - Open"]:::status_open
+        AR_0047["AR-0047 - In progress"]:::status_in_progress
         AR_0048["AR-0048 - Blocked"]:::status_blocked
         AR_0049["AR-0049 - Blocked"]:::status_blocked
         AR_0050["AR-0050 - Done"]:::status_done
@@ -256,17 +256,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | awq-coordinator-publication | Current-main v0.35 candidate catalog and release fixtures remediated | Run full applicable release gates and independent exact-head review for ca11169; publish PR/tag/release only after all checks, signing, attestation, and public verification pass. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Unclaimed | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | codex-awq-ar0047-publication-20260914 | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Accepted exact head c090998352c0bb1b2d9364a0aad3c67d47da9c9a for distinct publication ownership: publish clean exact tree, wait exact-head required CI, then merge only if green. |
 
 ### Blocked (4)
 
