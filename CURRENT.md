@@ -8,13 +8,13 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Integrate accepted capability changes onto exact current main 5658f859c7218c9c14f4321580008e4361d9c7d3, semantically reconcile contract-baseline-v1.json and contract_catalog.json with both AR-0037 capability and merged AR-0042 replay entries, rerun full gates, and obtain fresh independent exact-head review before updating PR #54; do not merge conflicting accepted head. | codex-awq-ar0037-publication-20260914 |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | codex-awq-ar0048-binding-final-20260914 |
 
 ## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | - |
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Define a benchmark-neutral experiment receipt for predeclared sampling, precision, load, cache, network, contamination, cancellation and uncertainty disclosures. | - |
 
 ## Blocked
