@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_pins | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Implement official asset matrix and deterministic installer fixture tests; run focused and applicable full gates. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_pins | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Resolve versioned catalog evolution for zizmor 1.30.1 under the contract immutability gate, regenerate dependent fixtures, then commit and rerun all gates. |
 
 ### Blocked (1)
 
