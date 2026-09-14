@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #56 | `feature/workflow-trust-policy@4644092aa44e` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
+| #56 | `feature/workflow-trust-policy@fe686e199f2b` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
 
 ## Recent workflows
 
