@@ -15,7 +15,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `cbc900704b02` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 126, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 28, ahead 0 |
-| `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `1a9af30b3630` | 0 | behind 0, ahead 3 |
+| `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `1a9af30b3630` | 1 | behind 0, ahead 3 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 64, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 70, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 40, ahead 0 |
