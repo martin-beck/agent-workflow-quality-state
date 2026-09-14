@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Independent exact-head review of PR #62 at ae02dea before any merge. | /root/ar0046_final_review |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Remediate installer with verified official asset names and independently recorded real SHA-256 pins (including supported architecture matrix), add installer fixture/tests, publish fresh exact head, rerun Verify/Portable; then repeat independent review. | /root/ar0046_final_review |
 
 ## Blocked
 
