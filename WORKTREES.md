@@ -84,8 +84,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `60ffdc73b646` | 0 | behind 40, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 65, ahead 0 |
 | `agent-workflow-quality-workflow-claims` | `feature/workflow-claim-evidence` | `c090998352c0` | 0 | behind 19, ahead 0 |
-| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `9ebca5401992` | 2 | behind 0, ahead 8 |
-| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json` |
+| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `445088a3da29` | 0 | behind 0, ahead 9 |
 | `awq-ar0038-publication` | `DETACHED` | `fe686e199f2b` | 0 | behind 34, ahead 4 |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 73, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 64, ahead 0 |
