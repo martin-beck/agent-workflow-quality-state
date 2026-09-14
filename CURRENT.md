@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Specify checksum-pinned setup and offline actionlint, zizmor and introduced-range gitleaks contracts with bounded privacy-safe evidence. | /root/ar0039_security |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for Verify 34876232444 and Portable onboarding 34876232471 at exact head 010f6270dcb8aff0a1d4e1220561e7cfa882cf21; then obtain independent exact-head review. | /root/ar0039_security |
 
 ## Blocked
 
