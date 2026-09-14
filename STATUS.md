@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - Open"]:::status_open
+        AR_0054["AR-0054 - In progress"]:::status_in_progress
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
         AR_0057["AR-0057 - Done"]:::status_done
@@ -259,11 +259,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
 
 ### Planned (1)
 
