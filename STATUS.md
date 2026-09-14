@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 3 active status categories.
+**57 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
-| **Planned** | Defined work awaiting promotion or dependencies | 2 |
+| **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 53 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -84,7 +84,7 @@ flowchart LR
         AR_0054["AR-0054 - Blocked"]:::status_blocked
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
-        AR_0057["AR-0057 - Planned"]:::status_planned
+        AR_0057["AR-0057 - Open"]:::status_open
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -259,6 +259,12 @@ flowchart LR
 
 ## Complete AR inventory
 
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. |
+
 ### Blocked (2)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -266,11 +272,10 @@ flowchart LR
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
 
-### Planned (2)
+### Planned (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Promote as the remediation stream for the rejected AR-0039 head; implement complete repository-security behavioral coverage. |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
 ### Done (53)
