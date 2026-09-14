@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Current main 0f3fdc2 has green exact-main CI; v0.35 release artifacts require rebuild and external signer remains unavailable | Rebuild deterministic v0.35.0 artifacts from current main 0f3fdc2 after independent release review; only an authorized external signer may sign the manifest and annotated tag, then attest and publish six assets. Do not create unsigned tag/release. | codex-awq-ar0054-artifact-rebuild-20260914 |
 
 ## Blocked
 
