@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Guarded merge may proceed only at exact head 6772e64/tree 9613d8e6df62358fbf52c729a210bace50319325/base 09205ea after current required checks remain green; then verify generated merge-main CI and perform post-merge AR completion. | codex-awq-coordinator-20260914 |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -62,6 +56,7 @@ Never edit this file directly.
 | P1 | [AR-0043](tasks/AR-0043.md): Evidence lineage publication and retention lifecycle | Bind evidence and decisions into immutable lineages while separating required gates, optional publication and non-authorizing retention plans. | Follow-up AR-0051 owns the reviewed 0.33.0 version bump and release from exact merge 7debe212; AR-0043 implementation and merge are complete, but no v0.33 release was attempted because source remained 0.32.0. | - |
 | P1 | [AR-0044](tasks/AR-0044.md): Cross-ecosystem vulnerability and workspace supply policy | AR-0044 implementation merged at 469439b and exact-main CI green; version-coupled v0.34.0 publication delegated to AR-0053. | AR-0053 owns signed DCO version bump from merge 469439b, fresh review/CI, and v0.34.0 release/public verification; preserve v0.33.0. | - |
 | P1 | [AR-0045](tasks/AR-0045.md): Formal execution receipts and adapter expansion | PR #49 published at exact head 1ff0c2e; portable onboarding green, required verify still running. | Continue polling PR #49 exact-head verify; merge only after required verify and all required checks green, then run post-merge verification. | - |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Guarded merge may proceed only at exact head 6772e64/tree 9613d8e6df62358fbf52c729a210bace50319325/base 09205ea after current required checks remain green; then verify generated merge-main CI and perform post-merge AR completion. | - |
 | P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. | - |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
