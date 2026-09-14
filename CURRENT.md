@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Integrate accepted capability changes onto exact current main 5658f859c7218c9c14f4321580008e4361d9c7d3, semantically reconcile contract-baseline-v1.json and contract_catalog.json with both AR-0037 capability and merged AR-0042 replay entries, rerun full gates, and obtain fresh independent exact-head review before updating PR #54; do not merge conflicting accepted head. | codex-awq-ar0037-publication-20260914 |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Fresh independent exact-head review of integrated head 85ec76fa1d2927892b1e3446138347bbdb2eb549, tree ac9227739d4ad2b34e5c8f81cbc46aa17bac78e1, against exact main parent 5658f859c7218c9c14f4321580008e4361d9c7d3; verify semantic catalog union, signatures/DCO/privacy and complete gates before updating PR #54. | codex-awq-ar0037-publication-20260914 |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Fresh independent reviewer must inspect exact head 29da78d against base 5658f85, confirm the ELF observation collection boundary, rerun focused/full/release gates, and request remediation rather than publish if any scope gap remains. | codex-awq-ar0048-final-review-20260914 |
 
 ## Open
