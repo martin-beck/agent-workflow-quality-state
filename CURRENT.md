@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head b6fe8eedda9b3ac9ccf770a0ece468dbe081801a/tree 170890eb8dc384e9bbd9c7e735d7553f1b5ca618 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce focused/full pinned gates, and accept or block before any publication. | codex-awq-ar0046-canonical-remediation-20260914 |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head b6fe8eedda9b3ac9ccf770a0ece468dbe081801a/tree 170890eb8dc384e9bbd9c7e735d7553f1b5ca618 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce focused/full pinned gates, and accept or block before any publication. | - |
 
 ## Blocked
 
