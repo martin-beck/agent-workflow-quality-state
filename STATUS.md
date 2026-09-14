@@ -5,13 +5,13 @@
 
 ## Portfolio overview
 
-**56 ARs tracked** across 4 active status categories.
+**56 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
+| **Open** | Dependency-ready and available to claim | 1 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 2 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 50 |
@@ -75,7 +75,7 @@ flowchart LR
         AR_0045["AR-0045 - Done"]:::status_done
         AR_0046["AR-0046 - In progress"]:::status_in_progress
         AR_0047["AR-0047 - Done"]:::status_done
-        AR_0048["AR-0048 - Blocked"]:::status_blocked
+        AR_0048["AR-0048 - Open"]:::status_open
         AR_0049["AR-0049 - Done"]:::status_done
         AR_0050["AR-0050 - Done"]:::status_done
         AR_0051["AR-0051 - Done"]:::status_done
@@ -262,13 +262,18 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-rebase-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. |
 
-### Blocked (3)
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Independent exact-head review/CI for PR #60; resolve any current-base integration drift, then merge only with green required checks and post-merge verification. |
+
+### Blocked (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Unclaimed | AWQ acceptance separates optional native evidence from implementation authorization | Resolve pre-existing Rust advanced adapter binding failures ADAPTER-RUST-COVERAGE, ADAPTER-RUST-FUZZ, and ADAPTER-RUST-MUTATION before any merge. |
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fresh dual v0.35.0 deterministic bundles pass structural gates; external manifest/tag signer remains unavailable | Authorized external signer must sign manifest 06ee01b32941d8b70ec9da825ce86352a7c7679d084ab6fcec361707e093048d and annotated v0.35.0 tag, then attest/publish six assets and perform fresh-public verification; do not create unsigned tag/release. |
-| P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Unclaimed | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Independent exact-head review/CI for PR #60; resolve any current-base integration drift, then merge only with green required checks and post-merge verification. |
 
 ### Planned (2)
 
