@@ -11,7 +11,6 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #58 | `release/v0.35.0-publication@ca11169a8842` | `main` | BEHIND | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | release: prepare v0.35.0 from current main |
 
 ## Recent workflows
 
