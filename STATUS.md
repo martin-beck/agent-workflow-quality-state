@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Distinct publication owner may claim AR-0049, revalidate the accepted exact head/tree and clean mergeability against current main, then publish only through reviewed PR and exact-head required CI; no self-publication by this reviewer. |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | codex-awq-ar0049-publication-20260914 | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Resume under a mechanical integration owner, rebase accepted head 2fbd6128c64301d76e82482829631e629ab29af4 onto exact current main e584c54ef2b57eaaa251499819357d91604a8a03, resolve only generated catalog/baseline conflicts semantically while preserving both AR-0047 and AR-0049 contracts, rerun full gates with signed DCO integration commit, then obtain fresh independent exact-head review before publication. |
 
 ### Blocked (4)
 
