@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 3 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -73,7 +73,7 @@ flowchart LR
         AR_0043["AR-0043 - Done"]:::status_done
         AR_0044["AR-0044 - Done"]:::status_done
         AR_0045["AR-0045 - Done"]:::status_done
-        AR_0046["AR-0046 - Open"]:::status_open
+        AR_0046["AR-0046 - In progress"]:::status_in_progress
         AR_0047["AR-0047 - Done"]:::status_done
         AR_0048["AR-0048 - Blocked"]:::status_blocked
         AR_0049["AR-0049 - Done"]:::status_done
@@ -256,11 +256,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-rebase-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Fresh independent reviewer must inspect exact head 4018d35ebf8b491a51d987257af46a450dc619c5/tree f4b160cd6c2c9db6cd6c88a16323ab3d9b282e94 against base 5658f859c7218c9c14f4321580008e4361d9c7d3, reproduce isolated-cache focused/full gates, and accept or block before publication. |
 
 ### Blocked (3)
 
