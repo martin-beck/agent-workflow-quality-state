@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-mypy-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Wait exact-head Verify terminal; then safely rebase feature/rust-critical-assurance onto current main 09205ea, preserve signed coverage commits, rerun focused/full applicable gates, push and obtain fresh exact-head review. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-mypy-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Wait fresh exact-head Verify and Portable onboarding terminal; obtain independent exact-head review, then merge only if all required checks green. |
 
 ### Blocked (2)
 
