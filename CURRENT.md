@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. | - |
+| P2 | [AR-0047](tasks/AR-0047.md): Workflow claims documentation authority and visual evidence | Bind user-visible workflow and documentation claims to semantic tests, reviewed evidence, limitations and exact source revisions. | Define ordered workflow claims, documentation authority and optional visual, accessibility and localization evidence without adding capture or device orchestration. | codex-awq-ar0047-review-20260914 |
 
 ## Blocked
 
