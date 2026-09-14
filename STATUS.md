@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-rebase-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Finish isolated-cache focused replay with candidate helper, then run full applicable gates; current accepted base 0f3fdc2 and exact rebased head 9a404d2. |
+| P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | codex-awq-ar0046-rebase-20260914 | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Independent exact-head review PR #61 at 9a404d2268b2839c39526e4798b9c2e676a8bdaf/tree current clean; wait Verify and six Portable onboarding checks, then merge only if required checks green. Full local residuals are unrelated Python/refactor/onboarding environment setup; native downstream evidence is optional. |
 
 ### Open (1)
 
