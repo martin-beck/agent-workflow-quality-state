@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Create PR from clean exact head a01e1d173c66875b2e619e65e57cbeaf398af74c, then await exact-head Verify/Portable and independent review. | /root/ar0039_security |
+| P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34891167825 and Portable onboarding 34891167818 at a01e1d173c66875b2e619e65e57cbeaf398af74c; obtain independent review before merge. | /root/ar0039_security |
 
 ## Blocked
 
