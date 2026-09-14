@@ -10,6 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #54 | `feature/capability-claims@340072216410` | `main` | DIRTY | - | feat: add evidence-bound capability maturity claims |
 
 ## Recent workflows
 
