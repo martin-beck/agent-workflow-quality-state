@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | v0.35.0 local release gates verified; external signing/publication authority unavailable. | An authorized external operator must provide reviewed signing/trust workflow, sign manifest and annotated v0.35.0 tag, publish six assets, await attestation, and complete fresh public verification. | awq-coordinator |
 
 ## Blocked
 
