@@ -76,8 +76,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 26, ahead 0 |
 | `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `60ffdc73b646` | 0 | behind 6, ahead 0 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 31, ahead 0 |
-| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `3d9e7037e99b` | 18 | behind 0, ahead 0 |
-| changed files | - | - | - | `.github/workflows/onboarding.yml`, `.github/workflows/verify.yml`, `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/REQUIREMENTS.md`, `quality/awq.lock.json`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirements.json`, `tests/test_checks.py`, `tests/test_failure_paths.py`, `docs/WORKFLOW_TRUST.md`, `quality/workflow-trust.json`, `schemas/workflow-trust-policy.schema.json`, `src/awq/workflow_trust.py`, `tests/test_workflow_trust.py` |
+| `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `3d9e7037e99b` | 20 | behind 0, ahead 0 |
+| changed files | - | - | - | `.github/workflows/onboarding.yml`, `.github/workflows/verify.yml`, `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `docs/QUALITY.md`, `docs/REQUIREMENTS.md`, `quality/awq.lock.json`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirements.json`, `tests/test_checks.py`, `tests/test_failure_paths.py`, `docs/WORKFLOW_TRUST.md`, `quality/workflow-trust.json`, `schemas/workflow-trust-policy.schema.json`, `src/awq/workflow_trust.py`, `tests/test_workflow_trust.py` |
 | `awq-release-0043` | `DETACHED` | `7debe212ffe9` | 0 | behind 39, ahead 0 |
 | `awq-release-0044` | `DETACHED` | `469439b03491` | 0 | behind 30, ahead 0 |
 | `awq-release-0051` | `DETACHED` | `1c1bf3b6943a` | 0 | behind 36, ahead 0 |
