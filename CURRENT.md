@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Resolve only five generated conflicts by retaining exact current-main histories, semantically regenerate combined contract/SBOM/provenance outputs with explicit additive contract admission, continue the signed rebase, then rerun focused/full gates. | codex-awq-ar0038-integration-20260914 |
+| P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | Detect unsafe GitHub workflow trust transitions beyond basic action pins, permissions presence and timeouts. | Run focused trust/catalog tests and every complete documented gate on clean integrated head 2e9fcc9 with explicit reviewed bundles; then verify regenerated merge-tree equivalence, signatures/DCO/privacy and release for fresh independent review. | codex-awq-ar0038-integration-20260914 |
 
 ## Open
 
