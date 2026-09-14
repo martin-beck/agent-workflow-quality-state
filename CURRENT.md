@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Recreate the exact confined TMPDIR, rerun the complete 532-test branch-coverage suite in the reviewed pinned environment, then verify signature/DCO/privacy and release the clean candidate for independent review. | codex-awq-ar0049-experiment-evidence-20260914 |
+| P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Fresh independent reviewer must verify exact base/head/tree, complete diff and focused/full gate evidence before any publication decision; implementation owner must not self-approve. | codex-awq-ar0049-experiment-evidence-20260914 |
 
 ## Open
 
