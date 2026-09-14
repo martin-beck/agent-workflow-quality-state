@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #56 | `feature/workflow-trust-policy@07755f7e6913` | `main` | DIRTY | - | fix(trust): require unique pinned candidate checkout |
-| #57 | `feature/workflow-claim-evidence@c090998352c0` | `main` | BLOCKED | - | feat(claims): bind workflow and visual evidence |
+| #57 | `feature/workflow-claim-evidence@c090998352c0` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(claims): bind workflow and visual evidence |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34818715630 | `c090998352c0` | pull_request | Portable onboarding | queued:- |
-| 34818715626 | `c090998352c0` | pull_request | Verify | queued:- |
+| 34818715630 | `c090998352c0` | pull_request | Portable onboarding | in_progress:- |
+| 34818715626 | `c090998352c0` | pull_request | Verify | in_progress:- |
 | 34801878348 | `ba074f97af9b` | push | Portable onboarding | completed:success |
 | 34801878310 | `ba074f97af9b` | push | Verify | completed:success |
 | 34801452864 | `85ec76fa1d29` | pull_request | Verify | completed:success |
