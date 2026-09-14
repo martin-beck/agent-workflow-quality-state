@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Resolve versioned catalog evolution for zizmor 1.30.1 under the contract immutability gate, regenerate dependent fixtures, then commit and rerun all gates. | /root/ar0039_pins |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Run fresh Verify/Portable for 1e9d6e1, then coordinate explicit versioned catalog evolution for zizmor 1.30.1 and regenerate fixtures. | /root/ar0039_pins |
 
 ## Blocked
 
