@@ -84,8 +84,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 61, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 104, ahead 0 |
 | `agent-workflow-quality-version-v0340` | `feature/version-v0340` | `56195a163388` | 0 | behind 70, ahead 0 |
-| `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `0e1015a63ba6` | 1 | behind 50, ahead 2 |
-| changed files | - | - | - | `tests/test_sign_release.py` |
+| `agent-workflow-quality-version-v0350` | `feature/version-v0350` | `1f24b6fab433` | 0 | behind 50, ahead 3 |
 | `agent-workflow-quality-vulnerability-policy` | `feature/vulnerability-supply-policy` | `68545a1a5605` | 0 | behind 75, ahead 0 |
 | `agent-workflow-quality-workflow-claims` | `feature/workflow-claim-evidence` | `c090998352c0` | 0 | behind 29, ahead 0 |
 | `agent-workflow-quality-workflow-trust` | `feature/workflow-trust-policy` | `0e17cb35d0e0` | 0 | behind 1, ahead 0 |
