@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Implementation owner must align one versioned registry and schema, restore truthful exact source/evidence bindings or explicit nonclaims, implement policy-diff and generated claim/limitation output, close transition chronology type uniqueness normalization and bounded-load gaps with positive plus hostile tests, fix full mypy, regenerate catalog/baseline/docs, rerun full gates, and release a new exact signed head for fresh review. PR 54 must not merge. | codex-awq-ar0037-remediation-final-20260914 |
+| P0 | [AR-0037](tasks/AR-0037.md): Capability maturity and claim registry | Make consumer capability maturity, supported surfaces, limitations and exact evidence independently reviewable. | Release for fresh independent review of exact head 3077596f36d13e507a769be75307c1b4c87db4ec against base 3d9e7037e99bee66de9242fbef8115463215e434; reviewer must inspect contract identity/compatibility, source/evidence truthfulness, policy-diff/generated docs, hostile bounds and full gates. | codex-awq-ar0037-remediation-final-20260914 |
 | P2 | [AR-0048](tasks/AR-0048.md): Native-binary and runtime-bundle assurance | Generalize release assurance to native binaries and offline runtime bundles without importing networked acquisition into AWQ runtime. | Specify optional ELF policy, complete package inventory, license, signature, target and deterministic rebuild evidence using AWQ bounded archive primitives. | codex-awq-ar0048-native-bundles-20260914 |
 
 ## Open
