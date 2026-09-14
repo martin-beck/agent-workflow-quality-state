@@ -260,7 +260,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_fix | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Evolve the reviewed compatible baseline for AWQ-CONTRACT-ADAPTER-CATALOG-REGISTRY-V1 after Verify 34877397568, then run focused checks and publish a fresh exact-head Verify/Portable. |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root/ar0039_catalog_fix | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Wait for fresh Verify and Portable workflows at exact head cd27c7b; then obtain independent exact-head review. |
 
 ### Blocked (1)
 
