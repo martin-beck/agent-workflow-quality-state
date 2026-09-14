@@ -9,14 +9,14 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 54 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
-| **Superseded** | Replaced by another AR | 0 |
+| **Superseded** | Replaced by another AR | 1 |
 
 ## Dependency graph
 
@@ -66,7 +66,7 @@ flowchart LR
         AR_0036["AR-0036 - Done"]:::status_done
         AR_0037["AR-0037 - Done"]:::status_done
         AR_0038["AR-0038 - Done"]:::status_done
-        AR_0039["AR-0039 - In progress"]:::status_in_progress
+        AR_0039["AR-0039 - Superseded"]:::status_superseded
         AR_0040["AR-0040 - Done"]:::status_done
         AR_0041["AR-0041 - Done"]:::status_done
         AR_0042["AR-0042 - Done"]:::status_done
@@ -259,12 +259,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | /root | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |
-
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -335,3 +329,9 @@ flowchart LR
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Unclaimed | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Complete: AR-0049 is merged and exact-main/public verification is green; no release or tag is implied. |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Fresh independent review accepted PR #53 exact clean head 86fb6c598d13d075925eb7feadab5a37a0ea3388 against base 3b4d12457b0c422a80d346a41e6d9953b51aab20. | Separate guarded merge owner may merge PR #53 only at exact accepted head 86fb6c598d13d075925eb7feadab5a37a0ea3388/base 3b4d12457b0c422a80d346a41e6d9953b51aab20 while mergeable and exact-head Verify 34790970140 plus all six Portable onboarding jobs 34790970139 remain green; then verify exact-main CI and durable completion. No tag/release authority is implied. |
 | P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Unclaimed | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. |
+
+### Superseded (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |

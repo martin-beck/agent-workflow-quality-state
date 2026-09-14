@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. | /root |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
@@ -79,3 +73,9 @@ Never edit this file directly.
 | P2 | [AR-0049](tasks/AR-0049.md): Statistical experiment evidence profile | Validate the provenance and statistical honesty of measured quality evidence without imposing benchmark-specific scores or thresholds. | Complete: AR-0049 is merged and exact-main/public verification is green; no release or tag is implied. | - |
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Fresh independent review accepted PR #53 exact clean head 86fb6c598d13d075925eb7feadab5a37a0ea3388 against base 3b4d12457b0c422a80d346a41e6d9953b51aab20. | Separate guarded merge owner may merge PR #53 only at exact accepted head 86fb6c598d13d075925eb7feadab5a37a0ea3388/base 3b4d12457b0c422a80d346a41e6d9953b51aab20 while mergeable and exact-head Verify 34790970140 plus all six Portable onboarding jobs 34790970139 remain green; then verify exact-main CI and durable completion. No tag/release authority is implied. | - |
 | P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. | - |
+
+## Superseded
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. | - |
