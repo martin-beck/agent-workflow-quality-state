@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #65 | `fix/signing-diagnostics@bfdc85fdc29c` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(release): explain signing failure remedies |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34940425517 | `bfdc85fdc29c` | pull_request | Portable onboarding | queued:- |
+| 34940425515 | `bfdc85fdc29c` | pull_request | Verify | queued:- |
 | 34935475641 | `00c0d8ee27ae` | push | Portable onboarding | completed:success |
 | 34935475532 | `00c0d8ee27ae` | push | Verify | completed:success |
 | 34934740280 | `41e1d64d33fa` | pull_request | Verify | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34933846516 | `78f90c2c911d` | pull_request | Portable onboarding | completed:success |
 | 34933577182 | `071fd545f338` | pull_request | Verify | completed:cancelled |
 | 34933577173 | `071fd545f338` | pull_request | Portable onboarding | completed:success |
-| 34894988787 | `6f82b5ce5790` | push | Portable onboarding | completed:success |
-| 34894988761 | `6f82b5ce5790` | push | Verify | completed:success |
