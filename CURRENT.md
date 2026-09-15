@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Review rejection reproduced only under system Python with PYTHONPATH=src, which imports the synthetic candidate marker and lacks the locked runtime context. The documented locked uv interpreter runs the real structural sibling-default test 17/17 green, and hosted Verify run 34934740280 passed all 596 tests. Awaiting follow-up review to classify environment discrepancy. | Obtain follow-up independent review using locked uv environment and reconcile hosted Verify evidence. Do not merge, sign, tag, push release assets, or publish until disposition is accepted. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent follow-up review ACCEPTED exact head 41e1d64: locked uv structural and all 17 signing-helper tests pass; hosted Verify 34934740280 passed all 596 tests; clean signed/DCO diff and privacy gates. | Merge PR #64 only after coordinator confirms exact-head required checks and state readiness; then verify exact merge and continue guarded release gates. Do not sign/tag/publish before post-merge checks. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
