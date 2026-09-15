@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@78f90c2c911d` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
+| #64 | `feature/version-v0350@78f90c2c911d` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34933846578 | `78f90c2c911d` | pull_request | Verify | in_progress:- |
+| 34933846578 | `78f90c2c911d` | pull_request | Verify | completed:failure |
 | 34933846516 | `78f90c2c911d` | pull_request | Portable onboarding | completed:success |
 | 34933577182 | `071fd545f338` | pull_request | Verify | completed:cancelled |
 | 34933577173 | `071fd545f338` | pull_request | Portable onboarding | completed:success |
