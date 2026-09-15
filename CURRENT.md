@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Exact-head review accepted 071fd545. Full applicable unittest discovery ran 89/89 green; diff-check, formatting, Ruff, mypy, catalog/contract validation, AWQ doctor and PR checks pass. Pytest unavailable in environment (not a product failure). Complete diff independently inspected and tree clean; PR preparation is next. | Prepare and publish reviewed PR from clean exact head 071fd545 via handoffctl; wait for exact-head required CI and merge only after green. Do not sign, tag, push release assets, or publish a release until all release gates and external authority checks pass. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Branch synced with current origin/main in signed merge 78f90c2. Product tree clean; diff-check and 89-test unittest discovery pass after sync. Fresh independent review and exact-head CI for updated branch are pending. | Await independent review of exact merged head 78f90c2 and PR #64 CI. Merge only after review acceptance and all required checks green; then perform post-merge verification. Do not sign, tag, push release assets, or publish until every release gate and external authority check passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
