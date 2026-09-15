@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged; post-merge and deterministic release gates pass; publication externally signer-gated; parallel dependency audits complete. | Await external release signer key and registration binding; maintain fail-closed publication. After final AR-0054 release outcome, close or supersede AR-0056 with durable resolution evidence. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged; all product and deterministic release gates pass; external authority remains outstanding. | Continue monitoring for externally provisioned signer key and registration binding; then execute guarded signing/authentication/publication sequence. |
 
 ### Planned (1)
 
