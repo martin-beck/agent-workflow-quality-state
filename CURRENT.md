@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; all product and deterministic release gates pass; external authority remains outstanding. | Continue monitoring for externally provisioned signer key and registration binding; then execute guarded signing/authentication/publication sequence. | codex-awq-release-authority-coordinator |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; all product and deterministic release gates pass; external signing is authorized for the exact candidate. | Authorized external signer may sign the exact reviewed v0.35.0 manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. | codex-awq-release-authority-coordinator |
 
 ## Planned
 
