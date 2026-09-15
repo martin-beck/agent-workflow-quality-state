@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; all product and deterministic release gates pass; external authority remains outstanding. | Continue monitoring for externally provisioned signer key and registration binding; then execute guarded signing/authentication/publication sequence. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; all product and deterministic release gates pass; external authority remains outstanding. | Continue monitoring for externally provisioned signer key and registration binding; then execute guarded signing/authentication/publication sequence. | codex-awq-release-authority-coordinator |
 
 ## Planned
 
