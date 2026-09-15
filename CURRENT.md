@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent exact-head review ACCEPTED for 071fd545f3387bacd217c45f1507f7ed7224c6d: helper fail-closed behavior and real structural sibling-default preflight verified; focused gates pass. Full applicable gates and PR/publication remain pending. | Run full applicable release gates from exact accepted head, independently inspect the complete diff, then prepare reviewed PR; do not sign, tag, push, or publish until every release gate passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Exact-head review accepted 071fd545. Full applicable unittest discovery ran 89/89 green; diff-check, formatting, Ruff, mypy, catalog/contract validation, AWQ doctor and PR checks pass. Pytest unavailable in environment (not a product failure). Complete diff independently inspected and tree clean; PR preparation is next. | Prepare and publish reviewed PR from clean exact head 071fd545 via handoffctl; wait for exact-head required CI and merge only after green. Do not sign, tag, push release assets, or publish a release until all release gates and external authority checks pass. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
