@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `00c0d8ee27aeec7e7b361c018efd09e0bcc0aedc`
+- Product remote main: `d3d46a5f540fb03f65f30dd4c2af325f6f018a6e`
 - Local origin/main: `00c0d8ee27aeec7e7b361c018efd09e0bcc0aedc`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #65 | `fix/signing-diagnostics@cebc188b1cdc` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): explain signing failure remedies |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34941953518 | `d3d46a5f540f` | push | Portable onboarding | queued:- |
+| 34941953514 | `d3d46a5f540f` | push | Verify | in_progress:- |
 | 34941230928 | `cebc188b1cdc` | pull_request | Portable onboarding | completed:success |
 | 34941230841 | `cebc188b1cdc` | pull_request | Verify | completed:success |
 | 34940641386 | `2e835ed6f0ba` | pull_request | Verify | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34935475532 | `00c0d8ee27ae` | push | Verify | completed:success |
 | 34934740280 | `41e1d64d33fa` | pull_request | Verify | completed:success |
 | 34934740251 | `41e1d64d33fa` | pull_request | Portable onboarding | completed:success |
-| 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | completed:success |
-| 34934353364 | `ae800a4da4d2` | pull_request | Verify | completed:success |
