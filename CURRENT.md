@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent follow-up review ACCEPTED exact head 41e1d64: locked uv structural and all 17 signing-helper tests pass; hosted Verify 34934740280 passed all 596 tests; clean signed/DCO diff and privacy gates. | Merge PR #64 only after coordinator confirms exact-head required checks and state readiness; then verify exact merge and continue guarded release gates. Do not sign/tag/publish before post-merge checks. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged after accepted review and green exact-head CI. GitHub merge commit 00c0d8ee27aeec7e7b361c018efd09e0bcc0aedc is now origin/main; post-merge Verify is running and Portable onboarding succeeded. | Await post-merge Verify for exact merge 00c0d8e, then perform release-builder deterministic two-build and external signing/publication gates. Do not sign/tag/publish until every release gate and external authority check passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
