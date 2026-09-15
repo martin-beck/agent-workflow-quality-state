@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Repaired fixture with adapter_catalog_v2 input; real structural sibling-default test and all 17 focused tests pass locally. PR #64 Verify and all portable required checks are green at exact head 41e1d64. Fresh independent final review pending before merge. | Obtain fresh independent acceptance for exact head 41e1d64 now that hosted Verify is green; then merge PR #64 only after accepted review, verify exact merge head, and continue guarded release gates. No signing/tag/publication yet. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Independent review rejected 41e1d64: real structural sibling-default test fails actual release verification with SBOM graph mismatch; signatures/DCO and Ruff/mypy/format pass. | Repair the real fixture so actual release-verify passes without mocking, rerun all 17 focused tests and applicable gates, then request another exact-head independent review. Do not merge/sign/tag/publish. |
 
 ### Planned (1)
 
