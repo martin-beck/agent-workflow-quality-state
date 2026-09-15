@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `6f82b5ce5790945ce98219024b2381fd29a386f4`
+- Product remote main: `00c0d8ee27aeec7e7b361c018efd09e0bcc0aedc`
 - Local origin/main: `6f82b5ce5790945ce98219024b2381fd29a386f4`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@41e1d64d33fa` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34935475641 | `00c0d8ee27ae` | push | Portable onboarding | queued:- |
+| 34935475532 | `00c0d8ee27ae` | push | Verify | queued:- |
 | 34934740280 | `41e1d64d33fa` | pull_request | Verify | completed:success |
 | 34934740251 | `41e1d64d33fa` | pull_request | Portable onboarding | completed:success |
 | 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34933577173 | `071fd545f338` | pull_request | Portable onboarding | completed:success |
 | 34894988787 | `6f82b5ce5790` | push | Portable onboarding | completed:success |
 | 34894988761 | `6f82b5ce5790` | push | Verify | completed:success |
-| 34894108288 | `cf0f6b862625` | pull_request | Portable onboarding | completed:success |
-| 34894108287 | `cf0f6b862625` | pull_request | Verify | completed:success |
