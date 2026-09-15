@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 4 active status categories.
+**57 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 54 |
+| **Done** | Accepted, integrated, and durably verified | 55 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 1 |
 
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - In progress"]:::status_in_progress
+        AR_0054["AR-0054 - Done"]:::status_done
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
         AR_0057["AR-0057 - Done"]:::status_done
@@ -259,19 +259,13 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-publication-coordinator | Generation-1 bootstrap policy for the newly registered release key is prepared; deterministic bundle passes and awaits external signing. | Authorized external signer may sign the exact reviewed v0.35.0 bootstrap manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. |
-
 ### Planned (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
 
-### Done (54)
+### Done (55)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -315,6 +309,7 @@ flowchart LR
 | P1 | [AR-0046](tasks/AR-0046.md): Rust critical coverage and auxiliary-workspace assurance | Unclaimed | Prevent aggregate Rust coverage or primary-workspace supply checks from masking weak critical crates or unaudited auxiliary graphs. | Guarded merge may proceed only at exact head 6772e64/tree 9613d8e6df62358fbf52c729a210bace50319325/base 09205ea after current required checks remain green; then verify generated merge-main CI and perform post-merge AR completion. |
 | P1 | [AR-0051](tasks/AR-0051.md): Version-coupled v0.33.0 release preparation | Unclaimed | v0.33.0 merged, signed, attested, published with six exact assets, externally authenticated, and freshly clone/download/offline-install verified. | Release claim can be closed as done; preserve v0.32.0 and retain documented native/trusted-executable environment limitation. |
 | P1 | [AR-0053](tasks/AR-0053.md): Version-coupled v0.34.0 release follow-up | Unclaimed | Version-coupled v0.34.0 release follow-up for the merged AR-0044 supply-policy capability. | Merge PR #46 only at exact head 56195a1; verify generated merge commit and exact-main Verify/Portable, then run v0.34 release gates. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Generation-1 bootstrap policy for the newly registered release key is prepared; deterministic bundle passes and awaits external signing. | Authorized external signer may sign the exact reviewed v0.35.0 bootstrap manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
