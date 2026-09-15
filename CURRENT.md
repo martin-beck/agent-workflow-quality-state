@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent review rejected 41e1d64: real structural sibling-default test fails actual release verification with SBOM graph mismatch; signatures/DCO and Ruff/mypy/format pass. | Repair the real fixture so actual release-verify passes without mocking, rerun all 17 focused tests and applicable gates, then request another exact-head independent review. Do not merge/sign/tag/publish. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Review rejection reproduced only under system Python with PYTHONPATH=src, which imports the synthetic candidate marker and lacks the locked runtime context. The documented locked uv interpreter runs the real structural sibling-default test 17/17 green, and hosted Verify run 34934740280 passed all 596 tests. Awaiting follow-up review to classify environment discrepancy. | Obtain follow-up independent review using locked uv environment and reconcile hosted Verify evidence. Do not merge, sign, tag, push release assets, or publish until disposition is accepted. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
