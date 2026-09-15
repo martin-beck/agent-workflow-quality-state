@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged; post-merge Verify/Portable green; deterministic v0.35.0 build and verification pass on merged main. | Await authorized external signer with registered GitHub-valid release key and out-of-band registration binding; then run sign_release.py fail-closed, authenticate exact tag, publish six assets and attestations only after all gates pass. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged; post-merge and deterministic release gates pass; publication is externally signer-gated. | Await externally provisioned release signer key plus registration binding; then execute guarded sign/authenticate/publish/public-verification sequence. |
 
 ### Planned (1)
 
