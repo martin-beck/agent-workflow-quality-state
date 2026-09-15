@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Added genuine structural release verification through documented default sibling bundle/state/trust layout; helper and all focused gates pass at exact signed head 071fd545f3387bacad217c45f1507f7ed7224c6d. Registration evidence remains an explicit external operator-authority precondition. | Request fresh independent exact-head review of 071fd545f3387bacad217c45f1507f7ed7224c6d. If accepted, run full applicable gates and prepare reviewed PR; do not sign, tag, push, or publish until every release gate passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent exact-head review ACCEPTED for 071fd545f3387bacd217c45f1507f7ed7224c6d: helper fail-closed behavior and real structural sibling-default preflight verified; focused gates pass. Full applicable gates and PR/publication remain pending. | Run full applicable release gates from exact accepted head, independently inspect the complete diff, then prepare reviewed PR; do not sign, tag, push, or publish until every release gate passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
