@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Signing helper now enforces external operator-verified GitHub registration evidence, tests confirmed detached checkout/default sibling preflight, and prints actionable fail-closed errors; focused gates pass; awaiting fresh independent exact-head review. | Await independent exact-head review of 35f1c6f435c6d4014dff24ae775f294de358391e; if accepted, run applicable full gates and prepare PR without signing/pushing until every release gate passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent exact-head review rejected 35f1c6f: focused gates pass, but successful confirm/default and detached-checkout tests still mock structural verification; registration record is only locally schema/fingerprint checked and cannot prove GitHub verification; no full/public release evidence. | Add real structural release-verify coverage through documented default sibling bundle/state/trust paths, and either obtain an independently authenticated registration proof accepted by release review or explicitly retain this as an external release-authority precondition; then request fresh review. Do not sign, tag, push, or publish. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
