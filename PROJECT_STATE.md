@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@071fd545f338` | `main` | BEHIND | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat(release): add fail-closed external signing helper |
+| #64 | `feature/version-v0350@071fd545f338` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34933577182 | `071fd545f338` | pull_request | Verify | queued:- |
-| 34933577173 | `071fd545f338` | pull_request | Portable onboarding | queued:- |
+| 34933577182 | `071fd545f338` | pull_request | Verify | in_progress:- |
+| 34933577173 | `071fd545f338` | pull_request | Portable onboarding | in_progress:- |
 | 34894988787 | `6f82b5ce5790` | push | Portable onboarding | completed:success |
 | 34894988761 | `6f82b5ce5790` | push | Verify | completed:success |
 | 34894108288 | `cf0f6b862625` | pull_request | Portable onboarding | completed:success |
