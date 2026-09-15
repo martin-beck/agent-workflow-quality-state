@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #65 | `fix/signing-diagnostics@2e835ed6f0ba` | `main` | BLOCKED | - | feat(release): explain signing failure remedies |
+| #65 | `fix/signing-diagnostics@2e835ed6f0ba` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat(release): explain signing failure remedies |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34940641386 | `2e835ed6f0ba` | pull_request | Verify | queued:- |
-| 34940641383 | `2e835ed6f0ba` | pull_request | Portable onboarding | queued:- |
+| 34940641386 | `2e835ed6f0ba` | pull_request | Verify | in_progress:- |
+| 34940641383 | `2e835ed6f0ba` | pull_request | Portable onboarding | in_progress:- |
 | 34940425517 | `bfdc85fdc29c` | pull_request | Portable onboarding | completed:success |
 | 34940425515 | `bfdc85fdc29c` | pull_request | Verify | completed:failure |
 | 34935475641 | `00c0d8ee27ae` | push | Portable onboarding | completed:success |
