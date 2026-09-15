@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Generation-1 bootstrap policy for the newly registered release key is prepared; deterministic bundle passes and awaits external signing. | Authorized external signer may sign the exact reviewed v0.35.0 bootstrap manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. | codex-awq-publication-coordinator |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Generation-1 bootstrap policy for the newly registered release key is prepared; deterministic bundle passes and awaits external signing. | Authorized external signer may sign the exact reviewed v0.35.0 bootstrap manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. | - |
 
 ## Planned
 
