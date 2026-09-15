@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. | - |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 

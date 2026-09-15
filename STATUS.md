@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
@@ -81,7 +81,7 @@ flowchart LR
         AR_0051["AR-0051 - Done"]:::status_done
         AR_0052["AR-0052 - Done"]:::status_done
         AR_0053["AR-0053 - Done"]:::status_done
-        AR_0054["AR-0054 - Open"]:::status_open
+        AR_0054["AR-0054 - In progress"]:::status_in_progress
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Planned"]:::status_planned
         AR_0057["AR-0057 - Done"]:::status_done
@@ -259,11 +259,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. |
 
 ### Planned (1)
 
