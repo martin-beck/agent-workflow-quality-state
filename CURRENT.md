@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 Verify failed only at DCO certification because sync merge commit lacked trailer; amended merge to signed/DCO head ae800a4da4d26d89d4bc347026510afceee9b537, force-with-lease pushed. All commits in origin/main..HEAD now carry matching DCO and SSH signatures; portable/other prior gates passed. | Request fresh independent review of corrected exact head ae800a4 and await PR #64 rerun Verify. Merge only after green required checks and review; then post-merge verification. No signing/tag/release publication. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Independent exact-head review REJECTED ae800a4: full tree is byte-identical to accepted 78f90c2 and every origin/main..HEAD commit is SSH-signed with matching DCO, but focused signing-helper suite has one real structural-verification error because its synthetic release fixture omits adapter_catalog_v2.json while the wheel builder requires it. No merge, signing, tag, push, or release. | Repair the test fixture to include every wheel input, rerun the focused suite and all applicable gates, then obtain a fresh independent exact-head review; keep PR #64 and release blocked until green. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
