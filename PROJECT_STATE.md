@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #65 | `fix/signing-diagnostics@cebc188b1cdc` | `main` | BLOCKED | - | feat(release): explain signing failure remedies |
+| #65 | `fix/signing-diagnostics@cebc188b1cdc` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): explain signing failure remedies |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34941230841 | `cebc188b1cdc` | pull_request | Verify | queued:- |
+| 34941230928 | `cebc188b1cdc` | pull_request | Portable onboarding | completed:success |
+| 34941230841 | `cebc188b1cdc` | pull_request | Verify | completed:success |
 | 34940641386 | `2e835ed6f0ba` | pull_request | Verify | completed:success |
 | 34940641383 | `2e835ed6f0ba` | pull_request | Portable onboarding | completed:success |
 | 34940425517 | `bfdc85fdc29c` | pull_request | Portable onboarding | completed:success |
@@ -27,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34934740251 | `41e1d64d33fa` | pull_request | Portable onboarding | completed:success |
 | 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | completed:success |
 | 34934353364 | `ae800a4da4d2` | pull_request | Verify | completed:success |
-| 34933846578 | `78f90c2c911d` | pull_request | Verify | completed:failure |
