@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@78f90c2c911d` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
+| #64 | `feature/version-v0350@ae800a4da4d2` | `main` | BLOCKED | - | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | queued:- |
+| 34934353364 | `ae800a4da4d2` | pull_request | Verify | queued:- |
 | 34933846578 | `78f90c2c911d` | pull_request | Verify | completed:failure |
 | 34933846516 | `78f90c2c911d` | pull_request | Portable onboarding | completed:success |
 | 34933577182 | `071fd545f338` | pull_request | Verify | completed:cancelled |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34894108287 | `cf0f6b862625` | pull_request | Verify | completed:success |
 | 34893158668 | `1194fa750112` | pull_request | Verify | completed:success |
 | 34893158651 | `1194fa750112` | pull_request | Portable onboarding | completed:success |
-| 34892076757 | `e575348800be` | pull_request | Portable onboarding | completed:success |
-| 34892076733 | `e575348800be` | pull_request | Verify | completed:success |
