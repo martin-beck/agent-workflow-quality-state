@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Branch synced with current origin/main in signed merge 78f90c2. Product tree clean; diff-check and 89-test unittest discovery pass after sync. Fresh independent review and exact-head CI for updated branch are pending. | Await PR #64 Verify and all required checks green. Merge only exact head after CI and accepted review; then post-merge/release gates. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 Verify failed only at DCO certification because sync merge commit lacked trailer; amended merge to signed/DCO head ae800a4da4d26d89d4bc347026510afceee9b537, force-with-lease pushed. All commits in origin/main..HEAD now carry matching DCO and SSH signatures; portable/other prior gates passed. | Request fresh independent review of corrected exact head ae800a4 and await PR #64 rerun Verify. Merge only after green required checks and review; then post-merge verification. No signing/tag/release publication. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
