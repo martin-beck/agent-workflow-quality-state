@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; all product and deterministic release gates pass; external signing is authorized for the exact candidate. | Authorized external signer may sign the exact reviewed v0.35.0 manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. | codex-awq-publication-coordinator |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #65 merged; final bundle signed locally, but authenticated publication is blocked by trust-policy bootstrap mismatch. | Resolve trust bootstrap: provision a reviewed generation-1 policy that authorizes the release key (or establish an existing generation-1 lock with overlap), rebuild/re-sign exact v0.35.0 bundle, then authenticate before push/publication. | codex-awq-publication-coordinator |
 
 ## Planned
 
