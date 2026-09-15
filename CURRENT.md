@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged at exact reviewed head; post-merge Verify and Portable onboarding both green. | Run deterministic v0.35.0 two-build release gates from merged main; inspect exact assets and external authority prerequisites. Do not sign, tag, publish, or attest unless every gate passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #64 merged; post-merge Verify/Portable green; deterministic v0.35.0 build and verification pass on merged main. | Await authorized external signer with registered GitHub-valid release key and out-of-band registration binding; then run sign_release.py fail-closed, authenticate exact tag, publish six assets and attestations only after all gates pass. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
