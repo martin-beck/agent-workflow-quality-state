@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
+## Open
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #65 merged; final bundle signed locally, but authenticated publication is blocked by trust-policy bootstrap mismatch. | Resolve trust bootstrap: provision a reviewed generation-1 policy that authorizes the release key (or establish an existing generation-1 lock with overlap), rebuild/re-sign exact v0.35.0 bundle, then authenticate before push/publication. | codex-awq-publication-coordinator |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | PR #65 merged; final bundle signed locally, but authenticated publication is blocked by trust-policy bootstrap mismatch. | Resolve trust bootstrap: provision a reviewed generation-1 policy that authorizes the release key (or establish an existing generation-1 lock with overlap), rebuild/re-sign exact v0.35.0 bundle, then authenticate before push/publication. | - |
 
 ## Planned
 
