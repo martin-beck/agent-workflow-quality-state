@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Fail-closed signing helper implemented; focused gates pass, but independent review requires stronger real default-path and registration evidence | Add a real structural confirm=true end-to-end test through documented default sibling paths, exercise confirmed detached checkout, and bind the dedicated release key to independently verified GitHub registration evidence; then request fresh exact-head review. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Signing helper now enforces external operator-verified GitHub registration evidence, tests confirmed detached checkout/default sibling preflight, and prints actionable fail-closed errors; focused gates pass; awaiting fresh independent exact-head review. | Await independent exact-head review of 35f1c6f435c6d4014dff24ae775f294de358391e; if accepted, run applicable full gates and prepare PR without signing/pushing until every release gate passes. |
 
 ### Planned (1)
 
