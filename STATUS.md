@@ -5,18 +5,18 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 3 active status categories.
+**57 ARs tracked** across 2 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 0 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 55 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
-| **Superseded** | Replaced by another AR | 1 |
+| **Superseded** | Replaced by another AR | 2 |
 
 ## Dependency graph
 
@@ -83,7 +83,7 @@ flowchart LR
         AR_0053["AR-0053 - Done"]:::status_done
         AR_0054["AR-0054 - Done"]:::status_done
         AR_0055["AR-0055 - Done"]:::status_done
-        AR_0056["AR-0056 - In progress"]:::status_in_progress
+        AR_0056["AR-0056 - Superseded"]:::status_superseded
         AR_0057["AR-0057 - Done"]:::status_done
     end
     AR_0001 --> AR_0002
@@ -259,12 +259,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | codex-awq-coordinator | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
-
 ### Done (55)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -325,8 +319,9 @@ flowchart LR
 | P2 | [AR-0050](tasks/AR-0050.md): Language-neutral structural refactoring verification | Unclaimed | Fresh independent review accepted PR #53 exact clean head 86fb6c598d13d075925eb7feadab5a37a0ea3388 against base 3b4d12457b0c422a80d346a41e6d9953b51aab20. | Separate guarded merge owner may merge PR #53 only at exact accepted head 86fb6c598d13d075925eb7feadab5a37a0ea3388/base 3b4d12457b0c422a80d346a41e6d9953b51aab20 while mergeable and exact-head Verify 34790970140 plus all six Portable onboarding jobs 34790970139 remain green; then verify exact-main CI and durable completion. No tag/release authority is implied. |
 | P2 | [AR-0055](tasks/AR-0055.md): Structural-refactoring contract catalog registration | Unclaimed | Register the reviewed structural-refactoring schema in the exhaustive public contract catalog. | Await AR-0050 completion/merge, then promote this dependency-ready catalog-registration follow-up for isolated implementation and exact generated/gate review. |
 
-### Superseded (1)
+### Superseded (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0039](tasks/AR-0039.md): Pinned repository-security adapter family | Unclaimed | Add offline repository-security adapters for workflow syntax, security analysis and full introduced-history secret scanning. | Await fresh Verify 34889795324 and Portable onboarding 34889795203 at exact head 8dc1f1201360fdf88673de6edf6fa27f917468eb. |
+| P1 | [AR-0056](tasks/AR-0056.md): Versioned contract-catalog evolution for v0.35.0 | Unclaimed | Record reviewed versioned evolution for v0.35.0 contract-catalog projections without weakening historical immutability gates. | Await AR-0054 fixture remediation and exact candidate review, then promote this dependency-ordered contract-evolution task to resolve the v0.35.0 in-place agent-recipes catalog gate failure. |
