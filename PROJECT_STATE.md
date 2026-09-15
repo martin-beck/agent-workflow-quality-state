@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@ae800a4da4d2` | `main` | BLOCKED | - | feat(release): add fail-closed external signing helper |
+| #64 | `feature/version-v0350@ae800a4da4d2` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | queued:- |
-| 34934353364 | `ae800a4da4d2` | pull_request | Verify | queued:- |
+| 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | completed:success |
+| 34934353364 | `ae800a4da4d2` | pull_request | Verify | in_progress:- |
 | 34933846578 | `78f90c2c911d` | pull_request | Verify | completed:failure |
 | 34933846516 | `78f90c2c911d` | pull_request | Portable onboarding | completed:success |
 | 34933577182 | `071fd545f338` | pull_request | Verify | completed:cancelled |
