@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #64 | `feature/version-v0350@41e1d64d33fa` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
+| #64 | `feature/version-v0350@41e1d64d33fa` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat(release): add fail-closed external signing helper |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 34934740280 | `41e1d64d33fa` | pull_request | Verify | in_progress:- |
+| 34934740280 | `41e1d64d33fa` | pull_request | Verify | completed:success |
 | 34934740251 | `41e1d64d33fa` | pull_request | Portable onboarding | completed:success |
 | 34934353559 | `ae800a4da4d2` | pull_request | Portable onboarding | completed:success |
 | 34934353364 | `ae800a4da4d2` | pull_request | Verify | completed:success |
