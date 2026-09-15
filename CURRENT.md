@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Branch synced with current origin/main in signed merge 78f90c2. Product tree clean; diff-check and 89-test unittest discovery pass after sync. Fresh independent review and exact-head CI for updated branch are pending. | Await independent review of exact merged head 78f90c2 and PR #64 CI. Merge only after review acceptance and all required checks green; then perform post-merge verification. Do not sign, tag, push release assets, or publish until every release gate and external authority check passes. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Branch synced with current origin/main in signed merge 78f90c2. Product tree clean; diff-check and 89-test unittest discovery pass after sync. Fresh independent review and exact-head CI for updated branch are pending. | Await PR #64 Verify and all required checks green. Merge only exact head after CI and accepted review; then post-merge/release gates. | codex-awq-ar0054-sign-helper-coordinator-20260914 |
 
 ## Planned
 
