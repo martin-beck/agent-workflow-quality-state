@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged after accepted review and green exact-head CI. GitHub merge commit 00c0d8ee27aeec7e7b361c018efd09e0bcc0aedc is now origin/main; post-merge Verify is running and Portable onboarding succeeded. | Await post-merge Verify for exact merge 00c0d8e, then perform release-builder deterministic two-build and external signing/publication gates. Do not sign/tag/publish until every release gate and external authority check passes. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | PR #64 merged at exact reviewed head; post-merge Verify and Portable onboarding both green. | Run deterministic v0.35.0 two-build release gates from merged main; inspect exact assets and external authority prerequisites. Do not sign, tag, publish, or attest unless every gate passes. |
 
 ### Planned (1)
 
