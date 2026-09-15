@@ -263,7 +263,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Independent exact-head review rejected 35f1c6f: focused gates pass, but successful confirm/default and detached-checkout tests still mock structural verification; registration record is only locally schema/fingerprint checked and cannot prove GitHub verification; no full/public release evidence. | Add real structural release-verify coverage through documented default sibling bundle/state/trust paths, and either obtain an independently authenticated registration proof accepted by release review or explicitly retain this as an external release-authority precondition; then request fresh review. Do not sign, tag, push, or publish. |
+| P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | codex-awq-ar0054-sign-helper-coordinator-20260914 | Added genuine structural release verification through documented default sibling bundle/state/trust layout; helper and all focused gates pass at exact signed head 071fd545f3387bacad217c45f1507f7ed7224c6d. Registration evidence remains an explicit external operator-authority precondition. | Request fresh independent exact-head review of 071fd545f3387bacad217c45f1507f7ed7224c6d. If accepted, run full applicable gates and prepare reviewed PR; do not sign, tag, push, or publish until every release gate passes. |
 
 ### Planned (1)
 
