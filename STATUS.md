@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**57 ARs tracked** across 2 active status categories.
+**61 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
+| **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 55 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -85,6 +85,10 @@ flowchart LR
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Superseded"]:::status_superseded
         AR_0057["AR-0057 - Done"]:::status_done
+        AR_0058["AR-0058 - Planned"]:::status_planned
+        AR_0059["AR-0059 - Planned"]:::status_planned
+        AR_0060["AR-0060 - Planned"]:::status_planned
+        AR_0061["AR-0061 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -174,6 +178,7 @@ flowchart LR
     AR_0037 --> AR_0047
     AR_0038 --> AR_0039
     AR_0038 --> AR_0057
+    AR_0038 --> AR_0058
     AR_0040 --> AR_0047
     AR_0040 --> AR_0050
     AR_0041 --> AR_0042
@@ -185,6 +190,9 @@ flowchart LR
     AR_0050 --> AR_0055
     AR_0052 --> AR_0054
     AR_0054 --> AR_0056
+    AR_0058 --> AR_0059
+    AR_0059 --> AR_0060
+    AR_0060 --> AR_0061
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -236,7 +244,7 @@ flowchart LR
 | [AR-0035](tasks/AR-0035.md) | [AR-0015](tasks/AR-0015.md), [AR-0033](tasks/AR-0033.md) | [AR-0036](tasks/AR-0036.md), [AR-0038](tasks/AR-0038.md), [AR-0044](tasks/AR-0044.md), [AR-0045](tasks/AR-0045.md), [AR-0050](tasks/AR-0050.md), [AR-0056](tasks/AR-0056.md) |
 | [AR-0036](tasks/AR-0036.md) | [AR-0034](tasks/AR-0034.md), [AR-0035](tasks/AR-0035.md) | [AR-0037](tasks/AR-0037.md), [AR-0038](tasks/AR-0038.md) |
 | [AR-0037](tasks/AR-0037.md) | [AR-0034](tasks/AR-0034.md), [AR-0036](tasks/AR-0036.md) | [AR-0047](tasks/AR-0047.md) |
-| [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md), [AR-0057](tasks/AR-0057.md) |
+| [AR-0038](tasks/AR-0038.md) | [AR-0035](tasks/AR-0035.md), [AR-0036](tasks/AR-0036.md) | [AR-0039](tasks/AR-0039.md), [AR-0057](tasks/AR-0057.md), [AR-0058](tasks/AR-0058.md) |
 | [AR-0039](tasks/AR-0039.md) | [AR-0038](tasks/AR-0038.md) | None |
 | [AR-0040](tasks/AR-0040.md) | [AR-0019](tasks/AR-0019.md), [AR-0034](tasks/AR-0034.md) | [AR-0047](tasks/AR-0047.md), [AR-0050](tasks/AR-0050.md) |
 | [AR-0041](tasks/AR-0041.md) | [AR-0010](tasks/AR-0010.md), [AR-0034](tasks/AR-0034.md) | [AR-0042](tasks/AR-0042.md), [AR-0049](tasks/AR-0049.md) |
@@ -256,8 +264,21 @@ flowchart LR
 | [AR-0055](tasks/AR-0055.md) | [AR-0050](tasks/AR-0050.md) | None |
 | [AR-0056](tasks/AR-0056.md) | [AR-0035](tasks/AR-0035.md), [AR-0054](tasks/AR-0054.md) | None |
 | [AR-0057](tasks/AR-0057.md) | [AR-0038](tasks/AR-0038.md) | None |
+| [AR-0058](tasks/AR-0058.md) | [AR-0038](tasks/AR-0038.md) | [AR-0059](tasks/AR-0059.md) |
+| [AR-0059](tasks/AR-0059.md) | [AR-0058](tasks/AR-0058.md) | [AR-0060](tasks/AR-0060.md) |
+| [AR-0060](tasks/AR-0060.md) | [AR-0059](tasks/AR-0059.md) | [AR-0061](tasks/AR-0061.md) |
+| [AR-0061](tasks/AR-0061.md) | [AR-0060](tasks/AR-0060.md) | None |
 
 ## Complete AR inventory
+
+### Planned (4)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Unclaimed | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. |
+| P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Unclaimed | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Unclaimed | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Enforce contradiction, clarification, rejection, and unresolved-guidance reopen semantics. |
+| P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Unclaimed | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
 
 ### Done (55)
 

@@ -3,6 +3,15 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Planned
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. | - |
+| P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | - |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Enforce contradiction, clarification, rejection, and unresolved-guidance reopen semantics. | - |
+| P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. | - |
+
 ## Done
 
 | Priority | Task | Summary | Next action | Owner |
