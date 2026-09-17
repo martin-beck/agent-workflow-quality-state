@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #66 | `feature/ar-0058-interaction-gate@032eb4fde185` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
+| #66 | `feature/ar-0058-interaction-gate@097baff43ab1` | `main` | BLOCKED | - | feat: add typed oracle interaction-gate quality contract |
 
 ## Recent workflows
 
