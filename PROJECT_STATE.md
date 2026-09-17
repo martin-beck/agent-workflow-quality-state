@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | - | feat: add discussion reconciliation quality gate |
+| #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add discussion reconciliation quality gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35242773461 | `5e9191b1a5f5` | pull_request | Portable onboarding | in_progress:- |
+| 35242773231 | `5e9191b1a5f5` | pull_request | Verify | in_progress:- |
 | 35241848237 | `c3aa068b3830` | pull_request | Portable onboarding | completed:success |
 | 35241848169 | `c3aa068b3830` | pull_request | Verify | completed:failure |
 | 35241641419 | `62ab1349bda6` | pull_request | Verify | completed:failure |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35240109906 | `14d5d5033cd5` | pull_request | Verify | completed:failure |
 | 35238414915 | `ae7f0808cab7` | push | Portable onboarding | completed:success |
 | 35238414866 | `ae7f0808cab7` | push | Verify | completed:success |
-| 35237670200 | `926cb44cfb88` | pull_request | Portable onboarding | completed:success |
-| 35237670190 | `926cb44cfb88` | pull_request | Verify | completed:success |
