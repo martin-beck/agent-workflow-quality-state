@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**65 ARs tracked** across 4 active status categories.
+**65 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
-| **Planned** | Defined work awaiting promotion or dependencies | 6 |
+| **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 56 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -89,7 +89,7 @@ flowchart LR
         AR_0059["AR-0059 - Blocked"]:::status_blocked
         AR_0060["AR-0060 - Planned"]:::status_planned
         AR_0061["AR-0061 - Planned"]:::status_planned
-        AR_0062["AR-0062 - Planned"]:::status_planned
+        AR_0062["AR-0062 - Open"]:::status_open
         AR_0063["AR-0063 - Planned"]:::status_planned
         AR_0064["AR-0064 - Planned"]:::status_planned
         AR_0065["AR-0065 - Planned"]:::status_planned
@@ -283,18 +283,23 @@ flowchart LR
 
 ## Complete AR inventory
 
+### Open (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Unclaimed | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. |
+
 ### Blocked (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Unclaimed | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. |
 
-### Planned (6)
+### Planned (5)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Unclaimed | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Enforce contradiction, clarification, rejection, and unresolved-guidance reopen semantics. |
-| P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Unclaimed | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. |
 | P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Unclaimed | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Validate batched point selection, implication helper evidence, custom user proposals, and independent response binding. |
 | P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Unclaimed | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Unclaimed | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
