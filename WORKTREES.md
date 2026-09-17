@@ -6,6 +6,5 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | --- | --- | --- | ---: | --- |
 | `agent-workflow-quality` | `ar0058-dco-repair` | `926cb44cfb88` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-discussion-reconciliation` | `feature/ar-0059-discussion-reconciliation` | `5e9191b1a5f5` | 0 | behind 0, ahead 5 |
-| `agent-workflow-quality-discussion-tui-contract` | `feature/ar-0062-discussion-tui-contract` | `1eaca615b2b4` | 1 | behind 0, ahead 1 |
-| changed files | - | - | - | `src/awq/cli.py` |
+| `agent-workflow-quality-discussion-tui-contract` | `feature/ar-0062-discussion-tui-contract` | `7c26bf7edbf5` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-license-headers` | `chore/huawei-mit-source-headers` | `de21cb393087` | 0 | behind 230, ahead 0 |
