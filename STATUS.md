@@ -9,8 +9,8 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 1 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 7 |
 | **Future** | Deferred roadmap work | 0 |
@@ -85,7 +85,7 @@ flowchart LR
         AR_0055["AR-0055 - Done"]:::status_done
         AR_0056["AR-0056 - Superseded"]:::status_superseded
         AR_0057["AR-0057 - Done"]:::status_done
-        AR_0058["AR-0058 - Open"]:::status_open
+        AR_0058["AR-0058 - In progress"]:::status_in_progress
         AR_0059["AR-0059 - Planned"]:::status_planned
         AR_0060["AR-0060 - Planned"]:::status_planned
         AR_0061["AR-0061 - Planned"]:::status_planned
@@ -283,11 +283,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Open (1)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Unclaimed | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. |
+| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | awq-worker-20260917 | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. |
 
 ### Planned (7)
 
