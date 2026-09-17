@@ -287,7 +287,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | awq-worker-20260917 | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. |
+| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | awq-worker-20260917 | Make oracle interaction points and specification review evidence quality-gated. | Publish signed product head 1d83a9e7c11e943f4597ebd734460d678d4ad51b, obtain independent exact-head review and protected CI. |
 
 ### Planned (7)
 
