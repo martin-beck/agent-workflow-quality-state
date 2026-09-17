@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #67 | `feature/ar-0059-discussion-reconciliation@62ab1349bda6` | `main` | BLOCKED | COMPLETED:FAILURE, IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
+| #67 | `feature/ar-0059-discussion-reconciliation@62ab1349bda6` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35241641419 | `62ab1349bda6` | pull_request | Verify | completed:failure |
-| 35241641073 | `62ab1349bda6` | pull_request | Portable onboarding | in_progress:- |
+| 35241641073 | `62ab1349bda6` | pull_request | Portable onboarding | completed:success |
 | 35240353931 | `35b0c5fd8c33` | pull_request | Portable onboarding | completed:success |
 | 35240353860 | `35b0c5fd8c33` | pull_request | Verify | completed:failure |
 | 35240109944 | `14d5d5033cd5` | pull_request | Portable onboarding | completed:success |
