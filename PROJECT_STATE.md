@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #67 | `feature/ar-0059-discussion-reconciliation@14d5d5033cd5` | `main` | BLOCKED | - | feat: add discussion reconciliation quality gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35240109944 | `14d5d5033cd5` | pull_request | Portable onboarding | queued:- |
+| 35240109906 | `14d5d5033cd5` | pull_request | Verify | queued:- |
 | 35238414915 | `ae7f0808cab7` | push | Portable onboarding | completed:success |
 | 35238414866 | `ae7f0808cab7` | push | Verify | completed:success |
 | 35237670200 | `926cb44cfb88` | pull_request | Portable onboarding | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35235895945 | `097baff43ab1` | pull_request | Portable onboarding | completed:success |
 | 35234750786 | `032eb4fde185` | pull_request | Verify | completed:failure |
 | 35234750672 | `032eb4fde185` | pull_request | Portable onboarding | completed:success |
-| 35233909662 | `7c4d31f86556` | pull_request | Verify | completed:failure |
-| 35233909598 | `7c4d31f86556` | pull_request | Portable onboarding | completed:success |
