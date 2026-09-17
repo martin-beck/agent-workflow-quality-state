@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #67 | `feature/ar-0059-discussion-reconciliation@62ab1349bda6` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
+| #67 | `feature/ar-0059-discussion-reconciliation@c3aa068b3830` | `main` | BLOCKED | - | feat: add discussion reconciliation quality gate |
 
 ## Recent workflows
 
