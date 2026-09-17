@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | COMPLETED:CANCELLED, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
-| #68 | `feature/ar-0062-discussion-tui-contract@1eaca615b2b4` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add discussion TUI interaction contract |
+| #68 | `feature/ar-0062-discussion-tui-contract@1eaca615b2b4` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add discussion TUI interaction contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35246274363 | `1eaca615b2b4` | pull_request | Portable onboarding | queued:- |
-| 35246274317 | `1eaca615b2b4` | pull_request | Verify | queued:- |
+| 35246274363 | `1eaca615b2b4` | pull_request | Portable onboarding | in_progress:- |
+| 35246274317 | `1eaca615b2b4` | pull_request | Verify | in_progress:- |
 | 35242773461 | `5e9191b1a5f5` | pull_request | Portable onboarding | completed:success |
 | 35242773231 | `5e9191b1a5f5` | pull_request | Verify | completed:cancelled |
 | 35241848237 | `c3aa068b3830` | pull_request | Portable onboarding | completed:success |
