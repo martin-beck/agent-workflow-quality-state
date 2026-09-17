@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #66 | `feature/ar-0058-interaction-gate@1d83a9e7c11e` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add typed oracle interaction-gate quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35233102762 | `1d83a9e7c11e` | pull_request | Verify | queued:- |
+| 35233102619 | `1d83a9e7c11e` | pull_request | Portable onboarding | queued:- |
 | 34943453118 | `d3d46a5f540f` | push | Release attestation | completed:success |
 | 34943260390 | `d3d46a5f540f` | push | Release attestation | completed:success |
 | 34941953518 | `d3d46a5f540f` | push | Portable onboarding | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 34940641383 | `2e835ed6f0ba` | pull_request | Portable onboarding | completed:success |
 | 34940425517 | `bfdc85fdc29c` | pull_request | Portable onboarding | completed:success |
 | 34940425515 | `bfdc85fdc29c` | pull_request | Verify | completed:failure |
-| 34935475641 | `00c0d8ee27ae` | push | Portable onboarding | completed:success |
-| 34935475532 | `00c0d8ee27ae` | push | Verify | completed:success |
