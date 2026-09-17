@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Make oracle interaction points and specification review evidence quality-gated. | Await protected checks for exact PR head 7c4d31f; merge only after all required checks pass, then perform post-merge verification and reconcile. | awq-worker-20260917 |
-
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
@@ -34,6 +28,7 @@ Never edit this file directly.
 | P0 | [AR-0038](tasks/AR-0038.md): GitHub workflow trust policy | AWQ acceptance separates optional native evidence from implementation authorization | Guarded merge may proceed only at exact head 0e17cb35/tree a32ded39a9c1bc187a3a509bfc9e815133c30fac/base d9240aefddf150fe0ae7ff07d02e143ffe746451 while required checks remain green; then verify generated merge-main CI and complete AR-0038 post-merge evidence. | - |
 | P0 | [AR-0052](tasks/AR-0052.md): Bounded TLA+ execution and admission safety | Independent exact-head review accepted d14ac51 against 52018dc: helper-only TLC routing, bounded admission metadata, strict runtime/schema parity, docs, privacy, SSH signatures and DCO verified. | Wait for PR #48 exact-head verify job at 9fcf1ad; do not merge or release from review worker. | - |
 | P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. | - |
+| P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Make oracle interaction points and specification review evidence quality-gated. | Await protected checks for exact PR head 7c4d31f; merge only after all required checks pass, then perform post-merge verification and reconcile. | - |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. | - |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. | - |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. | - |
