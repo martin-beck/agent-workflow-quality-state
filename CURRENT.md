@@ -3,17 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. | codex-awq-ar0062-20260917 |
-
 ## Blocked
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | - |
+| P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. | - |
 
 ## Planned
 
