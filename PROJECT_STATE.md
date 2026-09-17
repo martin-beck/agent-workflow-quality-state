@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | COMPLETED:CANCELLED, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
+| #68 | `feature/ar-0062-discussion-tui-contract@1eaca615b2b4` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add discussion TUI interaction contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35246274363 | `1eaca615b2b4` | pull_request | Portable onboarding | queued:- |
+| 35246274317 | `1eaca615b2b4` | pull_request | Verify | queued:- |
 | 35242773461 | `5e9191b1a5f5` | pull_request | Portable onboarding | completed:success |
 | 35242773231 | `5e9191b1a5f5` | pull_request | Verify | completed:cancelled |
 | 35241848237 | `c3aa068b3830` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35240353860 | `35b0c5fd8c33` | pull_request | Verify | completed:failure |
 | 35240109944 | `14d5d5033cd5` | pull_request | Portable onboarding | completed:success |
 | 35240109906 | `14d5d5033cd5` | pull_request | Verify | completed:failure |
-| 35238414915 | `ae7f0808cab7` | push | Portable onboarding | completed:success |
-| 35238414866 | `ae7f0808cab7` | push | Verify | completed:success |
