@@ -3,11 +3,11 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## Open
+## In Progress
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | - |
+| P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | codex-awq-ar0059-20260917 |
 
 ## Planned
 
