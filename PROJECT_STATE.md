@@ -11,7 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | COMPLETED:CANCELLED, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
-| #68 | `feature/ar-0062-discussion-tui-contract@1eaca615b2b4` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion TUI interaction contract |
+| #68 | `feature/ar-0062-discussion-tui-contract@7c26bf7edbf5` | `main` | UNKNOWN | - | feat: add discussion TUI interaction contract |
 
 ## Recent workflows
 
