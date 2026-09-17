@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #66 | `feature/ar-0058-interaction-gate@097baff43ab1` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
+| #66 | `feature/ar-0058-interaction-gate@097baff43ab1` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35235895988 | `097baff43ab1` | pull_request | Verify | in_progress:- |
+| 35235895988 | `097baff43ab1` | pull_request | Verify | completed:failure |
 | 35235895945 | `097baff43ab1` | pull_request | Portable onboarding | completed:success |
 | 35234750786 | `032eb4fde185` | pull_request | Verify | completed:failure |
 | 35234750672 | `032eb4fde185` | pull_request | Portable onboarding | completed:success |
