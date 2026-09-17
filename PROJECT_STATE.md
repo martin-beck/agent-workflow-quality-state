@@ -4,13 +4,13 @@ Generated from local Git and GitHub. Do not edit.
 
 - Product remote main: `d3d46a5f540fb03f65f30dd4c2af325f6f018a6e`
 - Local origin/main: `d3d46a5f540fb03f65f30dd4c2af325f6f018a6e`
-- Primary worktree head: `7c4d31f865563915fce322a1bb17e022e46f46a7`
+- Primary worktree head: `032eb4fde185956051c631e36c7b5b3d8636f763`
 
 ## Open pull requests
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #66 | `feature/ar-0058-interaction-gate@7c4d31f86556` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
+| #66 | `feature/ar-0058-interaction-gate@032eb4fde185` | `main` | BLOCKED | - | feat: add typed oracle interaction-gate quality contract |
 
 ## Recent workflows
 
