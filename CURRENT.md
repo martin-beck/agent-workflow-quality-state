@@ -10,7 +10,11 @@ Never edit this file directly.
 | P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Make oracle interaction points and specification review evidence quality-gated. | Define AWQ contracts for typed interaction-gate ARs, context-rich packets, formal specification review, and before/after artifact references. | - |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | - |
 | P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Enforce contradiction, clarification, rejection, and unresolved-guidance reopen semantics. | - |
+| P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. | - |
+| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Validate batched point selection, implication helper evidence, custom user proposals, and independent response binding. | - |
+| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. | - |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. | - |
+| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Accept the complete reusable discussion TUI workflow across all three projects. | Run the complete synthetic TUI discussion trace across AWG and Coordinator contracts with AWQ as the quality gate. | - |
 
 ## Done
 
