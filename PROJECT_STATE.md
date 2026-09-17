@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #66 | `feature/ar-0058-interaction-gate@7c4d31f86556` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
+| #66 | `feature/ar-0058-interaction-gate@7c4d31f86556` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add typed oracle interaction-gate quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35233909662 | `7c4d31f86556` | pull_request | Verify | in_progress:- |
+| 35233909662 | `7c4d31f86556` | pull_request | Verify | completed:failure |
 | 35233909598 | `7c4d31f86556` | pull_request | Portable onboarding | completed:success |
 | 35233102762 | `1d83a9e7c11e` | pull_request | Verify | completed:failure |
 | 35233102619 | `1d83a9e7c11e` | pull_request | Portable onboarding | completed:success |
