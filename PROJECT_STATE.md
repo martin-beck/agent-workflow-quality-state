@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `9281a6fc3e4bc0586a9842d257eef745a8e96303`
+- Product remote main: `2cf9e2d53e0d4d6194b40675b69f3434ec59950e`
 - Local origin/main: `9281a6fc3e4bc0586a9842d257eef745a8e96303`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@ffd007a0f1ed` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
-| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
+| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | UNKNOWN | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35475150556 | `2cf9e2d53e0d` | push | Portable onboarding | queued:- |
+| 35475150547 | `2cf9e2d53e0d` | push | Verify | in_progress:- |
 | 35474799516 | `ffd007a0f1ed` | pull_request | Verify | completed:success |
 | 35474799407 | `ffd007a0f1ed` | pull_request | Portable onboarding | completed:success |
 | 35474766948 | `ff94212c8ae6` | pull_request | Portable onboarding | completed:success |
@@ -27,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35474156463 | `eece35c845e0` | pull_request | Portable onboarding | completed:success |
 | 35474146245 | `2e83160b8a95` | pull_request | Portable onboarding | completed:success |
 | 35474146185 | `2e83160b8a95` | pull_request | Verify | completed:failure |
-| 35474065092 | `58bdcfd57781` | pull_request | Verify | completed:cancelled |
-| 35474064925 | `58bdcfd57781` | pull_request | Portable onboarding | completed:success |
