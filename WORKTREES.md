@@ -41,7 +41,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `1fd998b50031` | 0 | behind 85, ahead 0 |
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 189, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 211, ahead 0 |
-| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `2e83160b8a95` | 0 | behind 0, ahead 8 |
+| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `2e83160b8a95` | 1 | behind 0, ahead 8 |
+| changed files | - | - | - | `fixtures/nonconforming/oracle-workflow-integration/skipped-planning.json -> fixtures/nonconforming/oracle-workflow/skipped.json` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 196, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 190, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 186, ahead 0 |
