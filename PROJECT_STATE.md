@@ -2,30 +2,28 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `ae7f0808cab715480bcd0cc67a3dc3f50b780d40`
-- Local origin/main: `ae7f0808cab715480bcd0cc67a3dc3f50b780d40`
-- Primary worktree head: `926cb44cfb88693c9163b69386bf51e912438751`
+- Product remote main: `8ec460ec99baf8061d1644a2532b5b9beb47b75b`
+- Local origin/main: `d3d46a5f540fb03f65f30dd4c2af325f6f018a6e`
+- Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
 ## Open pull requests
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #67 | `feature/ar-0059-discussion-reconciliation@5e9191b1a5f5` | `main` | BLOCKED | COMPLETED:CANCELLED, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion reconciliation quality gate |
-| #68 | `feature/ar-0062-discussion-tui-contract@7c26bf7edbf5` | `main` | BLOCKED | COMPLETED:CANCELLED, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion TUI interaction contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35246540683 | `7c26bf7edbf5` | pull_request | Portable onboarding | completed:success |
-| 35246540678 | `7c26bf7edbf5` | pull_request | Verify | completed:cancelled |
-| 35246274363 | `1eaca615b2b4` | pull_request | Portable onboarding | completed:success |
-| 35246274317 | `1eaca615b2b4` | pull_request | Verify | completed:failure |
-| 35242773461 | `5e9191b1a5f5` | pull_request | Portable onboarding | completed:success |
-| 35242773231 | `5e9191b1a5f5` | pull_request | Verify | completed:cancelled |
-| 35241848237 | `c3aa068b3830` | pull_request | Portable onboarding | completed:success |
-| 35241848169 | `c3aa068b3830` | pull_request | Verify | completed:failure |
-| 35241641419 | `62ab1349bda6` | pull_request | Verify | completed:failure |
-| 35241641073 | `62ab1349bda6` | pull_request | Portable onboarding | completed:success |
-| 35240353931 | `35b0c5fd8c33` | pull_request | Portable onboarding | completed:success |
-| 35240353860 | `35b0c5fd8c33` | pull_request | Verify | completed:failure |
+| 35314147523 | `8ec460ec99ba` | push | Release attestation | completed:success |
+| 35290202705 | `8ec460ec99ba` | push | Verify | completed:success |
+| 35290202619 | `8ec460ec99ba` | push | Portable onboarding | completed:success |
+| 35289830843 | `506b3c725417` | pull_request | Portable onboarding | completed:success |
+| 35289830819 | `506b3c725417` | pull_request | Verify | completed:success |
+| 35289364118 | `799b2ef81e04` | pull_request | Portable onboarding | completed:success |
+| 35289364117 | `799b2ef81e04` | pull_request | Verify | completed:failure |
+| 35287925521 | `b11a3489f6a7` | pull_request | Portable onboarding | completed:success |
+| 35287925472 | `b11a3489f6a7` | pull_request | Verify | completed:failure |
+| 35287379435 | `74a88436692a` | push | Verify | completed:success |
+| 35287379427 | `74a88436692a` | push | Portable onboarding | completed:success |
+| 35287352545 | `348c4b1d22dc` | pull_request | Portable onboarding | completed:success |
