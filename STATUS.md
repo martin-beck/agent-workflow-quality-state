@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Align the claimed worktree path with state worktree_key so handoffctl commands execute in the correct checkout, then rerun repository unittest/coverage and applicable generation gates; do not commit or merge until exact evidence is clean. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run correct-worktree unittest/coverage via a bounded launcher that changes into the claimed checkout before execution; inspect all environment-limited failures and record exact diagnostics, then commit generated repairs signed+DCO and push PR #69. |
 
 ### Planned (4)
 
