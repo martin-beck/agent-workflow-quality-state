@@ -7,13 +7,8 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. | ar0064-persistence-A2302940388-1716108 |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. | ar0061-integration-A2302940388-1275998 |
-
-## Open
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. | - |
 
 ## Planned
 
