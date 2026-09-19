@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
+| #72 | `codex/ar-0064-persistence@521350d0ea43` | `main` | DIRTY | - | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
