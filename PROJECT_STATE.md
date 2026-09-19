@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@35ef56b3022e` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@35ef56b3022e` | `main` | DIRTY | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | queued:- |
+| 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | in_progress:- |
 | 35473166230 | `9281a6fc3e4b` | push | Verify | in_progress:- |
 | 35472909967 | `35ef56b3022e` | pull_request | Verify | in_progress:- |
 | 35472909953 | `35ef56b3022e` | pull_request | Portable onboarding | completed:success |
