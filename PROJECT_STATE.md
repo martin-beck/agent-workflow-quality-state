@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@8944e9c15f25` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@8944e9c15f25` | `main` | BLOCKED | COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35473895907 | `8944e9c15f25` | pull_request | Verify | pending:- |
-| 35473895862 | `8944e9c15f25` | pull_request | Portable onboarding | queued:- |
+| 35473895862 | `8944e9c15f25` | pull_request | Portable onboarding | in_progress:- |
 | 35473831815 | `486a992ecb3f` | pull_request | Verify | in_progress:- |
 | 35473831698 | `486a992ecb3f` | pull_request | Portable onboarding | completed:success |
 | 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | completed:success |
