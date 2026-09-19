@@ -10,17 +10,17 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@ffd007a0f1ed` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
-| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
+| #71 | `codex/ar-0061-oracle-workflow-integration@ffd007a0f1ed` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
+| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35474799516 | `ffd007a0f1ed` | pull_request | Verify | in_progress:- |
+| 35474799516 | `ffd007a0f1ed` | pull_request | Verify | completed:success |
 | 35474799407 | `ffd007a0f1ed` | pull_request | Portable onboarding | completed:success |
 | 35474766948 | `ff94212c8ae6` | pull_request | Portable onboarding | completed:success |
-| 35474766916 | `ff94212c8ae6` | pull_request | Verify | in_progress:- |
+| 35474766916 | `ff94212c8ae6` | pull_request | Verify | completed:failure |
 | 35474676052 | `d7c18c5a369c` | pull_request | Verify | completed:failure |
 | 35474676049 | `d7c18c5a369c` | pull_request | Portable onboarding | completed:success |
 | 35474156464 | `eece35c845e0` | pull_request | Verify | completed:failure |
