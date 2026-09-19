@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #69 | `feature/ar-0060-contradiction-reopen@97c50c1e8fe2` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: gate contradiction and guidance reopen states |
+| #69 | `feature/ar-0060-contradiction-reopen@84594a019c1c` | `main` | BLOCKED | - | feat: gate contradiction and guidance reopen states |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35470444292 | `84594a019c1c` | pull_request | Verify | queued:- |
+| 35470444281 | `84594a019c1c` | pull_request | Portable onboarding | queued:- |
 | 35469919660 | `97c50c1e8fe2` | pull_request | Portable onboarding | completed:success |
 | 35469919637 | `97c50c1e8fe2` | pull_request | Verify | completed:failure |
 | 35468872996 | `583f21409f97` | pull_request | Verify | completed:failure |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35290202705 | `8ec460ec99ba` | push | Verify | completed:success |
 | 35290202619 | `8ec460ec99ba` | push | Portable onboarding | completed:success |
 | 35289830843 | `506b3c725417` | pull_request | Portable onboarding | completed:success |
-| 35289830819 | `506b3c725417` | pull_request | Verify | completed:success |
-| 35289364118 | `799b2ef81e04` | pull_request | Portable onboarding | completed:success |
