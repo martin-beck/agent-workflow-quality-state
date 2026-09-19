@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Await exact-head Verify run 35468872996 terminal success and independent review; merge PR #69 only when required checks are green at 583f21409f973a245fe3b7f1974ea6408edb271d, then perform exact merged-head/post-merge verification. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Regenerate the tracked SPDX SBOM fixture through handoffctl, inspect the exact diff, run focused/full applicable gates, commit the repair signed+DCO, push PR #69, and await a new exact-head Verify run. |
 
 ### Planned (4)
 
