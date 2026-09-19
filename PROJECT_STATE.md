@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #70 | `codex/ar-0063-discussion@63fab1bb6cfc` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add batched discussion quality contract |
+| #70 | `codex/ar-0063-discussion@269a051df423` | `main` | BLOCKED | - | feat: add batched discussion quality contract |
 | #71 | `codex/ar-0061-oracle-workflow-integration@507e82a017b3` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
 
 ## Recent workflows
