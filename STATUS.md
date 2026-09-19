@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Await independent review and exact-head PR #69 CI; merge only when every required check is terminal green, then verify merge-main and release done. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Continue polling exact-head Verify 35468062063 and obtain independent review; merge only after all required checks and review are green. |
 
 ### Planned (4)
 
