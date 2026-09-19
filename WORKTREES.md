@@ -4,7 +4,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 
 | Worktree | Branch | Head | Dirty | vs origin/main |
 | --- | --- | --- | ---: | --- |
-| `agent-workflow-quality` | `main` | `0c6247f5afe0` | 0 | behind 111, ahead 1 |
+| `agent-workflow-quality` | `main` | `0c6247f5afe0` | 2 | behind 111, ahead 1 |
+| changed files | - | - | - | `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json` |
 | `.awq-ar0054-current-main` | `DETACHED` | `0f3fdc2b68fc` | 0 | behind 84, ahead 0 |
 | `agent-workflow-quality-adapter-docs` | `feature/docs-adapter` | `cbf103305786` | 0 | behind 238, ahead 0 |
 | `agent-workflow-quality-adapter-python` | `feature/python-adapter` | `34351626f8dc` | 0 | behind 249, ahead 0 |
