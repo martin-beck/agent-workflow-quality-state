@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Await exact-head Verify 35469919637 and Portable 35469919660 plus core matrix terminal results; inspect any failure diagnostically, then obtain independent review and merge only at green exact head. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Reproduce the PR-tier registry check in the reconciled worktree, identify the exact lock/registry artifact drift, update only deterministic tracked evidence through handoffctl, rerun doctor/check and all generation gates, then commit signed+DCO and push PR #69. |
 
 ### Planned (4)
 
