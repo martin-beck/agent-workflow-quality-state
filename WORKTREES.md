@@ -40,7 +40,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `1fd998b50031` | 0 | behind 81, ahead 0 |
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 185, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 207, ahead 0 |
-| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `b2a67402c7b0` | 0 | behind 0, ahead 2 |
+| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `b2a67402c7b0` | 2 | behind 0, ahead 2 |
+| changed files | - | - | - | `src/awq/cli.py`, `src/awq/commands.py` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 192, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 186, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 182, ahead 0 |
