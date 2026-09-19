@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #70 | `codex/ar-0063-discussion@269a051df423` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add batched discussion quality contract |
-| #71 | `codex/ar-0061-oracle-workflow-integration@f7ff9aafdc99` | `main` | BLOCKED | QUEUED: | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@f7ff9aafdc99` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35472469408 | `f7ff9aafdc99` | pull_request | Portable onboarding | queued:- |
-| 35472469377 | `f7ff9aafdc99` | pull_request | Verify | queued:- |
+| 35472469408 | `f7ff9aafdc99` | pull_request | Portable onboarding | completed:success |
+| 35472469377 | `f7ff9aafdc99` | pull_request | Verify | in_progress:- |
 | 35472287882 | `269a051df423` | pull_request | Verify | in_progress:- |
 | 35472287835 | `269a051df423` | pull_request | Portable onboarding | completed:success |
 | 35472009060 | `507e82a017b3` | pull_request | Verify | completed:failure |
