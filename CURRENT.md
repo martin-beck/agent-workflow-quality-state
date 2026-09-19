@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run explicit branch-path checks for all generated fixtures, inspect privacy-safe deterministic diffs, run focused and applicable full gates, then commit all generated repairs signed+DCO and push PR #69. | codex-awq-ar0060-contradiction-20260919 |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Rerun focused tests with the repository dev dependency group selected through uv in the claimed worktree, then run full applicable gates; preserve the unchanged hosted 95% coverage requirement. | codex-awq-ar0060-contradiction-20260919 |
 
 ## Planned
 
