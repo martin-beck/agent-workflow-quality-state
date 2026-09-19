@@ -17,6 +17,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 233, ahead 0 |
 | `agent-workflow-quality-ar0042-postmerge` | `DETACHED` | `5658f859c721` | 0 | behind 104, ahead 0 |
 | `agent-workflow-quality-ar0059-postmerge-8ec460` | `DETACHED` | `8ec460ec99ba` | 0 | behind 5, ahead 0 |
+| `agent-workflow-quality-ar0060-postmerge` | `DETACHED` | `6b65fb53e77e` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-ar0062-postmerge` | `DETACHED` | `8ec460ec99ba` | 0 | behind 5, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 135, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `85ec76fa1d29` | 0 | behind 95, ahead 0 |
