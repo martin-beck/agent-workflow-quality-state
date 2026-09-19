@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Regenerate the tracked SPDX SBOM fixture through handoffctl, inspect the exact diff, run focused/full applicable gates, commit the repair signed+DCO, push PR #69, and await a new exact-head Verify run. | codex-awq-ar0060-contradiction-20260919 |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run explicit branch-path checks for all generated fixtures, inspect privacy-safe deterministic diffs, run focused and applicable full gates, then commit all generated repairs signed+DCO and push PR #69. | codex-awq-ar0060-contradiction-20260919 |
 
 ## Planned
 
