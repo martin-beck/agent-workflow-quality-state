@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Publish PR from signed exact head 63fab1b; await independent review and required CI, then merge/post-merge verify. | ar0063-discussion-proposals-A2302940388-1277569 |
+| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Await independent review and exact-head Verify/Portable completion for PR #70 at 63fab1b; no merge authority transferred. | ar0063-discussion-proposals-A2302940388-1277569 |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. | ar0061-integration-A2302940388-1275998 |
 
 ## Planned
