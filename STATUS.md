@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | ar0063-discussion-proposals-A2302940388-1277569 | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Implement batched proposal evidence contract and independent response binding with tests. |
+| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | ar0063-discussion-proposals-A2302940388-1277569 | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Run full focused quality gates, formal model checks, then signed commit and reviewed PR. |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | ar0061-integration-A2302940388-1275998 | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
 
 ### Planned (2)
