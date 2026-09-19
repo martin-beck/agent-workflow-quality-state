@@ -10,8 +10,8 @@
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 0 |
-| **Blocked** | Cannot proceed until its recorded blocker clears | 1 |
+| **Open** | Dependency-ready and available to claim | 1 |
+| **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 57 |
@@ -89,7 +89,7 @@ flowchart LR
         AR_0059["AR-0059 - In progress"]:::status_in_progress
         AR_0060["AR-0060 - Planned"]:::status_planned
         AR_0061["AR-0061 - Planned"]:::status_planned
-        AR_0062["AR-0062 - Blocked"]:::status_blocked
+        AR_0062["AR-0062 - Open"]:::status_open
         AR_0063["AR-0063 - Planned"]:::status_planned
         AR_0064["AR-0064 - Planned"]:::status_planned
         AR_0065["AR-0065 - Planned"]:::status_planned
@@ -292,7 +292,7 @@ flowchart LR
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | codex-awq-ar0059-verify-recovery | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. |
 
-### Blocked (1)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
