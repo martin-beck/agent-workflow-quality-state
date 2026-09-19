@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**66 ARs tracked** across 4 active status categories.
+**66 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 59 |
+| **Done** | Accepted, integrated, and durably verified | 60 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -87,7 +87,7 @@ flowchart LR
         AR_0057["AR-0057 - Done"]:::status_done
         AR_0058["AR-0058 - Done"]:::status_done
         AR_0059["AR-0059 - Done"]:::status_done
-        AR_0060["AR-0060 - In progress"]:::status_in_progress
+        AR_0060["AR-0060 - Done"]:::status_done
         AR_0061["AR-0061 - Planned"]:::status_planned
         AR_0062["AR-0062 - Done"]:::status_done
         AR_0063["AR-0063 - Planned"]:::status_planned
@@ -286,12 +286,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. |
-
 ### Planned (4)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -301,7 +295,7 @@ flowchart LR
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Unclaimed | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
 | P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Unclaimed | Accept the complete reusable discussion TUI workflow across all three projects. | Run the complete synthetic TUI discussion trace across AWG and Coordinator contracts with AWQ as the quality gate. |
 
-### Done (59)
+### Done (60)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -316,6 +310,7 @@ flowchart LR
 | P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Unclaimed | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. |
 | P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Unclaimed | Make oracle interaction points and specification review evidence quality-gated. | Await protected checks for exact PR head 7c4d31f; merge only after all required checks pass, then perform post-merge verification and reconcile. |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Unclaimed | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Unclaimed | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. |
 | P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Unclaimed | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. |
 | P0 | [AR-0066](tasks/AR-0066.md): TUI host handoff and reconnect quality contract | Unclaimed | Quality-gate remote TUI launch, attach, and reconnect behavior. | No further action; transport evidence is accepted with explicit non-claims. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |

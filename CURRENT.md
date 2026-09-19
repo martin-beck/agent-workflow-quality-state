@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. | codex-awq-ar0060-contradiction-20260919 |
-
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
@@ -33,6 +27,7 @@ Never edit this file directly.
 | P0 | [AR-0057](tasks/AR-0057.md): Exact repository-security revision ranges and negative coverage | Make introduced-range repository-security scans exact, bounded, and fully tested. | Await exact-head Verify 34894108287 and Portable onboarding 34894108288 at cf0f6b862625c3b4a6507ce27fd4279d0df35b77; obtain independent review. | - |
 | P0 | [AR-0058](tasks/AR-0058.md): Oracle interaction-gate quality contract | Make oracle interaction points and specification review evidence quality-gated. | Await protected checks for exact PR head 7c4d31f; merge only after all required checks pass, then perform post-merge verification and reconcile. | - |
 | P0 | [AR-0059](tasks/AR-0059.md): Discussion before/after consistency gate | Quality-gate post-discussion artifact reconciliation and formal review evidence. | Enforce before/after version and specification consistency across a completed user discussion. | - |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. | - |
 | P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. | - |
 | P0 | [AR-0066](tasks/AR-0066.md): TUI host handoff and reconnect quality contract | Quality-gate remote TUI launch, attach, and reconnect behavior. | No further action; transport evidence is accepted with explicit non-claims. | - |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. | - |
