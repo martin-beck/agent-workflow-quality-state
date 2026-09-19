@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Record fresh-checkout pass at CPython 3.13.15 plus merged-main CI evidence, then release AR-0060 done with exact commit/run/verification references. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. |
 
 ### Planned (4)
 
