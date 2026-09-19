@@ -290,7 +290,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Generate the lock through the AWQ initialization generator in a temporary isolated directory using the current policy profiles, copy only its canonical lock output into the claimed worktree through handoffctl, rerun doctor/check and generation/schema/formal gates, then commit signed+DCO and push PR #69. |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | codex-awq-ar0060-contradiction-20260919 | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Await exact-head Verify 35470444292, Portable 35470444281, and core matrix terminal results; inspect any failure diagnostically, then obtain independent review and merge only at green exact head. |
 
 ### Planned (4)
 
