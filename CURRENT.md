@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run coverage report only to capture local percentage, rerun all deterministic generation/schema/formal checks from the reconciled worktree, inspect three generated fixture diffs, then commit signed+DCO and push PR #69. Do not weaken thresholds or classify local native limitations as green. | codex-awq-ar0060-contradiction-20260919 |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run deterministic generation/schema/formal/source/privacy gates from the reconciled worktree, inspect generated fixture changes, then commit signed+DCO and push PR #69 so hosted Verify can measure the supported runner environment. | codex-awq-ar0060-contradiction-20260919 |
 
 ## Planned
 
