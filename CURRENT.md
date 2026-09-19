@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Reproduce the PR-tier registry check in the reconciled worktree, identify the exact lock/registry artifact drift, update only deterministic tracked evidence through handoffctl, rerun doctor/check and all generation gates, then commit signed+DCO and push PR #69. | codex-awq-ar0060-contradiction-20260919 |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Generate the lock through the AWQ initialization generator in a temporary isolated directory using the current policy profiles, copy only its canonical lock output into the claimed worktree through handoffctl, rerun doctor/check and generation/schema/formal gates, then commit signed+DCO and push PR #69. | codex-awq-ar0060-contradiction-20260919 |
 
 ## Planned
 
