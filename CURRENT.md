@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Await exact-head Verify 35470444292, Portable 35470444281, and core matrix terminal results; inspect any failure diagnostically, then obtain independent review and merge only at green exact head. | codex-awq-ar0060-contradiction-20260919 |
+| P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Merge PR #69 through handoffctl at exact head 84594a019c1cbedaf7c9a8853944c9a861cbf320; then await merged-main exact-head CI, perform post-merge/public verification, and release AR-0060 only with durable evidence. | codex-awq-ar0060-contradiction-20260919 |
 
 ## Planned
 
