@@ -10,13 +10,15 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@2e83160b8a95` | `main` | BLOCKED | - | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@2e83160b8a95` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add oracle workflow integration gate |
 | #72 | `codex/ar-0064-persistence@b02cf9572d2a` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35474146245 | `2e83160b8a95` | pull_request | Portable onboarding | in_progress:- |
+| 35474146185 | `2e83160b8a95` | pull_request | Verify | pending:- |
 | 35474065092 | `58bdcfd57781` | pull_request | Verify | in_progress:- |
 | 35474064925 | `58bdcfd57781` | pull_request | Portable onboarding | completed:success |
 | 35474032859 | `b02cf9572d2a` | pull_request | Portable onboarding | completed:success |
@@ -27,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35473831698 | `486a992ecb3f` | pull_request | Portable onboarding | completed:success |
 | 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | completed:success |
 | 35473166230 | `9281a6fc3e4b` | push | Verify | completed:success |
-| 35472909967 | `35ef56b3022e` | pull_request | Verify | completed:failure |
-| 35472909953 | `35ef56b3022e` | pull_request | Portable onboarding | completed:success |
