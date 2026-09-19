@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@c087801fc56a` | `main` | DIRTY | - | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@486a992ecb3f` | `main` | BLOCKED | - | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35473831815 | `486a992ecb3f` | pull_request | Verify | queued:- |
+| 35473831698 | `486a992ecb3f` | pull_request | Portable onboarding | queued:- |
 | 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | completed:success |
 | 35473166230 | `9281a6fc3e4b` | push | Verify | completed:success |
 | 35472909967 | `35ef56b3022e` | pull_request | Verify | completed:failure |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35472469377 | `f7ff9aafdc99` | pull_request | Verify | completed:failure |
 | 35472287882 | `269a051df423` | pull_request | Verify | completed:failure |
 | 35472287835 | `269a051df423` | pull_request | Portable onboarding | completed:success |
-| 35472009060 | `507e82a017b3` | pull_request | Verify | completed:failure |
-| 35472009054 | `507e82a017b3` | pull_request | Portable onboarding | completed:success |
