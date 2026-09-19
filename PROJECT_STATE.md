@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #70 | `codex/ar-0063-discussion@63fab1bb6cfc` | `main` | BLOCKED | QUEUED:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add batched discussion quality contract |
+| #70 | `codex/ar-0063-discussion@63fab1bb6cfc` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | feat: add batched discussion quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35471794227 | `63fab1bb6cfc` | pull_request | Portable onboarding | queued:- |
+| 35471794227 | `63fab1bb6cfc` | pull_request | Portable onboarding | in_progress:- |
 | 35471794137 | `63fab1bb6cfc` | pull_request | Verify | in_progress:- |
 | 35470792882 | `6b65fb53e77e` | push | Portable onboarding | completed:success |
 | 35470792873 | `6b65fb53e77e` | push | Verify | completed:success |
