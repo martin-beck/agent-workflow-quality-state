@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #72 | `codex/ar-0064-persistence@d93cef84607e` | `main` | BLOCKED | QUEUED: | feat: add discussion persistence quality contract |
+| #72 | `codex/ar-0064-persistence@d93cef84607e` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35476175259 | `d93cef84607e` | pull_request | Verify | queued:- |
-| 35476175258 | `d93cef84607e` | pull_request | Portable onboarding | queued:- |
+| 35476175259 | `d93cef84607e` | pull_request | Verify | in_progress:- |
+| 35476175258 | `d93cef84607e` | pull_request | Portable onboarding | in_progress:- |
 | 35475769781 | `41c4b5a86aaa` | pull_request | Portable onboarding | completed:success |
 | 35475769758 | `41c4b5a86aaa` | pull_request | Verify | completed:failure |
 | 35475150556 | `2cf9e2d53e0d` | push | Portable onboarding | completed:success |
