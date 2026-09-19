@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@486a992ecb3f` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@8944e9c15f25` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35473895907 | `8944e9c15f25` | pull_request | Verify | pending:- |
+| 35473895862 | `8944e9c15f25` | pull_request | Portable onboarding | queued:- |
 | 35473831815 | `486a992ecb3f` | pull_request | Verify | in_progress:- |
 | 35473831698 | `486a992ecb3f` | pull_request | Portable onboarding | completed:success |
 | 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35472744095 | `45d06cff57df` | pull_request | Portable onboarding | completed:success |
 | 35472469408 | `f7ff9aafdc99` | pull_request | Portable onboarding | completed:success |
 | 35472469377 | `f7ff9aafdc99` | pull_request | Verify | completed:failure |
-| 35472287882 | `269a051df423` | pull_request | Verify | completed:failure |
-| 35472287835 | `269a051df423` | pull_request | Portable onboarding | completed:success |
