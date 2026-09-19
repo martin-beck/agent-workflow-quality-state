@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #69 | `feature/ar-0060-contradiction-reopen@647d94bf2961` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: gate contradiction and guidance reopen states |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35468062074 | `647d94bf2961` | pull_request | Portable onboarding | queued:- |
+| 35468062063 | `647d94bf2961` | pull_request | Verify | queued:- |
 | 35314147523 | `8ec460ec99ba` | push | Release attestation | completed:success |
 | 35290202705 | `8ec460ec99ba` | push | Verify | completed:success |
 | 35290202619 | `8ec460ec99ba` | push | Portable onboarding | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35287925521 | `b11a3489f6a7` | pull_request | Portable onboarding | completed:success |
 | 35287925472 | `b11a3489f6a7` | pull_request | Verify | completed:failure |
 | 35287379435 | `74a88436692a` | push | Verify | completed:success |
-| 35287379427 | `74a88436692a` | push | Portable onboarding | completed:success |
-| 35287352545 | `348c4b1d22dc` | pull_request | Portable onboarding | completed:success |
