@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `6b65fb53e77e7c1a462efd08bd45816870f65822`
+- Product remote main: `9281a6fc3e4bc0586a9842d257eef745a8e96303`
 - Local origin/main: `6b65fb53e77e7c1a462efd08bd45816870f65822`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,16 +10,17 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #70 | `codex/ar-0063-discussion@45d06cff57df` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add batched discussion quality contract |
-| #71 | `codex/ar-0061-oracle-workflow-integration@35ef56b3022e` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@35ef56b3022e` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35473166246 | `9281a6fc3e4b` | push | Portable onboarding | queued:- |
+| 35473166230 | `9281a6fc3e4b` | push | Verify | in_progress:- |
 | 35472909967 | `35ef56b3022e` | pull_request | Verify | in_progress:- |
 | 35472909953 | `35ef56b3022e` | pull_request | Portable onboarding | completed:success |
-| 35472744226 | `45d06cff57df` | pull_request | Verify | in_progress:- |
+| 35472744226 | `45d06cff57df` | pull_request | Verify | completed:success |
 | 35472744095 | `45d06cff57df` | pull_request | Portable onboarding | completed:success |
 | 35472469408 | `f7ff9aafdc99` | pull_request | Portable onboarding | completed:success |
 | 35472469377 | `f7ff9aafdc99` | pull_request | Verify | completed:failure |
@@ -27,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35472287835 | `269a051df423` | pull_request | Portable onboarding | completed:success |
 | 35472009060 | `507e82a017b3` | pull_request | Verify | completed:failure |
 | 35472009054 | `507e82a017b3` | pull_request | Portable onboarding | completed:success |
-| 35471919273 | `b2a67402c7b0` | pull_request | Verify | completed:failure |
-| 35471919205 | `b2a67402c7b0` | pull_request | Portable onboarding | completed:success |
