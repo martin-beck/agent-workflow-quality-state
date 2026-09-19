@@ -24,7 +24,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 171, ahead 0 |
 | `agent-workflow-quality-contract-catalog-structural-refactoring` | `feature/contract-catalog-structural-refactoring` | `5658f859c721` | 0 | behind 104, ahead 0 |
 | `agent-workflow-quality-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `84594a019c1c` | 0 | behind 1, ahead 0 |
-| `agent-workflow-quality-discussion-proposals` | `codex/ar-0063-discussion` | `6b65fb53e77e` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-discussion-proposals` | `codex/ar-0063-discussion` | `6b65fb53e77e` | 14 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/CONTRACTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirement_mappings.json`, `src/awq/data/requirements.json`, `docs/DISCUSSION_BATCH.md`, `formal/discussion-batch.md`, `quality/discussion-batch/`, `schemas/discussion-batch.schema.json`, `src/awq/discussion_batch.py`, `tests/test_discussion_batch.py` |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 177, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 147, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 154, ahead 0 |
@@ -40,7 +41,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-bundles` | `feature/native-binary-bundles` | `1fd998b50031` | 0 | behind 81, ahead 0 |
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 185, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 207, ahead 0 |
-| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `6b65fb53e77e` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `6b65fb53e77e` | 15 | behind 0, ahead 0 |
+| changed files | - | - | - | `docs/CONTRACTS.md`, `docs/REQUIREMENTS.md`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/commands.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirements.json`, `docs/ORACLE_WORKFLOW_INTEGRATION.md`, `fixtures/nonconforming/oracle-workflow-integration/`, `quality/oracle-workflow-integration/`, `schemas/oracle-workflow-integration.schema.json`, `src/awq/oracle_workflow_integration.py`, `tests/test_oracle_workflow_integration.py` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 192, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 186, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 182, ahead 0 |
