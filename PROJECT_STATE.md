@@ -10,13 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #70 | `codex/ar-0063-discussion@63fab1bb6cfc` | `main` | BLOCKED | - | feat: add batched discussion quality contract |
+| #70 | `codex/ar-0063-discussion@63fab1bb6cfc` | `main` | BLOCKED | QUEUED:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add batched discussion quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35471794137 | `63fab1bb6cfc` | pull_request | Verify | queued:- |
+| 35471794227 | `63fab1bb6cfc` | pull_request | Portable onboarding | queued:- |
+| 35471794137 | `63fab1bb6cfc` | pull_request | Verify | in_progress:- |
 | 35470792882 | `6b65fb53e77e` | push | Portable onboarding | completed:success |
 | 35470792873 | `6b65fb53e77e` | push | Verify | completed:success |
 | 35470444292 | `84594a019c1c` | pull_request | Verify | completed:success |
@@ -27,4 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35468872983 | `583f21409f97` | pull_request | Portable onboarding | completed:success |
 | 35468062074 | `647d94bf2961` | pull_request | Portable onboarding | completed:success |
 | 35468062063 | `647d94bf2961` | pull_request | Verify | completed:failure |
-| 35314147523 | `8ec460ec99ba` | push | Release attestation | completed:success |
