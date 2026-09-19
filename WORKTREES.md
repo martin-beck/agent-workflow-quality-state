@@ -16,6 +16,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-agent-runtime-replay` | `feature/agent-runtime-replay` | `cbc900704b02` | 0 | behind 100, ahead 0 |
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 228, ahead 0 |
 | `agent-workflow-quality-ar0042-postmerge` | `DETACHED` | `5658f859c721` | 0 | behind 99, ahead 0 |
+| `agent-workflow-quality-ar0059-postmerge-8ec460` | `DETACHED` | `8ec460ec99ba` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 130, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `85ec76fa1d29` | 0 | behind 90, ahead 0 |
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 166, ahead 0 |
