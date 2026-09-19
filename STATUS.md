@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**66 ARs tracked** across 5 active status categories.
+**66 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 2 |
 | **Future** | Deferred roadmap work | 0 |
@@ -90,7 +90,7 @@ flowchart LR
         AR_0060["AR-0060 - Done"]:::status_done
         AR_0061["AR-0061 - In progress"]:::status_in_progress
         AR_0062["AR-0062 - Done"]:::status_done
-        AR_0063["AR-0063 - Open"]:::status_open
+        AR_0063["AR-0063 - In progress"]:::status_in_progress
         AR_0064["AR-0064 - Planned"]:::status_planned
         AR_0065["AR-0065 - Planned"]:::status_planned
         AR_0066["AR-0066 - Done"]:::status_done
@@ -286,17 +286,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
+| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | ar0063-discussion-proposals-A2302940388-1277569 | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Validate batched point selection, implication helper evidence, custom user proposals, and independent response binding. |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | ar0061-integration-A2302940388-1275998 | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Unclaimed | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Validate batched point selection, implication helper evidence, custom user proposals, and independent response binding. |
 
 ### Planned (2)
 
