@@ -17,8 +17,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-android-jvm-assurance` | `feature/android-jvm-assurance` | `6aad9a8aea0b` | 0 | behind 228, ahead 0 |
 | `agent-workflow-quality-ar0042-postmerge` | `DETACHED` | `5658f859c721` | 0 | behind 99, ahead 0 |
 | `agent-workflow-quality-ar0059-postmerge-8ec460` | `DETACHED` | `8ec460ec99ba` | 0 | behind 0, ahead 0 |
-| `agent-workflow-quality-ar0060-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `8ec460ec99ba` | 20 | behind 0, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/GUIDANCE_RESOLUTION.md`, `docs/REQUIREMENTS.md`, `docs/STANDARDS.md`, `quality/guidance-resolution/example.json`, `schemas/guidance-resolution.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/commands.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirement_mappings.json`, `src/awq/data/requirements.json`, `src/awq/guidance_resolution.py`, `src/awq/guidance_resolution_model.py`, `tests/test_guidance_resolution.py`, `tests/test_registry_project.py`, `tests/test_standards.py` |
+| `agent-workflow-quality-ar0060-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `647d94bf2961` | 0 | behind 0, ahead 1 |
 | `agent-workflow-quality-ar0062-postmerge` | `DETACHED` | `8ec460ec99ba` | 0 | behind 0, ahead 0 |
 | `agent-workflow-quality-assurance-plan` | `feature/assurance-plan-contract` | `d66e57e7a3d8` | 0 | behind 130, ahead 0 |
 | `agent-workflow-quality-capability-claims` | `feature/capability-claims` | `85ec76fa1d29` | 0 | behind 90, ahead 0 |
