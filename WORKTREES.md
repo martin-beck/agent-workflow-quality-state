@@ -24,8 +24,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-contract-catalog` | `feature/contract-catalog` | `4f7ccc848817` | 0 | behind 185, ahead 0 |
 | `agent-workflow-quality-contract-catalog-structural-refactoring` | `feature/contract-catalog-structural-refactoring` | `5658f859c721` | 0 | behind 118, ahead 0 |
 | `agent-workflow-quality-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `84594a019c1c` | 0 | behind 15, ahead 0 |
-| `agent-workflow-quality-discussion-persistence` | `codex/ar-0064-persistence` | `6b074bbf3e33` | 1 | behind 0, ahead 7 |
-| changed files | - | - | - | `quality/discussion-persistence/ar-0064-example.json` |
+| `agent-workflow-quality-discussion-persistence` | `codex/ar-0064-persistence` | `4564ed4c070c` | 0 | behind 0, ahead 8 |
 | `agent-workflow-quality-discussion-proposals` | `codex/ar-0063-discussion` | `45d06cff57df` | 0 | behind 11, ahead 0 |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 191, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 161, ahead 0 |

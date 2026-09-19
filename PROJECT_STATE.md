@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #72 | `codex/ar-0064-persistence@6b074bbf3e33` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
+| #72 | `codex/ar-0064-persistence@4564ed4c070c` | `main` | BLOCKED | - | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35477264864 | `4564ed4c070c` | pull_request | Portable onboarding | queued:- |
+| 35477264848 | `4564ed4c070c` | pull_request | Verify | queued:- |
 | 35476905244 | `6b074bbf3e33` | pull_request | Verify | completed:failure |
 | 35476905237 | `6b074bbf3e33` | pull_request | Portable onboarding | completed:success |
 | 35476549335 | `c3981f9ae33c` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35475769758 | `41c4b5a86aaa` | pull_request | Verify | completed:failure |
 | 35475150556 | `2cf9e2d53e0d` | push | Portable onboarding | completed:success |
 | 35475150547 | `2cf9e2d53e0d` | push | Verify | completed:success |
-| 35474799516 | `ffd007a0f1ed` | pull_request | Verify | completed:success |
-| 35474799407 | `ffd007a0f1ed` | pull_request | Portable onboarding | completed:success |
