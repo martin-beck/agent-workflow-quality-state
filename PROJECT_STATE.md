@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | UNKNOWN | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
+| #72 | `codex/ar-0064-persistence@ff94212c8ae6` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35475150556 | `2cf9e2d53e0d` | push | Portable onboarding | queued:- |
+| 35475150556 | `2cf9e2d53e0d` | push | Portable onboarding | in_progress:- |
 | 35475150547 | `2cf9e2d53e0d` | push | Verify | in_progress:- |
 | 35474799516 | `ffd007a0f1ed` | pull_request | Verify | completed:success |
 | 35474799407 | `ffd007a0f1ed` | pull_request | Portable onboarding | completed:success |
