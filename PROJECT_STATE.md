@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #71 | `codex/ar-0061-oracle-workflow-integration@35ef56b3022e` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add oracle workflow integration gate |
+| #71 | `codex/ar-0061-oracle-workflow-integration@c087801fc56a` | `main` | DIRTY | - | feat: add oracle workflow integration gate |
 
 ## Recent workflows
 
