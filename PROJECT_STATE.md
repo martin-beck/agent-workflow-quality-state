@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #73 | `codex/ar-0065-discussion-tui-integration@cffa375e7d53` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add end-to-end discussion TUI integration |
+| #73 | `codex/ar-0065-discussion-tui-integration@d0c4bf3c1a13` | `main` | BLOCKED | - | feat: add end-to-end discussion TUI integration |
 
 ## Recent workflows
 
