@@ -26,8 +26,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `84594a019c1c` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-discussion-persistence` | `codex/ar-0064-persistence` | `f00a8de43586` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-discussion-proposals` | `codex/ar-0063-discussion` | `45d06cff57df` | 0 | behind 20, ahead 0 |
-| `agent-workflow-quality-discussion-tui-integration` | `codex/ar-0065-discussion-tui-integration` | `5ceac1b4f50f` | 21 | behind 0, ahead 0 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/DISCUSSION_TUI_INTEGRATION.md`, `docs/REQUIREMENTS.md`, `docs/STANDARDS.md`, `formal/discussion-tui-integration.md`, `quality/awq.json`, `quality/awq.lock.json`, `quality/discussion-tui-integration/ar-0065-example.json`, `schemas/discussion-tui-integration.schema.json`, `scripts/generate_contract_catalog.py`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/data/contract_catalog.json`, `src/awq/data/profiles.json`, `src/awq/data/requirement_mappings.json`, `src/awq/data/requirements.json`, `src/awq/discussion_tui_integration.py`, `tests/test_discussion_tui_integration.py`, `tests/test_registry_project.py`, `tests/test_standards.py` |
+| `agent-workflow-quality-discussion-tui-integration` | `codex/ar-0065-discussion-tui-integration` | `e8e8e18f79a2` | 4 | behind 0, ahead 1 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `docs/REQUIREMENTS.md`, `docs/STANDARDS.md` |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 200, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 170, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 177, ahead 0 |
