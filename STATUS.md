@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**66 ARs tracked** across 4 active status categories.
+**66 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 62 |
+| **Done** | Accepted, integrated, and durably verified | 63 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -91,7 +91,7 @@ flowchart LR
         AR_0061["AR-0061 - Done"]:::status_done
         AR_0062["AR-0062 - Done"]:::status_done
         AR_0063["AR-0063 - Done"]:::status_done
-        AR_0064["AR-0064 - In progress"]:::status_in_progress
+        AR_0064["AR-0064 - Done"]:::status_done
         AR_0065["AR-0065 - Planned"]:::status_planned
         AR_0066["AR-0066 - Done"]:::status_done
     end
@@ -286,19 +286,13 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | ar0064-persistence-A2302940388-1716108 | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. |
-
 ### Planned (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Unclaimed | Accept the complete reusable discussion TUI workflow across all three projects. | Run the complete synthetic TUI discussion trace across AWG and Coordinator contracts with AWQ as the quality gate. |
 
-### Done (62)
+### Done (63)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -316,6 +310,7 @@ flowchart LR
 | P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Unclaimed | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. |
 | P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Unclaimed | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. |
 | P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Unclaimed | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Await merged-main Verify 35473166230 terminal success at 9281a6fc; then release AR-0063 done and doctor --live reconcile. |
+| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Unclaimed | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. |
 | P0 | [AR-0066](tasks/AR-0066.md): TUI host handoff and reconnect quality contract | Unclaimed | Quality-gate remote TUI launch, attach, and reconnect behavior. | No further action; transport evidence is accepted with explicit non-claims. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |

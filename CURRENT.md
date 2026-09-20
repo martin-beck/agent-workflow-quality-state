@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. | ar0064-persistence-A2302940388-1716108 |
-
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
@@ -33,6 +27,7 @@ Never edit this file directly.
 | P0 | [AR-0060](tasks/AR-0060.md): Contradiction and repeated-discussion quality policy | Prevent quality gates from laundering unresolved user guidance into autonomous work. | Run validate_contracts and generated checks with the postmerge checkout as working root, confirm clean exact-head status, then release AR-0060 done with complete merged-main evidence. | - |
 | P0 | [AR-0062](tasks/AR-0062.md): Discussion TUI interaction contract | Quality-gate TUI layout, navigation, anchoring, highlighting, and unresolved status. | Define AWQ schemas and policies for the reusable AWG two-pane discussion TUI and synchronized session state. | - |
 | P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Await merged-main Verify 35473166230 terminal success at 9281a6fc; then release AR-0063 done and doctor --live reconcile. | - |
+| P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. | - |
 | P0 | [AR-0066](tasks/AR-0066.md): TUI host handoff and reconnect quality contract | Quality-gate remote TUI launch, attach, and reconnect behavior. | No further action; transport evidence is accepted with explicit non-claims. | - |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. | - |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. | - |
