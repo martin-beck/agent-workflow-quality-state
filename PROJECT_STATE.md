@@ -2,7 +2,7 @@
 
 Generated from local Git and GitHub. Do not edit.
 
-- Product remote main: `2cf9e2d53e0d4d6194b40675b69f3434ec59950e`
+- Product remote main: `5ceac1b4f50f27ce9eeb8339673da748fb778f96`
 - Local origin/main: `2cf9e2d53e0d4d6194b40675b69f3434ec59950e`
 - Primary worktree head: `0c6247f5afe0aebf77f6d747d7c823bbb1baeb9c`
 
@@ -10,12 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #72 | `codex/ar-0064-persistence@f00a8de43586` | `main` | CLEAN | COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add discussion persistence quality contract |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35478033629 | `5ceac1b4f50f` | push | Portable onboarding | queued:- |
+| 35478033620 | `5ceac1b4f50f` | push | Verify | in_progress:- |
 | 35477682855 | `f00a8de43586` | pull_request | Verify | completed:success |
 | 35477682854 | `f00a8de43586` | pull_request | Portable onboarding | completed:success |
 | 35477264864 | `4564ed4c070c` | pull_request | Portable onboarding | completed:success |
@@ -26,5 +27,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35476549329 | `c3981f9ae33c` | pull_request | Verify | completed:failure |
 | 35476175259 | `d93cef84607e` | pull_request | Verify | completed:failure |
 | 35476175258 | `d93cef84607e` | pull_request | Portable onboarding | completed:success |
-| 35475769781 | `41c4b5a86aaa` | pull_request | Portable onboarding | completed:success |
-| 35475769758 | `41c4b5a86aaa` | pull_request | Verify | completed:failure |
