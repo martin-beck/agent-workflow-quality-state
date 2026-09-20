@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head d0c4bf3 PR #73 checks and repair any concrete hosted failures. | ar0065-discussion-integration-A2302940388-1716110 |
+| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head ab827ba PR #73 checks; repair any concrete hosted failure before review. | ar0065-discussion-integration-A2302940388-1716110 |
 
 ## Done
 
