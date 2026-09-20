@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Adjust standards count to 25, regenerate lock/catalog/docs, rerun focused/full gates; native-tool failures remain environment-only. | ar0065-discussion-integration-A2302940388-1716110 |
+| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head PR #73 checks; repair concrete hosted failures, then independent review and merge. | ar0065-discussion-integration-A2302940388-1716110 |
 
 ## Done
 
