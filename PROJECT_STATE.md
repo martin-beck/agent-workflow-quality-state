@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #73 | `codex/ar-0065-discussion-tui-integration@ab827baa7b7d` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add end-to-end discussion TUI integration |
+| #73 | `codex/ar-0065-discussion-tui-integration@ab827baa7b7d` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS: | feat: add end-to-end discussion TUI integration |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35479208775 | `ab827baa7b7d` | pull_request | Verify | queued:- |
-| 35479208772 | `ab827baa7b7d` | pull_request | Portable onboarding | queued:- |
+| 35479208775 | `ab827baa7b7d` | pull_request | Verify | in_progress:- |
+| 35479208772 | `ab827baa7b7d` | pull_request | Portable onboarding | in_progress:- |
 | 35478861814 | `d0c4bf3c1a13` | pull_request | Verify | completed:failure |
 | 35478861710 | `d0c4bf3c1a13` | pull_request | Portable onboarding | completed:success |
 | 35478739162 | `cffa375e7d53` | pull_request | Portable onboarding | completed:success |
