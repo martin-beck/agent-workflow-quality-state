@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Accept the complete reusable discussion TUI workflow across all three projects. | Run the complete synthetic TUI discussion trace across AWG and Coordinator contracts with AWQ as the quality gate. | ar0065-discussion-integration-A2302940388-1716110 |
+| P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Wire registry, CLI, checks and generated artifacts; run focused/full gates. | ar0065-discussion-integration-A2302940388-1716110 |
 
 ## Done
 
