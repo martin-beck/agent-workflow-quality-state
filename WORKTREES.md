@@ -26,8 +26,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-contradiction-reopen` | `feature/ar-0060-contradiction-reopen` | `84594a019c1c` | 0 | behind 24, ahead 0 |
 | `agent-workflow-quality-discussion-persistence` | `codex/ar-0064-persistence` | `f00a8de43586` | 0 | behind 1, ahead 0 |
 | `agent-workflow-quality-discussion-proposals` | `codex/ar-0063-discussion` | `45d06cff57df` | 0 | behind 20, ahead 0 |
-| `agent-workflow-quality-discussion-tui-integration` | `codex/ar-0065-discussion-tui-integration` | `d0c4bf3c1a13` | 1 | behind 0, ahead 3 |
-| changed files | - | - | - | `fixtures/conforming/release-sbom/manifest.json` |
+| `agent-workflow-quality-discussion-tui-integration` | `codex/ar-0065-discussion-tui-integration` | `d0c4bf3c1a13` | 3 | behind 0, ahead 3 |
+| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/manifest.json` |
 | `agent-workflow-quality-evidence-envelope-v2` | `feature/evidence-envelope-v2` | `565b1b31090e` | 0 | behind 200, ahead 0 |
 | `agent-workflow-quality-evidence-lifecycle` | `feature/evidence-lineage-lifecycle` | `9e9518d077d5` | 0 | behind 170, ahead 0 |
 | `agent-workflow-quality-execution-budgets` | `feature/execution-budget-receipts` | `f24842de37a5` | 0 | behind 177, ahead 0 |
