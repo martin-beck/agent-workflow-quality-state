@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #73 | `codex/ar-0065-discussion-tui-integration@cffa375e7d53` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add end-to-end discussion TUI integration |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35478739162 | `cffa375e7d53` | pull_request | Portable onboarding | queued:- |
+| 35478739081 | `cffa375e7d53` | pull_request | Verify | queued:- |
 | 35478033629 | `5ceac1b4f50f` | push | Portable onboarding | completed:success |
 | 35478033620 | `5ceac1b4f50f` | push | Verify | completed:success |
 | 35477682855 | `f00a8de43586` | pull_request | Verify | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35476905237 | `6b074bbf3e33` | pull_request | Portable onboarding | completed:success |
 | 35476549335 | `c3981f9ae33c` | pull_request | Portable onboarding | completed:success |
 | 35476549329 | `c3981f9ae33c` | pull_request | Verify | completed:failure |
-| 35476175259 | `d93cef84607e` | pull_request | Verify | completed:failure |
-| 35476175258 | `d93cef84607e` | pull_request | Portable onboarding | completed:success |
