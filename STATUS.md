@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**66 ARs tracked** across 2 active status categories.
+**73 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
+| **Planned** | Defined work awaiting promotion or dependencies | 7 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 64 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -94,6 +94,13 @@ flowchart LR
         AR_0064["AR-0064 - Done"]:::status_done
         AR_0065["AR-0065 - Done"]:::status_done
         AR_0066["AR-0066 - Done"]:::status_done
+        AR_0067["AR-0067 - Planned"]:::status_planned
+        AR_0068["AR-0068 - Planned"]:::status_planned
+        AR_0069["AR-0069 - Planned"]:::status_planned
+        AR_0070["AR-0070 - Planned"]:::status_planned
+        AR_0071["AR-0071 - Planned"]:::status_planned
+        AR_0072["AR-0072 - Planned"]:::status_planned
+        AR_0073["AR-0073 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -203,6 +210,7 @@ flowchart LR
     AR_0063 --> AR_0064
     AR_0064 --> AR_0065
     AR_0065 --> AR_0066
+    AR_0068 --> AR_0071
     classDef status_in_progress fill:#1565c0,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_open fill:#2e7d32,color:#ffffff,stroke:#263238,stroke-width:2px
     classDef status_blocked fill:#c62828,color:#ffffff,stroke:#263238,stroke-width:2px
@@ -283,8 +291,27 @@ flowchart LR
 | [AR-0064](tasks/AR-0064.md) | [AR-0063](tasks/AR-0063.md) | [AR-0065](tasks/AR-0065.md) |
 | [AR-0065](tasks/AR-0065.md) | [AR-0064](tasks/AR-0064.md) | [AR-0066](tasks/AR-0066.md) |
 | [AR-0066](tasks/AR-0066.md) | [AR-0065](tasks/AR-0065.md) | None |
+| [AR-0067](tasks/AR-0067.md) | None | None |
+| [AR-0068](tasks/AR-0068.md) | None | [AR-0071](tasks/AR-0071.md) |
+| [AR-0069](tasks/AR-0069.md) | None | None |
+| [AR-0070](tasks/AR-0070.md) | None | None |
+| [AR-0071](tasks/AR-0071.md) | [AR-0068](tasks/AR-0068.md) | None |
+| [AR-0072](tasks/AR-0072.md) | None | None |
+| [AR-0073](tasks/AR-0073.md) | None | None |
 
 ## Complete AR inventory
+
+### Planned (7)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | Unclaimed | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. |
+| P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Add the role dimension to profiles and lock expansion, then open a review PR. |
+| P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Unclaimed | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Implement the pipeline-enforcement profile and fixtures, then open a review PR. |
+| P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Unclaimed | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. |
+| P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Unclaimed | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
+| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Unclaimed | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
 ### Done (64)
 
