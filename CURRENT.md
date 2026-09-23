@@ -15,12 +15,12 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Add the role dimension to profiles and lock expansion, then open a review PR. | - |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Implement the pipeline-enforcement profile and fixtures, then open a review PR. | - |
 
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Implement the pipeline-enforcement profile and fixtures, then open a review PR. | - |
 | P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. | - |
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. | - |
 | P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. | - |
