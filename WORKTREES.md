@@ -43,8 +43,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 216, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 238, ahead 0 |
 | `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `ffd007a0f1ed` | 0 | behind 18, ahead 0 |
-| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `DETACHED` | `b8846dfa8f18` | 11 | behind 0, ahead 1 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/REQUIREMENTS.md`, `docs/STANDARDS.md`, `src/awq/checks.py`, `src/awq/commands.py`, `src/awq/data/profiles.json`, `src/awq/data/requirement_mappings.json`, `src/awq/data/requirements.json`, `tests/test_checks.py`, `tests/test_registry_project.py`, `tests/test_standards.py` |
+| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `5482b181988e` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 223, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 217, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 213, ahead 0 |
