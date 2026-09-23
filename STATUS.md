@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 2 |
+| **In progress** | Claimed work with a live lease | 1 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 66 |
+| **Done** | Accepted, integrated, and durably verified | 67 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -94,7 +94,7 @@ flowchart LR
         AR_0064["AR-0064 - Done"]:::status_done
         AR_0065["AR-0065 - Done"]:::status_done
         AR_0066["AR-0066 - Done"]:::status_done
-        AR_0067["AR-0067 - In progress"]:::status_in_progress
+        AR_0067["AR-0067 - Done"]:::status_done
         AR_0068["AR-0068 - Done"]:::status_done
         AR_0069["AR-0069 - Done"]:::status_done
         AR_0070["AR-0070 - In progress"]:::status_in_progress
@@ -301,11 +301,10 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (2)
+### In progress (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head Verify for rewritten signed+DCO head e45bb174848c85b96afd17c52021fcb7a9689438; merge only after all required checks are green, then perform post-merge verification. |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at c9bd5ff67281b21a8f4904a33a3d41472a03f571; then independently review and merge only after all required checks are green. |
 
 ### Planned (3)
@@ -316,7 +315,7 @@ flowchart LR
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Unclaimed | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
 | P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Unclaimed | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
-### Done (66)
+### Done (67)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -336,6 +335,7 @@ flowchart LR
 | P0 | [AR-0063](tasks/AR-0063.md): Batched proposal and implication quality contract | Unclaimed | Quality-gate candidate implications and per-point user solution evaluation in the TUI. | Await merged-main Verify 35473166230 terminal success at 9281a6fc; then release AR-0063 done and doctor --live reconcile. |
 | P0 | [AR-0064](tasks/AR-0064.md): TUI persistence, safe-exit, and privacy contract | Unclaimed | Quality-gate persistence and future-request capture for discussion sessions. | Validate atomic safe exit, resume/re-ask state, privacy boundaries, and complete future-discussion AR mapping. |
 | P0 | [AR-0066](tasks/AR-0066.md): TUI host handoff and reconnect quality contract | Unclaimed | Quality-gate remote TUI launch, attach, and reconnect behavior. | No further action; transport evidence is accepted with explicit non-claims. |
+| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | Unclaimed | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head Verify for rewritten signed+DCO head e45bb174848c85b96afd17c52021fcb7a9689438; merge only after all required checks are green, then perform post-merge verification. |
 | P1 | [AR-0002](tasks/AR-0002.md): Standards traceability and control catalogue | Unclaimed | Make every AWQ requirement traceable to versioned external controls without overstating certification. | Commit the verified v0.2.0 candidate, publish its pull request, merge after green checks, release, and fresh-clone verify. |
 | P1 | [AR-0003](tasks/AR-0003.md): Policy governance and exception lifecycle | Unclaimed | Harden weakening detection, exception approval, repository rules and ownership boundaries. | Decompose semantic policy diff, exception expiry, CODEOWNERS and GitHub ruleset enforcement. |
 | P1 | [AR-0004](tasks/AR-0004.md): Python shell documentation and schema adapters | Unclaimed | Turn baseline format checks into composable first-class adapters with pinned tool contracts. | Run final gate, build and wheel smoke; audit, sign and publish the v0.4.0 candidate. |
