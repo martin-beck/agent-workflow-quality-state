@@ -12,11 +12,14 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
 | #75 | `ar0068-role-scoped-quality-profile-selection@6bcbb944c341` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@79740c9dd5a9` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | feat: add acceptance specification adapter family |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35825159740 | `79740c9dd5a9` | pull_request | Verify | in_progress:- |
+| 35825159675 | `79740c9dd5a9` | pull_request | Portable onboarding | queued:- |
 | 35825041825 | `6bcbb944c341` | pull_request | Portable onboarding | completed:success |
 | 35825041789 | `6bcbb944c341` | pull_request | Verify | completed:failure |
 | 35824912271 | `907392f631d4` | pull_request | Verify | in_progress:- |
@@ -27,5 +30,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35479438597 | `9f2f1be6b99c` | push | Portable onboarding | completed:success |
 | 35479208775 | `ab827baa7b7d` | pull_request | Verify | completed:success |
 | 35479208772 | `ab827baa7b7d` | pull_request | Portable onboarding | completed:success |
-| 35478861814 | `d0c4bf3c1a13` | pull_request | Verify | completed:failure |
-| 35478861710 | `d0c4bf3c1a13` | pull_request | Portable onboarding | completed:success |
