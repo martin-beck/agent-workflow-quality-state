@@ -11,7 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@fe228ebf5938` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add acceptance specification adapter family |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@fe228ebf5938` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@5482b181988e` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
@@ -19,7 +19,7 @@ Generated from local Git and GitHub. Do not edit.
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35826874520 | `fe228ebf5938` | pull_request | Verify | in_progress:- |
-| 35826874454 | `fe228ebf5938` | pull_request | Portable onboarding | in_progress:- |
+| 35826874454 | `fe228ebf5938` | pull_request | Portable onboarding | completed:success |
 | 35826588852 | `5482b181988e` | pull_request | Verify | completed:failure |
 | 35826588802 | `5482b181988e` | pull_request | Portable onboarding | completed:success |
 | 35826273219 | `e6373e56163c` | pull_request | Verify | completed:failure |
