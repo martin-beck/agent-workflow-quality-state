@@ -43,7 +43,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 221, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 243, ahead 0 |
 | `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `ffd007a0f1ed` | 0 | behind 23, ahead 0 |
-| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `9641954b3d99` | 0 | behind 5, ahead 3 |
+| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `9641954b3d99` | 15 | behind 5, ahead 3 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/ARCHITECTURE.md`, `docs/CONTRACTS.md`, `schemas/lock-v3.schema.json`, `schemas/project-policy-v4.schema.json`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/commands.py`, `src/awq/data/contract_catalog.json`, `src/awq/project.py`, `src/awq/registry.py`, `tests/test_commands_cli.py`, `tests/test_registry_project.py` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 228, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 222, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 218, ahead 0 |
