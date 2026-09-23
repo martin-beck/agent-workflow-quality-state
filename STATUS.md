@@ -5,12 +5,12 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 5 active status categories.
+**73 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
-| **Open** | Dependency-ready and available to claim | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
+| **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 5 |
 | **Future** | Deferred roadmap work | 0 |
@@ -96,7 +96,7 @@ flowchart LR
         AR_0066["AR-0066 - Done"]:::status_done
         AR_0067["AR-0067 - In progress"]:::status_in_progress
         AR_0068["AR-0068 - Planned"]:::status_planned
-        AR_0069["AR-0069 - Open"]:::status_open
+        AR_0069["AR-0069 - In progress"]:::status_in_progress
         AR_0070["AR-0070 - Planned"]:::status_planned
         AR_0071["AR-0071 - Planned"]:::status_planned
         AR_0072["AR-0072 - Planned"]:::status_planned
@@ -301,17 +301,12 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. |
-
-### Open (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. |
+| P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | codex-ar0069-terminology | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. |
 
 ### Planned (5)
 
