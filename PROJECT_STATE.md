@@ -10,12 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #77 | `ar0070-pipeline-enforcement-policy-profile@462e14b0d4c5` | `main` | BLOCKED | - | feat: add pipeline enforcement profile |
+| #77 | `ar0070-pipeline-enforcement-policy-profile@462e14b0d4c5` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35831203641 | `462e14b0d4c5` | pull_request | Verify | completed:failure |
+| 35831203636 | `462e14b0d4c5` | pull_request | Portable onboarding | completed:success |
 | 35829996783 | `c9bd5ff67281` | pull_request | Portable onboarding | completed:success |
 | 35829996770 | `c9bd5ff67281` | pull_request | Verify | completed:failure |
 | 35829557714 | `d07c83f9b27b` | push | Portable onboarding | completed:success |
@@ -26,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35828979933 | `e45bb174848c` | pull_request | Verify | completed:success |
 | 35828185092 | `a09f283c4ca7` | pull_request | Verify | completed:failure |
 | 35828185053 | `a09f283c4ca7` | pull_request | Portable onboarding | completed:success |
-| 35827773631 | `8da6eee971dd` | push | Portable onboarding | completed:success |
-| 35827773579 | `8da6eee971dd` | push | Verify | completed:success |
