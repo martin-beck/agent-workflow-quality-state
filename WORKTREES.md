@@ -88,7 +88,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 276, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 274, ahead 0 |
 | `agent-workflow-quality-signing-diagnostics` | `fix/signing-diagnostics` | `cebc188b1cdc` | 0 | behind 55, ahead 0 |
-| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `27ec2395611a` | 0 | behind 5, ahead 3 |
+| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `230dcb3457e2` | 0 | behind 5, ahead 5 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 296, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `86fb6c598d13` | 0 | behind 144, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 225, ahead 0 |
