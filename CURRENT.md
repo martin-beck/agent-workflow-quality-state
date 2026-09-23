@@ -9,7 +9,7 @@ Never edit this file directly.
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head CI for merge-sync head e6373e5; merge only after all required checks are green, then perform post-merge verification. | codex-ar0067-spec-adapter-replacement |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head CI at d8bfb44c0d1598555758fe2be1d6a20059035ce3; independently review terminal results, then merge only if all required checks are green. | ar0068-role-profiles |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await independent review and exact-head CI for e58938eaa6c305664d174effcc04be0ae94036f5. | codex-awq-ar0070-pipeline-20260923 |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await independent review and terminal exact-head CI for PR #77 at 5482b181988e656c44c9400874f9eabbb60674c2. | codex-awq-ar0070-pipeline-20260923 |
 
 ## Planned
 
