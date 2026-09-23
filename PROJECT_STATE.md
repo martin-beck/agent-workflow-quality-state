@@ -11,14 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
-| #75 | `ar0068-role-scoped-quality-profile-selection@6bcbb944c341` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
+| #75 | `ar0068-role-scoped-quality-profile-selection@6bcbb944c341` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35825041825 | `6bcbb944c341` | pull_request | Portable onboarding | completed:success |
-| 35825041789 | `6bcbb944c341` | pull_request | Verify | in_progress:- |
+| 35825041789 | `6bcbb944c341` | pull_request | Verify | completed:failure |
 | 35824912271 | `907392f631d4` | pull_request | Verify | in_progress:- |
 | 35824912237 | `907392f631d4` | pull_request | Portable onboarding | completed:success |
 | 35587383334 | `9f2f1be6b99c` | schedule | Scheduled reliability assurance | completed:success |
