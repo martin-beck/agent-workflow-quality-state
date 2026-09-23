@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS: | feat: extend terminology profile vocabulary |
+| #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35824912271 | `907392f631d4` | pull_request | Verify | in_progress:- |
-| 35824912237 | `907392f631d4` | pull_request | Portable onboarding | in_progress:- |
+| 35824912237 | `907392f631d4` | pull_request | Portable onboarding | completed:success |
 | 35587383334 | `9f2f1be6b99c` | schedule | Scheduled reliability assurance | completed:success |
 | 35586624716 | `9f2f1be6b99c` | schedule | Scheduled adversarial assurance | completed:success |
 | 35479438721 | `9f2f1be6b99c` | push | Verify | completed:success |
