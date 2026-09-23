@@ -10,11 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
+| #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: extend terminology profile vocabulary |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35824912271 | `907392f631d4` | pull_request | Verify | queued:- |
+| 35824912237 | `907392f631d4` | pull_request | Portable onboarding | queued:- |
 | 35587383334 | `9f2f1be6b99c` | schedule | Scheduled reliability assurance | completed:success |
 | 35586624716 | `9f2f1be6b99c` | schedule | Scheduled adversarial assurance | completed:success |
 | 35479438721 | `9f2f1be6b99c` | push | Verify | completed:success |
@@ -25,5 +28,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35478861710 | `d0c4bf3c1a13` | pull_request | Portable onboarding | completed:success |
 | 35478739162 | `cffa375e7d53` | pull_request | Portable onboarding | completed:success |
 | 35478739081 | `cffa375e7d53` | pull_request | Verify | completed:failure |
-| 35478033629 | `5ceac1b4f50f` | push | Portable onboarding | completed:success |
-| 35478033620 | `5ceac1b4f50f` | push | Verify | completed:success |
