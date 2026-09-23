@@ -11,7 +11,7 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@2d06bec5f003` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
-| #75 | `ar0068-role-scoped-quality-profile-selection@bc48420317e1` | `main` | BLOCKED | - | feat: add role-scoped quality profiles |
+| #75 | `ar0068-role-scoped-quality-profile-selection@bc48420317e1` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | feat: add role-scoped quality profiles |
 | #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 
 ## Recent workflows
@@ -19,7 +19,7 @@ Generated from local Git and GitHub. Do not edit.
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
 | 35825905093 | `bc48420317e1` | pull_request | Portable onboarding | queued:- |
-| 35825904976 | `bc48420317e1` | pull_request | Verify | queued:- |
+| 35825904976 | `bc48420317e1` | pull_request | Verify | in_progress:- |
 | 35825869379 | `6eac65bcc385` | pull_request | Portable onboarding | completed:success |
 | 35825869367 | `6eac65bcc385` | pull_request | Verify | in_progress:- |
 | 35825540012 | `2d06bec5f003` | pull_request | Verify | in_progress:- |
