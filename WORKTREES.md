@@ -80,15 +80,16 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-repository-security-range-validation` | `feature/repository-security-range-validation` | `cf0f6b862625` | 0 | behind 66, ahead 0 |
 | `agent-workflow-quality-review-ar0039` | `DETACHED` | `ae02dea8cd22` | 0 | behind 85, ahead 0 |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 117, ahead 3 |
-| `agent-workflow-quality-role-scoped-quality-profile-selection` | `ar0068-role-scoped-quality-profile-selection` | `9f2f1be6b99c` | 7 | behind 0, ahead 0 |
-| changed files | - | - | - | `schemas/lock.schema.json`, `schemas/project-policy.schema.json`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/commands.py`, `src/awq/project.py`, `src/awq/registry.py` |
+| `agent-workflow-quality-role-scoped-quality-profile-selection` | `ar0068-role-scoped-quality-profile-selection` | `9f2f1be6b99c` | 8 | behind 0, ahead 0 |
+| changed files | - | - | - | `schemas/lock.schema.json`, `schemas/project-policy.schema.json`, `src/awq/checks.py`, `src/awq/cli.py`, `src/awq/commands.py`, `src/awq/project.py`, `src/awq/registry.py`, `tests/test_registry_project.py` |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 263, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 269, ahead 0 |
 | `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `6772e64ae652` | 0 | behind 102, ahead 0 |
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 268, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 266, ahead 0 |
 | `agent-workflow-quality-signing-diagnostics` | `fix/signing-diagnostics` | `cebc188b1cdc` | 0 | behind 47, ahead 0 |
-| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `9f2f1be6b99c` | 0 | behind 0, ahead 0 |
+| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `9f2f1be6b99c` | 1 | behind 0, ahead 0 |
+| changed files | - | - | - | `src/awq/data/adapter_catalog_v2.json` |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 288, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `86fb6c598d13` | 0 | behind 136, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 217, ahead 0 |
