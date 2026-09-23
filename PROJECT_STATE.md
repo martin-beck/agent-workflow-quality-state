@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #77 | `ar0070-pipeline-enforcement-policy-profile@c9bd5ff67281` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
+| #77 | `ar0070-pipeline-enforcement-policy-profile@462e14b0d4c5` | `main` | BLOCKED | - | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
