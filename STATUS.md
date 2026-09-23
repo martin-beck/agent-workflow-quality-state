@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 4 active status categories.
+**73 ARs tracked** across 5 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 2 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 5 |
+| **Planned** | Defined work awaiting promotion or dependencies | 4 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 64 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -95,7 +95,7 @@ flowchart LR
         AR_0065["AR-0065 - Done"]:::status_done
         AR_0066["AR-0066 - Done"]:::status_done
         AR_0067["AR-0067 - In progress"]:::status_in_progress
-        AR_0068["AR-0068 - Planned"]:::status_planned
+        AR_0068["AR-0068 - Open"]:::status_open
         AR_0069["AR-0069 - In progress"]:::status_in_progress
         AR_0070["AR-0070 - Planned"]:::status_planned
         AR_0071["AR-0071 - Planned"]:::status_planned
@@ -308,11 +308,16 @@ flowchart LR
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | codex-ar0069-terminology | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. |
 
-### Planned (5)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Add the role dimension to profiles and lock expansion, then open a review PR. |
+
+### Planned (4)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Unclaimed | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Implement the pipeline-enforcement profile and fixtures, then open a review PR. |
 | P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Unclaimed | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. |
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Unclaimed | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
