@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #75 | `ar0068-role-scoped-quality-profile-selection@bc48420317e1` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | UNKNOWN | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #75 | `ar0068-role-scoped-quality-profile-selection@bc48420317e1` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35826064284 | `b90293d9e3e1` | push | Portable onboarding | queued:- |
+| 35826064284 | `b90293d9e3e1` | push | Portable onboarding | completed:success |
 | 35826064271 | `b90293d9e3e1` | push | Verify | in_progress:- |
 | 35825905093 | `bc48420317e1` | pull_request | Portable onboarding | completed:success |
 | 35825904976 | `bc48420317e1` | pull_request | Verify | in_progress:- |
