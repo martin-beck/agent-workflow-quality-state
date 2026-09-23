@@ -9,12 +9,12 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
+| **In progress** | Claimed work with a live lease | 2 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 65 |
+| **Done** | Accepted, integrated, and durably verified | 66 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -95,7 +95,7 @@ flowchart LR
         AR_0065["AR-0065 - Done"]:::status_done
         AR_0066["AR-0066 - Done"]:::status_done
         AR_0067["AR-0067 - In progress"]:::status_in_progress
-        AR_0068["AR-0068 - In progress"]:::status_in_progress
+        AR_0068["AR-0068 - Done"]:::status_done
         AR_0069["AR-0069 - Done"]:::status_done
         AR_0070["AR-0070 - In progress"]:::status_in_progress
         AR_0071["AR-0071 - Planned"]:::status_planned
@@ -301,12 +301,11 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head Verify for current-main synchronization and contract-baseline repair head a09f283; merge only after all required checks are green, then perform post-merge verification. |
-| P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | ar0068-role-profiles | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head Verify at b92b65ba71059ff698cd4e844860426ec2e6cff4; inspect all terminal checks and merge only after green required CI and independent review. |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await independent review and terminal exact-head CI for PR #77 at 5482b181988e656c44c9400874f9eabbb60674c2. |
 
 ### Planned (3)
@@ -317,7 +316,7 @@ flowchart LR
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Unclaimed | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
 | P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Unclaimed | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
-### Done (65)
+### Done (66)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -371,6 +370,7 @@ flowchart LR
 | P1 | [AR-0054](tasks/AR-0054.md): Version-coupled v0.35.0 release follow-up | Unclaimed | Generation-1 bootstrap policy for the newly registered release key is prepared; deterministic bundle passes and awaits external signing. | Authorized external signer may sign the exact reviewed v0.35.0 bootstrap manifest and create its matching local annotated tag; then authenticate and publish only after all release gates pass. |
 | P1 | [AR-0061](tasks/AR-0061.md): Cross-project oracle workflow integration gate | Unclaimed | Validate the complete Coordinator/AWG/AWQ oracle workflow contract. | Integrate AWQ interaction contracts with Coordinator task events and the AWG end-to-end example. |
 | P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Unclaimed | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head ab827ba PR #73 checks; repair any concrete hosted failure before review. |
+| P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head Verify at b92b65ba71059ff698cd4e844860426ec2e6cff4; inspect all terminal checks and merge only after green required CI and independent review. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Review PR #74 at exact head 907392f; resolve any required checks, then merge only after independent review and green exact-head CI. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
