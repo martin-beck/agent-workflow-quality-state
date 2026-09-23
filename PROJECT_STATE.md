@@ -10,23 +10,23 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | BLOCKED | COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add role-scoped quality profiles |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@e6373e56163c` | `main` | BLOCKED | - | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@e58938eaa6c3` | `main` | DIRTY | - | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35826239597 | `d8bfb44c0d15` | pull_request | Verify | pending:- |
-| 35826239454 | `d8bfb44c0d15` | pull_request | Portable onboarding | in_progress:- |
+| 35826273219 | `e6373e56163c` | pull_request | Verify | queued:- |
+| 35826273199 | `e6373e56163c` | pull_request | Portable onboarding | queued:- |
+| 35826239597 | `d8bfb44c0d15` | pull_request | Verify | in_progress:- |
+| 35826239454 | `d8bfb44c0d15` | pull_request | Portable onboarding | completed:success |
 | 35826064284 | `b90293d9e3e1` | push | Portable onboarding | completed:success |
 | 35826064271 | `b90293d9e3e1` | push | Verify | in_progress:- |
 | 35825905093 | `bc48420317e1` | pull_request | Portable onboarding | completed:success |
-| 35825904976 | `bc48420317e1` | pull_request | Verify | in_progress:- |
+| 35825904976 | `bc48420317e1` | pull_request | Verify | completed:cancelled |
 | 35825869379 | `6eac65bcc385` | pull_request | Portable onboarding | completed:success |
 | 35825869367 | `6eac65bcc385` | pull_request | Verify | in_progress:- |
 | 35825540012 | `2d06bec5f003` | pull_request | Verify | completed:success |
 | 35825539997 | `2d06bec5f003` | pull_request | Portable onboarding | completed:success |
-| 35825226303 | `a2b64dcdefc5` | pull_request | Portable onboarding | completed:success |
-| 35825226095 | `a2b64dcdefc5` | pull_request | Verify | completed:failure |
