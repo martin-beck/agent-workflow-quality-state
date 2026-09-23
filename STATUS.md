@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 3 active status categories.
+**73 ARs tracked** across 4 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
-| **Open** | Dependency-ready and available to claim | 0 |
+| **Open** | Dependency-ready and available to claim | 1 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 7 |
+| **Planned** | Defined work awaiting promotion or dependencies | 6 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 64 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -94,7 +94,7 @@ flowchart LR
         AR_0064["AR-0064 - Done"]:::status_done
         AR_0065["AR-0065 - Done"]:::status_done
         AR_0066["AR-0066 - Done"]:::status_done
-        AR_0067["AR-0067 - Planned"]:::status_planned
+        AR_0067["AR-0067 - Open"]:::status_open
         AR_0068["AR-0068 - Planned"]:::status_planned
         AR_0069["AR-0069 - Planned"]:::status_planned
         AR_0070["AR-0070 - Planned"]:::status_planned
@@ -301,11 +301,16 @@ flowchart LR
 
 ## Complete AR inventory
 
-### Planned (7)
+### Open (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | Unclaimed | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. |
+
+### Planned (6)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Add the role dimension to profiles and lock expansion, then open a review PR. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Unclaimed | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Implement the pipeline-enforcement profile and fixtures, then open a review PR. |
