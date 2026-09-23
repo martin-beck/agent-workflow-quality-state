@@ -305,7 +305,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head Verify for current-main synchronization and contract-baseline repair head a09f283; merge only after all required checks are green, then perform post-merge verification. |
+| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Await exact-head Verify for rewritten signed+DCO head e45bb174848c85b96afd17c52021fcb7a9689438; merge only after all required checks are green, then perform post-merge verification. |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at e46920f10104cb42f93c05985ceb5c3595b56529; then independently review and merge only after all required checks are green. |
 
 ### Planned (3)
