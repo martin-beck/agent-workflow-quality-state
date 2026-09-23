@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
+| #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@2d06bec5f003` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: extend terminology profile vocabulary |
 | #75 | `ar0068-role-scoped-quality-profile-selection@a2b64dcdefc5` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
 | #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@79740c9dd5a9` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 
@@ -18,6 +18,8 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35825540012 | `2d06bec5f003` | pull_request | Verify | queued:- |
+| 35825539997 | `2d06bec5f003` | pull_request | Portable onboarding | queued:- |
 | 35825226303 | `a2b64dcdefc5` | pull_request | Portable onboarding | completed:success |
 | 35825226095 | `a2b64dcdefc5` | pull_request | Verify | in_progress:- |
 | 35825159740 | `79740c9dd5a9` | pull_request | Verify | in_progress:- |
@@ -28,5 +30,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35824912237 | `907392f631d4` | pull_request | Portable onboarding | completed:success |
 | 35587383334 | `9f2f1be6b99c` | schedule | Scheduled reliability assurance | completed:success |
 | 35586624716 | `9f2f1be6b99c` | schedule | Scheduled adversarial assurance | completed:success |
-| 35479438721 | `9f2f1be6b99c` | push | Verify | completed:success |
-| 35479438597 | `9f2f1be6b99c` | push | Portable onboarding | completed:success |
