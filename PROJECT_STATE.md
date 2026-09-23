@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
+| #75 | `ar0068-role-scoped-quality-profile-selection@b92b65ba7105` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add role-scoped quality profiles |
 | #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@fe228ebf5938` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@5482b181988e` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
@@ -18,6 +18,8 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35827178408 | `b92b65ba7105` | pull_request | Portable onboarding | queued:- |
+| 35827178396 | `b92b65ba7105` | pull_request | Verify | queued:- |
 | 35826874520 | `fe228ebf5938` | pull_request | Verify | in_progress:- |
 | 35826874454 | `fe228ebf5938` | pull_request | Portable onboarding | completed:success |
 | 35826588852 | `5482b181988e` | pull_request | Verify | completed:failure |
@@ -28,5 +30,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35826239454 | `d8bfb44c0d15` | pull_request | Portable onboarding | completed:success |
 | 35826064284 | `b90293d9e3e1` | push | Portable onboarding | completed:success |
 | 35826064271 | `b90293d9e3e1` | push | Verify | completed:success |
-| 35825905093 | `bc48420317e1` | pull_request | Portable onboarding | completed:success |
-| 35825904976 | `bc48420317e1` | pull_request | Verify | completed:cancelled |
