@@ -10,14 +10,14 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@a09f283c4ca7` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@a09f283c4ca7` | `main` | BLOCKED | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@9641954b3d99` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35828185092 | `a09f283c4ca7` | pull_request | Verify | in_progress:- |
+| 35828185092 | `a09f283c4ca7` | pull_request | Verify | completed:failure |
 | 35828185053 | `a09f283c4ca7` | pull_request | Portable onboarding | completed:success |
 | 35827773631 | `8da6eee971dd` | push | Portable onboarding | completed:success |
 | 35827773579 | `8da6eee971dd` | push | Verify | completed:success |
