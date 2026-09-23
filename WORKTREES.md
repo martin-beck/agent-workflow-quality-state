@@ -82,7 +82,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-review-ar0039` | `DETACHED` | `ae02dea8cd22` | 0 | behind 88, ahead 0 |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 120, ahead 3 |
 | `agent-workflow-quality-role-scoped-quality-profile-selection` | `ar0068-role-scoped-quality-profile-selection` | `d8bfb44c0d15` | 9 | behind 0, ahead 3 |
-| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `schemas/lock.schema.json`, `schemas/project-policy.schema.json`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/data/contract_catalog.json`, `schemas/lock-v3.schema.json`, `schemas/project-policy-v4.schema.json` |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json`, `docs/CONTRACTS.md`, `schemas/lock-v3.schema.json`, `schemas/lock.schema.json`, `schemas/project-policy-v4.schema.json`, `schemas/project-policy.schema.json`, `scripts/generate_contract_catalog.py`, `scripts/validate_contracts.py`, `src/awq/data/contract_catalog.json` |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 266, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 272, ahead 0 |
 | `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `6772e64ae652` | 0 | behind 105, ahead 0 |
