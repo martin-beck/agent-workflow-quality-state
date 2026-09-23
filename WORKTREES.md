@@ -88,8 +88,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-pr-gates` | `feature/rust-pr-gates` | `cd4aebb929c2` | 0 | behind 271, ahead 0 |
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 269, ahead 0 |
 | `agent-workflow-quality-signing-diagnostics` | `fix/signing-diagnostics` | `cebc188b1cdc` | 0 | behind 50, ahead 0 |
-| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `fe228ebf5938` | 2 | behind 0, ahead 4 |
-| changed files | - | - | - | `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json` |
+| `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `6ebbe616a026` | 0 | behind 0, ahead 5 |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 291, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `86fb6c598d13` | 0 | behind 139, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 220, ahead 0 |
