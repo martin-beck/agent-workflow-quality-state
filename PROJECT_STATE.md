@@ -10,13 +10,13 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #77 | `ar0070-pipeline-enforcement-policy-profile@831ef5633673` | `main` | BLOCKED | QUEUED: | feat: add pipeline enforcement profile |
+| #77 | `ar0070-pipeline-enforcement-policy-profile@831ef5633673` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, QUEUED:, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35834194123 | `831ef5633673` | pull_request | Verify | queued:- |
+| 35834194123 | `831ef5633673` | pull_request | Verify | in_progress:- |
 | 35834194015 | `831ef5633673` | pull_request | Portable onboarding | queued:- |
 | 35833152199 | `1f47a66b463e` | pull_request | Verify | completed:failure |
 | 35833152099 | `1f47a66b463e` | pull_request | Portable onboarding | completed:success |
