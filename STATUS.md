@@ -305,7 +305,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. |
+| P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | codex-ar0067-spec-adapter-replacement | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Push signed commit 79740c9 and open review PR; then await independent review and exact-head CI. |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | ar0068-role-profiles | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head CI and independent review; merge only when all required checks are green, then run post-merge verification. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | codex-ar0069-terminology-replacement | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Review PR #74 at exact head 907392f; resolve any required checks, then merge only after independent review and green exact-head CI. |
 
