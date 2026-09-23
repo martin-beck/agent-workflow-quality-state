@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 4 active status categories.
+**73 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 3 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 67 |
+| **Done** | Accepted, integrated, and durably verified | 68 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -97,7 +97,7 @@ flowchart LR
         AR_0067["AR-0067 - Done"]:::status_done
         AR_0068["AR-0068 - Done"]:::status_done
         AR_0069["AR-0069 - Done"]:::status_done
-        AR_0070["AR-0070 - In progress"]:::status_in_progress
+        AR_0070["AR-0070 - Done"]:::status_done
         AR_0071["AR-0071 - Planned"]:::status_planned
         AR_0072["AR-0072 - Planned"]:::status_planned
         AR_0073["AR-0073 - Planned"]:::status_planned
@@ -301,12 +301,6 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. |
-
 ### Planned (3)
 
 | Priority | AR | Owner | Summary | Next action |
@@ -315,7 +309,7 @@ flowchart LR
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Unclaimed | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
 | P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Unclaimed | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
-### Done (67)
+### Done (68)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -372,6 +366,7 @@ flowchart LR
 | P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Unclaimed | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head ab827ba PR #73 checks; repair any concrete hosted failure before review. |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head Verify at b92b65ba71059ff698cd4e844860426ec2e6cff4; inspect all terminal checks and merge only after green required CI and independent review. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Review PR #74 at exact head 907392f; resolve any required checks, then merge only after independent review and green exact-head CI. |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Unclaimed | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |

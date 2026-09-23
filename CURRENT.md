@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. | codex-awq-ar0070-pipeline-20260923 |
-
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
@@ -74,6 +68,7 @@ Never edit this file directly.
 | P1 | [AR-0065](tasks/AR-0065.md): End-to-end discussion TUI quality integration | Fresh AR-0065 worktree created; product/state docs read; implementing bounded end-to-end discussion TUI integration contract. | Monitor exact-head ab827ba PR #73 checks; repair any concrete hosted failure before review. | - |
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head Verify at b92b65ba71059ff698cd4e844860426ec2e6cff4; inspect all terminal checks and merge only after green required CI and independent review. | - |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Review PR #74 at exact head 907392f; resolve any required checks, then merge only after independent review and green exact-head CI. | - |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | - |
