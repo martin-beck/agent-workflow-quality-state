@@ -43,7 +43,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 229, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 251, ahead 0 |
 | `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `ffd007a0f1ed` | 0 | behind 31, ahead 0 |
-| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `7a54ddd55c98` | 0 | behind 0, ahead 8 |
+| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `7a54ddd55c98` | 1 | behind 0, ahead 8 |
+| changed files | - | - | - | `contracts/contract-baseline-v1.json` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 236, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 230, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 226, ahead 0 |
