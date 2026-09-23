@@ -12,6 +12,7 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- | --- |
 | #75 | `ar0068-role-scoped-quality-profile-selection@bc48420317e1` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add role-scoped quality profiles |
 | #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #77 | `ar0070-pipeline-enforcement-policy-profile@e58938eaa6c3` | `main` | DIRTY | - | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
