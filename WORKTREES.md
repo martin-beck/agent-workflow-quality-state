@@ -91,7 +91,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 288, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `86fb6c598d13` | 0 | behind 136, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 217, ahead 0 |
-| `agent-workflow-quality-terminology-profile-extension-for-roles-and-directives` | `ar0069-terminology-profile-extension-for-roles-and-directives` | `907392f631d4` | 0 | behind 0, ahead 1 |
+| `agent-workflow-quality-terminology-profile-extension-for-roles-and-directives` | `ar0069-terminology-profile-extension-for-roles-and-directives` | `907392f631d4` | 1 | behind 0, ahead 1 |
+| changed files | - | - | - | `tests/test_terminology.py` |
 | `agent-workflow-quality-test-report-evidence` | `feature/test-report-evidence` | `f01b01e1a60f` | 0 | behind 192, ahead 0 |
 | `agent-workflow-quality-tla-admission-safety` | `feature/tla-admission-safety` | `9fcf1ad43daf` | 0 | behind 152, ahead 0 |
 | `agent-workflow-quality-v0.30.0-postmerge` | `DETACHED` | `ab61d8fa4d9e` | 0 | behind 195, ahead 0 |
