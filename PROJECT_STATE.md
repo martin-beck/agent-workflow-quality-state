@@ -10,16 +10,16 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@e45bb174848c` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS:, IN_PROGRESS: | feat: add acceptance specification adapter family |
-| #77 | `ar0070-pipeline-enforcement-policy-profile@e46920f10104` | `main` | BLOCKED | QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED:, QUEUED: | feat: add pipeline enforcement profile |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@e45bb174848c` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #77 | `ar0070-pipeline-enforcement-policy-profile@e46920f10104` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
-| 35828991878 | `e46920f10104` | pull_request | Portable onboarding | queued:- |
-| 35828991867 | `e46920f10104` | pull_request | Verify | queued:- |
-| 35828980001 | `e45bb174848c` | pull_request | Portable onboarding | in_progress:- |
+| 35828991878 | `e46920f10104` | pull_request | Portable onboarding | completed:success |
+| 35828991867 | `e46920f10104` | pull_request | Verify | in_progress:- |
+| 35828980001 | `e45bb174848c` | pull_request | Portable onboarding | completed:success |
 | 35828979933 | `e45bb174848c` | pull_request | Verify | in_progress:- |
 | 35828185092 | `a09f283c4ca7` | pull_request | Verify | completed:failure |
 | 35828185053 | `a09f283c4ca7` | pull_request | Portable onboarding | completed:success |
