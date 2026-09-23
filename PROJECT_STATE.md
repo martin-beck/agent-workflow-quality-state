@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6ebbe616a026` | `main` | DIRTY | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
+| #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6ebbe616a026` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@9641954b3d99` | `main` | DIRTY | COMPLETED:FAILURE, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add pipeline enforcement profile |
 
 ## Recent workflows
@@ -19,7 +19,7 @@ Generated from local Git and GitHub. Do not edit.
 | --- | --- | --- | --- | --- |
 | 35827773631 | `8da6eee971dd` | push | Portable onboarding | completed:success |
 | 35827773579 | `8da6eee971dd` | push | Verify | in_progress:- |
-| 35827653963 | `6ebbe616a026` | pull_request | Verify | in_progress:- |
+| 35827653963 | `6ebbe616a026` | pull_request | Verify | completed:failure |
 | 35827653958 | `6ebbe616a026` | pull_request | Portable onboarding | completed:success |
 | 35827630491 | `9641954b3d99` | pull_request | Portable onboarding | completed:success |
 | 35827630489 | `9641954b3d99` | pull_request | Verify | completed:failure |
