@@ -80,8 +80,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-repository-security-range-validation` | `feature/repository-security-range-validation` | `cf0f6b862625` | 0 | behind 66, ahead 0 |
 | `agent-workflow-quality-review-ar0039` | `DETACHED` | `ae02dea8cd22` | 0 | behind 85, ahead 0 |
 | `agent-workflow-quality-review-ar0046-pr61` | `DETACHED` | `9a404d2268b2` | 0 | behind 117, ahead 3 |
-| `agent-workflow-quality-role-scoped-quality-profile-selection` | `ar0068-role-scoped-quality-profile-selection` | `6bcbb944c341` | 1 | behind 0, ahead 1 |
-| changed files | - | - | - | `src/awq/project.py` |
+| `agent-workflow-quality-role-scoped-quality-profile-selection` | `ar0068-role-scoped-quality-profile-selection` | `a2b64dcdefc5` | 0 | behind 0, ahead 2 |
 | `agent-workflow-quality-rust-advanced-evidence` | `feature/rust-advanced-evidence` | `7bc217d42278` | 0 | behind 263, ahead 0 |
 | `agent-workflow-quality-rust-assurance` | `feature/rust-assurance` | `598558e10a39` | 0 | behind 269, ahead 0 |
 | `agent-workflow-quality-rust-critical-assurance` | `feature/rust-critical-assurance` | `6772e64ae652` | 0 | behind 102, ahead 0 |
