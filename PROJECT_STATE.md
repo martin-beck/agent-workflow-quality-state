@@ -10,7 +10,7 @@ Generated from local Git and GitHub. Do not edit.
 
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
-| #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | UNKNOWN | - | feat: add role-scoped quality profiles |
+| #75 | `ar0068-role-scoped-quality-profile-selection@d8bfb44c0d15` | `main` | BLOCKED | IN_PROGRESS:, IN_PROGRESS:, QUEUED:, QUEUED:, IN_PROGRESS:, IN_PROGRESS: | feat: add role-scoped quality profiles |
 | #76 | `ar0067-specification-adapter-family-for-acceptance-predicates@6eac65bcc385` | `main` | BEHIND | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: add acceptance specification adapter family |
 | #77 | `ar0070-pipeline-enforcement-policy-profile@e58938eaa6c3` | `main` | DIRTY | - | feat: add pipeline enforcement profile |
 
@@ -18,6 +18,8 @@ Generated from local Git and GitHub. Do not edit.
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35826239597 | `d8bfb44c0d15` | pull_request | Verify | pending:- |
+| 35826239454 | `d8bfb44c0d15` | pull_request | Portable onboarding | queued:- |
 | 35826064284 | `b90293d9e3e1` | push | Portable onboarding | completed:success |
 | 35826064271 | `b90293d9e3e1` | push | Verify | in_progress:- |
 | 35825905093 | `bc48420317e1` | pull_request | Portable onboarding | completed:success |
@@ -28,5 +30,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35825539997 | `2d06bec5f003` | pull_request | Portable onboarding | completed:success |
 | 35825226303 | `a2b64dcdefc5` | pull_request | Portable onboarding | completed:success |
 | 35825226095 | `a2b64dcdefc5` | pull_request | Verify | completed:failure |
-| 35825159740 | `79740c9dd5a9` | pull_request | Verify | completed:failure |
-| 35825159675 | `79740c9dd5a9` | pull_request | Portable onboarding | completed:success |
