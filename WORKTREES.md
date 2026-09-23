@@ -88,7 +88,7 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-rust-supply-api` | `feature/rust-supply-api` | `a42d437e50d5` | 0 | behind 266, ahead 0 |
 | `agent-workflow-quality-signing-diagnostics` | `fix/signing-diagnostics` | `cebc188b1cdc` | 0 | behind 47, ahead 0 |
 | `agent-workflow-quality-specification-adapter-family-for-acceptance-predicates` | `ar0067-specification-adapter-family-for-acceptance-predicates` | `9f2f1be6b99c` | 4 | behind 0, ahead 0 |
-| changed files | - | - | - | `docs/ADAPTERS.md`, `src/awq/data/adapter_catalog_v2.json`, `docs/SPECIFICATION_ADAPTERS.md`, `tests/test_specification_adapters.py` |
+| changed files | - | - | - | `docs/ADAPTERS.md`, `docs/SPECIFICATION_ADAPTERS.md`, `src/awq/data/adapter_catalog_v2.json`, `tests/test_specification_adapters.py` |
 | `agent-workflow-quality-standards` | `feature/standards-traceability` | `d2d3dcde9c41` | 0 | behind 288, ahead 0 |
 | `agent-workflow-quality-structural-refactoring` | `feature/structural-refactoring` | `86fb6c598d13` | 0 | behind 136, ahead 0 |
 | `agent-workflow-quality-terminology-gate` | `feature/terminology-gate` | `3cee7d430fc9` | 0 | behind 217, ahead 0 |
