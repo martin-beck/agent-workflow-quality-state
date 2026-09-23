@@ -43,7 +43,8 @@ Generated from live Git. Paths are privacy-safe worktree keys.
 | `agent-workflow-quality-native-gate-mapping` | `feature/native-gate-mapping` | `bcb27518094b` | 0 | behind 229, ahead 0 |
 | `agent-workflow-quality-onboarding` | `feature/agent-onboarding` | `6133349a8f43` | 0 | behind 251, ahead 0 |
 | `agent-workflow-quality-oracle-workflow-integration` | `codex/ar-0061-oracle-workflow-integration` | `ffd007a0f1ed` | 0 | behind 31, ahead 0 |
-| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `831ef5633673` | 0 | behind 0, ahead 10 |
+| `agent-workflow-quality-pipeline-enforcement-policy-profile` | `ar0070-pipeline-enforcement-policy-profile` | `d07c83f9b27b` | 18 | behind 0, ahead 0 |
+| changed files | - | - | - | `LICENSE`, `contracts/contract-baseline-v1.json`, `docs/REQUIREMENTS.md`, `docs/STANDARDS.md`, `fixtures/conforming/release-provenance/manifest.json`, `fixtures/conforming/release-provenance/statement.json`, `fixtures/conforming/release-sbom/document.spdx.json`, `fixtures/conforming/release-sbom/manifest.json`, `quality/awq.lock.json`, `src/awq/checks.py`, `src/awq/commands.py`, `src/awq/data/profiles.json`, `src/awq/data/requirement_mappings.json`, `src/awq/data/requirements.json`, `tests/test_checks.py`, `tests/test_commands_cli.py`, `tests/test_registry_project.py`, `tests/test_standards.py` |
 | `agent-workflow-quality-postmerge-v0.25.0` | `DETACHED` | `05abe8999b47` | 0 | behind 236, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.26.0` | `DETACHED` | `c1fb70c52ae3` | 0 | behind 230, ahead 0 |
 | `agent-workflow-quality-postmerge-v0.27.0` | `DETACHED` | `f838c942c36e` | 0 | behind 226, ahead 0 |
