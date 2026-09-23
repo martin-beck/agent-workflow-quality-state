@@ -7,7 +7,7 @@ Never edit this file directly.
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at 04a29e182abc6f71ee4a86d880f4241152760135; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. | codex-awq-ar0070-pipeline-20260923 |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. | codex-awq-ar0070-pipeline-20260923 |
 
 ## Planned
 
