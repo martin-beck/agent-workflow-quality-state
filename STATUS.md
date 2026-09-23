@@ -305,7 +305,7 @@ flowchart LR
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
-| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at 831ef5633673a306c2a10333a2405118e4179b53; merge only after doctor, contract validation, coverage, and all required checks are green, with independent review. |
+| P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | codex-awq-ar0070-pipeline-20260923 | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at 04a29e182abc6f71ee4a86d880f4241152760135; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. |
 
 ### Planned (3)
 
