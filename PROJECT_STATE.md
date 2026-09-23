@@ -11,11 +11,14 @@ Generated from local Git and GitHub. Do not edit.
 | PR | Head | Base | Merge | Checks | Title |
 | --- | --- | --- | --- | --- | --- |
 | #74 | `ar0069-terminology-profile-extension-for-roles-and-directives@907392f631d4` | `main` | BLOCKED | IN_PROGRESS:, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS, COMPLETED:SUCCESS | feat: extend terminology profile vocabulary |
+| #75 | `ar0068-role-scoped-quality-profile-selection@6bcbb944c341` | `main` | BLOCKED | - | feat: add role-scoped quality profiles |
 
 ## Recent workflows
 
 | Run | SHA | Event | Workflow | State |
 | --- | --- | --- | --- | --- |
+| 35825041825 | `6bcbb944c341` | pull_request | Portable onboarding | queued:- |
+| 35825041789 | `6bcbb944c341` | pull_request | Verify | queued:- |
 | 35824912271 | `907392f631d4` | pull_request | Verify | in_progress:- |
 | 35824912237 | `907392f631d4` | pull_request | Portable onboarding | completed:success |
 | 35587383334 | `9f2f1be6b99c` | schedule | Scheduled reliability assurance | completed:success |
@@ -26,5 +29,3 @@ Generated from local Git and GitHub. Do not edit.
 | 35479208772 | `ab827baa7b7d` | pull_request | Portable onboarding | completed:success |
 | 35478861814 | `d0c4bf3c1a13` | pull_request | Verify | completed:failure |
 | 35478861710 | `d0c4bf3c1a13` | pull_request | Portable onboarding | completed:success |
-| 35478739162 | `cffa375e7d53` | pull_request | Portable onboarding | completed:success |
-| 35478739081 | `cffa375e7d53` | pull_request | Verify | completed:failure |
