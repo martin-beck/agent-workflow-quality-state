@@ -8,7 +8,7 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P0 | [AR-0067](tasks/AR-0067.md): Specification adapter family for acceptance predicates | Add a specification adapter family that runs declared acceptance predicates per the pinned-adapter contract, returning contract-test-class evidence. | Implement the specification adapter family and hostile fixtures, then open a review PR. | codex-ar0067-spec-adapter-replacement |
-| P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Add the role dimension to profiles and lock expansion, then open a review PR. | ar0068-role-profiles |
+| P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Open the review PR from exact signed head 6bcbb944c341f2b0e8c3fb5e218813bc1b1fd22c, then run exact-head CI and independent review. | ar0068-role-profiles |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Extend terminology.json and the profile scopes, then open a review PR. | codex-ar0069-terminology-replacement |
 
 ## Open
