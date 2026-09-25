@@ -9,10 +9,10 @@
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 1 |
+| **In progress** | Claimed work with a live lease | 2 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 2 |
+| **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 68 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -100,7 +100,7 @@ flowchart LR
         AR_0070["AR-0070 - Done"]:::status_done
         AR_0071["AR-0071 - Planned"]:::status_planned
         AR_0072["AR-0072 - In progress"]:::status_in_progress
-        AR_0073["AR-0073 - Planned"]:::status_planned
+        AR_0073["AR-0073 - In progress"]:::status_in_progress
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -301,18 +301,18 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (1)
+### In progress (2)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | codex-ar0072 | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
+| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | codex-ar0073 | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
-### Planned (2)
+### Planned (1)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Unclaimed | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. |
-| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Unclaimed | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
 
 ### Done (68)
 

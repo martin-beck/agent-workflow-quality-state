@@ -8,13 +8,13 @@ Never edit this file directly.
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. | codex-ar0072 |
+| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. | codex-ar0073 |
 
 ## Planned
 
 | Priority | Task | Summary | Next action | Owner |
 | --- | --- | --- | --- | --- |
 | P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. | - |
-| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. | - |
 
 ## Done
 
