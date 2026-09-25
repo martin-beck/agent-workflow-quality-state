@@ -5,16 +5,16 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 3 active status categories.
+**73 ARs tracked** across 2 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
-| **In progress** | Claimed work with a live lease | 3 |
+| **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
 | **Planned** | Defined work awaiting promotion or dependencies | 0 |
 | **Future** | Deferred roadmap work | 0 |
-| **Done** | Accepted, integrated, and durably verified | 68 |
+| **Done** | Accepted, integrated, and durably verified | 71 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
 | **Superseded** | Replaced by another AR | 2 |
 
@@ -98,9 +98,9 @@ flowchart LR
         AR_0068["AR-0068 - Done"]:::status_done
         AR_0069["AR-0069 - Done"]:::status_done
         AR_0070["AR-0070 - Done"]:::status_done
-        AR_0071["AR-0071 - In progress"]:::status_in_progress
-        AR_0072["AR-0072 - In progress"]:::status_in_progress
-        AR_0073["AR-0073 - In progress"]:::status_in_progress
+        AR_0071["AR-0071 - Done"]:::status_done
+        AR_0072["AR-0072 - Done"]:::status_done
+        AR_0073["AR-0073 - Done"]:::status_done
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -301,15 +301,7 @@ flowchart LR
 
 ## Complete AR inventory
 
-### In progress (3)
-
-| Priority | AR | Owner | Summary | Next action |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | codex-ar0071 | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Implement awq coverage and drift tests, then open a review PR. |
-| P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | codex-ar0072 | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Extend evidence records and lifecycle rules, then open a review PR. |
-| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | codex-ar0073 | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Extend workflow trust fixtures for directive and rollback flows, then open a review PR. |
-
-### Done (68)
+### Done (71)
 
 | Priority | AR | Owner | Summary | Next action |
 | --- | --- | --- | --- | --- |
@@ -367,6 +359,9 @@ flowchart LR
 | P1 | [AR-0068](tasks/AR-0068.md): Role-scoped quality profile selection | Unclaimed | Add a role dimension to awq.json/awq.lock.json so security tasks pull security gates and documentation tasks pull documentation adapters. | Wait for PR #75 exact-head Verify at b92b65ba71059ff698cd4e844860426ec2e6cff4; inspect all terminal checks and merge only after green required CI and independent review. |
 | P1 | [AR-0069](tasks/AR-0069.md): Terminology profile extension for roles and directives | Unclaimed | Extend the terminology profile with normative role, directive, and session terms and their forbidden aliases, enforced in normative and example scopes. | Review PR #74 at exact head 907392f; resolve any required checks, then merge only after independent review and green exact-head CI. |
 | P1 | [AR-0070](tasks/AR-0070.md): Pipeline-enforcement policy profile | Unclaimed | Encode the umbrella pipeline.order as checkable gates: start-order verification, per-stage evidence requirements, and no-skip rules, run at each stage via awq check --tier. | Await exact-head Verify and Portable onboarding for PR #77 at dc228f08afbaaf30d0f4db4a39b5dabfe39f28f2; merge only after doctor, contract validation, coverage, DCO, and all required checks are green, with independent review. |
+| P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | codex-ar0071 | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Retain merged deterministic evidence coverage contract and CLI. |
+| P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | codex-ar0072 | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Retain merged checkpoint and rollback lifecycle contract. |
+| P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | codex-ar0073 | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Retain merged directive and rollback trust fixtures. |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Unclaimed | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Unclaimed | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Unclaimed | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. |
