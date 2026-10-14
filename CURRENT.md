@@ -3,12 +3,6 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
-## In Progress
-
-| Priority | Task | Summary | Next action | Owner |
-| --- | --- | --- | --- | --- |
-| P1 | [AR-0074](tasks/AR-0074.md): Ignore ignored Python cache artifacts in privacy validation | Prevent ignored __pycache__ artifacts from making clean-state validation fail while retaining size checks for non-ignored files. | Promote and claim this dependency-ready repair, then implement the validator and focused positive/negative tests. | codex-ar0074-privacy-validator |
-
 ## Done
 
 | Priority | Task | Summary | Next action | Owner |
@@ -70,6 +64,7 @@ Never edit this file directly.
 | P1 | [AR-0071](tasks/AR-0071.md): Evidence coverage aggregation command | Add awq coverage aggregating evidence classes per task and role from the lock and evidence records, content-minimized and deterministic. | Retain merged deterministic evidence coverage contract and CLI. | - |
 | P1 | [AR-0072](tasks/AR-0072.md): Evidence lifecycle extension for checkpoints and rollback | Extend evidence records for checkpoint and rollback flows: bounded canonical parent chains with rollback outcomes separated from quality outcomes. | Retain merged checkpoint and rollback lifecycle contract. | - |
 | P1 | [AR-0073](tasks/AR-0073.md): Workflow trust extension for directive and rollback flows | Add workflow trust tests for directive intake and rollback flows covering event, runner, checkout, permission, secret, and publication boundaries. | Retain merged directive and rollback trust fixtures. | - |
+| P1 | [AR-0074](tasks/AR-0074.md): Ignore ignored Python cache artifacts in privacy validation | Prevent ignored __pycache__ artifacts from making clean-state validation fail while retaining size checks for non-ignored files. | Promote and claim this dependency-ready repair, then implement the validator and focused positive/negative tests. | - |
 | P2 | [AR-0006](tasks/AR-0006.md): Formal evidence and refactoring assurance | Model stateful quality semantics and add behavior-preserving refactoring evidence contracts. | Identify safety invariants, bounded models, counterexample fixtures and refactoring equivalence strategies. | - |
 | P2 | [AR-0009](tasks/AR-0009.md): Property fuzz mutation and adversarial testing | Expand hostile testing beyond curated fixtures to generated and mutation-based assurance. | Select bounded generators and mutation operators for paths, policies, schemas, workflows and redaction. | - |
 | P2 | [AR-0010](tasks/AR-0010.md): Performance flake and evidence-retention budgets | Define scalable runtime, determinism, flake and privacy-preserving retention budgets. | Establish representative repository-size fixtures and decompose performance, flake and retention controls. | - |
