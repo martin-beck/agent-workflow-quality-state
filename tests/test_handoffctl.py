@@ -1024,6 +1024,22 @@ class HandoffTest(unittest.TestCase):
         self.assertNotIn("coordinator.binding.json: session-like UUID", errors)
         self.assertIn("coordinator.binding.json: possible credential", errors)
 
+    def test_privacy_ignores_pycache_artifacts_but_checks_ordinary_files(self) -> None:
+        cache = self.root / "tools" / "__pycache__"
+        cache.mkdir(parents=True)
+        (cache / "cached.pyc").write_bytes(b"x" * 200001)
+        self.assertEqual([], CORE.privacy_errors())
+
+        oversized = self.root / "ordinary.bin"
+        oversized.write_bytes(b"x" * 200001)
+        errors = "\n".join(CORE.privacy_errors())
+        self.assertIn("ordinary.bin: state file exceeds 200 KiB", errors)
+
+        ordinary = self.root / "ordinary.md"
+        ordinary.write_text("33333333-3333-4333-8333-333333333333")
+        errors = "\n".join(CORE.privacy_errors())
+        self.assertIn("ordinary.md: session-like UUID", errors)
+
     def test_validation_reports_all_basic_reference_and_claim_errors(self) -> None:
         path = self.make_task("AR-0001")
         meta, body = CORE.read_task(path)

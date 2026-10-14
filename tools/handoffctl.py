@@ -667,6 +667,12 @@ def privacy_errors() -> list[str]:
             or "private-archive" in path.parts
         ):
             continue
+        # Python bytecode caches are ignored by the state repository.  They can be
+        # regenerated locally and must not make a clean-state validation fail (in
+        # particular, their binary contents are not privacy evidence).  Keep the
+        # size and pattern checks for every non-ignored file below.
+        if "__pycache__" in path.parts:
+            continue
         relative = path.relative_to(ROOT)
         if path.stat().st_size > 200000:
             errors.append(f"{relative}: state file exceeds 200 KiB")
