@@ -3,6 +3,12 @@
 This file is generated. Read `README.md`, then use `tools/handoffctl snapshot`.
 Never edit this file directly.
 
+## Planned
+
+| Priority | Task | Summary | Next action | Owner |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0074](tasks/AR-0074.md): Ignore ignored Python cache artifacts in privacy validation | Prevent ignored __pycache__ artifacts from making clean-state validation fail while retaining size checks for non-ignored files. | Promote and claim this dependency-ready repair, then implement the validator and focused positive/negative tests. | - |
+
 ## Done
 
 | Priority | Task | Summary | Next action | Owner |

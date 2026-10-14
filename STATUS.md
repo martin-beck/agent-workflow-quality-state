@@ -5,14 +5,14 @@
 
 ## Portfolio overview
 
-**73 ARs tracked** across 2 active status categories.
+**74 ARs tracked** across 3 active status categories.
 
 | Status | Meaning | Count |
 | --- | --- | ---: |
 | **In progress** | Claimed work with a live lease | 0 |
 | **Open** | Dependency-ready and available to claim | 0 |
 | **Blocked** | Cannot proceed until its recorded blocker clears | 0 |
-| **Planned** | Defined work awaiting promotion or dependencies | 0 |
+| **Planned** | Defined work awaiting promotion or dependencies | 1 |
 | **Future** | Deferred roadmap work | 0 |
 | **Done** | Accepted, integrated, and durably verified | 71 |
 | **Cancelled** | Stopped with a recorded rationale | 0 |
@@ -101,6 +101,7 @@ flowchart LR
         AR_0071["AR-0071 - Done"]:::status_done
         AR_0072["AR-0072 - Done"]:::status_done
         AR_0073["AR-0073 - Done"]:::status_done
+        AR_0074["AR-0074 - Planned"]:::status_planned
     end
     AR_0001 --> AR_0002
     AR_0001 --> AR_0003
@@ -298,8 +299,15 @@ flowchart LR
 | [AR-0071](tasks/AR-0071.md) | [AR-0068](tasks/AR-0068.md) | None |
 | [AR-0072](tasks/AR-0072.md) | None | None |
 | [AR-0073](tasks/AR-0073.md) | None | None |
+| [AR-0074](tasks/AR-0074.md) | None | None |
 
 ## Complete AR inventory
+
+### Planned (1)
+
+| Priority | AR | Owner | Summary | Next action |
+| --- | --- | --- | --- | --- |
+| P1 | [AR-0074](tasks/AR-0074.md): Ignore ignored Python cache artifacts in privacy validation | Unclaimed | Prevent ignored __pycache__ artifacts from making clean-state validation fail while retaining size checks for non-ignored files. | Promote and claim this dependency-ready repair, then implement the validator and focused positive/negative tests. |
 
 ### Done (71)
 
